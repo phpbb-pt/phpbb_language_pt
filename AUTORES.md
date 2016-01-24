@@ -9,7 +9,7 @@ Lista de Tradutores, Colaboradores e Ex-Colaboradores da tradução.
 
 Criador
 ------
-* https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=777045
+* Pavlov https://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=777045
 
 Gestão da tradução
 ----------
