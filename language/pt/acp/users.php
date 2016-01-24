@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 
 	'BAN_ALREADY_ENTERED'			=> 'A expulsão já tinha sido previamente informada. A lista de expulsões não foi atualizada.',
 	'BAN_SUCCESSFUL'				=> 'Expulso com sucesso!',
-	
+
 	'CANNOT_BAN_ANONYMOUS'			=> 'Não tem permissão para eliminar a conta Visitantes. As Permissões dos Visitantes podem ser definidas no separador Permissões.',
 	'CANNOT_BAN_FOUNDER'			=> 'Não pode expulsar Fundadores.',
 	'CANNOT_BAN_YOURSELF'			=> 'Não pode auto expulsar-se.',

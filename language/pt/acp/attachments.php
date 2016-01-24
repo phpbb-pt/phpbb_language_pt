@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -99,15 +99,15 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUP_DELETED'			=> 'Grupo de Extensões apagado com sucesso.',
 	'EXTENSION_GROUP_EXIST'				=> 'Grupo de Extensões %s já existe.',
 
-    'EXT_GROUP_ARCHIVES'				=> 'Arquivos',
-    'EXT_GROUP_DOCUMENTS'				=> 'Documentos',
-    'EXT_GROUP_DOWNLOADABLE_FILES'		=> 'Ficheiros para Transferência',
-    'EXT_GROUP_FLASH_FILES'				=> 'Ficheiros Flash',
-    'EXT_GROUP_IMAGES'					=> 'Imagens',
-    'EXT_GROUP_PLAIN_TEXT'				=> 'Texto simples',
-    'EXT_GROUP_QUICKTIME_MEDIA'			=> 'Quicktime Média',
-    'EXT_GROUP_REAL_MEDIA'				=> 'Real Média',
-    'EXT_GROUP_WINDOWS_MEDIA'			=> 'Windows Média',
+	'EXT_GROUP_ARCHIVES'				=> 'Arquivos',
+	'EXT_GROUP_DOCUMENTS'				=> 'Documentos',
+	'EXT_GROUP_DOWNLOADABLE_FILES'		=> 'Ficheiros para Transferência',
+	'EXT_GROUP_FLASH_FILES'				=> 'Ficheiros Flash',
+	'EXT_GROUP_IMAGES'					=> 'Imagens',
+	'EXT_GROUP_PLAIN_TEXT'				=> 'Texto simples',
+	'EXT_GROUP_QUICKTIME_MEDIA'			=> 'Quicktime Média',
+	'EXT_GROUP_REAL_MEDIA'				=> 'Real Média',
+	'EXT_GROUP_WINDOWS_MEDIA'			=> 'Windows Média',
 
 	'FILES_GONE'						=> 'Alguns dos anexos que selecionou para eliminar não existem. Eles podem já ter sido excluídos. Os anexos que existiam foram eliminados.',
 	'FILES_STATS_WRONG'					=> 'As estatísticas dos seus ficheiros são imprecisas e provavelmente precisam ser resincronizadas. Valores atuais: Número de ficheiros = %1$d, tamanho total dos ficheiros = %2$s.<br />Clique %3$saqui%4$s para os resincronizar.',

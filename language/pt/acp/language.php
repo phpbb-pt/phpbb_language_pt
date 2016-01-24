@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -68,9 +68,11 @@ $lang = array_merge($lang, array(
 	'NO_LANG_ID'					=> 'Não foi selecionado um pacote de idioma.',
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Não pode excluir o pacote de idioma Oficial<br />Se deseja excluir este pacote, altere o idioma Oficial do Fórum.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Não há Pacotes de idiomas desinstalados',
-	
+
 	'THOSE_MISSING_LANG_FILES'		=> 'Os Ficheiros seguintes estão ausentes da pasta %s de idiomas',
 	'THOSE_MISSING_LANG_VARIABLES'	=> 'As variáveis seguintes estão ausentes do %s pacote de idiomas',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Pacote de idiomas desinstalados',
+
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Browse language packs database',
 ));

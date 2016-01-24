@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_BACKUP'			=> 'Transferir Cópia de Segurança',
 
 	'FILE_TYPE'					=> 'Tipo de Ficheiro',
-	'FILE_WRITE_FAIL'	=> 'Incapaz de escrever ficheiro para a pasta de armazenamento.',
+	'FILE_WRITE_FAIL'			=> 'Incapaz de escrever ficheiro para a pasta de armazenamento.',
 	'FULL_BACKUP'				=> 'Completa',
 
 	'RESTORE_FAILURE'			=> 'O Ficheiro da Cópia de Segurança deve estar corrompido.',

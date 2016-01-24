@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -296,9 +296,9 @@ $lang = array_merge($lang, array(
 	'SELECT_OPTION'					=> 'Selecionar Opção',
 
 	'SETTING_TOO_LOW'				=> 'O valor escrito para a configuração "%1$s" é muito baixo. O valor mínimo permitido é %2$d.',
-    'SETTING_TOO_BIG'				=> 'O valor escrito para a configuração "%1$s" é muito alto. O valor máximo permitido é %2$d.',    
-    'SETTING_TOO_LONG'				=> 'O valor escrito para a configuração "%1$s" é muito longo. O comprimento máximo permitido é %2$d.',
-    'SETTING_TOO_SHORT'				=> 'O valor escrito para a configuração "%1$s" é muito curto. O comprimento mínimo permitido é %2$d.',
+	'SETTING_TOO_BIG'				=> 'O valor escrito para a configuração "%1$s" é muito alto. O valor máximo permitido é %2$d.',    
+	'SETTING_TOO_LONG'				=> 'O valor escrito para a configuração "%1$s" é muito longo. O comprimento máximo permitido é %2$d.',
+	'SETTING_TOO_SHORT'				=> 'O valor escrito para a configuração "%1$s" é muito curto. O comprimento mínimo permitido é %2$d.',
 
 	'SHOW_ALL_OPERATIONS'			=> 'Mostrar todas as operações',
 
@@ -311,16 +311,16 @@ $lang = array_merge($lang, array(
 	'USER_CONTROL_PANEL'			=> 'Painel de Utilizadores',
 
 	'WARNING'						=> 'Advertência',
-)); 
+));
 
-// PHP info 
-$lang = array_merge($lang, array( 
+// PHP info
+$lang = array_merge($lang, array(
 	'ACP_PHP_INFO_EXPLAIN'			=> 'Esta página mostra informações da versão do PHP instalada neste servidor, incluindo detalhes dos módulos carregados, variáveis disponíveis e as configurações padrão. Esta informação pode ser necessária quando forem detetados erros. Alguns servidores podem limitar, por medida de segurança, as informações exibidas. Mantenha estas informações reservadas exceto quando questionado pela <a href="https://www.phpbb.com/about/team/">membros da equipa oficial</a> no Fórum de Suporte.',
 
 	'NO_PHPINFO_AVAILABLE'			=> 'As informações do PHP não podem ser determinadas. O Phpinfo() foi desativado por medidas de segurança.',
-)); 
+));
 
-// Logs 
+// Logs
 $lang = array_merge($lang, array( 
 	'ACP_ADMIN_LOGS_EXPLAIN'		=> 'Esta é a lista das ações dos Administradores. Pode ordená-la por Utilizador, data, Endereço de IP ou Ação do Registo. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
 	'ACP_CRITICAL_LOGS_EXPLAIN'		=> 'Esta é a lista das ações realizadas pelo Fórum. Estes registos têm informações que permitem solucionar problemas específicos, por exemplo uma falha no envio de emails.  Pode ordená-la por Utilizador, data, IP ou ação. Se tiver as permissões adequadas, pode limpar operações individuais ou todo o registo.',
@@ -331,14 +331,14 @@ $lang = array_merge($lang, array(
 	'DISPLAY_LOG'					=> 'Exibir Entradas anteriores',
 
 	'NO_ENTRIES'					=> 'Não há registos neste Período.',
-	
+
 	'SORT_IP'						=> 'Endereço de IP',
 	'SORT_DATE'						=> 'Data',
 	'SORT_ACTION'					=> 'Registo da ação',
-)); 
+));
 
-// Index page 
-$lang = array_merge($lang, array( 
+// Index page
+$lang = array_merge($lang, array(
 	'ADMIN_INTRO'					=> 'Obrigado por usar o phpBB3 no seu Fórum. Esta página apresenta as Estatísticas Gerais do Fórum. À esquerda encontra os menus de acesso ao Painel de Administração. Cada um deles contém instruções de configuração.',
 	'ADMIN_LOG'						=> 'Registos da ações dos Administradores',
 	'ADMIN_LOG_INDEX_EXPLAIN'		=> 'Este registo mostra as últimas cinco ações dos Administradores. Uma cópia completa do registo está disponível no item apropriado do Menu ou seguindo o atalho abaixo.',
@@ -425,10 +425,10 @@ $lang = array_merge($lang, array(
 
 	'WELCOME_PHPBB'					=> 'Bem-vindo ao phpBB',
 	'WRITABLE_CONFIG'				=> 'O ficheiro de configuração (config.php) está atualmente com Permissões de gravação. É altamente recomendável que modifique as Permissões do ficheiro para 640 ou 644 (leia: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
-)); 
+));
 
 // Inactive Users
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'INACTIVE_DATE'					=> 'Data Inativa',
 	'INACTIVE_REASON'				=> 'Razão',
 	'INACTIVE_REASON_MANUAL'		=> 'Registo Desativado pelo Administrador',
@@ -450,7 +450,7 @@ $lang = array_merge($lang, array(
 	'SORT_REMINDER'					=> 'Aviso enviado',
 
 	'USER_IS_INACTIVE'				=> 'Utilizador Inativo',
-)); 
+));
 
 // Send statistics page
 $lang = array_merge($lang, array(
@@ -464,8 +464,8 @@ $lang = array_merge($lang, array(
 	'THANKS_SEND_STATISTICS'		=> 'Obrigado por enviar as suas informações.',
 ));
 
-// Log Entries 
-$lang = array_merge($lang, array( 
+// Log Entries
+$lang = array_merge($lang, array(
 	'LOG_ACL_ADD_USER_GLOBAL_U_'			=> '<strong>Permissões de Utilizadores a Utilizadores Adicionadas ou Editadas</strong><br />» %s',
 	'LOG_ACL_ADD_GROUP_GLOBAL_U_'			=> '<strong>Permissões de Utilizadores a Grupos Adicionadas ou Editadas</strong><br />» %s',
 	'LOG_ACL_ADD_USER_GLOBAL_M_'			=> '<strong>Permissões Globais a Utilizadores Adicionadas ou Editadas</strong><br />» %s',
@@ -551,7 +551,7 @@ $lang = array_merge($lang, array(
 	'LOG_APPROVE_TOPIC'						=> '<strong>Tópico Aprovado</strong><br />» %s',
 	'LOG_BUMP_TOPIC'						=> '<strong>Tópico Ressuscitado</strong><br />» %s',
 	'LOG_DELETE_POST'						=> '<strong>Mensagem apagada “%1$s” escrita por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
-    'LOG_DELETE_SHADOW_TOPIC'				=> '<strong>Tópico fantasma eliminado</strong><br />Â» %s',
+	'LOG_DELETE_SHADOW_TOPIC'				=> '<strong>Tópico fantasma eliminado</strong><br />Â» %s',
 	'LOG_DELETE_TOPIC'						=> '<strong>Tópico apagado “%1$s” escrito por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
 	'LOG_FORK'								=> '<strong>Tópico Copiado</strong><br />» de %s',
 	'LOG_LOCK'								=> '<strong>Tópico Bloqueado</strong><br />» %s',
@@ -567,11 +567,11 @@ $lang = array_merge($lang, array(
 	'LOG_POST_RESTORED'						=> '<strong>Mensagem recuperada</strong><br />» %s',
 	'LOG_REPORT_CLOSED'						=> '<strong>Denúncia Bloqueada</strong><br />» %s',
 	'LOG_REPORT_DELETED'					=> '<strong>Denúncia Apagada</strong><br />» %s',
-	'LOG_SPLIT_DESTINATION'					=> '<strong>Tópico Subdividido</strong><br />» para %s',
-	'LOG_SPLIT_SOURCE'						=> '<strong>Mensagens Subdivididas</strong><br />» de %s',
 	'LOG_RESTORE_TOPIC'						=> '<strong>Foi restaurado o Tópico “%1$s” escrito por</strong><br />» %2$s',
 	'LOG_SOFTDELETE_POST'					=> '<strong>Foi excluída a mensagem “%1$s” escrita por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
 	'LOG_SOFTDELETE_TOPIC'					=> '<strong>Foi excluído o Tópico “%1$s” escrito por “%2$s” pelo seguinte motivo</strong><br />» %3$s',
+	'LOG_SPLIT_DESTINATION'					=> '<strong>Tópico Subdividido</strong><br />» para %s',
+	'LOG_SPLIT_SOURCE'						=> '<strong>Mensagens Subdivididas</strong><br />» de %s',
 
 	'LOG_TOPIC_APPROVED'					=> '<strong>Tópido Aprovado</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'					=> '<strong>Foi restaurado o Tópico </strong><br />» %s',
@@ -696,8 +696,8 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_ADDED'						=> '<strong>Razão de Denúncia/Negação Adicionada</strong><br />» %s',
 	'LOG_REASON_REMOVED'					=> '<strong>Razão de Denúncia/Negação Apagada</strong><br />» %s',
 	'LOG_REASON_UPDATED'					=> '<strong>Razão de Denúncia/Negação Atualizada</strong><br />» %s',
-	'LOG_REFERER_INVALID'					=> '<strong>Validação de referência falhou</strong><br />»Referência foi “<em>%1$s</em>”. A requisição foi rejeitada e a sessão encerrada.',
 
+	'LOG_REFERER_INVALID'					=> '<strong>Validação de referência falhou</strong><br />»Referência foi “<em>%1$s</em>”. A requisição foi rejeitada e a sessão encerrada.',
 	'LOG_RESET_DATE'						=> '<strong>Reiniciar Início do Fórum</strong>',
 	'LOG_RESET_ONLINE'						=> '<strong>Reiniciar Utilizadores Mais Ativos</strong>',
 	'LOG_RESYNC_FILES_STATS'				=> '<strong>Estatísticas dos ficheiros ressincronizadas</strong>',

@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -51,8 +51,8 @@ $lang = array_merge($lang, array(
 
 		<h2>4 - Cenário das Permissões</h2>
 		<p>Dá uma visão global das Permissões atribuídas a Utilizadores, Moderadores (locais e globais), Administradores ou Fóruns.</p>
-	 
-		<br /> 
+
+		<br />
 
 		<p>Para mais informações sobre a configuração e a Gestão de Permissões no phpBB3, veja a secção <a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/permissions/">Setting permissions of our Quick Start Guide</a>.</p>
 	',

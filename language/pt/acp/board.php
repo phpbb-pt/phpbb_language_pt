@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -62,21 +62,21 @@ $lang = array_merge($lang, array(
 	'SITE_HOME_URL'					=> 'URL principal do sítio',
 	'SITE_HOME_URL_EXPLAIN'			=> 'Se for especificado, será colocado no inicio do breadcrumbs um link para este URL e o logotipo do Fórum vai apontar para este URL em vez do índice do Fórum. É obrigatório indicar um URL, por exemplo, <samp>http://www.phpbb.com</samp>.',
 	'SITE_NAME'						=> 'Nome do Sítio',
-    'SYSTEM_TIMEZONE'				=> 'Fuso horário do visitante',
-    'SYSTEM_TIMEZONE_EXPLAIN'		=> 'Fuso horário a mostrar a utilizadores não ligados (visitantes, motores de busca). Os utilizadores ligados definem o seu fuso horário durante o registo e podem alterá-lo no Painel de Controlo do Utilizador.',
+	'SYSTEM_TIMEZONE'				=> 'Fuso horário do visitante',
+	'SYSTEM_TIMEZONE_EXPLAIN'		=> 'Fuso horário a mostrar a utilizadores não ligados (visitantes, motores de busca). Os utilizadores ligados definem o seu fuso horário durante o registo e podem alterá-lo no Painel de Controlo do Utilizador.',
 	'WARNINGS_EXPIRE'				=> 'Duração do aviso',
 	'WARNINGS_EXPIRE_EXPLAIN'		=> 'O número de dias que uma advertência permanece no Registo do Utilizador. Defina como 0 para advertência permanente.',
-)); 
+));
 
-// Board Features 
-$lang = array_merge($lang, array( 
+// Board Features
+$lang = array_merge($lang, array(
 	'ACP_BOARD_FEATURES_EXPLAIN'	=> 'Aqui pode Ativar/Desativar diversos recursos do phpBB.',
 
 	'ALLOW_ATTACHMENTS'				=> 'Ativar Anexos',
-	'ALLOW_BOOKMARKS'				=> 'Permitir histórico dos Tópicos',
-	'ALLOW_BOOKMARKS_EXPLAIN'		=> 'O Utilizador poderá arquivar o seu histórico.',
 	'ALLOW_BIRTHDAYS'				=> 'Permitir aniversários',
 	'ALLOW_BIRTHDAYS_EXPLAIN'		=> 'Permitir a exibição dos aniversários no Perfil do Utilizador.',
+	'ALLOW_BOOKMARKS'				=> 'Permitir histórico dos Tópicos',
+	'ALLOW_BOOKMARKS_EXPLAIN'		=> 'O Utilizador poderá arquivar o seu histórico.',
 	'ALLOW_BBCODE'					=> 'Permitir BBCode',
 	'ALLOW_FORUM_NOTIFY'			=> 'Permitir a vigilância dos Fóruns',
 	'ALLOW_NAME_CHANGE'				=> 'Permitir mudanças do Nome de Utilizador',
@@ -99,10 +99,10 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'			=> 'Permitir a vigilância dos Tópicos',
 	'BOARD_PM'						=> 'Mensagem Privada',
 	'BOARD_PM_EXPLAIN'				=> 'Ativar as Mensagens Privadas para todos os Utilizadores.',
-)); 
+));
 
-// Avatar Settings 
-$lang = array_merge($lang, array( 
+// Avatar Settings
+$lang = array_merge($lang, array(
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Os Avatares são pequenas imagens que o Utilizador pode usar para ser identificado no Fórum. Dependendo do Estilo usado, o Avatar é mostrado normalmente acima do nome do Utilizador na visualização dos Tópicos. Aqui pode definir como os Utilizadores podem usar os seus Avatares. Para enviar Avatares, a Diretoria abaixo já tem que estar criada e certificar-se que o Servidor pode gravar Ficheiros nela. O limite do tamanho da imagem do Avatar é válido apenas para Avatares enviados, não se aplicando a imagens utilizadas de outros sítios web.',
 
 	'ALLOW_AVATARS'					=> 'Ativar avatares',
@@ -124,10 +124,10 @@ $lang = array_merge($lang, array(
 	'MAX_FILESIZE_EXPLAIN'			=> 'Dos Ficheiros de Avatar enviados. Se este valor for 0, o tamanho do ficheiro enviado fica sujeito às permissões do PHP.',
 	'MIN_AVATAR_SIZE'				=> 'Dimensões Mínimas do Avatar',
 	'MIN_AVATAR_SIZE_EXPLAIN'		=> '(Altura x Largura em píxeis).',
-)); 
+));
 
-// Message Settings 
-$lang = array_merge($lang, array( 
+// Message Settings
+$lang = array_merge($lang, array(
 	'ACP_MESSAGE_SETTINGS_EXPLAIN'	=> 'Aqui pode configurar as opções das Mensagens Privadas.',
 
 	'ALLOW_BBCODE_PM'				=> 'Permitir BBCode nas Mensagens Privadas',
@@ -153,10 +153,10 @@ $lang = array_merge($lang, array(
 	'PM_EDIT_TIME_EXPLAIN'			=> 'Limita o tempo disponível para editar uma nova Mensagem Privada ainda não enviada (0 = ilimitado).',
 	'PM_MAX_RECIPIENTS'				=> 'Número máximo de destinatários',
 	'PM_MAX_RECIPIENTS_EXPLAIN'		=> 'Número máximo de destinatários por Mensagem Privada (0 = ilimitados). Estes valores podem ser ajustados por Grupo nas configurações do Grupo.',
-)); 
+));
 
-// Post Settings 
-$lang = array_merge($lang, array( 	
+// Post Settings
+$lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'		=> 'Aqui pode configurar todas as opções de Mensagens.',
 	'ALLOW_POST_LINKS'				=> 'Permitir a Tag BBCode [URL] nas Mensagens Privadas',
 	'ALLOW_POST_LINKS_EXPLAIN'		=> 'Se desativado, a Tag BBCode [URL] e as URLs mágicas serão desativadas nas Mensagens Privadas.',
@@ -196,10 +196,10 @@ $lang = array_merge($lang, array(
 	'SMILIES_LIMIT_EXPLAIN'			=> 'Número máximo de Emoções que podem ser inseridas numa mensagem. 0 = ilimitadas.',
 	'SMILIES_PER_PAGE'				=> 'Emoções por página',
 	'TOPICS_PER_PAGE'				=> 'Tópicos por Página',
-)); 
+));
 
-// Signature Settings 
-$lang = array_merge($lang, array( 
+// Signature Settings
+$lang = array_merge($lang, array(
 	'ACP_SIGNATURE_SETTINGS_EXPLAIN'	=> 'Aqui pode configurar as opções para as Assinaturas dos Utilizadores.',
 
 	'MAX_SIG_FONT_SIZE'					=> 'Tamanho Máximo da fonte Assinatura',
@@ -214,10 +214,10 @@ $lang = array_merge($lang, array(
 	'MAX_SIG_SMILIES_EXPLAIN'			=> 'Número Máximo de Emoções permitidas na Assinatura do Utilizador. (0 = ilimitado).',
 	'MAX_SIG_URLS'						=> 'Número Máximo de atalhos',
 	'MAX_SIG_URLS_EXPLAIN'				=> 'Número Máximo de atalhos numa Assinatura. (0 = ilimitados).',
-)); 
+));
 
-// Registration Settings 
-$lang = array_merge($lang, array( 
+// Registration Settings
+$lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Aqui são definidas as opções de Registo e Perfil do Utilizador.',
 
 	'ACC_ACTIVATION'					=> 'Ativação de Conta',
@@ -247,7 +247,7 @@ $lang = array_merge($lang, array(
 	'PASSWORD_LENGTH'					=> 'Tamanho da Senha',
 	'PASSWORD_LENGTH_EXPLAIN'			=> 'Número Mínimo e Máximo de caracteres das Senhas.',
 	'REG_LIMIT'							=> 'Tentativas de Registo',
-	'REG_LIMIT_EXPLAIN'         		=> 'Número de tentativas permitidas aos utilizadores antes da sessão ser bloqueada.',
+	'REG_LIMIT_EXPLAIN'					=> 'Número de tentativas permitidas aos utilizadores antes da sessão ser bloqueada.',
 	'USERNAME_ALPHA_ONLY'				=> 'Alfanumérico apenas',
 	'USERNAME_ALPHA_SPACERS'			=> 'Alfanumérico e Espaços',
 	'USERNAME_ASCII'					=> 'ASCII (Nenhum padrão de codificação unicode internacional)',
@@ -258,7 +258,7 @@ $lang = array_merge($lang, array(
 	'USERNAME_CHARS_EXPLAIN'			=> 'Tipo restrito de caracteres aceites no nome do Utilizador; espaço, -, +, _, [ e ].',
 	'USERNAME_LENGTH'					=> 'Tamanho do nome do Utilizador',
 	'USERNAME_LENGTH_EXPLAIN'			=> 'Número Mínimo e Máximo de caracteres nos nomes dos Utilizadores.',
-)); 
+));
 
 // Feeds
 $lang = array_merge($lang, array(
@@ -274,7 +274,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Ligar ou desligar Atom Feeds em todo o Fórum.<br />Desativar as ligações de todos os Feeds, independentemente das opções configuradas em baixo.',
 	'ACP_FEED_LIMIT'					=> 'Número de itens',
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Número máximo de itens de Feed a mostrar.',
-	
+
 	'ACP_FEED_OVERALL'					=> 'Ativar Feeds em todo o Fórum',
 	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Novas mensagens em todo o Fórum.',
 	'ACP_FEED_FORUM'					=> 'Ativa os Feeds por Fórum',
@@ -300,7 +300,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'O conteúdo destes <strong>não será incluído nos feeds</strong>. Não selecione nenhum Fórum, para puxar os dados de todos os Fóruns.<br />Selecione/Desmarque múltiplos Fóruns clicando <samp>CTRL</samp> e clicando.',
 ));
 
-// Visual Confirmation Settings 
+// Visual Confirmation Settings
 $lang = array_merge($lang, array(
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Aqui pode selecionar e configurar plugins desenhados para bloquear registos automáticos de spambots. Estes plugins fazem um teste ao utilizador <em>(CAPTCHA)</em> de dificil resolução pelos computadores.',
 	'ACP_VC_EXT_GET_MORE'					=> 'Para plugins adicionais (e possivelmente melhores) anti-spam, visite o <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>phpBB.com Extensions Database</strong></a>. Para mais informações sobre a prevenção de spam no seu fórum, visite o <a href="https://www.phpbb.com/go/anti-spam"><strong>phpBB.com Knowledge Base</strong></a>.',
@@ -310,7 +310,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_GD_3D'							=> 'Imagem GD 3D',
 	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'Ruído em primeiro plano',
 	'CAPTCHA_GD_EXPLAIN'					=> 'Use o GD para gerar uma imagem antispambot mais complexa.',
-	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'   => 'Use o ruído em primeiro plano para gerar uma imagem GD de mais difícil leitura.',
+	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Use o ruído em primeiro plano para gerar uma imagem GD de mais difícil leitura.',
 	'CAPTCHA_GD_X_GRID'						=> 'O ruído de fundo do eixo x',
 	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Utilize esta configuração para gerar uma imagem mais complexa. 0 desativa o ruído de fundo no eixo X.',
 	'CAPTCHA_GD_Y_GRID'						=> 'O ruído de fundo do eixo y',
@@ -328,23 +328,23 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_PREVIEW_MSG'					=> 'As suas alterações não foram gravadas, isto é apenas uma previsão.',
 	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'O plugin será semelhante a esta imagem:',
 
-	'CAPTCHA_SELECT'					=> 'Plugins instalados',
-	'CAPTCHA_SELECT_EXPLAIN'			=> 'O menu mostra os plugins instalados. A cinzento estão os indisponíveis, porque precisam de configuração prévia.',
-	'CAPTCHA_CONFIGURE'					=> 'Configurar plugins',
-	'CAPTCHA_CONFIGURE_EXPLAIN'			=> 'Altere as definições do plugins selecionado.',
-	'CONFIGURE'							=> 'Configuração',
-	'CAPTCHA_NO_OPTIONS'				=> 'Este plugin não tem opções de configuração.',
+	'CAPTCHA_SELECT'						=> 'Plugins instalados',
+	'CAPTCHA_SELECT_EXPLAIN'				=> 'O menu mostra os plugins instalados. A cinzento estão os indisponíveis, porque precisam de configuração prévia.',
+	'CAPTCHA_CONFIGURE'						=> 'Configurar plugins',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Altere as definições do plugins selecionado.',
+	'CONFIGURE'								=> 'Configuração',
+	'CAPTCHA_NO_OPTIONS'					=> 'Este plugin não tem opções de configuração.',
 
-	'VISUAL_CONFIRM_POST'				=> 'Confirmação visual de Mensagens dos Visitantes',
-	'VISUAL_CONFIRM_POST_EXPLAIN'		=> 'Exige aos visitantes (anónimos) que introduzam um código aleatório para prevenir mensagens em massa.',
-	'VISUAL_CONFIRM_REG'				=> 'Medidas antispambot no registo',
-	'VISUAL_CONFIRM_REG_EXPLAIN'		=> 'Exige aos novos utilizadores uma tarefa antispambot para evitar registos automaticos.',
-	'VISUAL_CONFIRM_REFRESH'			=> 'Permitir aos utilizadores atualizar a tarefa antispambot',
-	'VISUAL_CONFIRM_REFRESH_EXPLAIN'	=> 'Permite que os utilizadores solicitem uma nova tarefa antispambot se forem incapazes de resolver a tarefa corrente durante o registo. Alguns plugins podem não suportar esta opção.',
+	'VISUAL_CONFIRM_POST'					=> 'Confirmação visual de Mensagens dos Visitantes',
+	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Exige aos visitantes (anónimos) que introduzam um código aleatório para prevenir mensagens em massa.',
+	'VISUAL_CONFIRM_REG'					=> 'Medidas antispambot no registo',
+	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Exige aos novos utilizadores uma tarefa antispambot para evitar registos automaticos.',
+	'VISUAL_CONFIRM_REFRESH'				=> 'Permitir aos utilizadores atualizar a tarefa antispambot',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Permite que os utilizadores solicitem uma nova tarefa antispambot se forem incapazes de resolver a tarefa corrente durante o registo. Alguns plugins podem não suportar esta opção.',
 ));
 
-// Cookie Settings 
-$lang = array_merge($lang, array( 
+// Cookie Settings
+$lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS_EXPLAIN'			=> 'Estas configurações definem os dados usados nos cookies enviados aos navegadores do Utilizadores. Na generalidade dos casos os valores abaixo são suficientes. Se os mudar faça-o com cuidado. Qualquer incorreção impede os Utilizadores de aceder ao Fórum.',
 
 	'COOKIE_DOMAIN'							=> 'Domínio do Cookie',
@@ -372,7 +372,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Load Settings
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'				=> 'Aqui pode ativar e desativar certas funções do Fórum que podem reduzir o total de processamento pedido. Para a maioria dos Servidores não é necessário desativar nenhuma função. No entanto, em certos sistemas ou em ambientes de hospedagem compartilhada pode ser benéfico se desativar alguns recursos que não sejam realmente necessário. Pode também especificar limites para a carga do sistema e ativar sessões, além das quais o Fórum sairá do ar.',
 
 	'ALLOW_CDN'								=> 'Permitir o uso de redes de entrega de conteúdo de terceiros',
@@ -411,10 +411,10 @@ $lang = array_merge($lang, array(
 	'YES_READ_MARKING'						=> 'Ativa a marcação de Tópicos no Servidor',
 	'YES_READ_MARKING_EXPLAIN'				=> 'Guarda a informação de lido/não lido na Base de Dados em vez de guardá-la em cookie.',
 	'YES_UNREAD_SEARCH'						=> 'Ativar pesquisa de novas mensagens',
-)); 
+));
 
-// Auth settings 
-$lang = array_merge($lang, array( 
+// Auth settings
+$lang = array_merge($lang, array(
 	'ACP_AUTH_SETTINGS_EXPLAIN'				=> 'O phpBB suporta Plug-ins ou Módulos que permitem definir o método de autenticação dos Utilizadores que entram no Fórum. São disponibilizados três plugins: DB, LDAP e Apache. Nem todos os Módulos necessitam de informação adicional. Preencha apenas os campos relevantes para o método selecionado.',
 
 	'AUTH_METHOD'							=> 'Selecione um método de autenticação',
@@ -447,10 +447,10 @@ $lang = array_merge($lang, array(
 	'LDAP_USER_EXPLAIN'						=> 'Deixe em branco para acesso anónimo. Se preenchido o phpBB irá ligar ao Servidor LDAP com o nome de Utilizador indicado.',
 	'LDAP_USER_FILTER'						=> 'Filtro do Utilizador LDAP',
 	'LDAP_USER_FILTER_EXPLAIN'				=> 'Pode optar por aumentar o limite de objetos pesquisados com filtros adicionais. Por exemplo, <samp>objectClass=posixGroup</samp> deve resultar na utilização de <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>.',
-)); 
+));
 
-// Server Settings 
-$lang = array_merge($lang, array( 
+// Server Settings
+$lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS_EXPLAIN'			=> 'Aqui são definidas as configurações dos Servidores e Domínios. Certifique-se de que os dados estão correto. Eventuais erros resultarão em emails contendo informações incorretas. Quando introduzir o domínio, inclua o http:// ou outro protocolo. Altere apenas o número da Porta do Servidor se souber que seu Servidor usa um valor diferente, a Porta 80 é usada na maioria dos casos.',
 
 	'ENABLE_GZIP'							=> 'Ativa Compressão GZip',
@@ -481,10 +481,10 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICONS_PATH_EXPLAIN'				=> 'Diretoria sob a diretoria raiz do phpBB. Exemplo: images/upload_icons.',
 	'USE_SYSTEM_CRON'						=> 'Executar tarefas periódicas do sistema cron',
 	'USE_SYSTEM_CRON_EXPLAIN'				=> 'Quando desligado, o phpBB organizará as tarefas periódicas para serem executadas automaticamente. Quando ligado, o phpBB não organizará as tarefas periódicas, por si só, um administrador do sistema deve executar o <code>bin/phpbbcli.php cron:run</code> para ser executado pelo sistema cron a intervalos regulares(por exemplo, a cada 5 minutos).',
-)); 
+));
 
-// Security Settings 
-$lang = array_merge($lang, array( 
+// Security Settings
+$lang = array_merge($lang, array(
 	'ACP_SECURITY_SETTINGS_EXPLAIN'			=> 'Aqui configura as opções relacionadas as Sessões e Acesso.',
 
 	'ALL'									=> 'Todos',
@@ -534,10 +534,10 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'				=> 'Se ativado, a referência do POST vai verificar o local onde se encontra o Fórum no servidor. Isto pode causar problemas em Fóruns que usem muitos domínios ou acessos externos.',
 	'TPL_ALLOW_PHP'							=> 'Permitir php nos Modelos (Templates)',
 	'TPL_ALLOW_PHP_EXPLAIN'					=> 'Se ativado, os comandos PHP e INCLUDEPHP serão reconhecidos e inseridos nos Templates.',
-)); 
+));
 
-// Email Settings 
-$lang = array_merge($lang, array( 
+// Email Settings
+$lang = array_merge($lang, array(
 	'ACP_EMAIL_SETTINGS_EXPLAIN'			=> 'Esta informação é usada quando o Fórum envia emails aos Utilizadores. Certifique-se que usa um email válido. Qualquer Mensagem incorreta não será entregue neste endereço. Se o seu serviço de hospedagem não oferece um serviço nativo de email baseado no PHP, pode enviar mensagens através de SMTP. É necessário um Servidor adequado, não especifique qualquer nome antigo aqui! Se o servidor requer autenticação, introduza os nomes e senhas necessários. tenha em atenção que apenas é usada a autenticação básica. Implementações de autenticações diferentes não estão disponíveis.',
 
 	'ADMIN_EMAIL'							=> 'Endereço de Email de resposta',
@@ -575,10 +575,10 @@ $lang = array_merge($lang, array(
 	'SMTP_USERNAME_EXPLAIN'					=> 'Só introduza um Nome se o Servidor de SMTP o pedir.',
 	'USE_SMTP'								=> 'Usar um Servidor de SMTP para enviar emails',
 	'USE_SMTP_EXPLAIN'						=> 'Marque “Sim” se quer ou tem que enviar os emails recorrendo a um Servidor SMTP em vez da função de email do Servidor.',
-)); 
+));
 
-// Jabber settings 
-$lang = array_merge($lang, array( 
+// Jabber settings
+$lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'			=> 'Aqui pode ativar e controlar o uso do Jabber para Mensagens Instantâneas e Notícias. Jabber é um Protocolo código-aberto e por isso mesmo disponível a qualquer pessoa interessada. Alguns Servidores de Jabber incluem Gateways e transportes que permitem que contate Utilizadores em outras redes. Nem todos os servidores oferecem todos os transportes, e mudanças nos protocolos podem evitar operações de transportes. Note que pode levar muitos segundos até à atualização dos detalhes da conta de Jabber, então não interrompa a execução dos procedimentos enquanto não estiver completo!',
 
 	'JAB_ENABLE'							=> 'Ativa Jabber',

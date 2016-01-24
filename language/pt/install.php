@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -217,7 +217,7 @@ $lang = array_merge($lang, array(
 		<li>MS SQL Server 2005 ou superior (nativo)</li>
 		<li>Oracle</li>
 	</ul>
-	
+
 	<p>Apenas as Bases de Dados suportadas pelo seu servidor estarão disponíveis.',
 	'INSTALL_INTRO_NEXT'				=> 'Para iniciar a instalação, clique o botão abaixo.',
 	'INSTALL_LOGIN'						=> 'Entrar',
@@ -275,7 +275,7 @@ $lang = array_merge($lang, array(
 	'MAKE_FOLDERS_WRITABLE'				=> 'Por Favor, certifique-se de que estas pastas existem e podem ser escritas pelo servidor e tente novamente:<br />»<strong>%s</strong>.',
 
 	'MYSQL_SCHEMA_UPDATE_REQUIRED'		=> 'O seu programa de Base de Dados MySQL está desatualizado. O phpBB detetou um programa para MySQL 3.x/4.x, mas o servidor é executado em MySQL %2$s.<br /><strong>Antes de proceder à sua atualização, tem que atualizar o programa.</strong><br /><br />Por favor, reporte para <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">Knowledge Base article about upgrading the MySQL schema</a>. Se encontrar algum problema, use por favor, o <a href="https://www.phpbb.com/community/viewforum.php?f=466">Fórum de Suporte em língua inglesa</a> ou o phpBB Portugal.',
-	
+
 	'NAMING_CONFLICT'					=> 'Conflito de nomes: %s e %s são pseudónimos<br /><br />%s',
 	'NEXT_STEP'							=> 'Avançar para o próximo passo',
 	'NOT_FOUND'							=> 'Não foi possível encontrar',
@@ -532,29 +532,29 @@ $lang = array_merge($lang, array(
 	'UPDATE_FILES_NOTICE'				=> 'Por Favor, certifique-se de ter atualizado os Ficheiros do seu Fórum também, este Ficheiro apenas atualiza a Base de Dados.',
 	'UPDATE_INSTALLATION'				=> 'Atualizar Instalação do phpBB',
 	'UPDATE_INSTALLATION_EXPLAIN'		=> 'Com esta opção, é possível atualizar a instalação do phpBB para a última versão.<br />Durante o processo, todos os ficheiros serão verificados. Pode rever todas as diferenças e ficheiros antes da atualização.<br /><br />A própria atualização do ficheiro pode ser realizada de duas maneiras.</p><h2>Atualização Manual</h2><p>Com esta atualização, apenas transfere a sua seleção pessoal dos ficheiros modificados, e para ter certeza de que não perderá as modificações do seu ficheiro, deve finalizar. Depois de ter transferido este pacote, deve manualmente enviar os ficheiros para as seus respetivas diretorias. Em seguida, pode fazer a verificação dos ficheiros novamente para ver se os moveu corretamente.</p><h2>Atualização automática com FTP</h2><p>Este método é similar ao primeiro, mas não precisa descarregar os ficheiros modificados e enviá-los para o servidor. Isto será executado de forma automática. Para utilizar este método, tem que saber os dados da sua conta no servidor de FTP se isso for pedido. Depois de pronto, será redirecionado para nova verificação dos ficheiros para ter a certeza de que tudo foi atualizado corretamente.<br /><br />',
-	'UPDATE_INSTRUCTIONS'				=> ' 
+	'UPDATE_INSTRUCTIONS'				=> '
 
-		<h1>Anúncio do Lançamento Oficial</h1> 
+		<h1>Anúncio do Lançamento Oficial</h1>
 
-		<p>Por Favor, leia O Anúncio do Lançamento Oficial da Nova Versão antes de continuar o processo de atualização, poderá encontrar informações importantes. Também encontrará disponíveis os atalhos para transferência do pacote, bem como o registo das alterações.</p> 
+		<p>Por Favor, leia O Anúncio do Lançamento Oficial da Nova Versão antes de continuar o processo de atualização, poderá encontrar informações importantes. Também encontrará disponíveis os atalhos para transferência do pacote, bem como o registo das alterações.</p>
 
-		<br /> 
+		<br />
 
-		<h1>Como Atualizar a sua Instalação</h1> 
+		<h1>Como Atualizar a sua Instalação</h1>
 
-		<p>O Método recomendado para a atualização da sua instalação apenas indica as seguintes etapas:</p> 
+		<p>O Método recomendado para a atualização da sua instalação apenas indica as seguintes etapas:</p>
 
-		<ul style="margin-left: 20px; font-size: 1.1em;"> 
-			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o "Pacote de Atualização do phpBB" correto.<br /><br /></li> 
-			<li>Descompate o Ficheiro.<br /><br /></li> 
-			<li>Envie as pastas "install" e "vendor" descompatadas para o Servidor (onde está o seu Ficheiro config.php).<br /><br /></li> 
-		</ul> 
+		<ul style="margin-left: 20px; font-size: 1.1em;">
+			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o "Pacote de Atualização do phpBB" correto.<br /><br /></li>
+			<li>Descompate o Ficheiro.<br /><br /></li>
+			<li>Envie as pastas "install" e "vendor" descompatadas para o Servidor (onde está o seu Ficheiro config.php).<br /><br /></li>
+		</ul>
 
 		<p>Depois de enviado, o seu Fórum ficará inacessível aos Utilizadores normais conforme a diretoria instalação que enviou agora.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Agora inicie o Processo de Instalação inserindo no seu navegador o endereço da pasta /install</a>.</strong><br />
-		<br /> 
+		<br />
 		Em seguida será conduzido ao longo do processo de atualização. Será avisado quando a atualização estiver concluída. 
-		</p> 
+		</p>
 	',
 	'UPDATE_METHOD'						=> 'Método de atualização',
 	'UPDATE_METHOD_EXPLAIN'				=> 'Pode escolher o método de atualização desejado. Utilizando o envio por FTP, deverá inserir os dados do seu registo no servidor de FTP. Com este método, os Ficheiros serão automaticamente movidos para o novo local e backups dos Ficheiros antigos serão criados com a extensão .bak ao nome do Ficheiro. Se escolher fazer a transferência dos Ficheiros modificados, poderá descompatá-los e enviá-los depois manualmente para os seus locais corretos.',

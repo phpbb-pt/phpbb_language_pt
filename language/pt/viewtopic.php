@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -122,5 +122,5 @@ $lang = array_merge($lang, array(
 	'VIEW_UNREAD_POST'					=> 'Mensagens por ler',
 	'VOTE_SUBMITTED'					=> 'O seu voto foi registado.',
 	'VOTE_CONVERTED'					=> 'Não é possível alterar votos .',
-	
+
 ));

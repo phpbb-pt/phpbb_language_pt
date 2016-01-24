@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -157,6 +157,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_M_INFO'	=> 'Pode ver detalhes das mensagens',
 	'ACL_M_WARN'	=> 'Pode fazer avisos<br /><em>Esta é uma configuração global. Não é baseada em fóruns.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT'	=> 'Pode fechar e apagar Denúncias de mensagens privadas<br /><em>Esta definição só é atribuído a nível global. Não é baseado fórum.</em>', // This moderator setting is only global (and not local)
 	'ACL_M_BAN'		=> 'Pode fazer expulsões<br /><em>Esta é uma configuração global. Não é baseada em fóruns.</em>', // This moderator setting is only global (and not local)
 ));
 

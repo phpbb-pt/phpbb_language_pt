@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'BAN_UPDATE_SUCCESSFUL'		=> 'A Lista de Expulsões foi atualizada com sucesso.',
 	'BANNED_UNTIL_DATE'			=> 'até %s', // Exemplo: "até Seg 13.Jul.2009, 14:44"
 	'BANNED_UNTIL_DURATION'		=> '%1$s (até %2$s)', // Exemplo: "7 dias (até Ter 14.Jul.2009, 14:44)"
-	
+
 	'EMAIL_BAN'					=> 'Expulsar um ou mais endereços de email',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Ative esta opção para excluir emails da expulsão.',
 	'EMAIL_BAN_EXPLAIN'			=> 'Quando utilizar mais do que um endereço de email, separe-os por linha. Para selecionar endereços de email parciais, utilize asteriscos (*), como por exemplo, <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',

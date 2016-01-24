@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'É necessário que esteja registado para visualizar os Tópicos.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'É necessário que esteja registado e autenticado para ver as suas mensagens lidas.',
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'É necessário que esteja registado e autenticado para ver novas mensagens desde sua última visita.',
-	
+
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
 		1	=> 'Especificou muitas palavras para pesquisar. Por favor, não insira mais de %1$d palavra.',
 		2	=> 'Especificou muitas palavras para pesquisar. Por favor, não insira mais de %1$d palavras.',

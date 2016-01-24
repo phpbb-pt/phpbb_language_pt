@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -81,6 +81,8 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL_DEPENDENT'		=> 'O estilo "%s" não pode ser desinstalado porque há um ou mais estilos secundários.',
 	'STYLE_UNINSTALLED'				=> 'O estilo "%s" foi desinstalado com sucesso.',
 	'STYLE_USED_BY'					=> 'Usado por (incluindo Motor de Busca)',
-	
-	'UNINSTALL_DEFAULT'				=> 'You cannot uninstall the default style.',
+
+	'UNINSTALL_DEFAULT'				=> 'Não é possível desinstalar o estilo padrão.',
+
+	'BROWSE_STYLES_DATABASE'	=> 'Navegue banco de dados estilos',
 ));

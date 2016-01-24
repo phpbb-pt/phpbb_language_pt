@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -80,9 +80,6 @@ $lang = array_merge($lang, array(
 	'GROUP_LEGEND'						=> 'Exibir o Grupo na Legenda',
 	'GROUP_LIST'						=> 'Utilizadores atuais',
 	'GROUP_LIST_EXPLAIN'				=> 'Esta é uma lista completa de todos os Membros atuais com Direção Geral neste Grupo. Pode apagar Utilizadores (exceto em certos Grupos especiais) ou adicionar novos como pode ver.',
-    'GROUP_MAX_RECIPIENTS'				=> 'Limite de destinatários por Mensagem Privada',
-	'GROUP_MAX_RECIPIENTS_EXPLAIN'		=> 'Se definido 0, serão usadas as Configurações Gerais do Painel.',
-	'GROUP_OPTIONS_SAVE'				=> 'Opções do Grupo alargadas',
 	'GROUP_MEMBERS'						=> 'Membros do Grupo',
 	'GROUP_MEMBERS_EXPLAIN'				=> 'Esta é uma lista completa dos Membros deste Grupo. Inclui seções separadas para Líderes, pendentes e Membros atuais. Neste Painel pode configurar os gestores deste Grupo e as suas tarefas. Para apagar um Líder sem retirá-lo do Grupo, use a Opção Demitir Líder. Para promover um Membro do Grupo a Líder selecione Promover Líder.',
 	'GROUP_MESSAGE_LIMIT'				=> 'Limite de Mensagens Privadas do Grupo por Pasta',
@@ -94,17 +91,20 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME_TAKEN'					=> 'O nome do Grupo indicado já está em uso, indique um alternativo.',
 	'GROUP_OPEN'						=> 'Aberto',
 	'GROUP_PENDING'						=> 'Membros Pendentes',
+	'GROUP_MAX_RECIPIENTS'				=> 'Limite de destinatários por Mensagem Privada',
+	'GROUP_MAX_RECIPIENTS_EXPLAIN'		=> 'Se definido 0, serão usadas as Configurações Gerais do Painel.',
+	'GROUP_OPTIONS_SAVE'				=> 'Opções do Grupo alargadas',
 	'GROUP_PROMOTE'						=> 'Promover a Líder do Grupo',
 	'GROUP_RANK'						=> 'Classificação do Grupo',
 	'GROUP_RECEIVE_PM'					=> 'Grupo autorizado a receber Mensagens Privadas',
 	'GROUP_RECEIVE_PM_EXPLAIN'			=> 'Os Grupos ocultos não podem receber mensagens, mesmo selecionando esta opção.',
 	'GROUP_REQUEST'						=> 'Inscrição',
 	'GROUP_SETTINGS_SAVE'				=> 'Configurações do Grupo',
-	'GROUP_TYPE'						=> 'Estado do Grupo',
 	'GROUP_SKIP_AUTH'					=> 'Exibir líder de grupo das permissões',
 	'GROUP_SKIP_AUTH_EXPLAIN'			=> 'Caso esteja ativo, o líder de grupo deixará de herdar as permissões deste grupo.',
 	'GROUP_SPECIAL'						=> 'Pré definido',
 	'GROUP_TEAMPAGE'					=> 'Mostrar Grupo na página da equipa',
+	'GROUP_TYPE'						=> 'Estado do Grupo',
 	'GROUP_TYPE_EXPLAIN'				=> 'Define os Utilizadores que podem entrar ou ver este Grupo.',
 	'GROUP_UPDATED'						=> 'O Grupo foi atualizado com sucesso.',
 
@@ -129,8 +129,8 @@ $lang = array_merge($lang, array(
 	'NO_USERS'							=> 'Não especificou nenhum Utilizador.',
 	'NO_USERS_ADDED'					=> 'Não foram adicionados Utilizadores a este Grupo.',
 	'NO_VALID_USERS'					=> 'Não entrou com nenhum Utilizador com Permissões para usar esta opção.',
-	'SELECT_GROUP'						=> 'Selecione um Grupo',
 
+	'SELECT_GROUP'						=> 'Selecione um Grupo',
 	'SPECIAL_GROUPS'					=> 'Grupos Pré-Definidos',
 	'SPECIAL_GROUPS_EXPLAIN'			=> 'São os Grupos Básicos do phpBB. Não podem ser apagados ou modificados. Porém, pode adicionar membros a estes Grupos e modificar as Configurações de cada um dos Grupos.',
 

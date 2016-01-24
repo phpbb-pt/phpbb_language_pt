@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -41,16 +41,23 @@ $lang = array_merge($lang, array(
 
 	'GROUP_NOT_EXIST'					=> 'Inesperadamente o Grupo "%s" não existe.',
 
+	'MIGRATION_APPLY_DEPENDENCIES'		=> 'Aplicar dependencias de %s.',
 	'MIGRATION_DATA_DONE'				=> 'Dados instalados: %1$s; Dados: %2$.2f segundos',
 	'MIGRATION_DATA_IN_PROGRESS'		=> 'A instalar dados: %1$s; Dados: %2$.2f segundos',
+	'MIGRATION_DATA_RUNNING'			=> 'Instalando dados: %s.',
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'A migração já está efetivamente instalada (saltar): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Algo correu mal durante a execução do pedido e foi criada uma exceção. As alterações feitas antes de ocorrer o erro foram revertidas da melhor forma que foi possível. No entanto, deve verificar se existem erros no Fórum.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'A migração "%1$s" is not fulfillable, missing migration "%2$s".',
+	'MIGRATION_NOT_VALID'				=> '%s não é uma migração válida.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Dados: %2$.2f segundos',
-	'MIGRATION_APPLY_DEPENDENCIES'      => 'Apply dependencies of %s.',
-	'MIGRATION_DATA_RUNNING'         	=> 'Instalando dados: %s.',
-	'MIGRATION_NOT_VALID'           	=> '%s não é uma migração válida.',
-	'MIGRATION_SCHEMA_RUNNING'         	=> 'Instalando esquema: %s.',
+	'MIGRATION_SCHEMA_RUNNING'			=> 'Instalando esquema: %s.',
+
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migração é inválida. Uma condição em uma declaração utilizando « IF » está faltando.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migração é inválida. Um callback válida para uma etapa de migração em uma instrução de auxílio « IF » está faltando.',
+	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> 'A migração é inválida. Uma função personalizada exigível não pode ser executada.',
+	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> 'A migração é inválida. Um tipo de ferramenta de migração desconhecida foi encontrada.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> 'A migração é inválida. Uma ferramenta de migração indefinida foi encontrada.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migração é inválida. Um método de ferramenta de migração indefinido foi encontrado.',
 
 	'MODULE_ERROR'						=> 'Ocorreu um erro durante a criação de um módulo: %s',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Um ficheiro com informações do módulo necessário está em falta: %2$s',

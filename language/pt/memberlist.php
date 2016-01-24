@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -101,6 +101,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Tem que estar registado e ligado para pesquisar Utilizadores.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Tem que estar registado e ligado para ver Perfis.',
 
+	'MANAGE_GROUP'			=> 'Gerir Grupo',
 	'MORE_THAN'					=> 'Maior que',
 
 	'NO_CONTACT_FORM'			=> 'O formulário de contacto do administrador foi desativado.',

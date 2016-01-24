@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -66,9 +66,9 @@ $lang = array_merge($lang, array(
 	'USER_PRUNE_FAILURE'			=> 'Nenhum Utilizador cumpriu estes critérios.',
 
 	'WRONG_ACTIVE_JOINED_DATE'		=> 'A data indicada está incorreta, o formato correto é <kbd>YYYY-MM-DD</kbd>.',
-)); 
+));
 
-// Forum Pruning 
+// Forum Pruning
 $lang = array_merge($lang, array( 
 	'ACP_PRUNE_FORUMS_EXPLAIN'		=> 'Aqui pode apagar qualquer Tópico que não tenha sido respondido ou visualizado dentro do número de dias selecionado. Se não escrever um número, então todos os Tópicos serão apagados. Note que esta operação não excluirá Tópicos com Votações em Curso ou Tópicos Fixos e Anúncios.',
 

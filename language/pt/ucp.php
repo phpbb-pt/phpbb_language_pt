@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 ));
 
 // Common language entries
-$lang = array_merge($lang, array( 
+$lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE'					=> 'Sua conta já foi ativada. Obrigado por se registar.',
 	'ACCOUNT_ACTIVE_ADMIN'				=> 'A conta já foi ativada.',
 	'ACCOUNT_ACTIVE_PROFILE'			=> 'Sua conta já foi reativada com sucesso.',
@@ -137,7 +137,7 @@ $lang = array_merge($lang, array(
 	'CONFIRM_EXPLAIN'					=> 'Para prevenir Registos automáticos de "espiões" é necessário introduzir um código de confirmação. O código é exibido na imagem que deverá ver em baixo. Se tem alguma deficiência visual, e não pode ler o código, por favor, contate o %sAdministrador do Fórum%s.',
 	'VC_REFRESH'						=> 'Alterar Código de Confirmação',
 	'VC_REFRESH_EXPLAIN'				=> 'Se não consegue ler o código pode pedir um novo clicando no botão.',
-	
+
 	'CONFIRM_PASSWORD'					=> 'Confirme a sua Senha',
 	'CONFIRM_PASSWORD_EXPLAIN'			=> 'Só se alterar a Senha atual.',
 	'COPPA_BIRTHDAY'					=> 'Neste Fórum o Registo de Utilizadores menores de 13 anos necessita da Aprovação do Encarregado de Educação. Se tem menos de 13 anos o Registo só será Aprovado pelo Administrador do Fórum depois do seu Encarregado de Educação enviar a autorização para a sua participação. Para continuar com o Registo, selecione a opção correta, de acordo com a sua idade.',
@@ -613,20 +613,20 @@ $lang = array_merge($lang, array(
 	'YOUR_FRIENDS_EXPLAIN'				=> 'Para apagar os Utilizadores, selecione-os e clique em enviar.',
 	'YOUR_WARNINGS'						=> 'Seu Nível de Advertência',
 
-	'PM_ACTION'	=> array(
+	'PM_ACTION' => array(
 		'PLACE_INTO_FOLDER'				=> 'Colocar na Pasta',
 		'MARK_AS_READ'					=> 'Marcar como Lida',
 		'MARK_AS_IMPORTANT'				=> 'Marcar como Importante',
 		'DELETE_MESSAGE'				=> 'Apagar a Mensagem',
 	),
-	'PM_CHECK'							=> array(
+	'PM_CHECK' => array(
 		'SUBJECT'						=> 'Assunto',
 		'SENDER'						=> 'De',
 		'MESSAGE'						=> 'Mensagem',
 		'STATUS'						=> 'Estado da Mensagem',
 		'TO'							=> 'Para',
 	),
-	'PM_RULE'							=> array(
+	'PM_RULE' => array(
 		'IS_LIKE'						=> 'Está como',
 		'IS_NOT_LIKE'					=> 'Não está como',
 		'IS'							=> 'é',

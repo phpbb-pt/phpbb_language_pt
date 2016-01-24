@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*
 */
 
 /**
@@ -56,8 +56,8 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'		=> 'O MySQL só permite modo de pesquisa de texto comleto a partir da versão MySQL4.',
 	'FULLTEXT_MYSQL_NOT_SUPPORTED'				=> 'Índices MySQL de texto comleto só podem ser usados com tabelas MyISAM ou InnoDB. É necessário MySQL 5.6.4 ou posterior para índices de texto comleto em tabelas InnoDB.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'				=> 'Número Total de Mensagens indexadas',
-	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'   => 'Número mínimo de caracteres das palavras que são indexados para pesquisa. A alteração desta configuração tem de ser feita no mysql por si ou pelo administrador do servidor.',
-	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'   => 'Número máximo de caracteres das palavras que são indexados para pesquisa. A alteração desta configuração tem de ser feita no mysql por si ou pelo administrador do servidor.',
+	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Número mínimo de caracteres das palavras que são indexados para pesquisa. A alteração desta configuração tem de ser feita no mysql por si ou pelo administrador do servidor.',
+	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Número máximo de caracteres das palavras que são indexados para pesquisa. A alteração desta configuração tem de ser feita no mysql por si ou pelo administrador do servidor.',
 
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'O PostgreSQL só permite modo de pesquisa de texto comleto com PostgreSQL.',
 	'FULLTEXT_POSTGRES_TOTAL_POSTS'				=> 'Número total de mensagens idexadas',
