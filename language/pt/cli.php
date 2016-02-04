@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Define o valor de uma opção de configuração',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Não foi possível desativar a extensão %s',
-	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'A Extensão %s doi desativada com sucesso',
+	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'A Extensão %s foi desativada com sucesso',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Não foi possível ativar a Extensão %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Extensão %s ativada com sucesso',
 	'CLI_EXTENSION_NAME'				=> 'Nome da Extensão',

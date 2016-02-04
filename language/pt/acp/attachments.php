@@ -38,8 +38,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Aqui pode configurar as Opções Principais para os Anexos e Categorias Especiais associadas.',
-	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui pode adicionar, excluir, modificar e desativar as Extensões. Consulte o Painel Gestor de Grupos de Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras…), por serem potencialmente perigosas.',
-	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui pode controlar as Extensões permitidas. Para ativar as suas Extensões, consulte por favor o Painel de Gestão dos Grupos das Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras…), por serem potencialmente perigosas.',
+	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui pode adicionar, excluir, modificar e desativar as Extensões. Consulte o Painel Gestor de Grupos de Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
+	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui pode controlar as Extensões permitidas. Para ativar as suas Extensões, consulte por favor o Painel de Gestão dos Grupos das Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras...), por serem potencialmente perigosas.',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> 'Estes são os Ficheiros que não estão associados a uma Mensagem.',
 	'ADD_EXTENSION'						=> 'Adicionar Extensão',
 	'ADD_EXTENSION_GROUP'				=> 'Adicionar Grupo de Extensões',
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 
 	'DEFINE_ALLOWED_IPS'				=> 'Definir IPs/Servidores autorizados',
 	'DEFINE_DISALLOWED_IPS'				=> 'Definir IPs/Servidores proibidos',
-	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduza cada um numa nova linha. Para definir uma faixa de endereços de IP separe o início e o fim com um hífen (-). Pode utilizar asteríscos (*)',
+	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduza cada um numa nova linha. Para definir uma faixa de endereços de IP separe o início e o fim com um hífen (-). Pode utilizar asteriscos (*)',
 	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Pode remover (ou não-excluir) múltiplos endereços de IPs de uma única vez usando a combinação apropriada de rato e teclado para seu computador e navegador. IPs apagados têm um fundo em azul.',
 	'DISPLAY_INLINED'					=> 'Mostrar Imagens',
 	'DISPLAY_INLINED_EXPLAIN'			=> 'Se escolher Não as imagens anexadas serão mostradas como atalhos.',
@@ -141,9 +141,9 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'			=> 'Grupo de Extensão não especificado.',
 	'NO_FILE_CAT'						=> 'Nenhum',
 	'NO_IMAGE'							=> 'Sem imagem',
-	'NO_THUMBNAIL_SUPPORT'				=> 'O suporte às miniaturas (imagem reduzida) encontra-se desativado. Para ativar esta funcionalidade é necessario a extensão GD ou imagemagick instalado. Nenhum dos dois foi encontrado.',
-	'NO_UPLOAD_DIR'						=> 'A diretoria de envio (upload) que indicou não existe.',
-	'NO_WRITE_UPLOAD'					=> 'A diretoria que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
+	'NO_THUMBNAIL_SUPPORT'				=> 'O suporte às miniaturas (imagem reduzida) encontra-se desativado. Para ativar esta funcionalidade é necessário a extensão GD ou imagemagick instalado. Nenhum dos dois foi encontrado.',
+	'NO_UPLOAD_DIR'						=> 'A pasta de envio (upload) que indicou não existe.',
+	'NO_WRITE_UPLOAD'					=> 'A pasta que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
 
 	'ONLY_ALLOWED_IN_PM'				=> 'Apenas autorizar nas Mensagens Privadas',
 	'ORDER_ALLOW_DENY'					=> 'Permitir',
@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores autorizados',
 	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores proibidos',
-	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem certeza que deseja resincronizar estatísticas de ficheiros?',
+	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja resincronizar estatísticas de ficheiros?',
 
 	'SEARCH_IMAGICK'					=> 'Localizar Imagemagick',
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',
@@ -172,8 +172,8 @@ $lang = array_merge($lang, array(
 	'UPLOADING_FILES'					=> 'A Enviar Ficheiros',
 	'UPLOADING_FILE_TO'					=> 'A Enviar Ficheiro "%1$s" à Mensagem Nº %2$d...',
 	'UPLOAD_DENIED_FORUM'				=> 'Não tem Permissão para enviar Ficheiros para o Fórum "%s".',
-	'UPLOAD_DIR'						=> 'Diretoria de Anexos',
-	'UPLOAD_DIR_EXPLAIN'				=> 'Diretoria de arquivo dos anexos. Se mudar esta diretoria tendo já anexos nela, deve mudar manualmente esses anexos para o novo local.',
+	'UPLOAD_DIR'						=> 'Pasta de Anexos',
+	'UPLOAD_DIR_EXPLAIN'				=> 'Pasta onde os anexos são guardados. Se mudar esta pasta tendo já anexos nela, deve mudar manualmente esses anexos para o novo local.',
 	'UPLOAD_ICON'						=> 'Ícone de envio',
-	'UPLOAD_NOT_DIR'					=> 'O local para envio de Ficheiros que indicou não parece ser uma diretoria.',
+	'UPLOAD_NOT_DIR'					=> 'O local para envio de Ficheiros que indicou não parece ser uma pasta.',
 ));

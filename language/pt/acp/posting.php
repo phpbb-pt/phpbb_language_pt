@@ -73,15 +73,15 @@ $lang = array_merge($lang, array(
 
 	'TOKEN'							=> 'Símbolo',
 	'TOKENS'						=> 'Símbolos',
-	'TOKENS_EXPLAIN'				=> 'Os Símbolos são campos especiais a serem adicionados pelos Utilizadores. Mas estes apenas serão válidos se tiverem as definições correspondentes. Se necessário, pode numerá-los adicionando um número como o último carácter: Exemplo: {Utilizador}, {Utilizador1}.<br /> <br />Pode ainda utilizar estes Símbolos com qualquer sequência de linguagem presente na diretoria /language como esta: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que deseja adicionar. Por exemplo, {L_WROTE} será exibido como “Escreveu” ou traduzido de acordo com a localidade do Utilizador.<br /><br /><strong>Tenha em atenção que apenas os Símbolos listados abaixo podem ser utilizados com os BBCodes personalizados.</strong>',
+	'TOKENS_EXPLAIN'				=> 'Os Símbolos são campos especiais a serem adicionados pelos Utilizadores. Mas estes apenas serão válidos se tiverem as definições correspondentes. Se necessário, pode numerá-los adicionando um número como o último carácter: Exemplo: {Utilizador}, {Utilizador1}.<br /> <br />Pode ainda utilizar estes Símbolos com qualquer sequência de linguagem presente na pasta /language como esta: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que deseja adicionar. Por exemplo, {L_WROTE} será exibido como “Escreveu” ou traduzido de acordo com a localidade do Utilizador.<br /><br /><strong>Tenha em atenção que apenas os Símbolos listados abaixo podem ser utilizados com os BBCodes personalizados.</strong>',
 	'TOKEN_DEFINITION'				=> 'O que é que isto pode ser?',
 	'TOO_MANY_BBCODES'				=> 'Não pode criar mais BBCodes. Elimine alguns BBCodes para poder criar outros.',
 
 	'tokens'			=> array(
 		'TEXT'			=> 'Qualquer texto, incluindo caracteres estrangeiros, números, etc ... Não deve usar o símbolo TEXT em tags HTML. Em vez disso tente usar intText ou SimpleText.',
 		'SIMPLETEXT'	=> 'Caracteres do alfabeto latino (A-Z), números, espaços, vírgulas, pontos, menos, mais, hífen e sublinhado.',
-		'INTTEXT'		=> 'Caracteres Unicode, números, espaços, vírgulas, pontos, menos, mais, hífen, underscore e espaços em branco.',
-		'IDENTIFIER'		=> 'Caracteres do alfabeto latino (A-Z), números, hífen e underline',
+		'INTTEXT'		=> 'Caracteres Unicode, números, espaços, vírgulas, pontos, menos, mais, hífen, sublinhado e espaços em branco.',
+		'IDENTIFIER'		=> 'Caracteres do alfabeto latino (A-Z), números, hífen e sublinhado',
 		'NUMBER'		=> 'Qualquer Séries de Dígitos',
 		'EMAIL'			=> 'Um endereço de email válido',
 		'URL'			=> 'Uma URL válida utilizando qualquer protocolo (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, “http://” é o prefixado para a sequência.',
@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'AFTER_SMILIES'					=> 'Depois %s',
 
 	'CODE'							=> 'Código',
-	'CURRENT_ICONS'					=> 'Ícones Atuais',
+	'CURRENT_ICONS'					=> 'Ícones atuais',
 	'CURRENT_ICONS_EXPLAIN'			=> 'Escolha o que fazer com os ícones atualmente instalados.',
 	'CURRENT_SMILIES'				=> 'Emoções atuais',
 	'CURRENT_SMILIES_EXPLAIN'		=> 'Escolha o que fazer com as Emoções atualmente instaladas.',
@@ -115,25 +115,25 @@ $lang = array_merge($lang, array(
 	'EDIT_SMILIES'					=> 'Editar Emoções',
 	'EMOTION'						=> 'Emoção',
 	'EXPORT_ICONS'					=> 'Exportar e descarregar Pacote de ícones (smilies.pak)',
-	'EXPORT_ICONS_EXPLAIN'			=> '%sClicando neste atalho, as configurações para os seus ícones instalados serão compatadas para <samp>icons.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os seus ícones mais este ficheiro de configuração<samp>icons.pak</samp>%s.',
+	'EXPORT_ICONS_EXPLAIN'			=> '%sClicando neste atalho, as configurações para os seus ícones instalados serão compactadas para <samp>icons.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os seus ícones mais este ficheiro de configuração<samp>icons.pak</samp>%s.',
 	'EXPORT_SMILIES'				=> 'Exportar e descarregar um pack de Emoções',
-	'EXPORT_SMILIES_EXPLAIN'		=> '%sClicando neste atalho, os icones de emoções instalados será compatado para <samp>smilies.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todas as suas emoções mais este ficheiro de configuração<samp>smilies.pak</samp>%s.',
+	'EXPORT_SMILIES_EXPLAIN'		=> '%sClicando neste atalho, os ícones de emoções instalados será compactado para <samp>smilies.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todas as suas emoções mais este ficheiro de configuração<samp>smilies.pak</samp>%s.',
 
 	'FIRST'							=> 'Primeiro',
 
 	'ICONS_ADD'						=> 'Adicionar novo ícone',
 	'ICONS_ADDED'			=> array(
-		0	=> 'Não foram adicionados icones.',
-		1	=> 'O icone foi adicionado com sucesso.',
-		2	=> 'Os icones foram adicionados com sucesso.',
+		0	=> 'Não foram adicionados ícones.',
+		1	=> 'O ícone foi adicionado com sucesso.',
+		2	=> 'Os ícones foram adicionados com sucesso.',
 	),
-	'ICONS_CONFIG'			=> 'Configuração dos icones',
-	'ICONS_DELETED'			=> 'O icone foi apagado com sucesso.',
-	'ICONS_EDIT'			=> 'Editar icone',
+	'ICONS_CONFIG'			=> 'Configuração dos ícones',
+	'ICONS_DELETED'			=> 'O ícone foi apagado com sucesso.',
+	'ICONS_EDIT'			=> 'Editar ícone',
 	'ICONS_EDITED'			=> array(
-		0	=> 'Não há icones para atualizar.',
-		1	=> 'O icone foi atualizado com sucesso.',
-		2	=> 'Os icones foram atualizados com sucesso.',
+		0	=> 'Não há ícones para atualizar.',
+		1	=> 'O ícone foi atualizado com sucesso.',
+		2	=> 'Os ícones foram atualizados com sucesso.',
 	),
 	'ICONS_HEIGHT'					=> 'Altura do ícone',
 	'ICONS_IMAGE'					=> 'Imagem do ícone',
@@ -145,7 +145,7 @@ $lang = array_merge($lang, array(
 	'ICONS_URL'						=> 'Ficheiro de imagem do ícone',
 	'ICONS_WIDTH'					=> 'Largura do Ícone',
 	'IMPORT_ICONS'					=> 'Instalar Pacote de ícones',
-	'IMPORT_SMILIES'				=> 'Instalar Pacote de Emoções',	
+	'IMPORT_SMILIES'				=> 'Instalar Pacote de Emoções',
 
 	'KEEP_ALL'						=> 'Guardar Todas',
 
@@ -250,7 +250,7 @@ $lang = array_merge($lang, array(
 	'ADD_DISALLOW_EXPLAIN'			=> 'Pode proibir nomes de utilizadores combinando o asterisco (*) com outros caracteres.',
 	'ADD_DISALLOW_TITLE'			=> 'Adicionar um Nome Proibido',
 
-	'DELETE_DISALLOW_EXPLAIN'		=> 'Aqui pode eliminar uma proibição, selecionando na lista o nome cuja proibição pretende anular, clicando de seguida em enviar.',
+	'DELETE_DISALLOW_EXPLAIN'		=> 'Aqui pode eliminar uma proibição, ao selecionar na lista o nome cuja proibição pretende anular, clicando de seguida em enviar.',
 	'DELETE_DISALLOW_TITLE'			=> 'Apagar um Nome Proibido',
 	'DISALLOWED_ALREADY'			=> 'O Nome especificado já está proibido.',
 	'DISALLOWED_DELETED'			=> 'O Nome Proibido foi apagado com sucesso.',
@@ -264,7 +264,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_REASONS_EXPLAIN'			=> 'Aqui pode gerir as razões utilizadas em denúncias e mensagens negativas quando desaprovando mensagens. Existe uma razão padrão (marcada com um (*)) em que não pode apagar, esta razão é normalmente utilizada para mensagens Personalizadas se não possuírem motivos plausíveis.',
 	'ADD_NEW_REASON'				=> 'Adicionar nova Razão',
-	'AVAILABLE_TITLES'				=> 'Titulos de Razões Locais Disponveis',
+	'AVAILABLE_TITLES'				=> 'Títulos de Razões Locais Disponíveis',
 
 	'IS_NOT_TRANSLATED'				=> 'A Razão <strong>não</strong> foi encontrada.',
 	'IS_NOT_TRANSLATED_EXPLAIN'		=> 'A Razão <strong>não</strong> foi encontrada. Se deseja estabelecer a forma local, especifique a chave correta através dos ficheiros de linguagem do Fórum de razões para denúncias.',

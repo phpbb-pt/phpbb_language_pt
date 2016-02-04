@@ -38,8 +38,8 @@ if (empty($lang) || !is_array($lang))
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
-	'ACP_BACKUP_EXPLAIN'		=> 'Aqui pode fazer Cópias de Segurança da Base de Dados do Fórum. Os ficheiros podem ser guardados na diretoria <samp>/store</samp>, ou pode transferi-los para o seu computador. Dependendo das configurações do Servidor, o ficheiro poderá ser comprimido em diversos formatos.',
-	'ACP_RESTORE_EXPLAIN'		=> 'Esta operação executa uma restauração completa de todas as tabelas do phpBB partir de um ficheiro gravado. Se o seu servidor suporta, pode usar gzip ou ficheiros de texto comprimido bzip2 que eles serão automaticamente descomprimidas. <strong>AVISO</strong> Isto irá substituir quaisquer dados existentes. A restauração pode demorar muito tempo para processar, por favor não saia desta página até que esteja completa. As Cópias de Segurança são armazenadas na diretoria <samp>store/</samp>e são criadas pela funcionalidade de Cópias de Segurança do phpBB. Pode não funcionar se tentar restaurar Cópias de Segurança que não foram criadas pelo phpBB.',
+	'ACP_BACKUP_EXPLAIN'		=> 'Aqui pode fazer Cópias de Segurança da Base de Dados do Fórum. Os ficheiros podem ser guardados na pasta <samp>/store</samp>, ou pode transferi-los para o seu computador. Dependendo das configurações do Servidor, o ficheiro poderá ser comprimido em diversos formatos.',
+	'ACP_RESTORE_EXPLAIN'		=> 'Esta operação executa uma restauração completa de todas as tabelas do phpBB partir de um ficheiro gravado. Se o seu servidor suporta, pode usar gzip ou ficheiros de texto comprimido bzip2 que eles serão automaticamente descomprimidas. <strong>AVISO</strong> Isto irá substituir quaisquer dados existentes. A restauração pode demorar muito tempo para processar, por favor não saia desta página até que esteja completa. As Cópias de Segurança são armazenadas na pasta <samp>store/</samp>e são criadas pela funcionalidade de Cópias de Segurança do phpBB. Pode não funcionar se tentar restaurar Cópias de Segurança que não foram criadas pelo phpBB.',
 
 	'BACKUP_DELETE'				=> 'O Ficheiro da Cópia de Segurança foi apagado com sucesso.',
 	'BACKUP_INVALID'			=> 'O Ficheiro selecionado para a Cópia de Segurança é inválido.',
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'DATABASE'					=> 'Ferramentas da Base de Dados',
 	'DATA_ONLY'					=> 'Só Dados',
 	'DELETE_BACKUP'				=> 'Apagar Cópia de Segurança',
-	'DELETE_SELECTED_BACKUP'	=> 'Tem a certeza de que deseja apagar a Cópia de Segurança da Base de Dados selecionada?',
+	'DELETE_SELECTED_BACKUP'	=> 'Tem a certeza que deseja apagar a Cópia de Segurança da Base de Dados selecionada?',
 	'DESELECT_ALL'				=> 'Desmarcar todas',
 	'DOWNLOAD_BACKUP'			=> 'Transferir Cópia de Segurança',
 
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'			=> 'O Ficheiro da Cópia de Segurança deve estar corrompido.',
 	'RESTORE_OPTIONS'			=> 'Opções de restauração',
-	'RESTORE_SELECTED_BACKUP'	=> 'Tem certeza que deseja restaurar a Cópia de Segurança selecionada?',
+	'RESTORE_SELECTED_BACKUP'	=> 'Tem a certeza que deseja restaurar a Cópia de Segurança selecionada?',
 	'RESTORE_SUCCESS'			=> 'A Base de Dados foi restaurada com sucesso.<br /><br />O Fórum deverá estar de acordo com o momento em que a cópia de segurança foi feita.',
 
 	'SELECT_ALL'				=> 'Marcar todas',
@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'START_BACKUP'				=> 'Iniciar a Cópia de Segurança',
 	'START_RESTORE'				=> 'Iniciar restauração',
 	'STORE_AND_DOWNLOAD'		=> 'Armazenar e descarregar',
-	'STORE_LOCAL'				=> 'Guardar na diretoria /store do Fórum',
+	'STORE_LOCAL'				=> 'Guardar na pasta /store do Fórum',
 	'STRUCTURE_ONLY'			=> 'Só estrutura',
 
 	'TABLE_SELECT'				=> 'Seleção de Tabelas',

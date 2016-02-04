@@ -201,7 +201,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_SIG'					=> 'Assinatura',
 	'ACP_USER_WARNINGS'				=> 'Avisos',
 
-	'ACP_VC_SETTINGS'				=> 'Medidas antispambot',
+	'ACP_VC_SETTINGS'				=> 'Medidas anti-spambot',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Previsão da Imagem CAPTCHA',
 	'ACP_VERSION_CHECK'					=> 'Verificar Atualizações',
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Permissões de Administrador',
@@ -234,13 +234,13 @@ $lang = array_merge($lang, array(
 
 	'DEACTIVATE'				=> 'Desativar',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'A Pasta "%s" selecionada não existe.',
-	'DIRECTORY_NOT_DIR'			=> 'A Pasta "%s" selecionada não é uma diretoria.',
+	'DIRECTORY_NOT_DIR'			=> 'A Pasta "%s" selecionada não é uma pasta.',
 	'DIRECTORY_NOT_WRITABLE'	=> 'A Pasta "%s" selecionada não pode ser escrita.',
 	'DISABLE'					=> 'Desativar',
 	'DOWNLOAD'					=> 'Transferir',
 	'DOWNLOAD_AS'				=> 'Descarregar como',
 	'DOWNLOAD_STORE'			=> 'Descarregar ou Guardar o Ficheiro',
-	'DOWNLOAD_STORE_EXPLAIN'	=> 'Deve descarregar diretamente o Ficheiro ou guardá-lo na sua diretoria.',
+	'DOWNLOAD_STORE_EXPLAIN'	=> 'Deve descarregar diretamente o Ficheiro ou guardá-lo na sua pasta.',
 	'DOWNLOADS'					=> 'Transferências',
 
 	'EDIT'						=> 'Editar',
@@ -342,7 +342,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_INTRO'					=> 'Obrigado por usar o phpBB3 no seu Fórum. Esta página apresenta as Estatísticas Gerais do Fórum. À esquerda encontra os menus de acesso ao Painel de Administração. Cada um deles contém instruções de configuração.',
 	'ADMIN_LOG'						=> 'Registos da ações dos Administradores',
 	'ADMIN_LOG_INDEX_EXPLAIN'		=> 'Este registo mostra as últimas cinco ações dos Administradores. Uma cópia completa do registo está disponível no item apropriado do Menu ou seguindo o atalho abaixo.',
-	'AVATAR_DIR_SIZE'				=> 'Tamanho da diretoria dos avatares',
+	'AVATAR_DIR_SIZE'				=> 'Tamanho da pasta dos avatares',
 
 	'BOARD_STARTED'					=> 'Data de criação do Fórum',
 	'BOARD_VERSION'					=> 'Versão do phpBB',
@@ -358,14 +358,14 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'A conversão de entrada de caracteres via HTTP não se encontra configurada corretamente',
 	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> tem de estar configurado como <samp>pass</samp>. Pode verificar o valor atual em <samp>informação PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'A conversão de saída de caracteres via HTTP não se encontra configurada corretamente',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> tem de estar configurado como <samp>pass</samp>. Pode verificar o valor actual em <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> tem de estar configurado como <samp>pass</samp>. Pode verificar o valor atual em <samp>informação PHP</samp>.',
 
 	'FILES_PER_DAY'					=> 'Média de Anexos diários',
 	'FORUM_STATS'					=> 'Estatísticas do Fórum',
 
 	'GZIP_COMPRESSION'				=> 'Compressão Gzip',
 
-	'NO_SEARCH_INDEX'				=> 'O modo de pesquisa selecionado não possui um índice de pesquisa.<br />Por favor, crie o índice para “%1$s” na seção %2$spesquisa de índice%3$s.',
+	'NO_SEARCH_INDEX'				=> 'O modo de pesquisa selecionado não possui um índice de pesquisa.<br />Por favor, crie o índice para “%1$s” na secção %2$spesquisa de índice%3$s.',
 	'NOT_AVAILABLE'					=> 'Não Disponível',
 	'NUMBER_FILES'					=> 'Número de Anexos',
 	'NUMBER_POSTS'					=> 'Número de Mensagens',
@@ -383,19 +383,19 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE_SUCCESS'			=> 'A Cache foi limpa com sucesso.',
 
 	'PURGE_SESSIONS'				=> 'Encerrar todas as sessões',
-	'PURGE_SESSIONS_CONFIRM'		=> 'Tem certeza que desejar para encerrar todas as sessões? Esta ação encerra as sessões de todos os utilizadores.',
-	'PURGE_SESSIONS_EXPLAIN'		=> 'Esta ação encerra a tabela de sessões, provocando a saida de todos os utilizadores.',
+	'PURGE_SESSIONS_CONFIRM'		=> 'Tem a certeza que desejar para encerrar todas as sessões? Esta ação encerra as sessões de todos os utilizadores.',
+	'PURGE_SESSIONS_EXPLAIN'		=> 'Esta ação encerra a tabela de sessões, provocando a saída de todos os utilizadores.',
 	'PURGE_SESSIONS_SUCCESS'		=> 'Todas as sessões encerradas com sucesso.',
 
 	'RESET_DATE'					=> 'Reiniciar data de fundação do Fórum',
-	'RESET_DATE_CONFIRM'			=> 'Tem certeza que deseja reiniciar a data de fundação do Fórum?',
+	'RESET_DATE_CONFIRM'			=> 'Tem a certeza que deseja reiniciar a data de fundação do Fórum?',
 	'RESET_DATE_SUCCESS'			=> 'Data de fundação do Fórum reiniciada com sucesso',
 	'RESET_ONLINE'					=> 'Reiniciar estatísticas dos utilizadores online',
 	'RESET_ONLINE_CONFIRM'			=> 'Tem a certeza que deseja reiniciar o contador do recorde de utilizadores online?',
 	'RESET_ONLINE_SUCCESS'			=> 'Recorde de utilizadores online reiniciado com sucesso',
 	'RESYNC_POSTCOUNTS'				=> 'Sincronizar contagem de Mensagens',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Apenas são consideradas as mensagens atuais.',
-	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Tem certeza que deseja ressincronizar o contador de mensagens?',
+	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Tem a certeza que deseja ressincronizar o contador de mensagens?',
 	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'Ressincronizar contador de mensagens',
 	'RESYNC_POST_MARKING'			=> 'Ressincronizar "Tópicos Marcados"',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Tem a certeza que deseja sincronizar os "Tópicos Marcados"?',
@@ -410,11 +410,11 @@ $lang = array_merge($lang, array(
 	'STATISTIC'						=> 'Estatísticas',
 	'STATISTIC_RESYNC_OPTIONS'		=> 'Sincronizar ou reiniciar as estatísticas',
 
-	'TIMEZONE_INVALID'				=> 'A timezone que selecionou é inválida',
-	'TIMEZONE_SELECTED'				=> '(selecionada atualmente)',
+	'TIMEZONE_INVALID'				=> 'O fuso horário que selecionou é inválido',
+	'TIMEZONE_SELECTED'				=> '(selecionado atualmente)',
 	'TOPICS_PER_DAY'				=> 'Média de Tópicos diários',
 
-	'UPLOAD_DIR_SIZE'				=> 'Tamanho da diretoria dos anexos',
+	'UPLOAD_DIR_SIZE'				=> 'Tamanho da pasta dos anexos',
 	'USERS_PER_DAY'					=> 'Média de Registos diários',
 
 	'VALUE'							=> 'Valor',
@@ -454,7 +454,7 @@ $lang = array_merge($lang, array(
 
 // Send statistics page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'		=> 'Por favor, envie informação acerca do seu servidor e configurações do Fórum para análise de estatística do phpBB. Toda a informação que possa identificá-lo a si ou ao seu website será removida - os dados são totalmente <strong>anónimos</strong>. Basearemos as nossas decisões sobre as futuras versões de phpBB com esta informação. As estatísticas serão publicamente disponibilizadas. Compartilharemos igualmente os dados com o projeto PHP, a linguagem de programação phpBB é baseada nele.',
+	'EXPLAIN_SEND_STATISTICS'		=> 'Por favor, envie informação acerca do seu servidor e configurações do Fórum para análise de estatística do phpBB. Toda a informação que possa identificá-lo a si ou ao seu website será removida - os dados são totalmente <strong>anónimos</strong>. Basearemos as nossas decisões sobre as futuras versões de phpBB com esta informação. As estatísticas serão publicamente disponibilizadas. Compartilharemos igualmente os dados com o projecto PHP, a linguagem de programação phpBB é baseada nele.',
 	'EXPLAIN_SHOW_STATISTICS'		=> 'Usando o botão abaixo pode visualizar todas as variáveis que serão transmitidas.',
 	'DONT_SEND_STATISTICS'			=> 'Clique aqui para entrar no ACP, se não deseja enviar as informações estatísticas para o phpBB.',
 	'GO_ACP_MAIN'					=> 'Ir para a página inicial do ACP',
@@ -508,7 +508,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_BAN_EXCLUDE_USER'					=> '<strong>Utilizador Apagado por Expulsão</strong> porque "<em>%1$s</em>"<br />» %2$s ',
 	'LOG_BAN_EXCLUDE_IP'					=> '<strong>Endereço de IP Apagado por Expulsão</strong> porque "<em>%1$s</em>"<br />» %2$s ',
-	'LOG_BAN_EXCLUDE_EMAIL'					=> '<strong>Endereço de Email Apagado por Expulsão</strong> porque "<em>%1$s</em>"<br />» %2$s ',
+	'LOG_BAN_EXCLUDE_EMAIL'					=> '<strong>Endereço de email Apagado por Expulsão</strong> porque "<em>%1$s</em>"<br />» %2$s ',
 	'LOG_BAN_USER'							=> '<strong>Utilizador Expulso</strong> por "<em>%1$s</em>"<br />» %2$s ',
 	'LOG_BAN_IP'							=> '<strong>Endereço de IP Banido</strong> por "<em>%1$s</em>"<br />» %2$s',
 	'LOG_BAN_EMAIL'							=> '<strong>Endereço de email Banido</strong> por "<em>%1$s</em>"<br />» %2$s',
@@ -540,7 +540,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_MESSAGE'					=> '<strong>Configurações de Mensagem Privada Alteradas</strong>',
 	'LOG_CONFIG_POST'						=> '<strong>Configurações de Mensagem Alteradas</strong>',
 	'LOG_CONFIG_REGISTRATION'				=> '<strong>Configurações de Registo Alteradas</strong>',
-	'LOG_CONFIG_FEED'						=> '<strong>Configurações syndication feeds alteradas</strong>',
+	'LOG_CONFIG_FEED'						=> '<strong>Configurações de Syndication Feeds alteradas</strong>',
 	'LOG_CONFIG_SEARCH'						=> '<strong>Configurações de Pesquisa Alteradas</strong>',
 	'LOG_CONFIG_SECURITY'					=> '<strong>Configurações de Segurança Alteradas</strong>',
 	'LOG_CONFIG_SERVER'						=> '<strong>Configurações do Servidor Alteradas</strong>',
@@ -573,7 +573,7 @@ $lang = array_merge($lang, array(
 	'LOG_SPLIT_DESTINATION'					=> '<strong>Tópico Subdividido</strong><br />» para %s',
 	'LOG_SPLIT_SOURCE'						=> '<strong>Mensagens Subdivididas</strong><br />» de %s',
 
-	'LOG_TOPIC_APPROVED'					=> '<strong>Tópido Aprovado</strong><br />» %s',
+	'LOG_TOPIC_APPROVED'					=> '<strong>Tópico Aprovado</strong><br />» %s',
 	'LOG_TOPIC_RESTORED'					=> '<strong>Foi restaurado o Tópico </strong><br />» %s',
 	'LOG_TOPIC_DISAPPROVED'					=> '<strong>Tópico Desaprovado “%1$s” escrito por “%3$s” pelo seguinte motivo</strong><br />» %2$s',
 	'LOG_TOPIC_RESYNC'						=> '<strong>Contadores de Tópicos Ressincronizados</strong><br />» %s',
@@ -633,7 +633,7 @@ $lang = array_merge($lang, array(
 	'LOG_INSTALL_CONVERTED'					=> '<strong>Atualizado de %1$s para o phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'					=> '<strong>Versão do phpBB instalada %s</strong>',
 
-	'LOG_IP_BROWSER_FORWARDED_CHECK'		=> '<strong>A verificação da sessão de IP/navegador/X_FORWARDED_FOR falhou</strong><br />»Verificado o endereço de IP do Utilizador "<em>%1$s</em>" em contraste com a sessão de IP "<em>%2$s</em>", verificado o navegador do Utilizadores "<em>%3$s</em>" em contraste com a sessão de navegador "<em>%4$s</em>" e verificado o X_FORWARDED_FOR do usuário "<em>%5$s</em>" em contraste com a sessão de X_FORWARDED_FOR "<em>%6$s</em>".',
+	'LOG_IP_BROWSER_FORWARDED_CHECK'		=> '<strong>A verificação da sessão de IP/navegador/X_FORWARDED_FOR falhou</strong><br />»Verificado o endereço de IP do Utilizador "<em>%1$s</em>" em contraste com a sessão de IP "<em>%2$s</em>", verificado o navegador dos Utilizadores "<em>%3$s</em>" em contraste com a sessão de navegador "<em>%4$s</em>" e verificado o X_FORWARDED_FOR do utilizador "<em>%5$s</em>" em contraste com a sessão de X_FORWARDED_FOR "<em>%6$s</em>".',
 
 	'LOG_JAB_CHANGED'						=> '<strong>Registo de Jabber Alterado</strong>',
 	'LOG_JAB_PASSCHG'						=> '<strong>Senha de Jabber Alterada</strong>',
@@ -671,7 +671,7 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'						=> '<strong>Tarefa do Utilizador Editada</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'					=> '<strong>Tarefa do Utilizador Apagada</strong><br />» %s',
 
-	'LOG_PLUPLOAD_TIDY_FAILED'				=> '<strong>Não foi possível abrir %1$s para arrumação, verifique as permissões.</strong><br />Exception: %2$s<br />Trace: %3$s',
+	'LOG_PLUPLOAD_TIDY_FAILED'				=> '<strong>Não foi possível abrir %1$s para arrumação, verifique as permissões.</strong><br />Exceção: %2$s<br />Rastreio: %3$s',
 
 	'LOG_PROFILE_FIELD_ACTIVATE'			=> '<strong>Campo do Perfil Ativado</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'				=> '<strong>Campo do Perfil Adicionado</strong><br />» %s',
@@ -708,15 +708,15 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_CREATED'				=> '<strong>Índice de busca criado por</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'				=> '<strong>Índice de busca excluído por</strong><br />» %s',
 	'LOG_SPHINX_ERROR'						=> '<strong>Erro de Sphinx</strong><br />» %s',
-	'LOG_STYLE_ADD'							=> '<strong>Template Adicionada</strong><br />» %s',
-	'LOG_STYLE_DELETE'						=> '<strong>Template Apagada</strong><br />» %s',
-	'LOG_STYLE_EDIT_DETAILS'				=> '<strong>Template Editada</strong><br />» %s',
-	'LOG_STYLE_EXPORT'						=> '<strong>Template Exportada</strong><br />» %s',
+	'LOG_STYLE_ADD'							=> '<strong>Template Adicionado</strong><br />» %s',
+	'LOG_STYLE_DELETE'						=> '<strong>Template Apagado</strong><br />» %s',
+	'LOG_STYLE_EDIT_DETAILS'				=> '<strong>Template Editado</strong><br />» %s',
+	'LOG_STYLE_EXPORT'						=> '<strong>Template Exportado</strong><br />» %s',
 
 	// @deprecated 3.1
-	'LOG_TEMPLATE_ADD_DB'					=> '<strong>Nova Template Adicionada na Base de Dados</strong><br />» %s',
+	'LOG_TEMPLATE_ADD_DB'					=> '<strong>Novo Template Adicionado à Base de Dados</strong><br />» %s',
 	// @deprecated 3.1
-	'LOG_TEMPLATE_ADD_FS'					=> '<strong>Adicionar nova Template no Sistema</strong><br />» %s',
+	'LOG_TEMPLATE_ADD_FS'					=> '<strong>Adicionar novo Template no Sistema</strong><br />» %s',
 	'LOG_TEMPLATE_CACHE_CLEARED'			=> '<strong>Versões da Cache de Ficheiros do Template Apagados <em>%1$s</em></strong><br />» %2$s',
 	'LOG_TEMPLATE_DELETE'					=> '<strong>Template Apagado</strong><br />» %s',
 	'LOG_TEMPLATE_EDIT'						=> '<strong>Template Editado <em>%1$s</em></strong><br />» %2$s',
@@ -741,9 +741,9 @@ $lang = array_merge($lang, array(
 	'LOG_UPDATE_PHPBB'						=> '<strong>O phpBB foi atualizado da Versão %1$s para a Versão %2$s</strong>',
 
 	'LOG_USER_ACTIVE'						=> '<strong>Utilizador Ativado</strong><br />» %s',
-	'LOG_USER_BAN_USER'						=> '<strong>Utilizador Banido pela Adminstração de Utilizadores</strong> pela razão "<em>%1$s</em>"<br />» %2$s',
-	'LOG_USER_BAN_IP'						=> '<strong>Endereço de IP Banido pela Adminstração de Utilizadores</strong> pela razão "<em>%1$s</em>"<br />» %2$s',
-	'LOG_USER_BAN_EMAIL'					=> '<strong>Endereço de email Banido pela Adminstração de Utilizadores</strong> pela razão "<em>%1$s</em>"<br />» %2$s',
+	'LOG_USER_BAN_USER'						=> '<strong>Utilizador Banido pela Administração de Utilizadores</strong> pela razão "<em>%1$s</em>"<br />» %2$s',
+	'LOG_USER_BAN_IP'						=> '<strong>Endereço de IP Banido pela Administração de Utilizadores</strong> pela razão "<em>%1$s</em>"<br />» %2$s',
+	'LOG_USER_BAN_EMAIL'					=> '<strong>Endereço de email Banido pela Administração de Utilizadores</strong> pela razão "<em>%1$s</em>"<br />» %2$s',
 	'LOG_USER_DELETED'						=> '<strong>Utilizador Apagado</strong><br />» %s',
 	'LOG_USER_DEL_ATTACH'					=> '<strong>Todos os Anexos do Utilizador Apagados</strong><br />» %s',
 	'LOG_USER_DEL_AVATAR'					=> '<strong>Avatar do Utilizador Apagado</strong><br />» %s',

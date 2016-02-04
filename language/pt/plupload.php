@@ -9,7 +9,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo OrtogrÃ¡fico
 */
 
 /**
@@ -39,32 +39,32 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'PLUPLOAD_ADD_FILES'		=> 'Adicionar ficheiros',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Adicione ficheiros à fila de envio e clique no botão Iniciar.',
-	'PLUPLOAD_ALREADY_QUEUED'	=> '%s já está na fila.',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Adicione ficheiros Ã  fila de envio e clique no botÃ£o Iniciar.',
+	'PLUPLOAD_ALREADY_QUEUED'	=> '%s jÃ¡ estÃ¡ na fila.',
 	'PLUPLOAD_CLOSE'			=> 'Fechar',
 	'PLUPLOAD_DRAG'				=> 'Arraste ficheiros para aqui.',
 	'PLUPLOAD_DUPLICATE_ERROR'	=> 'Erro de ficheiro duplicado.',
 	'PLUPLOAD_DRAG_TEXTAREA'	=> 'Pode anexar ficheiros arrastando-os e soltando-os na caixa de mensagem.',
 	'PLUPLOAD_ERR_INPUT'		=> 'Falha ao abrir fluxo de entrada.',
 	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Falha ao mover o ficheiro enviado.',
-	'PLUPLOAD_ERR_OUTPUT'		=> 'Falha ao abrir fluxo de saída.',
+	'PLUPLOAD_ERR_OUTPUT'		=> 'Falha ao abrir fluxo de saÃ­da.',
 	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'Ficheiro muito grande:',
 	'PLUPLOAD_ERR_FILE_COUNT'	=> 'Erro na contagem de ficheiros.',
-	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'Extensão de ficheiro inválida:',
-	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'Não há memória RAM disponível.',
-	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'URL carregado está errado ou não existe.',
-	'PLUPLOAD_EXTENSION_ERROR'	=> 'Extensão do ficheiro errada.',
+	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'ExtensÃ£o de ficheiro invÃ¡lida:',
+	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'NÃ£o hÃ¡ memÃ³ria RAM disponÃ­vel.',
+	'PLUPLOAD_ERR_UPLOAD_URL'	=> 'URL carregado estÃ¡ errado ou nÃ£o existe.',
+	'PLUPLOAD_EXTENSION_ERROR'	=> 'ExtensÃ£o do ficheiro errada.',
 	'PLUPLOAD_FILE'				=> 'Ficheiro: %s',
-	'PLUPLOAD_FILE_DETAILS'		=> 'Ficheiro: %s, tamanho: %d, tamanho máximo do ficheiro: %d',
+	'PLUPLOAD_FILE_DETAILS'		=> 'Ficheiro: %s, tamanho: %d, tamanho mÃ¡ximo do ficheiro: %d',
 	'PLUPLOAD_FILENAME'			=> 'Nome do ficheiro',
 	'PLUPLOAD_FILES_QUEUED'		=> '%d ficheiros na fila',
-	'PLUPLOAD_GENERIC_ERROR'	=> 'Erro genérico.',
+	'PLUPLOAD_GENERIC_ERROR'	=> 'Erro genÃ©rico.',
 	'PLUPLOAD_HTTP_ERROR'		=> 'Erro HTTP.',
-	'PLUPLOAD_IMAGE_FORMAT'		=> 'Formato da imagem errado ou não suportado.',
+	'PLUPLOAD_IMAGE_FORMAT'		=> 'Formato da imagem errado ou nÃ£o suportado.',
 	'PLUPLOAD_INIT_ERROR'		=> 'Erro Init.',
 	'PLUPLOAD_IO_ERROR'			=> 'Erro IO.',
 	'PLUPLOAD_NOT_APPLICABLE'	=> 'N/A',
-	'PLUPLOAD_SECURITY_ERROR'	=> 'Erro de segurança.',
+	'PLUPLOAD_SECURITY_ERROR'	=> 'Erro de seguranÃ§a.',
 	'PLUPLOAD_SELECT_FILES'		=> 'Selecione os ficheiros',
 	'PLUPLOAD_SIZE'				=> 'Tamanho',
 	'PLUPLOAD_SIZE_ERROR'		=> 'Erro no tamanho do ficheiro.',
@@ -75,5 +75,5 @@ $lang = array_merge($lang, array(
 	'PLUPLOAD_STOP_CURRENT_UPLOAD'	=> 'Parar envio atual',
 	// Note: This string is formatted independently by plupload and so does not
 	// use the same formatting rules as normal phpBB translation strings
-	'PLUPLOAD_UPLOADED'			=> 'Enviados %d/%d ficheros',
+	'PLUPLOAD_UPLOADED'			=> 'Enviados %d/%d ficheiros',
 ));

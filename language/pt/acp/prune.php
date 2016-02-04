@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'		=> 'Esta secção permite excluir ou desativar Utilizadores do Fórum. As contas podem ser filtradas de várias maneiras: pela contagem de mensagens, atividade mais recente, etc. Os critérios podem ser combinados para determinar as contas afetadas. Por exemplo, pode selecionar os Utilizadores com menos de 10 mensagens, inativos de 01/01/2002. Use um * como complemento para campos de texto. Alternativamente, pode não usar a seleção por critérios, introduzindo a lista de Utilizadores (um por linha) no campo de texto. Tenha cuidado com este recurso! Depois de excluir um Utilizador não é possível reverter a ação.',
+	'ACP_PRUNE_USERS_EXPLAIN'		=> 'Esta secção permite excluir ou desativar Utilizadores do Fórum. As contas podem ser filtradas de várias maneiras: pela contagem de mensagens, atividade mais recente, etc. Os critérios podem ser combinados para determinar as contas afectadas. Por exemplo, pode selecionar os Utilizadores com menos de 10 mensagens, inativos de 01/01/2002. Use um * como complemento para campos de texto. Alternativamente, pode não usar a seleção por critérios, introduzindo a lista de Utilizadores (um por linha) no campo de texto. Tenha cuidado com este recurso! Depois de excluir um Utilizador não é possível reverter a ação.',
 
 	'CRITERIA'						=> 'Critérios',
 
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'POSTS_ON_QUEUE'				=> 'Mensagens a aguardar aprovação',
 	'PRUNE_USERS_GROUP_EXPLAIN'		=> 'Limite de utilizadores no grupo selecionado.',
 	'PRUNE_USERS_GROUP_NONE'		=> 'Todos os grupos',
-	'PRUNE_USERS_LIST'				=> 'Limpeza automatica de Utilizadores',
+	'PRUNE_USERS_LIST'				=> 'Limpeza automática de Utilizadores',
 	'PRUNE_USERS_LIST_DELETE'		=> 'Se selecionar este critério, os Utilizadores terão as suas contas removidas.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Se selecionar este critério, os Utilizadores terão as suas contas desativadas.',
 
@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'PRUNE_ANNOUNCEMENTS'			=> 'Limpar Anúncios',
 	'PRUNE_FINISHED_POLLS'			=> 'Limpar Votações Encerradas',
 	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Apagar Tópicos com Votações concluídas',
-	'PRUNE_FORUM_CONFIRM'			=> 'Tem a certeza de que deseja ativar a limpeza automatica nos Fóruns selecionados com as configurações especificadas? Os Tópicos e Mensagens apagados não podem ser recuperados.',
+	'PRUNE_FORUM_CONFIRM'			=> 'Tem a certeza que deseja ativar a limpeza automática nos Fóruns selecionados com as configurações especificadas? Os Tópicos e Mensagens apagados não podem ser recuperados.',
 	'PRUNE_NOT_POSTED'				=> 'Dias desde o último enviado',
 	'PRUNE_NOT_VIEWED'				=> 'Dias desde o último visualizado',
 	'PRUNE_OLD_POLLS'				=> 'Limpar votações Antigas',

@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 	'NO_MODULE'						=> 'Nenhum módulo foi encontrado.',
 	'NO_MODULE_ID'					=> 'A ID do Módulo não foi especificada.',
 	'NO_MODULE_LANGNAME'			=> 'O Nome do Idioma do Módulo não foi especificado.',
-	'NO_PARENT'						=> 'Sem Pais no momento',
+	'NO_PARENT'						=> 'Sem Pais de momento',
 
 	'PARENT'						=> 'Pais',
 	'PARENT_NO_EXIST'				=> 'O Pai selecionado não existe.',

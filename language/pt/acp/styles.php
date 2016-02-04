@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ACP_STYLES_EXPLAIN'			=> 'O gestor de estilos permite alterar estilos existentes, apagar, desinstalar, reinstalar e instalar novos. Também pode ver como será o seu estilo usando a função de pré-visualização. É mostrado o número de utilizadores de cada estilo. No entanto, a função Sobrepor Estilo do Utilizador, não reflete esta contagem.',
 
 	'CANNOT_BE_INSTALLED'			=> 'Não pode ser instalado',
-	'CONFIRM_UNINSTALL_STYLES'		=> 'Tem certeza de deseja desinstalar os estilos selecionados?',
+	'CONFIRM_UNINSTALL_STYLES'		=> 'Tem a certeza de deseja desinstalar os estilos selecionados?',
 	'COPYRIGHT'						=> 'Copyright',
 
 	'DEACTIVATE_DEFAULT'			=> 'Não pode desativar o Estilo Padrão.',
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_STYLES_EXPLAIN'		=> 'Aqui pode instalar um novo Estilo e elementos correspondentes. Se já tem instalados os elementos relevantes do Estilo serão substituídos. Alguns Estilos necessitam que os elementos do Estilo já estejam instalados. Se tentar instalar um Estilo e os seus elementos ainda não estiverem instalados será avisado.',
 	'INVALID_STYLE_ID'				=> 'A ID do estilo inválida.',
 
-	'NO_MATCHING_STYLES_FOUND'		=> 'No styles match your query.',
+	'NO_MATCHING_STYLES_FOUND'		=> 'Nenhum estilo coincide com a sua query.',
 	'NO_UNINSTALLED_STYLE'			=> 'Não há estilos desinstalados.',
 
 	'PURGED_CACHE'					=> 'A Cache foi limpa.',
@@ -84,5 +84,5 @@ $lang = array_merge($lang, array(
 
 	'UNINSTALL_DEFAULT'				=> 'Não é possível desinstalar o estilo padrão.',
 
-	'BROWSE_STYLES_DATABASE'	=> 'Navegue banco de dados estilos',
+	'BROWSE_STYLES_DATABASE'	=> 'Visite o repositório de estilos',
 ));
