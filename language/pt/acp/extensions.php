@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS_EXPLAIN'		=> 'O Gestor de Extensões é uma ferramenta do phpBB que permite gerir todas as suas extensões e exibir as respetivas informações.',
 	'EXTENSION_INVALID_LIST'	=> 'A Extensão “%s” não é válida.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'A extensão selecionada não está disponível para este Fórum, por favor, verifique versões do phpBB e PHP permitidas (veja a página de detalhes).',
-	'EXTENSION_DIR_INVALID'		=> 'A extensão selecionada não pode ser ativada porque tem uma estrutura de diretorias inválida.',
+	'EXTENSION_DIR_INVALID'		=> 'A extensão selecionada não pode ser ativada porque tem uma estrutura de pastas inválida.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'A extensão selecionada não pode ser ativada, por favor, verifique os requisitos do extensão.',
 
 	'DETAILS'				=> 'Detalhes',
@@ -71,8 +71,8 @@ $lang = array_merge($lang, array(
 	'EXTENSION_INSTALL_HEADLINE'=> 'Instalando uma extensão',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
 			<li>Baixe uma extensão do banco de dados de extensões do phpBB</li>
-			<li>Descompacte a extensão e a envie para o diretório <samp>ext/</samp> do seu fórum phpBB</li>
-			<li>Ative a extensão, aqui no gerenciador de Extensões</li>
+			<li>Descompacte a extensão e a envie para a pasta <samp>ext/</samp> do seu fórum phpBB</li>
+			<li>Ative a extensão, aqui no gestor de Extensões</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Atualizar extensões',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
@@ -115,10 +115,10 @@ $lang = array_merge($lang, array(
 	'AUTHOR_HOMEPAGE'		=> 'Homepage',
 	'AUTHOR_ROLE'			=> 'Função',
 
-	'NOT_UP_TO_DATE'		=> '%s não está actualizado',
+	'NOT_UP_TO_DATE'		=> '%s não está atualizado',
 	'UP_TO_DATE'			=> '%s está atualizado',
 	'ANNOUNCEMENT_TOPIC'	=> 'Anúncio de Lançamento',
-	'DOWNLOAD_LATEST'		=> 'Versão para tRANSFERÊNCIA',
+	'DOWNLOAD_LATEST'		=> 'Versão para Transferência',
 	'NO_VERSIONCHECK'		=> 'Não foi obtida de nenhuma informação de versão.',
 
 	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Verificar novamente todas as versões',

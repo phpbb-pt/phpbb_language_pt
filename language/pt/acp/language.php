@@ -40,13 +40,13 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Administração de idiomas',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'O gestor de idiomas permite instalar e desinstalar idiomas no Fórum. O Idioma pré-definido está marcado com um asterisco (*).',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Tem certeza que deseja apagar “%s”?',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Tem a certeza que deseja apagar “%s”?',
 
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Pacotes de idiomas instalados',
 
 	'LANGUAGE_DETAILS_UPDATED'		=> 'A Configuração dos idiomas foi atualizada com sucesso.',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'=> 'O Pacote de idiomas já se encontra instalado.',
-	'LANGUAGE_PACK_DELETED'			=> 'O Pacote de idioma “%s” foi removido com sucesso. Foi atribuido o idioma padrão a todos os utilizadores que usavam essa linguagem.',
+	'LANGUAGE_PACK_DELETED'			=> 'O Pacote de idioma “%s” foi removido com sucesso. Foi atribuído o idioma padrão a todos os utilizadores que usavam essa linguagem.',
 	'LANGUAGE_PACK_DETAILS'			=> 'Detalhes do Pacote de idiomas',
 	'LANGUAGE_PACK_INSTALLED'		=> 'O Pacote de idiomas %s foi instalado com sucesso.',
 	'LANGUAGE_PACK_CPF_UPDATE'		=> 'A informação dos campos do perfil personalizado foi copiada do idioma padrão. Altere se necessário.',
@@ -74,5 +74,5 @@ $lang = array_merge($lang, array(
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Pacote de idiomas desinstalados',
 
-	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Browse language packs database',
+	'BROWSE_LANGUAGE_PACKS_DATABASE'	=> 'Ver repositório de idiomas',
 ));

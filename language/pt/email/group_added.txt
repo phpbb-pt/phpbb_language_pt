@@ -1,6 +1,6 @@
 Subject: Bem-vindo ao Grupo
 
-Congratulations,
+Parabéns,
 
 Foi adicionado ao Grupo "{GROUP_NAME}" em "{SITENAME}".
 Este procedimento é da responsabilidade do Líder do Grupo ou do Administrador do Fórum. Contacte-o para mais informações.

@@ -1,10 +1,10 @@
 Subject: Registo desativado
 
-Olá {USERNAME};
+Olá, {USERNAME};
 
 Devido a uma alteração do seu Perfil em "{SITENAME}" o registo necessita de ser reativado.
 
-Para voltar a entrar em "{SITENAME} é necessário que um Administrador reative a sua conta.
+Para voltar a entrar em "{SITENAME} é necessário que um Administrador Reative a sua conta.
 Quando isso acontecer será notificado por email.
 
 

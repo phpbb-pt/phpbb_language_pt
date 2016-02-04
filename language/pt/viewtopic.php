@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_NOT_FOUND_404'				=> 'O Ficheiro <strong>%s</strong> não existe.',
 	'FORK_TOPIC'						=> 'Copiar Tópico',
-	'FULL_EDITOR'						=> 'Editor completo',	
+	'FULL_EDITOR'						=> 'Editor completo',
 
 	'LINKAGE_FORBIDDEN'					=> 'Não está autorizado a ver o atalho para esta página.',
 	'LOGIN_NOTIFY_TOPIC'				=> 'Foi notificado por este Tópico, ligue-se para vê-lo.',
@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 
 	'VIEW_INFO'							=> 'Detalhes da Mensagem',
 	'VIEW_NEXT_TOPIC'					=> 'Próximo Tópico',
-	'VIEW_PREVIOUS_TOPIC'				=> 'Tópico anterior',
+	'VIEW_PREVIOUS_TOPIC'				=> 'Tópico Anterior',
 	'VIEW_RESULTS'						=> 'Ver Resultado',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d mensagem',
@@ -121,6 +121,6 @@ $lang = array_merge($lang, array(
 	),
 	'VIEW_UNREAD_POST'					=> 'Mensagens por ler',
 	'VOTE_SUBMITTED'					=> 'O seu voto foi registado.',
-	'VOTE_CONVERTED'					=> 'Não é possível alterar votos .',
+	'VOTE_CONVERTED'					=> 'Não é possível alterar votos.',
 
 ));

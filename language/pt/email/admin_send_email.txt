@@ -1,5 +1,5 @@
 
-Este email foi enviado pelo Administrador de "{SITENAME}". Se há material abusivo, "spam", ou comentários que considera ofensivos contate o seguinte endereço:
+Este email foi enviado pelo Administrador de "{SITENAME}". Se há material abusivo, "spam", ou comentários que considera ofensivos contacte o seguinte endereço:
 
 {CONTACT_EMAIL}
 

@@ -1,5 +1,5 @@
 
-Olá {TO_USERNAME},
+Olá, {TO_USERNAME},
 
 Segue-se, um email enviado para si através da página de contacto da administração em "{SITENAME}".
 

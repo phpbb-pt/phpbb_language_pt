@@ -1,12 +1,12 @@
 Subject: Recebeu uma nova Mensagem Privada
 
-Olá {USERNAME},
+Olá, {USERNAME},
 
 Tem uma mensagem privada nova de "{AUTHOR_NAME}" na sua conta em "{SITENAME}" com o seguinte assunto:
 
 {SUBJECT}
 
-Pode ver a sua nova mensagem clicando no seguinte link:
+Pode ver a sua nova mensagem clicando no seguinte endereço:
 
 {U_VIEW_MESSAGE}
 

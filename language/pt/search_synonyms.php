@@ -19,8 +19,10 @@ if (!defined('IN_PHPBB'))
 $synonyms = array(
 	'abençoar'				=> 'abençoado',
 	'abreviar'				=> 'reduzir',
+	'abr'					=> 'abril',
 	'acomodar'				=> 'relaxar',
 	'administração'			=> 'sustentação',
+	'ago'					=> 'agosto',
 	'altura'				=> 'estatura',
 	'andré'					=> 'nome',
 	'anemia'				=> 'doença',
@@ -59,9 +61,10 @@ $synonyms = array(
 
 	'defesa'				=> 'proteção',
 	'desconhecido' 			=> 'ignorado',
-	'descrição'				=> 'caraterísticas',
+	'descrição'				=> 'características',
 	'desculpas'				=> 'perdão',
 	'desenvolver'			=> 'progredir',
+	'dez'					=> 'dezembro',
 	'disciplina'	 		=> 'comportamento',
 
 	'enciclopédia'  		=> 'obras',
@@ -75,6 +78,7 @@ $synonyms = array(
 	'exorbitante'			=> 'exagero',
 	'exuberante'	 		=> 'abundante',
 
+	'fev'					=> 'fevereiro',
 	'favorito'				=> 'predileto',
 	'feto'					=> 'ser vivo',
 	'fição'					=> 'efeitos',
@@ -101,7 +105,9 @@ $synonyms = array(
 
 	'jan'					=> 'janeiro',
 	'jóias'					=> 'bijuteria',
+	'jul'					=> 'julho',
 	'julgamento'			=> 'sentença',
+	'jun'					=> 'junho',
 
 	'km'					=> 'quilómetro',
 
@@ -112,12 +118,14 @@ $synonyms = array(
 
 	'm'						=> 'metro',
 	'manutenção'			=> 'gerência',
+	'mai'					=> 'maio', 
 	'mar'					=> 'março', 
 	'medieval'				=> 'clássico',
 	'milha'					=> 'medida',
 	'miscelânea'			=> 'mistura',
 
 	'números'				=> 'quarenta',
+	'nov'					=> 'novembro',
 
 	'ocorrência'			=> 'acontecimento',
 	'ofensa'				=> 'mágoa',
@@ -125,6 +133,7 @@ $synonyms = array(
 	'omissão'				=> 'falta',
 	'organizar'				=> 'arrumar',
 	'optimizar'				=> 'óptimo',
+	'out'					=> 'Outubro',
 
 	'país'					=> 'não',
 	'paleografia'			=> 'decifrar',
@@ -145,7 +154,7 @@ $synonyms = array(
 	'porto'					=> 'parada',
 	'possuir'				=> 'ter',
 	'praticar'				=> 'desempenhar',
-	'projeto'				=> 'programa',
+	'projecto'				=> 'programa',
 	'vc'					=> 'você',
 	'tb'					=> 'também',
 	'tbr'					=> 'trabalhar',

@@ -45,19 +45,19 @@ $lang = array_merge($lang, array(
 	'ICON_ANNOUNCEMENT'				=> 'Anúncio',
 	'ICON_STICKY'					=> 'Fixo',
 
-	'LOGIN_NOTIFY_FORUM'			=> 'Foi notificado por este Fórum. Visite o Fórum para poder ver o aviso.',
+	'LOGIN_NOTIFY_FORUM'			=> 'Foi notificado por este Fórum, ligue-se para vê-lo.',
 
 	'MARK_TOPICS_READ'				=> 'Marcar todos os Tópicos como lidos',
 
 	'NEW_POSTS_HOT'					=> 'Novas Mensagens [ Popular ]',   // Not used anymore
-	'NEW_POSTS_LOCKED'				=> 'Novas Mensagens [ Fechado ]',   // Not used anymore
+	'NEW_POSTS_LOCKED'				=> 'Novas Mensagens [ Bloqueado ]',   // Not used anymore
 	'NO_NEW_POSTS_HOT'				=> 'Sem novas Mensagens [ Popular ]',   // Not used anymore
-	'NO_NEW_POSTS_LOCKED'			=> 'Sem novas Mensagens [ Fechado ]',   // Not used anymore
-	'NO_READ_ACCESS'				=> 'Não tem as Permissões para ler Tópicos neste Fórum.',
+	'NO_NEW_POSTS_LOCKED'			=> 'Sem novas Mensagens [ Bloqueado ]',   // Not used anymore
+	'NO_READ_ACCESS'				=> 'Não tem Permissões para ler Tópicos neste Fórum.',
 	'NO_UNREAD_POSTS_HOT'			=> 'Sem mensagens por ler [ Popular ]',
 	'NO_UNREAD_POSTS_LOCKED'		=> 'Sem mensagens por ler [ Bloqueado ]',
 
-	'POST_FORUM_LOCKED'				=> 'Fórum fechado',
+	'POST_FORUM_LOCKED'				=> 'Fórum bloqueado',
 
 	'TOPICS_MARKED'					=> 'Todos os Tópicos foram sinalizados como lidos.',
 

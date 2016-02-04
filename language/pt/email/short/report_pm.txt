@@ -1,10 +1,10 @@
 Subject: Denúncia de Mensagem Privada - "{TOPIC_TITLE}"
 
-Olá {USERNAME},
+Olá, {USERNAME},
 
 Está a receber esta notificação porque a Mensagem Privada intitulada "{SUBJECT}" de "{AUTHOR_NAME}" em "{SITENAME}" foi denunciada.
 
-Para ver o relatório, clique no seguinte link:
+Para ver o relatório, clique no seguinte endereço:
 {U_VIEW_REPORT}
 
 {EMAIL_SIG}

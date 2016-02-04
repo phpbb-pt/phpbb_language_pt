@@ -1,6 +1,6 @@
 Subject: {SITENAME} - Registo Ativado
 
-Olá {USERNAME};
+Olá, {USERNAME};
 
 O seu registo em "{SITENAME}" foi ativado. Já pode entrar no Fórum.
 
