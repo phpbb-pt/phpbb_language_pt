@@ -278,7 +278,7 @@ $lang = array_merge($lang, array(
 	'FTP_TIMEOUT'						=> 'Intervalo FTP',
 	'FTP_TIMEOUT_EXPLAIN'				=> 'Tempo, em segundos, que o sistema irá aguardar por uma resposta do seu servidor.',
 	'FTP_USERNAME'						=> 'Nome do Utilizador do FTP',
-	'FTP_USERNAME_EXPLAIN'				=> 'Nome de Utilizador utilizado para se conectar ao seu servidor.',
+	'FTP_USERNAME_EXPLAIN'				=> 'Nome de Utilizador utilizado para se conetar ao seu servidor.',
 
 	'GENERAL_ERROR'						=> 'Erro Geral',
 	'GB'								=> 'GB',
