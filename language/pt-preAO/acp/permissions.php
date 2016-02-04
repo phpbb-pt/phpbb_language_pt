@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 */
 
 /**
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'Nunca',
 	'ACL_SET'				=> 'Configurar Permissões',
-	'ACL_SET_EXPLAIN'		=> 'As Permissões são baseadas num sistema <strong>SIM</strong>/<strong>NÃO</strong>. A opção <strong>Nunca</strong> selecionada para um Utilizador ou Grupo sobrepor-se-á a todas as outras. Se não deseja atribuir um valor de qualquer opção para este Utilizador ou Grupo, selecione <strong>NÃO</strong>. Se valores são atribuídos para esta opção ou em outra qualquer, eles serão preferencialmente utilizados, senão o <strong>Nunca</strong> é assumido. Todos os objetos marcados (com a caixa de confirmação em frente a eles) irão copiar as permissões que definiu.',
+	'ACL_SET_EXPLAIN'		=> 'As Permissões são baseadas num sistema <strong>SIM</strong>/<strong>NÃO</strong>. A opção <strong>Nunca</strong> seleccionada para um Utilizador ou Grupo sobrepor-se-á a todas as outras. Se não deseja atribuir um valor de qualquer opção para este Utilizador ou Grupo, seleccione <strong>NÃO</strong>. Se valores são atribuídos para esta opção ou em outra qualquer, eles serão preferencialmente utilizados, senão o <strong>Nunca</strong> é assumido. Todos os objectos marcados (com a caixa de confirmação em frente a eles) irão copiar as permissões que definiu.',
 	'ACL_SETTING'			=> 'Configuração',
 
 	'ACL_TYPE_A_'			=> 'Permissões Administrativas',
@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 	'ACL_TYPE_LOCAL_F_'		=> 'Permissões de Fóruns',
 
 	'ACL_NO'				=> 'Não',
-	'ACL_VIEW'				=> 'Inspeção das Permissões',
+	'ACL_VIEW'				=> 'Inspecção das Permissões',
 	'ACL_VIEW_EXPLAIN'		=> 'Aqui pode ver as Permissões dos Utilizadores/Grupos. Um quadrado vermelho indica que o Utilizador/Grupo não tem a Permissão, um quadrado verde indica que o Utilizador/Grupo tem a Permissão.',
 	'ACL_YES'				=> 'Sim',
 
@@ -85,35 +85,35 @@ $lang = array_merge($lang, array(
 	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Aqui pode configurar Permissões de Moderadores Globais para Utilizadores e Grupos. Estes são Moderadores normais, exceto se tiverem acesso a todos Fóruns.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Aqui pode configurar Permissões de Fóruns para Grupos.',
 	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Aqui pode configurar as Permissões Globais dos Grupos - Permissões dos Utilizadores, Permissões Globais e Permissões Administrativas. As Permissões dos Utilizadores incluem o uso de Avatares, envio de Mensagens Privadas, etc. Permissões Globais como a Aprovação de Mensagens, Gestão de Tópicos, Gestão de Expulsões, etc. Por último, as Permissões Administrativas como a alteração de Permissões, definição de BBCodes, Gestão de Fóruns, etc. As Permissões dos Utilizadores individuais apenas devem ser alteradas em ocasiões muito especificas. Adicione os Utilizadores a um Grupo e altere as permissões do Grupo.',
-	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Aqui pode criar e configurar as Categorias dos Administradores. Cada Categoria tem as Permissões definidas pelo conjunto de funções selecionadas. Alterando uma função, altera as Permissões dos itens associados.',
-	'ACP_FORUM_ROLES_EXPLAIN'					=> 'Aqui pode criar e configurar as Categorias de acesso aos Fóruns. Cada Categoria tem as Permissões definidas pelo conjunto de funções selecionadas. Alterando uma função, altera as Permissões dos itens associados.',
-	'ACP_MOD_ROLES_EXPLAIN'						=> 'Aqui pode criar e configurar as Categorias dos Moderadores. Cada Categoria tem as Permissões definidas pelo conjunto de funções selecionadas. Alterando uma função, altera as Permissões dos itens associados.',
-	'ACP_USER_ROLES_EXPLAIN'					=> 'Aqui pode criar e configurar as Categorias dos Utilizadores. Cada Categoria tem as Permissões definidas pelo conjunto de funções selecionadas. Alterando uma função, altera as Permissões dos itens associados.',
+	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Aqui pode criar e configurar as Categorias dos Administradores. Cada Categoria tem as Permissões definidas pelo conjunto de funções seleccionadas. Alterando uma função, altera as Permissões dos itens associados.',
+	'ACP_FORUM_ROLES_EXPLAIN'					=> 'Aqui pode criar e configurar as Categorias de acesso aos Fóruns. Cada Categoria tem as Permissões definidas pelo conjunto de funções seleccionadas. Alterando uma função, altera as Permissões dos itens associados.',
+	'ACP_MOD_ROLES_EXPLAIN'						=> 'Aqui pode criar e configurar as Categorias dos Moderadores. Cada Categoria tem as Permissões definidas pelo conjunto de funções seleccionadas. Alterando uma função, altera as Permissões dos itens associados.',
+	'ACP_USER_ROLES_EXPLAIN'					=> 'Aqui pode criar e configurar as Categorias dos Utilizadores. Cada Categoria tem as Permissões definidas pelo conjunto de funções seleccionadas. Alterando uma função, altera as Permissões dos itens associados.',
 	'ACP_USERS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Aqui pode configurar as Permissões de Fóruns para Utilizadores.',
 	'ACP_USERS_PERMISSIONS_EXPLAIN'				=> 'Aqui pode configurar as Permissões Globais para Utilizadores. As Permissões de Utilizadores incluem autorização do uso de Avatares, envio de Mensagens Privadas, etc; Permissões Globais como a aprovação de mensagens, gestão de Tópicos, gestão de Expulsões etc; Por último, as Permissões Administrativas como a alteração de permissões, definição de BBCodes, gestão de Fóruns e etc. Para alterar estas configurações para um grande número de Utilizadores, o sistema de permissões de grupos é o método mais aconselhável. As Permissões dos Utilizadores individuais apenas devem ser alteradas em ocasiões muito especificas. Adicione os Utilizadores a um Grupo e altere as permissões do Grupo.',
-	'ACP_VIEW_ADMIN_PERMISSIONS_EXPLAIN'		=> 'Permissões Administrativas dos Utilizadores e/ou Grupos selecionados.',
-	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS_EXPLAIN'	=> 'Permissões de Moderador Global dos Utilizadores e/ou Grupos selecionados.',
-	'ACP_VIEW_FORUM_PERMISSIONS_EXPLAIN'		=> 'Permissões dos Utilizadores e/ou Grupos nos Fóruns selecionadas.',
-	'ACP_VIEW_FORUM_MOD_PERMISSIONS_EXPLAIN'	=> 'Permissões de Moderador de Fórum dos Utilizadores e/ou Grupos e Fóruns selecionadas.',
-	'ACP_VIEW_USER_PERMISSIONS_EXPLAIN'			=> 'Permissões de Utilizador dos Utilizadores e/ou Grupos selecionados.',
+	'ACP_VIEW_ADMIN_PERMISSIONS_EXPLAIN'		=> 'Permissões Administrativas dos Utilizadores e/ou Grupos seleccionados.',
+	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS_EXPLAIN'	=> 'Permissões de Moderador Global dos Utilizadores e/ou Grupos seleccionados.',
+	'ACP_VIEW_FORUM_PERMISSIONS_EXPLAIN'		=> 'Permissões dos Utilizadores e/ou Grupos nos Fóruns seleccionadas.',
+	'ACP_VIEW_FORUM_MOD_PERMISSIONS_EXPLAIN'	=> 'Permissões de Moderador de Fórum dos Utilizadores e/ou Grupos e Fóruns seleccionadas.',
+	'ACP_VIEW_USER_PERMISSIONS_EXPLAIN'			=> 'Permissões de Utilizador dos Utilizadores e/ou Grupos seleccionados.',
 
 	'ADD_GROUPS'					=> 'Adicionar Grupos',
 	'ADD_PERMISSIONS'				=> 'Adicionar Permissões',
 	'ADD_USERS'						=> 'Adicionar Utilizadores',
 	'ADVANCED_PERMISSIONS'			=> 'Permissões Avançadas',
-	'ALL_GROUPS'					=> 'Selecionar todos os Grupos',
+	'ALL_GROUPS'					=> 'Seleccionar todos os Grupos',
 	'ALL_NEVER'						=> 'Tudo <strong>Nunca</strong>',
 	'ALL_NO'						=> 'Tudo <strong>Não</strong>',
-	'ALL_USERS'						=> 'Selecionar Todos os Utilizadores',
+	'ALL_USERS'						=> 'Seleccionar Todos os Utilizadores',
 	'ALL_YES'						=> 'Tudo <strong>Sim</strong>',
 	'APPLY_ALL_PERMISSIONS'			=> 'Aplicar todas as Permissões',
 	'APPLY_PERMISSIONS'				=> 'Aplicar Permissões',
 	'APPLY_PERMISSIONS_EXPLAIN'		=> 'As Permissões e tarefas definidas para este item serão apenas aplicadas a este item e todos os itens marcados.',
-	'AUTH_UPDATED'					=> 'As Permissões foram atualizadas com sucesso.',
+	'AUTH_UPDATED'					=> 'As Permissões foram actualizadas com sucesso.',
 
-	'COPY_PERMISSIONS_CONFIRM'				=> 'Tem a certeza que pretende prosseguir com esta operação? Por favor, esteja ciente que isto irá sobrescrever quaisquer permissões existentes nos alvos selecionados.',
-	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'Selecione o Fórum cujas Permissões pretende copiar.',
-	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Selecione o Fórum cujas Permissões pretende definir.',
+	'COPY_PERMISSIONS_CONFIRM'				=> 'Tem a certeza que pretende prosseguir com esta operação? Por favor, esteja ciente que isto irá sobrescrever quaisquer permissões existentes nos alvos seleccionados.',
+	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'Seleccione o Fórum cujas Permissões pretende copiar.',
+	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Seleccione o Fórum cujas Permissões pretende definir.',
 	'COPY_PERMISSIONS_FROM'					=> 'Copiar Permissões de',
 	'COPY_PERMISSIONS_TO'					=> 'Aplicar Permissões a',
 
@@ -139,15 +139,15 @@ $lang = array_merge($lang, array(
 
 	'NO_AUTH_SETTING_FOUND'			=> 'A Configuração de Permissões não foi definida.',
 	'NO_ROLE_ASSIGNED'				=> 'Sem Tarefas atribuídas',
-	'NO_ROLE_ASSIGNED_EXPLAIN'		=> 'A Configuração para esta Tarefa não alterou as Permissões na direita. Se deseja desativar/excluir todas as Permissões deve utilizar o atalho "Tudo <strong>Não</strong>".',
+	'NO_ROLE_ASSIGNED_EXPLAIN'		=> 'A Configuração para esta Tarefa não alterou as Permissões na direita. Se deseja desactivar/excluir todas as Permissões deve utilizar o atalho "Tudo <strong>Não</strong>".',
 	'NO_ROLE_AVAILABLE'				=> 'Sem Tarefas Disponíveis',
 	'NO_ROLE_NAME_SPECIFIED'		=> 'Deve inserir o nome da Categoria',
 	'NO_ROLE_SELECTED'				=> 'A Tarefa não foi encontrada.',
-	'NO_USER_GROUP_SELECTED'		=> 'Não selecionou nenhum Utilizador ou Grupo.',
+	'NO_USER_GROUP_SELECTED'		=> 'Não seleccionou nenhum Utilizador ou Grupo.',
 
-	'ONLY_FORUM_DEFINED'			=> 'Apenas selecionou Fóruns. Selecione pelo menos um Utilizador ou um Grupo.',
+	'ONLY_FORUM_DEFINED'			=> 'Apenas seleccionou Fóruns. Seleccione pelo menos um Utilizador ou um Grupo.',
 
-	'PERMISSION_APPLIED_TO_ALL'		=> 'As Tarefas e Permissões também serão aplicadas a todos os objetos selecionados',
+	'PERMISSION_APPLIED_TO_ALL'		=> 'As Tarefas e Permissões também serão aplicadas a todos os objectos seleccionados',
 	'PLUS_SUBFORUMS'				=> '+ Subfóruns',
 
 	'REMOVE_PERMISSIONS'			=> 'Eliminar Permissões',
@@ -217,12 +217,12 @@ $lang = array_merge($lang, array(
 	'ROLE_NAME_ALREADY_EXIST'				=> 'Uma tarefa nomeada <strong>%s</strong> já existe para o Tipo de Permissão especificado.',
 	'ROLE_NOT_ASSIGNED'						=> 'A Categoria ainda não foi atribuída.',
 
-	'SELECTED_FORUM_NOT_EXIST'				=> 'Os Fóruns selecionados não existem.',
-	'SELECTED_GROUP_NOT_EXIST'				=> 'Os Grupos selecionados não existem.',
-	'SELECTED_USER_NOT_EXIST'				=> 'Os Utilizadores selecionados não existem.',
-	'SELECT_FORUM_SUBFORUM_EXPLAIN'			=> 'Nesta opção, selecionando um Fórum incluirá todos os seus Subfóruns.',
-	'SELECT_ROLE'							=> 'Selecionar Tarefa',
-	'SELECT_TYPE'							=> 'Selecionar Tipo',
+	'SELECTED_FORUM_NOT_EXIST'				=> 'Os Fóruns seleccionados não existem.',
+	'SELECTED_GROUP_NOT_EXIST'				=> 'Os Grupos seleccionados não existem.',
+	'SELECTED_USER_NOT_EXIST'				=> 'Os Utilizadores seleccionados não existem.',
+	'SELECT_FORUM_SUBFORUM_EXPLAIN'			=> 'Nesta opção, seleccionando um Fórum incluirá todos os seus Subfóruns.',
+	'SELECT_ROLE'							=> 'Seleccionar Tarefa',
+	'SELECT_TYPE'							=> 'Seleccionar Tipo',
 	'SET_PERMISSIONS'						=> 'Dar Permissões',
 	'SET_ROLE_PERMISSIONS'					=> 'Dar Permissões da Tarefa',
 	'SET_USERS_PERMISSIONS'					=> 'Dar Permissões de Utilizador',
@@ -250,7 +250,7 @@ $lang = array_merge($lang, array(
 	'TRACE_SETTING'							=> 'Configuração de Cópia',
 
 	'TRACE_USER_GLOBAL_YES_TOTAL_YES'		=> 'A Permissão de Utilizador independente do Fórum está avaliada como <strong>SIM</strong> mas a permissão total já está assinalada como <strong>SIM</strong>, então o resultado total é salvo. %sCópia da Permissão Global%s',
-	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'A Permissão de Utilizador independente do Fórum está avaliada como <strong>SIM</strong> que substitui o resultado local atual <strong>NUNCA</strong>. %sCópia da Permissão Global%s',
+	'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'A Permissão de Utilizador independente do Fórum está avaliada como <strong>SIM</strong> que substitui o resultado local actual <strong>NUNCA</strong>. %sCópia da Permissão Global%s',
 	'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'A Permissão de Utilizador independente do Fórum está avaliada como <strong>NUNCA</strong> que não influencia na permissão local. %sCópia da Permissão Global%s',
 
 	'TRACE_USER_FOUNDER'					=> 'O Utilizador é um Fundador, por isso as Permissões Administrativas estão sempre assinaladas como <strong>SIM</strong>.',
@@ -282,6 +282,6 @@ $lang = array_merge($lang, array(
 	'VIEW_GLOBAL_PERMS'						=> 'Permissões Globais',
 	'VIEW_PERMISSIONS'						=> 'Ver Permissões',
 
-	'WRONG_PERMISSION_TYPE'					=> 'Foi selecionado o tipo de permissão errada.',
-	'WRONG_PERMISSION_SETTING_FORMAT'		=> 'As configurações da permissão estão num formato errado, o phpBB não as consegue processar corretamente.',
+	'WRONG_PERMISSION_TYPE'					=> 'Foi seleccionado o tipo de permissão errada.',
+	'WRONG_PERMISSION_SETTING_FORMAT'		=> 'As configurações da permissão estão num formato errado, o phpBB não as consegue processar correctamente.',
 ));
