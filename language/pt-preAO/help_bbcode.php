@@ -73,7 +73,7 @@ $help = array(
 	),
 	array(
 		0 => 'Criar uma lista não ordenada',
-		1 => 'O BBCode permite listas ordenadas e as não ordenadas.<br />Este código é igual ao HTML, mudando apenas o formato da tag.<br /> Uma lista não ordenada cria os itens em sequencia.<br /> Para criar uma lista não ordenada deve usar <strong>[list][/list]</strong> e definir cada marcador dentro da lista usando <strong>[*]</strong>.<br /><br />Por exemplo, para as suas cores favoritas poderia fazer da seguinte forma:<br /><br /><strong>[list]</strong><br /><strong>[*]</strong>Vermelho<br /><strong>[*]</strong>Azul<br /><strong>[*]</strong>Amarelo<br /><strong>[/list]</strong><br /><br />sendo criada a seguinte lista: <br /><br /><ul><li>Vermelho</li><li>Azul</li><li>Amarelo</li></ul>'
+		1 => 'O BBCode permite listas ordenadas e as não ordenadas.<br />Este código é igual ao HTML, mudando apenas o formato da tag.<br /> Uma lista não ordenada cria os itens em sequência.<br /> Para criar uma lista não ordenada deve usar <strong>[list][/list]</strong> e definir cada marcador dentro da lista usando <strong>[*]</strong>.<br /><br />Por exemplo, para as suas cores favoritas poderia fazer da seguinte forma:<br /><br /><strong>[list]</strong><br /><strong>[*]</strong>Vermelho<br /><strong>[*]</strong>Azul<br /><strong>[*]</strong>Amarelo<br /><strong>[/list]</strong><br /><br />sendo criada a seguinte lista: <br /><br /><ul><li>Vermelho</li><li>Azul</li><li>Amarelo</li></ul><br />De forma alternativa, poderá criar uma lista com símbolos (ponto, círculo ou quadrado) ao usar <strong>[list=disc][/list]</strong>, <strong>[list=circle][/list]</strong>, ou <strong>[list=square][/list]</strong> respectivamente.'
 	),
 	array(
 		0 => 'Criar uma lista ordenada',
