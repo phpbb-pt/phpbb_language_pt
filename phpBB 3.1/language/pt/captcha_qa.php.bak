@@ -61,4 +61,5 @@ $lang = array_merge($lang, array(
 
 	'QA_ERROR_MSG'				=> 'Preencha todos os campos e pelo menos uma resposta.',
 	'QA_LAST_QUESTION'			=> 'Não pode apagar todas as perguntas, enquanto o plugin estiver ativo.',
+
 ));
