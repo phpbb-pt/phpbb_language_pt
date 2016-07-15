@@ -44,5 +44,5 @@ $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Falta o valor para o argumento #%1$s: <strong>%3$s</strong> na classe <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'Não foi especificado nenhum controlador.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Não foi especificado nenhum método para o controlador.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'O serviço para o controlador "<strong>%s</strong>" não está definido em ./config/services.yml.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'O serviço para o controlador “<strong>%s</strong>” não está definido em ./config/services.yml.',
 ));

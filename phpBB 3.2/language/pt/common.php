@@ -677,7 +677,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_POSTS_BY'					=> 'Pesquisar mensagens por',
 	'SEARCH_SELF'						=> 'As minhas Mensagens',
 	'SEARCH_TOPIC'						=> 'Pesquisar neste Tópico…',
-	'SEARCH_UNANSWERED'					=> 'Mensagens sem resposta',
+	'SEARCH_UNANSWERED'					=> 'Tótipos sem resposta',
 	'SEARCH_UNREAD'						=> 'Mensagens por ler',
 	'SEARCH_USER_POSTS'					=> 'Pesquisar mensagens dos utilizadores',
 	'SECONDS'							=> 'Segundos',
@@ -820,7 +820,7 @@ $lang = array_merge($lang, array(
 	'USERS'								=> 'Utilizadores',
 	'USE_PERMISSIONS'					=> 'Testar permissões deste utilizador',
 
-	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Pedimos desculpa, mas não está autorizado a utilizar esta funcionalidade. Pode ter que estar registado e ter que participar mais para usar esta funcionalidade.',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Pedimos desculpa, mas não está autorizado a utilizar esta funcionalidade. Pode ter que estar registado, e ter que participar mais para usar esta funcionalidade.',
 
 	'VARIANT_DATE_SEPARATOR'			=> ' / ',
 	'VIEWED'							=> 'Visto',

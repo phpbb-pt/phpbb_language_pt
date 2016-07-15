@@ -40,7 +40,8 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Q&amp;A',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'Esta pergunta destina-se a prevenir registos automáticos de spambots.',
 	'CONFIRM_QUESTION_WRONG'	=> 'A sua resposta à questão está errada.',
-
+\\Traduzir Texto
+	'CONFIRM_QUESTION_MISSING'	=> 'Questions for the captcha could not be retrieved. Please contact a board administrator.',
 	'QUESTION_ANSWERS'			=> 'Respostas',
 	'ANSWERS_EXPLAIN'			=> 'Introduza respostas corretas, uma por linha.',
 	'CONFIRM_QUESTION'			=> 'Pergunta',
@@ -60,5 +61,4 @@ $lang = array_merge($lang, array(
 
 	'QA_ERROR_MSG'				=> 'Preencha todos os campos e pelo menos uma resposta.',
 	'QA_LAST_QUESTION'			=> 'Não pode apagar todas as perguntas, enquanto o plugin estiver ativo.',
-
 ));

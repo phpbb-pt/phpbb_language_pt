@@ -224,6 +224,20 @@ $lang = array_merge($lang, array(
 	'ADM_LOGGED_OUT'				=> 'Saiu com sucesso do ACP',
 
 	'BACK'							=> 'Voltar',
+\\ Falta Tradução
+	
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'Unable to change file group',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Unable to change file permissions',
+	'CANNOT_COPY_FILES'		=> 'Unable to copy files',
+	'CANNOT_CREATE_SYMLINK'	=> 'Unable to create a symlink',
+	'CANNOT_DELETE_FILES'	=> 'Unable to delete files from the system',
+	'CANNOT_DUMP_FILE'		=> 'Unable to dump file',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'Unable to mirror directory',
+	'CANNOT_RENAME_FILE'	=> 'Unable to rename a file from the system',
+	'CANNOT_TOUCH_FILES'	=> 'Unable to determine if the file exists',
+
+	'CONTAINER_EXCEPTION' => 'phpBB encountered an error building the container due to an installed extension. For this reason, all extensions have been temporarily disabled. Please try purging your forum cache. All extensions will automatically be re-enabled once the container error is resolved. If this error continues, please visit <a href="https://www.phpbb.com/support">phpBB.com</a> for support.',
+	'EXCEPTION' => 'Exception',
 
 	'COLOUR_SWATCH'					=> 'Cores seguras de navegação',
 	'CONFIG_UPDATED'				=> 'Configuração atualizada com sucesso.',
@@ -594,7 +608,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'						=> '<strong>Erro de Jabber</strong><br />» %s',
 	'LOG_ERROR_EMAIL'						=> '<strong>Erro no email</strong><br />» %s',
-
+\\Traduzir
+	'LOG_ERROR_CAPTCHA'		                => '<strong>CAPTCHA error</strong><br />» %s',
+	
 	'LOG_FORUM_ADD'							=> '<strong>Criar um novo Fórum</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Permissões do Fórum copiadas</strong> de %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Fórum apagado</strong><br />» %s',

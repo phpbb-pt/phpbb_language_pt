@@ -130,6 +130,8 @@ $lang = array_merge($lang, array(
 	'NO_USERS_ADDED'					=> 'Não foram adicionados Utilizadores a este Grupo.',
 	'NO_VALID_USERS'					=> 'Não entrou com nenhum Utilizador com Permissões para usar esta opção.',
 
+	'PENDING_MEMBERS'			        => 'Pending',
+
 	'SELECT_GROUP'						=> 'Selecione um Grupo',
 	'SPECIAL_GROUPS'					=> 'Grupos Pré-Definidos',
 	'SPECIAL_GROUPS_EXPLAIN'			=> 'São os Grupos Básicos do phpBB. Não podem ser apagados ou modificados. Porém, pode adicionar membros a estes Grupos e modificar as Configurações de cada um dos Grupos.',
