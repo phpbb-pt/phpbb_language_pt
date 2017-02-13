@@ -38,13 +38,13 @@ if (empty($lang) || !is_array($lang))
 
 // Common installer pages
 $lang = array_merge($lang, array(
-	'INSTALL_PANEL'	=> 'Installation Panel',
-	'SELECT_LANG'	=> 'Select language',
+	'INSTALL_PANEL'	=> 'Painel de Instalação',
+	'SELECT_LANG'	=> 'Selecione o idioma',
 
-	'STAGE_INSTALL'	=> 'Installing phpBB',
+	'STAGE_INSTALL'	=> 'Instalando o phpBB',
 
 	// Introduction page
-	'INTRODUCTION_TITLE'	=> 'Introduction',
+	'INTRODUCTION_TITLE'	=> 'Introdução',
 	'INTRODUCTION_BODY'		=> 'Welcome to phpBB3!<br /><br />phpBB® is the most widely used open source bulletin board solution in the world. phpBB3 is the latest installment in a package line started in 2000. Like its predecessors, phpBB3 is feature-rich, user-friendly, and fully supported by the phpBB Team. phpBB3 greatly improves on what made phpBB2 popular, and adds commonly requested features that were not present in previous versions. We hope it exceeds your expectations.<br /><br />This installation system will guide you through installing phpBB3, updating to the latest version of phpBB3 from past releases, as well as converting to phpBB3 from a different discussion board system (including phpBB2). For more information, we encourage you to read <a href="../docs/INSTALL.html">the installation guide</a>.<br /><br />To read the phpBB3 license or learn about obtaining support and our stance on it, please select the respective options from the side menu. To continue, please select the appropriate tab above.',
 
 	// Support page
@@ -72,7 +72,6 @@ $lang = array_merge($lang, array(
 	<ul>
 		<li>MySQL 3.23 ou superior (Suporte a MySQLi)</li>
 		<li>PostgreSQL 8.3+</li>
-		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 ou superior (direto ou via ODBC)</li>
 		<li>MS SQL Server 2005 ou superior (nativo)</li>
@@ -80,13 +79,16 @@ $lang = array_merge($lang, array(
 	</ul>
 
 	<p>Apenas as Bases de Dados suportadas pelo seu servidor estarão disponíveis.',
+
 	'ACP_LINK'			=> 'Aceder à <a href="%1$s">ACP</a>',
+
+    'INSTALL_PHPBB_INSTALLED'		=> 'phpBB is already installed.',
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is not installed yet.'
 ));
 
 // Requirements translation
 $lang = array_merge($lang, array(
 	// Filesystem requirements
-	\\Traducao
 	'FILE_NOT_EXISTS'						=> 'File does not exist',
 	'FILE_NOT_EXISTS_EXPLAIN'				=> 'To be able to install phpBB the %1$s file needs to exist.',
 	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'It is recommended that the %1$s file exist for a better forum user experience.',
@@ -110,7 +112,9 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB will not run if your PHP installation is not compiled with UTF-8 support in the PCRE extension.',
 	'PHP_JSON_SUPPORT'					=> 'PHP JSON support',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'In order for phpBB to function correctly, the PHP JSON extension needs to be available.',
-	'PHP_SUPPORTED_DB'					=> 'Supported databases',
+	'PHP_XML_SUPPORT'					=> 'PHP XML/DOM support',
+	'PHP_XML_SUPPORT_EXPLAIN'			=> 'In order for phpBB to function correctly, the PHP XML/DOM extension needs to be available.',
+    'PHP_SUPPORTED_DB'					=> 'Supported databases',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'You must have support for at least one compatible database within PHP. If no database modules are shown as available you should contact your hosting provider or review the relevant PHP installation documentation for advice.',
 
 	'RETEST_REQUIREMENTS'	=> 'Retest requirements',
@@ -129,6 +133,7 @@ $lang = array_merge($lang, array(
 // Data obtaining translations
 $lang = array_merge($lang, array(
 	'STAGE_OBTAIN_DATA'	=> 'Set installation data',
+
 	//
 	// Admin data
 	//
@@ -174,18 +179,17 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'			=> 'Database password',
 	'DB_NAME'				=> 'Database name',
 	'DB_USERNAME'			=> 'Database username',
-	'TABLE_PREFIX'			=> 'Prefix for tables in database',
+	'DATABASE_VERSION'		=> 'Database version',
+    'TABLE_PREFIX'			=> 'Prefix for tables in database',
 	'TABLE_PREFIX_EXPLAIN'	=> 'The prefix must start with a letter and must only contain letters, numbers and underscores.',
 
 	// Database options
-	'DB_OPTION_MSSQL'		=> 'MSSQL Server 2000+',
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
 	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi Extension',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
-	'DB_OPTION_SQLITE'		=> 'SQLite 2',
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
@@ -198,7 +202,6 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'			=> 'No error message given.',
 	'INST_ERR_PREFIX'				=> 'Tables with the specified prefix already exist, please choose an alternative.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'The version of MySQL installed on this machine is incompatible with the “MySQL with MySQLi Extension” option you have selected. Please try the “MySQL” option instead.',
-	'INST_ERR_DB_NO_SQLITE'			=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 2.8.2.',
 	'INST_ERR_DB_NO_SQLITE3'		=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 3.6.15.',
 	'INST_ERR_DB_NO_ORACLE'			=> 'The version of Oracle installed on this machine requires you to set the <var>NLS_CHARACTERSET</var> parameter to <var>UTF8</var>. Either upgrade your installation to 9.2+ or change the parameter.',
 	'INST_ERR_DB_NO_POSTGRES'		=> 'The database you have selected was not created in <var>UNICODE</var> or <var>UTF8</var> encoding. Try installing with a database in <var>UNICODE</var> or <var>UTF8</var> encoding.',
@@ -209,7 +212,15 @@ $lang = array_merge($lang, array(
 	//
 	'EMAIL_CONFIG'	=> 'E-mail configuration',
 
-	//
+	// Package info
+	'PACKAGE_VERSION'					=> 'Package version installed',
+	'UPDATE_INCOMPLETE'				=> 'Your phpBB installation has not been correctly updated.',
+	'UPDATE_INCOMPLETE_MORE'		=> 'Please read the information below in order to fix this error.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Incomplete update</h1>
+
+	    <p>We noticed that the last update of your phpBB installation hasn’t been completed. Visit the <a href="%1$s" title="%1$s">database updater</a>, ensure <em>Update database only</em> is selected and click on <strong>Submit</strong>. Don\'t forget to delete the "install"-directory after you have updated the database sucessfully.</p>',
+
+    //
 	// Server data
 	//
 	// Form labels
@@ -290,7 +301,8 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'		=> 'Installing modules',
 
 	// Install finish tasks
-	'TASK_NOTIFY_USER'			=> 'Sending notification e-mail',
+	'TASK_INSTALL_EXTENSIONS'	=> 'Installing packaged extensions',
+    'TASK_NOTIFY_USER'			=> 'Sending notification e-mail',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Populating migrations',
 
 	// Installer general progress messages
@@ -355,7 +367,7 @@ $lang = array_merge($lang, array(
 		You will then be guided through the update process. You will be notified once the update is complete.
 		</p>
 	',
-	));
+));
 
 // Updater forms
 $lang = array_merge($lang, array(
@@ -428,7 +440,8 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'The following files are not modified and represent the original phpBB files from the version you want to update from.',
 	'FILES_UP_TO_DATE'				=> 'Already updated files',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'The following files are already up to date and do not need to be updated.',
-	'TOGGLE_DISPLAY'				=> 'View/Hide file list',
+	'FILES_VERSION'					=> 'Files Version',
+    'TOGGLE_DISPLAY'				=> 'View/Hide file list',
 
 	// File updater
 	'UPDATE_UPDATING_FILES'	=> 'Updating files',
@@ -445,6 +458,8 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DATABASE'		=> 'Update database',
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'The database update was successful.',
+
+    'TASK_UPDATE_EXTENSIONS'	=> 'Updating extensions',
 ));
 
 // Converter
