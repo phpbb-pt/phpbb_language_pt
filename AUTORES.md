@@ -20,8 +20,6 @@ Colaboradores
 -------
 * Leinad4Mind (http://www.phpbbportugal.com/memberlist.php?mode=viewprofile&u=140)
 * diogomessi10 https://github.com/diogomessi10
-* 
-
 
 Ex-Colaboradores
 -------

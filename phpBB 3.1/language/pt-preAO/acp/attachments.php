@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_WINDOWS_MEDIA'			=> 'Windows Média',
 
 	'FILES_GONE'						=> 'Alguns dos anexos que seleccionou para eliminar não existem. Eles podem já ter sido excluídos. Os anexos que existiam foram eliminados.',
-	'FILES_STATS_WRONG'					=> 'As estatísticas dos seus ficheiros são imprecisas e provavelmente precisam ser resincronizadas. Valores atuais: Número de ficheiros = %1$d, tamanho total dos ficheiros = %2$s.<br />Clique %3$saqui%4$s para os resincronizar.',
+	'FILES_STATS_WRONG'					=> 'As estatísticas dos seus ficheiros são imprecisas e provavelmente precisam ser ressincronizadas. Valores actuais: Número de ficheiros = %1$d, tamanho total dos ficheiros = %2$s.<br />Clique %3$saqui%4$s para os ressincronizar.',
 
 	'GO_TO_EXTENSIONS'					=> 'Vá para a Tela de Gestão de Extensões',
 	'GROUP_NAME'						=> 'Nome do Grupo',
@@ -141,7 +141,7 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'			=> 'Grupo de Extensão não especificado.',
 	'NO_FILE_CAT'						=> 'Nenhum',
 	'NO_IMAGE'							=> 'Sem imagem',
-	'NO_THUMBNAIL_SUPPORT'				=> 'O suporte às miniaturas (imagem reduzida) encontra-se desactivado. Para ativar esta funcionalidade é necessário a extensão GD ou imagemagick instalado. Nenhum dos dois foi encontrado.',
+	'NO_THUMBNAIL_SUPPORT'				=> 'O suporte às miniaturas (imagem reduzida) encontra-se desactivado. Para activar esta funcionalidade é necessário a extensão GD ou imagemagick instalado. Nenhum dos dois foi encontrado.',
 	'NO_UPLOAD_DIR'						=> 'A pasta de envio (upload) que indicou não existe.',
 	'NO_WRITE_UPLOAD'					=> 'A pasta que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
 
@@ -151,15 +151,15 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores autorizados',
 	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores proibidos',
-	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja resincronizar estatísticas de ficheiros?',
+	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja ressincronizar estatísticas de ficheiros?',
 
 	'SEARCH_IMAGICK'					=> 'Localizar Imagemagick',
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'			=> 'Permite ou nega a lista de endereços. Esta configuração aplica-se apenas aos Ficheiros para transferência.',
 	'SECURE_DOWNLOADS'					=> 'Activar transferências seguras',
-	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção ativada, as transferências são autorizadas apenas para os IPs/Servidores por si definidos.',
+	'SECURE_DOWNLOADS_EXPLAIN'			=> 'Com esta opção activada, as transferências são autorizadas apenas para os IPs/Servidores por si definidos.',
 	'SECURE_DOWNLOAD_NOTICE'			=> 'As transferências seguras estão desactivadas. A execução das opções abaixo depende da sua activação.',
-	'SECURE_DOWNLOAD_UPDATE_SUCCESS'	=> 'A lista de IPs foi atualizada com sucesso.',
+	'SECURE_DOWNLOAD_UPDATE_SUCCESS'	=> 'A lista de IPs foi actualizada com sucesso.',
 	'SECURE_EMPTY_REFERRER'				=> 'Permitir origem em branco',
 	'SECURE_EMPTY_REFERRER_EXPLAIN'		=> 'A segurança das transferências é baseada na origem. Deseja permitir transferências que escondem a origem?',
 	'SETTINGS_CAT_IMAGES'				=> 'Configuração de Categorias de Imagens',

@@ -226,7 +226,7 @@ $lang = array_merge($lang, array(
 	'BACK'							=> 'Voltar',
 
 	'COLOUR_SWATCH'					=> 'Cores seguras de navegação',
-	'CONFIG_UPDATED'				=> 'Configuração atualizada com sucesso.',
+	'CONFIG_UPDATED'				=> 'Configuração actualizada com sucesso.',
 	'CRON_LOCK_ERROR'				=> 'Não foi possível obter o Cron lock.',
 	'CRON_NO_SUCH_TASK'				=> 'A tarefa Cron “%s” não foi encontrada.',
 	'CRON_NO_TASK'					=> 'Não há nenhuma tarefa Cron para executar.',
@@ -278,8 +278,8 @@ $lang = array_merge($lang, array(
 	'NO_FILES_TO_DELETE'		=> 'Os anexos que seleccionou para eliminação não existem.',
 	'NO_PASSWORD_SUPPLIED'		=> 'Tem de indicar a sua senha para aceder ao Painel de Administração.',
 
-	'OFF'						=> 'Desativado',
-	'ON'						=> 'Ativado',
+	'OFF'						=> 'Desactivado',
+	'ON'						=> 'Activado',
 
 	'PARSE_BBCODE'						=> 'Usar BBCode',
 	'PARSE_SMILIES'						=> 'Usar Emoções',
@@ -315,7 +315,7 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'			=> 'Esta página mostra informações da versão do PHP instalada neste servidor, incluindo detalhes dos módulos carregados, variáveis disponíveis e as configurações padrão. Esta informação pode ser necessária quando forem detectados erros. Alguns servidores podem limitar, por medida de segurança, as informações exibidas. Mantenha estas informações reservadas exceto quando questionado pela <a href="https://www.phpbb.com/about/team/">membros da equipa oficial</a> no Fórum de Suporte.',
+	'ACP_PHP_INFO_EXPLAIN'			=> 'Esta página mostra informações da versão do PHP instalada neste servidor, incluindo detalhes dos módulos carregados, variáveis disponíveis e as configurações padrão. Esta informação pode ser necessária quando forem detectados erros. Alguns servidores podem limitar, por medida de segurança, as informações exibidas. Mantenha estas informações reservadas excepto quando questionado pela <a href="https://www.phpbb.com/about/team/">membros da equipa oficial</a> no Fórum de Suporte.',
 
 	'NO_PHPINFO_AVAILABLE'			=> 'As informações do PHP não podem ser determinadas. O Phpinfo() foi desactivado por medidas de segurança.',
 ));
@@ -394,7 +394,7 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE_CONFIRM'			=> 'Tem a certeza que deseja reiniciar o contador do recorde de utilizadores online?',
 	'RESET_ONLINE_SUCCESS'			=> 'Recorde de utilizadores online reiniciado com sucesso',
 	'RESYNC_POSTCOUNTS'				=> 'Sincronizar contagem de Mensagens',
-	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Apenas são consideradas as mensagens atuais.',
+	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Apenas são consideradas as mensagens actuais.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Tem a certeza que deseja ressincronizar o contador de mensagens?',
 	'RESYNC_POSTCOUNTS_SUCCESS'		=> 'Ressincronizar contador de mensagens',
 	'RESYNC_POST_MARKING'			=> 'Ressincronizar "Tópicos Marcados"',
@@ -431,14 +431,14 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'INACTIVE_DATE'					=> 'Data Inactiva',
 	'INACTIVE_REASON'				=> 'Razão',
-	'INACTIVE_REASON_MANUAL'		=> 'Registo Desativado pelo Administrador',
+	'INACTIVE_REASON_MANUAL'		=> 'Registo Desactivado pelo Administrador',
 	'INACTIVE_REASON_PROFILE'		=> 'Detalhes do Perfil Alterados',
 	'INACTIVE_REASON_REGISTER'		=> 'Registos Recentes',
 	'INACTIVE_REASON_REMIND'		=> 'Forçar Reactivação de Registo do Utilizador',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Desconhecido',
 	'INACTIVE_USERS'				=> 'Utilizadores Inactivos',
-	'INACTIVE_USERS_EXPLAIN'		=> 'Esta é uma lista dos Utilizadores Registados, mas com os Registos ainda inactivos. Se desejar pode ativar, excluir ou avisar (enviando um email) estes Utilizadores.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dos 10 últimos Utilizadores Registados ainda inactivos. As Contas estão inactivas porque a sua activação está configurada para ser feita pelo próprio utilizador e estes ainda o não fizeram ou porque foram desactivadas. A lista completa está disponível através do item apropriado do menu ou clicando no atalho abaixo onde pode ativar, excluir ou avisar (enviando um email) estes Utilizadores se desejar.',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Esta é uma lista dos Utilizadores Registados, mas com os Registos ainda inactivos. Se desejar pode activar, excluir ou avisar (enviando um email) estes Utilizadores.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Lista dos 10 últimos Utilizadores Registados ainda inactivos. As Contas estão inactivas porque a sua activação está configurada para ser feita pelo próprio utilizador e estes ainda o não fizeram ou porque foram desactivadas. A lista completa está disponível através do item apropriado do menu ou clicando no atalho abaixo onde pode activar, excluir ou avisar (enviando um email) estes Utilizadores se desejar.',
 
 	'NO_INACTIVE_USERS'				=> 'Não há Utilizadores Inactivos',
 
@@ -522,7 +522,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_BOT_ADDED'							=> '<strong>Motor de Busca Adicionado</strong><br />» %s',
 	'LOG_BOT_DELETE'						=> '<strong>Motor de Busca Apagado</strong><br />» %s',
-	'LOG_BOT_UPDATED'						=> '<strong>Motor de Busca Atualizado</strong><br />» %s',
+	'LOG_BOT_UPDATED'						=> '<strong>Motor de Busca Actualizado</strong><br />» %s',
 
 	'LOG_CLEAR_ADMIN'						=> '<strong>Registo Administrativo Limpo</strong>',
 	'LOG_CLEAR_CRITICAL'					=> '<strong>Registo de Erro Limpo</strong>',
@@ -540,7 +540,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_MESSAGE'					=> '<strong>Configurações de Mensagem Privada Alteradas</strong>',
 	'LOG_CONFIG_POST'						=> '<strong>Configurações de Mensagem Alteradas</strong>',
 	'LOG_CONFIG_REGISTRATION'				=> '<strong>Configurações de Registo Alteradas</strong>',
-	'LOG_CONFIG_FEED'						=> '<strong>Configurações de Syndication Feeds alteradas</strong>',
+	'LOG_CONFIG_FEED'						=> '<strong>Configurações de Sindicação de Feeds alteradas</strong>',
 	'LOG_CONFIG_SEARCH'						=> '<strong>Configurações de Pesquisa Alteradas</strong>',
 	'LOG_CONFIG_SECURITY'					=> '<strong>Configurações de Segurança Alteradas</strong>',
 	'LOG_CONFIG_SERVER'						=> '<strong>Configurações do Servidor Alteradas</strong>',
@@ -598,18 +598,18 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_ADD'							=> '<strong>Criar um novo Fórum</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Permissões do Fórum copiadas</strong> de %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Fórum apagado</strong><br />» %s',
-	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Fórum e Subfórum apagados</strong><br />» %s',
-	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Fórum apagado e Subfórum Movido</strong> para %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Fórum e Sub-fórum apagados</strong><br />» %s',
+	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Fórum apagado e Sub-fórum Movido</strong> para %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_MOVE_POSTS'				=> '<strong>Fórum apagado e Mensagens Movidas</strong> para %1$s<br />» %2$s',
-	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Eliminado Fórum e Subfóruns, movidas mensagens</strong> para %1$s<br />» %2$s',
-	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Eliminado Fórum, movidas mensagens</strong> para %1$s <strong>e Subfóruns</strong> para %2$s<br />» %3$s',
+	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Eliminado Fórum e Sub-fóruns, movidas mensagens</strong> para %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Eliminado Fórum, movidas mensagens</strong> para %1$s <strong>e Sub-fóruns</strong> para %2$s<br />» %3$s',
 	'LOG_FORUM_DEL_POSTS'					=> '<strong>Eliminado Fórum e as mensagens</strong><br />» %s',
-	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Eliminado Fórum, as mensagens e Subfóruns</strong><br />» %s',
-	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Eliminado Fórum e as mensagens, movidos Subfóruns</strong> para %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Eliminado Fórum, as mensagens e Sub-fóruns</strong><br />» %s',
+	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Eliminado Fórum e as mensagens, movidos Sub-fóruns</strong> para %1$s<br />» %2$s',
 	'LOG_FORUM_EDIT'						=> '<strong>Detalhes do Fórum editados</strong><br />» %s',
 	'LOG_FORUM_MOVE_DOWN'					=> '<strong>Fórum Movido</strong> %1$s <strong>abaixo/acima</strong> %2$s',
 	'LOG_FORUM_MOVE_UP'						=> '<strong>Fórum Movido</strong> %1$s <strong>acima/abaixo</strong> %2$s',
-	'LOG_FORUM_SYNC'						=> '<strong>Fórum resincronizado</strong><br />» %s',
+	'LOG_FORUM_SYNC'						=> '<strong>Fórum ressincronizado</strong><br />» %s',
 
 	'LOG_GENERAL_ERROR'						=> '<strong>Ocorreu um erro geral</strong>: %1$s <br />» %2$s',
 
@@ -630,7 +630,7 @@ $lang = array_merge($lang, array(
 	'LOG_INACTIVE_ACTIVATE'					=> '<strong>Utilizadores Inactivos Activados</strong><br />» %s',
 	'LOG_INACTIVE_DELETE'					=> '<strong>Utilizadores Inactivos Apagados</strong><br />» %s',
 	'LOG_INACTIVE_REMIND'					=> '<strong>Foram enviados emails de aviso aos seguintes Utilizadores Inactivos</strong><br />» %s',
-	'LOG_INSTALL_CONVERTED'					=> '<strong>Atualizado de %1$s para o phpBB %2$s</strong>',
+	'LOG_INSTALL_CONVERTED'					=> '<strong>Actualizado de %1$s para o phpBB %2$s</strong>',
 	'LOG_INSTALL_INSTALLED'					=> '<strong>Versão do phpBB instalada %s</strong>',
 
 	'LOG_IP_BROWSER_FORWARDED_CHECK'		=> '<strong>A verificação da sessão de IP/navegador/X_FORWARDED_FOR falhou</strong><br />»Verificado o endereço de IP do Utilizador "<em>%1$s</em>" em contraste com a sessão de IP "<em>%2$s</em>", verificado o navegador dos Utilizadores "<em>%3$s</em>" em contraste com a sessão de navegador "<em>%4$s</em>" e verificado o X_FORWARDED_FOR do utilizador "<em>%5$s</em>" em contraste com a sessão de X_FORWARDED_FOR "<em>%6$s</em>".',
@@ -671,11 +671,11 @@ $lang = array_merge($lang, array(
 	'LOG_U_ROLE_EDIT'						=> '<strong>Tarefa do Utilizador Editada</strong><br />» %s',
 	'LOG_U_ROLE_REMOVED'					=> '<strong>Tarefa do Utilizador Apagada</strong><br />» %s',
 
-	'LOG_PLUPLOAD_TIDY_FAILED'				=> '<strong>Não foi possível abrir %1$s para arrumação, verifique as permissões.</strong><br />Exceção: %2$s<br />Rastreio: %3$s',
+	'LOG_PLUPLOAD_TIDY_FAILED'				=> '<strong>Não foi possível abrir %1$s para arrumação, verifique as permissões.</strong><br />Excepção: %2$s<br />Rastreio: %3$s',
 
-	'LOG_PROFILE_FIELD_ACTIVATE'			=> '<strong>Campo do Perfil Ativado</strong><br />» %s',
+	'LOG_PROFILE_FIELD_ACTIVATE'			=> '<strong>Campo do Perfil Activado</strong><br />» %s',
 	'LOG_PROFILE_FIELD_CREATE'				=> '<strong>Campo do Perfil Adicionado</strong><br />» %s',
-	'LOG_PROFILE_FIELD_DEACTIVATE'			=> '<strong>Campo do Perfil Desativado</strong><br />» %s',
+	'LOG_PROFILE_FIELD_DEACTIVATE'			=> '<strong>Campo do Perfil Desactivado</strong><br />» %s',
 	'LOG_PROFILE_FIELD_EDIT'				=> '<strong>Campo do Perfil Editado</strong><br />» %s',
 	'LOG_PROFILE_FIELD_REMOVED'				=> '<strong>Campo do Perfil Apagado</strong><br />» %s',
 
@@ -723,7 +723,7 @@ $lang = array_merge($lang, array(
 	'LOG_TEMPLATE_EDIT_DETAILS'				=> '<strong>Detalhes do Template Editados</strong><br />» %s',
 	'LOG_TEMPLATE_EXPORT'					=> '<strong>Template Exportado</strong><br />» %s',
 	// @deprecated 3.1
-	'LOG_TEMPLATE_REFRESHED'				=> '<strong>Template Atualizado</strong><br />» %s',
+	'LOG_TEMPLATE_REFRESHED'				=> '<strong>Template Actualizado</strong><br />» %s',
 
 	// @deprecated 3.1
 	'LOG_THEME_ADD_DB'						=> '<strong>Novo Tema adicionado à Base de Dados</strong><br />» %s',
@@ -735,12 +735,12 @@ $lang = array_merge($lang, array(
 	'LOG_THEME_EDIT_FILE'					=> '<strong>Tema Editado <em>%1$s</em></strong><br />» Ficheiro Modificado <em>%2$s</em>',
 	'LOG_THEME_EXPORT'						=> '<strong>Tema Exportado</strong><br />» %s',
 	// @deprecated 3.1
-	'LOG_THEME_REFRESHED'					=> '<strong>Tema Atualizado</strong><br />» %s',
+	'LOG_THEME_REFRESHED'					=> '<strong>Tema Actualizado</strong><br />» %s',
 
-	'LOG_UPDATE_DATABASE'					=> '<strong>A Base de Dados foi atualizada da Versão %1$s para a Versão %2$s</strong>',
+	'LOG_UPDATE_DATABASE'					=> '<strong>A Base de Dados foi actualizada da Versão %1$s para a Versão %2$s</strong>',
 	'LOG_UPDATE_PHPBB'						=> '<strong>O phpBB foi actualizado da Versão %1$s para a Versão %2$s</strong>',
 
-	'LOG_USER_ACTIVE'						=> '<strong>Utilizador Ativado</strong><br />» %s',
+	'LOG_USER_ACTIVE'						=> '<strong>Utilizador Activado</strong><br />» %s',
 	'LOG_USER_BAN_USER'						=> '<strong>Utilizador Banido pela Administração de Utilizadores</strong> pela razão "<em>%1$s</em>"<br />» %2$s',
 	'LOG_USER_BAN_IP'						=> '<strong>Endereço de IP Banido pela Administração de Utilizadores</strong> pela razão "<em>%1$s</em>"<br />» %2$s',
 	'LOG_USER_BAN_EMAIL'					=> '<strong>Endereço de email Banido pela Administração de Utilizadores</strong> pela razão "<em>%1$s</em>"<br />» %2$s',
@@ -750,24 +750,24 @@ $lang = array_merge($lang, array(
 	'LOG_USER_DEL_OUTBOX'					=> '<strong>Caixa de saída</strong><br />» %s',
 	'LOG_USER_DEL_POSTS'					=> '<strong>Todas as Mensagens do Utilizador Apagadas</strong><br />» %s',
 	'LOG_USER_DEL_SIG'						=> '<strong>Assinatura do Utilizador Apagada</strong><br />» %s',
-	'LOG_USER_INACTIVE'						=> '<strong>Utilizador Desativado</strong><br />» %s',
-	'LOG_USER_MOVE_POSTS'					=> '<strong>Mensagens do Utilizador Movidas</strong><br />» posts by "%1$s" para o Fórum "%2$s"',
+	'LOG_USER_INACTIVE'						=> '<strong>Utilizador Desactivado</strong><br />» %s',
+	'LOG_USER_MOVE_POSTS'					=> '<strong>Mensagens do Utilizador Movidas</strong><br />» Mensagens por "%1$s" para o Fórum "%2$s"',
 	'LOG_USER_NEW_PASSWORD'					=> '<strong>Senha do Utilizador Alterada</strong><br />» %s',
 	'LOG_USER_REACTIVATE'					=> '<strong>Reactivação de Registo do Utilizador Forçada</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'					=> '<strong>Removida bandeira de utilizador recente</strong><br />» %s',
 
 	'LOG_USER_UPDATE_EMAIL'					=> '<strong>Endereço de email do Utilizador "%1$s" alterado</strong><br />» de "%2$s" para "%3$s"',
 	'LOG_USER_UPDATE_NAME'					=> '<strong>Nome de Utilizador Alterado</strong><br />» de "%1$s" para "%2$s"',
-	'LOG_USER_USER_UPDATE'					=> '<strong>Detalhes do Utilizador Atualizados</strong><br />» %s',
+	'LOG_USER_USER_UPDATE'					=> '<strong>Detalhes do Utilizador Actualizados</strong><br />» %s',
 
-	'LOG_USER_ACTIVE_USER'					=> '<strong>Registo de Utilizador Ativado</strong>',
+	'LOG_USER_ACTIVE_USER'					=> '<strong>Registo de Utilizador Activado</strong>',
 	'LOG_USER_DEL_AVATAR_USER'				=> '<strong>Avatar do Utilizador Apagado</strong>',
 	'LOG_USER_DEL_SIG_USER'					=> '<strong>Assinatura do Utilizador Apagada</strong>',
 	'LOG_USER_FEEDBACK'						=> '<strong>Utilizador adicionado ao Feedback</strong><br />» %s',
 	'LOG_USER_GENERAL'						=> '%s',
 	'LOG_USER_INACTIVE_USER'				=> '<strong>Registo do Utilizador Reactivado</strong>',
 	'LOG_USER_LOCK'							=> '<strong>Tópicos Bloqueados pelo próprio Utilizador</strong><br />» %s',
-	'LOG_USER_MOVE_POSTS_USER'				=> '<strong>Todas as Mensagens Movidas para o Fórum "%s"</strong>',
+	'LOG_USER_MOVE_POSTS_USER'				=> '<strong>Todas as Mensagens Movidas para o Fórum</strong>» %s',
 	'LOG_USER_REACTIVATE_USER'				=> '<strong>Reactivação de Registo Forçada</strong>',
 	'LOG_USER_UNLOCK'						=> '<strong>Tópicos Desbloqueados pelo próprio Utilizador</strong><br />» %s',
 	'LOG_USER_WARNING'						=> '<strong>Aviso criado</strong><br />» %s',
@@ -790,7 +790,7 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'						=> '<strong>Palavra Censurada Apagada</strong><br />» %s',
 	'LOG_WORD_EDIT'							=> '<strong>Palavra Censurada Editada</strong><br />» %s',
 
-	'LOG_EXT_ENABLE'	=> '<strong>Extensão ativada</strong><br />» %s',
+	'LOG_EXT_ENABLE'	=> '<strong>Extensão activada</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Extensão desactivada</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Dados da extensão apagados</strong><br />» %s',
 ));

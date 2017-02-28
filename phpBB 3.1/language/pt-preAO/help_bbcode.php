@@ -37,7 +37,7 @@ $help = array(
 	),
 	array(
 		0 => 'O que significa BBCode?',
-		1 => 'BBCode é uma implementação especial do HTML. Cabe ao Administrador definir se pode ou não usar BBCode nas suas mensagens no fórum. Além disso, pode desactivar o BBCode em cada mensagem através do formulário de mensagem. O BBCode por si mesmo é similar em estilo ao HTML, as etiquetas são introduzidas entre parêntesis retos [and] em vez de &lt; and &gt; e proporcionam um maior controlo do que é e como algo é apresentado. Dependendo do modelo que está a usar pode adicionar BBCode às suas mensagens é facilitada através de uma interface de botões clicáveis ​​acima da mensagem no formulário de mensagem. Mesmo com isso, pode usar o guia lhe será útil.'
+		1 => 'BBCode é uma implementação especial do HTML. Cabe ao Administrador definir se pode ou não usar BBCode nas suas mensagens no fórum. Além disso, pode desactivar o BBCode em cada mensagem através do formulário de mensagem. O BBCode por si mesmo é similar em estilo ao HTML, as etiquetas são introduzidas entre parêntesis rectos [and] em vez de &lt; and &gt; e proporcionam um maior controlo do que é e como algo é apresentado. Dependendo do modelo que está a usar pode adicionar BBCode às suas mensagens é facilitada através de uma interface de botões clicáveis ​​acima da mensagem no formulário de mensagem. Mesmo com isso, pode usar o guia lhe será útil.'
 	),
 	array(
 		0 => '--',

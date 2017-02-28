@@ -41,8 +41,8 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS_EXPLAIN'		=> 'O Gestor de Extensões é uma ferramenta do phpBB que permite gerir todas as suas extensões e exibir as respectivas informações.',
 	'EXTENSION_INVALID_LIST'	=> 'A Extensão “%s” não é válida.<br />%s<br /><br />',
 	'EXTENSION_NOT_AVAILABLE'	=> 'A extensão seleccionada não está disponível para este Fórum, por favor, verifique versões do phpBB e PHP permitidas (veja a página de detalhes).',
-	'EXTENSION_DIR_INVALID'		=> 'A extensão seleccionada não pode ser ativada porque tem uma estrutura de pastas inválida.',
-	'EXTENSION_NOT_ENABLEABLE'	=> 'A extensão seleccionada não pode ser ativada, por favor, verifique os requisitos do extensão.',
+	'EXTENSION_DIR_INVALID'		=> 'A extensão seleccionada não pode ser activada porque tem uma estrutura de pastas inválida.',
+	'EXTENSION_NOT_ENABLEABLE'	=> 'A extensão seleccionada não pode ser activada, por favor, verifique os requisitos do extensão.',
 
 	'DETAILS'				=> 'Detalhes',
 
@@ -53,17 +53,17 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLE'		=> 'Desactivar',
 	'EXTENSION_ENABLE'		=> 'Activar',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Apagar dados de uma extensão remove todos os dados e configurações. Os ficheiros da extensão são mantidas para que possa ser ativada novamente.',
+	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Apagar dados de uma extensão remove todos os dados e configurações. Os ficheiros da extensão são mantidas para que possa ser activada novamente.',
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Desactivar uma extensão mantém ficheiros, dados e configurações, mas remove qualquer funcionalidade adicional da extensão.',
 	'EXTENSION_ENABLE_EXPLAIN'		=> 'Activar uma extensão permite usá-la no seu Fórum.',
 
 	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'Os dados da extensão estão a ser apagados. Por favor não deixe ou actualize esta página até a tarefa estar concluída.',
 	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'A extensão está a ser desactivada. Por favor não deixe ou actualize esta página até a tarefa estar concluída.',
-	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'A extensão está a ser ativada. Por favor não deixe ou actualize esta página até a tarefa estar concluída.',
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'A extensão está a ser activada. Por favor não deixe ou actualize esta página até a tarefa estar concluída.',
 
 	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Os dados da extensão foram apagados com sucesso',
 	'EXTENSION_DISABLE_SUCCESS'		=> 'A extensão foi desactivada com sucesso',
-	'EXTENSION_ENABLE_SUCCESS'		=> 'A extensão foi ativada com sucesso',
+	'EXTENSION_ENABLE_SUCCESS'		=> 'A extensão foi activada com sucesso',
 
 	'EXTENSION_NAME'			=> 'Nome da Extensão',
 	'EXTENSION_ACTIONS'			=> 'Acções',
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 
 	'EXTENSION_DELETE_DATA_CONFIRM'		=> 'Tem a certeza que deseja excluir os dados associados à “%s”?<br /><br />Se continuar remove todos os dados e configurações. Esta acção não é reversível!',
 	'EXTENSION_DISABLE_CONFIRM'			=> 'Tem a certeza que deseja desactivar a extensão “%s”?',
-	'EXTENSION_ENABLE_CONFIRM'			=> 'Tem a certeza que deseja ativar a extensão “%s”?',
+	'EXTENSION_ENABLE_CONFIRM'			=> 'Tem a certeza que deseja activar a extensão “%s”?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Tem a certeza que deseja forçar o uso de versões instáveis?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Voltar à lista de extensões',

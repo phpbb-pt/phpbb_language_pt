@@ -91,8 +91,8 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_CONFIRM'			=> 'Tem a certeza que deseja apagar esta mensagem?',
 	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Tem a certeza que deseja eliminar <strong>permanentemente</strong> esta mensagem?',
 	'DELETE_POST_PERMANENTLY'			=> array(
-		1	=> 'Excluir permanentemente esta mensagem, logo não poderá ser recuperada',
-		2	=> 'Excluir permanentemente %1$d mensagens, logo não poderam ser recuperadas',
+		1	=> 'Excluir permanentemente esta mensagem, não poderá ser depois recuperada',
+		2	=> 'Excluir permanentemente %1$d mensagens, não poderão ser depois recuperadas',
 	),
 	'DELETE_POSTS_CONFIRM'				=> 'Tem a certeza que deseja apagar estas mensagens?',
 	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Tem a certeza que deseja eliminar <strong>permanentemente</strong> estas mensagens?',
@@ -101,8 +101,8 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_WARN'					=> 'Apagar esta mensagem',
 	'DELETE_TOPIC_CONFIRM'				=> 'Tem a certeza que deseja apagar este tópico?',
 	'DELETE_TOPIC_PERMANENTLY'			=> array(
-		1	=> 'Excluir permanentemente este tópico, logo não poderá ser recuperado',
-		2	=> 'Excluir permanentemente %1$d tópicos, logo não poderam ser recuperados',
+		1	=> 'Excluir permanentemente este tópico, não poderá ser depois recuperado',
+		2	=> 'Excluir permanentemente %1$d tópicos, não poderão ser depois recuperados',
 	),
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Tem a certeza que deseja eliminar <strong>permanentemente</strong> este tópico?',
 	'DELETE_TOPICS_CONFIRM'				=> 'Tem a certeza que deseja apagar estes tópicos?',
