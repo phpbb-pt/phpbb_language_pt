@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'					=> 'Traduzido por phpBB Portugal',
+	'TRANSLATION_INFO'					=> 'Traduzido por: <a href="http://www.phpbbportugal.com">phpBB Portugal</a>',
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'					=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	// You can define different rules for the determination of plural forms here.
 	// See http://wiki.phpbb.com/Plural_Rules for more information
 	// or ask the translation manager for help.
-	'PLURAL_RULE'						=> 1,
+	'PLURAL_RULE'						=> 2,
 
 	'1_DAY'								=> '1 Dia',
 	'1_MONTH'							=> '1 Mês',
@@ -81,10 +81,9 @@ $lang = array_merge($lang, array(
 	'ALL_FORUMS'						=> 'Todos os Fóruns',
 	'ALL_MESSAGES'						=> 'Todas as Mensagens',
 	'ALL_POSTS'							=> 'Todas as Mensagens',
-	'ALL_TIMES'							=> 'Todos os horários são <span title="%2$s">%1$s</span>',
+	'ALL_TIMES'							=> 'Hora %1$s %2$s',
 	'ALL_TOPICS'						=> 'Todos os Tópicos',
-	'ALT_TEXT'							=> 'Texto alternativo',
-    'AND'								=> 'E',
+	'AND'								=> 'E',
 	'ARE_WATCHING_FORUM'				=> 'Optou por receber atualizações deste Fórum.',
 	'ARE_WATCHING_TOPIC'				=> 'Optou por receber atualizações deste Tópico.',
 	'ASCENDING'							=> 'Crescente',
@@ -98,8 +97,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
-    'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'OAuth token não guardados.',
+	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'OAuth token não guardados.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'OAuth token guardados incorretamente.',
 	'AVATAR_DISALLOWED_CONTENT'			=> 'O envio foi recusado porque o Ficheiro foi identificado como potencialmente malicioso.',
 	'AVATAR_DISALLOWED_EXTENSION'		=> 'A extensão %s não é permitida.',
@@ -107,25 +105,23 @@ $lang = array_merge($lang, array(
 	'AVATAR_EMPTY_FILEUPLOAD'			=> 'O Ficheiro de Avatar enviado está vazio.',
 	'AVATAR_INVALID_FILENAME'			=> '%s é um nome de Ficheiro inválido.',
 	'AVATAR_NOT_UPLOADED'				=> 'O Avatar não foi enviado.',
-	'AVATAR_NO_TEMP_DIR'				=> 'A pasta temporária não pôde ser encontrada ou não tem permissões de escrita.',
 	'AVATAR_NO_SIZE'					=> 'Não foi possível obter a largura e a altura do Avatar, por favor, indique-os manualmente.',
 	'AVATAR_PARTIAL_UPLOAD'				=> 'O Ficheiro foi parcialmente enviado.',
 	'AVATAR_PHP_SIZE_NA'				=> 'O Ficheiro do Avatar é demasiado grande.<br />Não foi possível determinar o tamanho máximo definido pelo PHP no php.ini.',
 	'AVATAR_PHP_SIZE_OVERRUN'			=> 'O Ficheiro do Avatar é demasiado grande, sendo o máximo permitido de envio %1$d %2$s.<br />Por favor, note que isto é definido no php.ini e não pode ser alterado.',
 	'AVATAR_REMOTE_UPLOAD_TIMEOUT'		=> 'O Avatar especificado não pôde ser carregado porque o pedido excedeu o tempo.',
-	'AVATAR_PHP_UPLOAD_STOPPED'			=> 'Uma extensão PHP parou o upload de ficheiros.',
 	'AVATAR_URL_INVALID'				=> 'A URL que especificou é inválida.',
 	'AVATAR_URL_NOT_FOUND'				=> 'O Ficheiro indicado não foi encontrado.',
 	'AVATAR_WRONG_FILESIZE'				=> 'O tamanho do Avatar deve estar entre 0 e %1$d %2$s.',
 	'AVATAR_WRONG_SIZE'					=> 'O avatar submetido tem %5$s de largura e %6$s de altura. Avatares devem ter pelo menos %1$s de largura e %2$s de altura, e não maiores do que %3$s de largura %4$s de altura.',
-
+	
 	'BACK_TO_TOP'						=> 'Topo',
 	'BACK_TO_PREV'						=> 'Voltar à página anterior',
 	'BAN_TRIGGERED_BY_EMAIL'			=> 'O seu endereço de email foi banido do Fórum.',
 	'BAN_TRIGGERED_BY_IP'				=> 'O seu endereço IP foi banido do Fórum.',
 	'BAN_TRIGGERED_BY_USER'				=> 'O seu Nome de Utilizador foi banido do Fórum.',
 	'BBCODE_GUIDE'						=> 'Guia BBCode',
-	'BCC'								=> 'Bc',
+	'BCC'								=> 'Bcc',
 	'BIRTHDAYS'							=> 'Aniversariantes',
 	'BOARD_BAN_PERM'					=> 'Foi expulso permanentemente deste Fórum.<br /><br />Por favor, contacte o %2$sAdministrador%3$s para mais informações.',
 	'BOARD_BAN_REASON'					=> 'Razão da expulsão: %s',
@@ -178,10 +174,7 @@ $lang = array_merge($lang, array(
 	'CONTACT'							=> 'Contacto',
 	'CONTACT_USER'						=> 'Contacto %s',
 	'CONTACT_US'						=> 'Contacte-nos',
-	'COOKIE_CONSENT_INFO'	            => 'Saiba mais',
-	'COOKIE_CONSENT_MSG'	            => 'Este site utiliza cookies para lhe proporcionar uma melhor experiência.',
-	'COOKIE_CONSENT_OK'		            => 'Entendi!',
-    'COOKIES_DELETED'					=> 'Todos os cookies deste Fórum foram apagados.',
+	'COOKIES_DELETED'					=> 'Todos os cookies deste Fórum foram apagados.',
 	'CURRENT_TIME'						=> 'Data/Hora: %s',
 
 	'DAY'								=> 'Dia',
@@ -222,7 +215,7 @@ $lang = array_merge($lang, array(
 	'ERR_CONNECTING_SERVER'				=> 'Erro ao ligar-se ao servidor.',
 	'ERR_JAB_AUTH'						=> 'Não foi autorizado a entrar no servidor Jabber.',
 	'ERR_JAB_CONNECT'					=> 'Não foi possível fazer a ligação ao servidor Jabber.',
-	'ERR_UNABLE_TO_LOGIN'				=> 'Ocorreu um erro no acesso. Nome de Utilizador ou Senha incorrectos.',
+	'ERR_UNABLE_TO_LOGIN'				=> 'Ocorreu um erro no acesso. Nome de Utilizador ou Senha incorretos.',
 	'ERR_UNWATCHING'					=> 'Um erro ocorreu durante o cancelamento da subscrição.',
 	'ERR_WATCHING'						=> 'Um erro ocorreu durante a subscrição.',	
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'O local do script phpBB indicado parece não ser válido.',
@@ -236,7 +229,6 @@ $lang = array_merge($lang, array(
 	'FACEBOOK'							=> 'Facebook',
 	'FAQ'								=> 'FAQ',
 	'FAQ_EXPLAIN'						=> 'Questões Mais Frequentes',
-	'FEATURE_NOT_AVAILABLE'				=> 'A funcionalidade não está disponível neste fórum.',
 	'FILENAME'							=> 'Nome do Ficheiro',
 	'FILESIZE'							=> 'Tamanho do Ficheiro',
 	'FILEDATE'							=> 'Data do Ficheiro',
@@ -269,7 +261,7 @@ $lang = array_merge($lang, array(
 	'FTP_FSOCK_PORT'					=> 'Porta FTP',
 	'FTP_FSOCK_PORT_EXPLAIN'			=> 'Porta utilizada para se ligar ao seu servidor FTP.',
 	'FTP_FSOCK_ROOT_PATH'				=> 'Local do phpBB',
-	'FTP_FSOCK_ROOT_PATH_EXPLAIN'		=> 'Caminho desde a raíz até ao seu Fórum phpBB.',
+	'FTP_FSOCK_ROOT_PATH_EXPLAIN'		=> 'Caminho desde a raiz até ao seu Fórum phpBB.',
 	'FTP_FSOCK_TIMEOUT'					=> 'Intervalo do FTP',
 	'FTP_FSOCK_TIMEOUT_EXPLAIN'			=> 'Tempo, em segundos, que o sistema irá aguardar por uma resposta do servidor.',
 	'FTP_FSOCK_USERNAME'				=> 'Nome de utilizador FTP',
@@ -282,11 +274,11 @@ $lang = array_merge($lang, array(
 	'FTP_PORT'							=> 'Porta FTP',
 	'FTP_PORT_EXPLAIN'					=> 'Porta utilizada para ligar ao seu servidor FTP.',
 	'FTP_ROOT_PATH'						=> 'Local do phpBB',
-	'FTP_ROOT_PATH_EXPLAIN'				=> 'Local desde a raíz até ao seu Fórum phpBB.',
+	'FTP_ROOT_PATH_EXPLAIN'				=> 'Local desde a raiz até ao seu Fórum phpBB.',
 	'FTP_TIMEOUT'						=> 'Intervalo FTP',
 	'FTP_TIMEOUT_EXPLAIN'				=> 'Tempo, em segundos, que o sistema irá aguardar por uma resposta do seu servidor.',
 	'FTP_USERNAME'						=> 'Nome do Utilizador do FTP',
-	'FTP_USERNAME_EXPLAIN'				=> 'Nome de Utilizador utilizado para se conetar ao seu servidor.',
+	'FTP_USERNAME_EXPLAIN'				=> 'Nome de Utilizador utilizado para se conectar ao seu servidor.',
 
 	'GENERAL_ERROR'						=> 'Erro Geral',
 	'GB'								=> 'GB',
@@ -344,8 +336,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'							=> 'Interesses',
 	'INVALID_DIGEST_CHALLENGE'			=> 'Desafio de Sumário Inválido.',
 	'INVALID_EMAIL_LOG'					=> '%s é um endereço de email possivelmente incorreto?',
-	'INVALID_FEED_ATTACHMENTS'	        => 'O Feed selecionado tentou processar anexos com restrições inválidas.',
-    'INVALID_PLURAL_RULE'				=> 'A regra do plural escolhida é inválida. Os valores válidos são números inteiros entre 0 e 15.',
+	'INVALID_PLURAL_RULE'				=> 'A regra do plural escolhida é inválida. Os valores válidos são números inteiros entre 0 e 15.',
 	'IP'								=> 'IP',
 	'IP_BLACKLISTED'					=> 'O Seu endereço de IP %1$s foi expulso porque está na lista negra. Para mais detalhes leia <a href="%2$s">%2$s</a>.',
 
@@ -398,7 +389,7 @@ $lang = array_merge($lang, array(
 	'MARK_ALL_READ'						=> 'Marcar todos como lidos',
 	'MARK_FORUMS_READ'					=> 'Marcar todos os Fóruns como lidos',
 	'MARK_READ'							=> 'Marcar como lido',
-	'MARK_SUBFORUMS_READ'				=> 'Marcar todos os subfóruns como lidos',
+	'MARK_SUBFORUMS_READ'				=> 'Marcar todos os sub-fóruns como lidos',
 	'MB'								=> 'MB',
 	'MIB'								=> 'MiB',
 	'MCP'								=> 'Painel de Moderação',
@@ -457,7 +448,6 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_FORUM'				=> '<em>Fórum:</em> %1$s',
 	'NOTIFICATION_GROUP_REQUEST'		=> '<strong>Pedido de adesão</strong> de %1$s ao Grupo %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> '<strong>Pedido de adesão aprovado</strong> ao Grupo %1$s.',
-	'NOTIFICATION_METHOD_INVALID'		=> 'O método "%s" não se refere a um método de notificação válido.',
 	'NOTIFICATION_PM'					=> '<strong>Mensagem Privada</strong> de %1$s:',
 	'NOTIFICATION_POST'					=> array(
 		1	=> '<strong>Resposta</strong> de %1$s ao Tópico:',
@@ -537,8 +527,8 @@ $lang = array_merge($lang, array(
 		0								=> 'Nenhuma mensagem na lista',		// 0
 		1								=> '1 mensagem na lista',		// 1
 		2								=> '%d mensagens na lista',		// 2+
-	),
-
+	),	
+	
 	'OCCUPATION'							=> 'Ocupação',
 	'OFFLINE'							=> 'Desligado',
 	'ONLINE'							=> 'Ligado',
@@ -563,6 +553,7 @@ $lang = array_merge($lang, array(
 		1	=> '%d píxel',
 		2	=> '%d píxeis',
 	),
+	'PLAY_QUICKTIME_FILE'	=> 'Reproduzir ficheiros Quicktime',
 	'PLEASE_WAIT'			=> 'Por favor, aguarde.',
 	'PM'								=> 'MP',
 	'PM_REPORTED'						=> 'Clique para ver relatório',
@@ -682,7 +673,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_POSTS_BY'					=> 'Pesquisar mensagens por',
 	'SEARCH_SELF'						=> 'As minhas Mensagens',
 	'SEARCH_TOPIC'						=> 'Pesquisar neste Tópico…',
-	'SEARCH_UNANSWERED'					=> 'Tótipos sem resposta',
+	'SEARCH_UNANSWERED'					=> 'Tópicos sem resposta',
 	'SEARCH_UNREAD'						=> 'Mensagens por ler',
 	'SEARCH_USER_POSTS'					=> 'Pesquisar mensagens dos utilizadores',
 	'SECONDS'							=> 'Segundos',
@@ -700,14 +691,11 @@ $lang = array_merge($lang, array(
 	'SKYPE'								=> 'Skype',
 	'SMTP_NO_AUTH_SUPPORT'				=> 'O Servidor SMTP não suporta autenticação.',
 	'SORRY_AUTH_READ'					=> 'Não está autorizado a ver este Fórum.',
-	'SORRY_AUTH_READ_TOPIC'				=> 'Não está autorizado a ler este Tópico.',
 	'SORRY_AUTH_VIEW_ATTACH'			=> 'Não está autorizado a transferir este anexo.',
 	'SORT_BY'							=> 'Ordenar por',
-	'SORT_DIRECTION'			        => 'Direção',
-    'SORT_JOINED'						=> 'Data de Registo',
+	'SORT_JOINED'						=> 'Data de Registo',
 	'SORT_LOCATION'						=> 'Localização',
-	'SORT_OPTIONS'				        => 'Opções de visualização e ordenação',
-    'SORT_RANK'							=> 'Classificação',
+	'SORT_RANK'							=> 'Classificação',
 	'SORT_POSTS'						=> 'Mensagens',
 	'SORT_TOPIC_TITLE'					=> 'Título do Tópico',
 	'SORT_USERNAME'						=> 'Utilizador',
@@ -720,8 +708,8 @@ $lang = array_merge($lang, array(
 	'STOP_WATCHING_TOPIC'				=> 'Parar de Observar Tópico',
 	'STRING_LIST_MULTI'					=> '%1$s, e %2$s',
 	'STRING_LIST_SIMPLE'				=> '%1$s e %2$s',
-	'SUBFORUM'							=> 'Subfórum',
-	'SUBFORUMS'							=> 'Subfóruns',
+	'SUBFORUM'							=> 'Sub-fórum',
+	'SUBFORUMS'							=> 'Sub-fóruns',
 	'SUBJECT'							=> 'Assunto',
 	'SUBMIT'							=> 'Enviar',
 
@@ -827,7 +815,7 @@ $lang = array_merge($lang, array(
 	'USERS'								=> 'Utilizadores',
 	'USE_PERMISSIONS'					=> 'Testar permissões deste utilizador',
 
-	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Pedimos desculpa, mas não está autorizado a utilizar esta funcionalidade. Pode ter que estar registado, e ter que participar mais para usar esta funcionalidade.',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Pedimos desculpa, mas não está autorizado a utilizar esta funcionalidade. Pode ter que estar registado e ter que participar mais nas discussões para ser capaz de usar esta funcionalidade.',
 
 	'VARIANT_DATE_SEPARATOR'			=> ' / ',
 	'VIEWED'							=> 'Visto',
@@ -875,6 +863,7 @@ $lang = array_merge($lang, array(
 	'WEBSITE'							=> 'Sítio web',
 	'WHOIS'								=> 'Quem',
 	'WHO_IS_ONLINE'						=> 'Quem está ligado:',
+	'WLM'								=> 'WLM',
 	'WRONG_PASSWORD'					=> 'Senha errada.',
 
 	'WRONG_DATA_COLOUR'					=> 'O valor da cor digitado é inválido.',
@@ -950,8 +939,8 @@ $lang = array_merge($lang, array(
 	// because they are named invers to their offset.
 	'timezones'		=> array(
 		'UTC'					=> 'UTC',
-		'UTC_OFFSET'			=> 'UTC%1$s',
-		'UTC_OFFSET_CURRENT'	=> 'UTC%1$s - %2$s',
+		'UTC_OFFSET'			=> '%1$s',
+		'UTC_OFFSET_CURRENT'	=> '%1$s - %2$s',
 
 		'Etc/GMT-12'	=> 'UTC+12',
 		'Etc/GMT-11'	=> 'UTC+11',

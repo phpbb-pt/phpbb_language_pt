@@ -1,19 +1,19 @@
 <?php
 /**
- *
- * This file is part of the phpBB Forum Software package.
- *
- * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @license GNU General Public License, version 2 (GPL-2.0)
- *
- * For full copyright and license information, please see
- * the docs/CREDITS.txt file.
- * @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
- */
+*
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*/
 
 /**
- * DO NOT CHANGE
- */
+* DO NOT CHANGE
+*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -36,34 +36,173 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-// Common installer pages
 $lang = array_merge($lang, array(
-	'INSTALL_PANEL'	=> 'Painel de Instalação',
-	'SELECT_LANG'	=> 'Selecione o idioma',
+	'ADMIN_CONFIG'						=> 'Configuração de Administração',
+	'ADMIN_PASSWORD'					=> 'Senha do Administrador',
+	'ADMIN_PASSWORD_CONFIRM'			=> 'Confirme a Senha do Administrador',
+	'ADMIN_PASSWORD_EXPLAIN'			=> '(Escolha uma Senha que tenha entre 6 e 30 caracteres).',
+	'ADMIN_TEST'						=> 'Verificar as configurações administrativas',
+	'ADMIN_USERNAME'					=> 'Nome de Utilizador do Administrador',
+	'ADMIN_USERNAME_EXPLAIN'			=> 'Escolha um nome de Utilizador que tenha entre 3 a 20 caracteres).',
+	'APP_MAGICK'						=> 'Suporte ImageMagick [ Anexos ]',
+	'AUTHOR_NOTES'						=> 'Notas do Autor<br />» %s',
+	'AVAILABLE'							=> 'Disponível',
+	'AVAILABLE_CONVERTORS'				=> 'Conversores Disponíveis',
 
-	'STAGE_INSTALL'	=> 'Instalando o phpBB',
+	'BEGIN_CONVERT'						=> 'Iniciar Conversão',
+	'BLANK_PREFIX_FOUND'				=> 'Uma pesquisa nas suas tabelas mostrou uma instalação válida e sem utilização de prefixo nas tabelas.',
+	'BOARD_NOT_INSTALLED'				=> 'Não foi encontrada nenhuma instalação',
+	'BOARD_NOT_INSTALLED_EXPLAIN'		=> 'Para fazer a conversão tem que ter uma instalação padrão do phpBB3. Visite a página <a href="%s">Instalar o phpBB3 pela primeira vez</a>.',
+	'BACKUP_NOTICE'						=> 'Por favor, faça Cópias de Segurança do seu Fórum (Base de Dados e Ficheiros) para a eventualidade de surgirem problemas durante a atualização',
 
-	// Introduction page
-	'INTRODUCTION_TITLE'	=> 'Introdução',
-	'INTRODUCTION_BODY'		=> 'Bem-vindo ao phpBB3!<br /><br />phpBB® É a solução de forum de código aberto mais utilizada no mundo. PhpBB3 é a última parcela de uma linha de pacotes iniciada em 2000. Como seus Antecessores, o phpBB3 é rico em recursos, é fácil de usar e é totalmente suportado pela equipe do phpBB.  PhpBB3 melhora muito o que fez phpBB2 popular, e adiciona recursos geralmente solicitados que não estavam presentes em versões anteriores. Esperamos que exceda suas expectativas.<br /><br />Este sistema de instalação irá guiá-lo através da instalação phpBB3, atualizando para a versão mais recente do phpBB3 de versões anteriores, bem como a conversão para phpBB3 a partir de um sistema de discussão diferente forum (incluindo phpBB2). Para obter mais informações, recomendamos que você leia <a href="../docs/INSTALL.html">the installation guide</a>.<br /><br />Para ler a licença phpBB3 ou aprender sobre a obtenção de suporte e nossa posição sobre ele, por favor, selecione as opções respectivas no menu lateral. Para continuar, selecione a guia apropriada acima.',
+	'CATEGORY'							=> 'Categoria',
+	'CACHE_STORE'						=> 'Tipo de cache',
+	'CACHE_STORE_EXPLAIN'				=> 'O local físico onde os dados são guardados, ficheiro de sistema é preferível.',
+	'CAT_CONVERT'						=> 'Converter',
+	'CAT_INSTALL'						=> 'Instalar',
+	'CAT_OVERVIEW'						=> 'Visão Geral',
+	'CAT_UPDATE'						=> 'Atualizar',
+	'CHANGE'							=> 'Alterar',
+	'CHECK_TABLE_PREFIX'				=> 'Por favor, verifique o prefixo das tabelas e tente novamente.',
+	'CLEAN_VERIFY'						=> 'A limpar e a verificar a estrutura final',
+	'CLEANING_USERNAMES'				=> 'Limpar utilizadores',
+	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> é o nome de utilizador limpo para:',
+	'COLLIDING_USERNAMES_FOUND'			=> 'Foram encontrados nomes de utilizador duplicados no seu antigo painel. Para completar esta conversão, por favor, apague ou renomeie estes utilizadores.',
+	'COLLIDING_USER'					=> '» ID do utilizador: <strong>%d</strong> nome de utilizador: <strong>%s</strong> (%d mensagens)',
+	'CONFIG_CONVERT'					=> 'Convertendo a configuração',
+	'CONFIG_FILE_UNABLE_WRITE'			=> 'Não foi possível escrever o ficheiro de configuração. Em baixo são exibidas formas alternativas para a criação deste ficheiro.',
+	'CONFIG_FILE_WRITTEN'				=> 'O ficheiro de configuração foi criado com sucesso. Pode avançar para o próximo passo da instalação.',
+	'CONFIG_PHPBB_EMPTY'				=> 'A variável de configuração do phpBB3 para “%s” está vazia.',
+	'CONFIG_RETRY'						=> 'Tentar novamente',
+	'CONTINUE_CONVERT'					=> 'Continuar a conversão',
+	'CONTINUE_CONVERT_BODY'				=> 'Foi detetada uma tentativa prévia de conversão. Deve escolher entre iniciar uma nova conversão ou continuar a conversão interrompida.',
+	'CONTINUE_LAST'						=> 'Continuar com esta atualização',
+	'CONTINUE_OLD_CONVERSION'			=> 'Continuar a atualização interrompida',
+	'CONVERT'							=> 'Converter',
+	'CONVERT_COMPLETE'					=> 'Conversão terminada',
+	'CONVERT_COMPLETE_EXPLAIN'			=> 'O seu Fórum foi convertido com sucesso para o phpBB 3.1. Já pode entrar e <a href="../">aceder ao Fórum</a>. Por favor, verifique se as configurações foram transferidos corretamente antes de ativar o seu fórum. Apague a pasta de instalação. Lembre-se que está disponível ajuda online através da <a href="https://www.phpbb.com/support/docs/en/3.1/ug/">Documentação</a> e de <a href="https://www.phpbb.com/community/viewforum.php?f=466">fóruns de suporte</a>.',
+	'CONVERT_INTRO'						=> 'Bem-vindo à conversão unificada do phpBB',
+	'CONVERT_INTRO_BODY'				=> 'Aqui é possível importar dados de outros sistemas de Fóruns (instalados). A lista seguinte mostra os módulos de conversão disponíveis. Se não existe um conversor na lista para o código de Fórum que deseja converter, por favor, verifique no nosso sítio web onde podem estar disponíveis outros conversores.',
+	'CONVERT_NEW_CONVERSION'			=> 'Nova conversão',
+	'CONVERT_NOT_EXIST'					=> 'O Conversor selecionado não existe',
+	'CONVERT_OPTIONS'					=> 'Opções',
+	'CONVERT_SETTINGS_VERIFIED'			=> 'A informação que disponibilizou foi verificada. Para iniciar a conversão, clique no botão abaixo.',
+	'CONV_ERR_FATAL'					=> 'Erro fatal na conversão',
 
-	// Support page
-	'SUPPORT_TITLE'		=> 'Suporte',
-	'SUPPORT_BODY'		=> 'O suporte total será fornecido para a versão estável atual do phpBB3, gratuitamente. Isso inclui:</p><ul><li>instalação</li><li>configuração</li><li>Questões técnicas</li><li>problemas relacionados com potenciais bugs no software</li><li>atualizando do Release Candidate (RC) versões para a versão mais recente version</li><li>conversão de phpBB 2.0.x para phpBB3</li><li>conversão de outros softwares de discussão para phpBB3 (please see the <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>Encorajamos os usuários ainda executando versões beta do phpBB3 a substituir a instalação por uma nova cópia da versão mais recente.</p><h2>Extensions / Styles</h2><p>Para questões relacionadas com extensões, por favor, postar no adequado <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a>.<br />Para questões relacionadas a estilos, modelos e temas, publique no <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a>.<br /><br />Se a sua pergunta se refere a um pacote específico, publique diretamente no tópico dedicado ao pacote.</p><h2>Obtaining Support</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">The phpBB Welcome Package</a><br /><a href="https://www.phpbb.com/support/">Support Section</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Quick Start Guide</a><br /><br />Para garantir que você fique atualizado com as últimas notícias e lançamentos, por que não <a href="https://www.phpbb.com/support/">subscribe to our mailing list</a>?<br /><br />',
+	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'O envio de anexos por FTP está ativo no seu painel antigo. Desative a opção de envio por FTP, crie uma pasta válida e envie todos os ficheiros de anexos para a nova pasta. Após concluir esta operação, reinicie o conversor.',
+	'CONV_ERROR_CONFIG_EMPTY'			=> 'Não foram encontradas informações de configuração válidas para a conversão.',
+	'CONV_ERROR_FORUM_ACCESS'			=> 'Não foi possível aceder às informações do Fórum.',
+	'CONV_ERROR_GET_CATEGORIES'			=> 'Não foi possível adquirir as categorias.',
+	'CONV_ERROR_GET_CONFIG'				=> 'Não foi possível adquirir a configuração do Fórum.',
+	'CONV_ERROR_COULD_NOT_READ'			=> 'Não foi possível aceder/ler "%s".',
+	'CONV_ERROR_GROUP_ACCESS'			=> 'Não foi possível adquirir as informações de autenticação dos Grupos.',
+	'CONV_ERROR_INCONSISTENT_GROUPS'	=> 'Foi encontrada uma inconsistência na tabela de grupos em add_bots() - tem que adicionar todos os Grupos especiais manualmente.',
+	'CONV_ERROR_INSERT_BOT'				=> 'Não foi possível inserir o Motor de Busca na tabela de Utilizadores.',
+	'CONV_ERROR_INSERT_BOTGROUP'		=> 'Não foi possível inserir o Motor de Busca na tabela de Motores de Busca.',
+	'CONV_ERROR_INSERT_USER_GROUP'		=> 'Não foi possível inserir o utilizador na tabela user_group.',
+	'CONV_ERROR_MESSAGE_PARSER'			=> 'Mensagem de Erro',
+	'CONV_ERROR_NO_AVATAR_PATH'			=> 'Nota: tem que especificar $convertor[\'avatar_path\'] para usar %s.',
+	'CONV_ERROR_NO_FORUM_PATH'			=> 'Não foi indicado o local relativo aos ficheiros do Fórum.',
+	'CONV_ERROR_NO_GALLERY_PATH'		=> 'Nota: tem que especificar $convertor[\'avatar_gallery_path\'] para usar %s.',
+	'CONV_ERROR_NO_GROUP'				=> 'Grupo "%1$s" não foi encontrado em %2$s.',
+	'CONV_ERROR_NO_RANKS_PATH'			=> 'Nota: tem que especificar $convertor[\'ranks_path\'] para usar %s.',
+	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Nota: tem que especificar $convertor[\'smilies_path\'] para usar %s.',
+	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Nota: tem que especificar $convertor[\'upload_path\'] para usar %s.',
+	'CONV_ERROR_PERM_SETTING'			=> 'Não foi possível inserir ou atualizar as configurações de Permissões.',
+	'CONV_ERROR_PM_COUNT'				=> 'Não foi possível selecionar as pastas de MP.',
+	'CONV_ERROR_REPLACE_CATEGORY'		=> 'Não foi possível inserir um novo Fórum substituindo uma categoria antiga.',
+	'CONV_ERROR_REPLACE_FORUM'			=> 'Não foi possível inserir um novo Fórum substituindo um Fórum antigo.',
+	'CONV_ERROR_USER_ACCESS'			=> 'Não foi possível adquirir as informações de autenticação dos utilizadores.',
+	'CONV_ERROR_WRONG_GROUP'			=> 'Erro no Grupo "%1$s" definido em %2$s.',
+	'CONV_OPTIONS_BODY'					=> 'Esta página precisa do acesso ao código do Fórum. Introduza os dados da Base de Dados; o conversor não irá mexer no código atual. O acesso ao código deve ser desativado para evitar erros.',
+	'CONV_SAVED_MESSAGES'				=> 'Mensagens Guardadas',
 
-	// License
-	'LICENSE_TITLE'		=> 'Licença Pública Geral',
+	'COULD_NOT_COPY'					=> 'Não foi possível copiar o ficheiro <strong>%1$s</strong> para <strong>%2$s</strong><br /><br />Verifique se a pasta de destino existe e se tem permissão de escrita no Servidor.',
+	'COULD_NOT_FIND_PATH'				=> 'Não foi possível encontrar o local para o seu Fórum anterior. Por favor, verifique as suas configurações e tente novamente.<br />» O local especificado foi %s',
 
-	// Install page
-	'INSTALL_INTRO'			=> 'Bem-vindo à Instalação',
-	'INSTALL_INTRO_BODY'	=> 'Com esta opção, é possível instalar o phpBB3 no seu servidor.</p><p>Para prosseguir, você precisará de suas configurações de banco de dados. Se você não souber suas configurações de banco de dados, entre em contato com o seu host e peça por elas. Você não será capaz de continuar sem eles. Você precisa:</p>
+	'DBMS'								=> 'Tipo de Base de Dados',
+	'DB_CONFIG'							=> 'Configuração da Base de Dados',
+	'DB_CONNECTION'						=> 'Ligação da Base de Dados',
+	'DB_ERR_INSERT'						=> 'Erro ao processar a query <code>INSERT</code>.',
+	'DB_ERR_LAST'						=> 'Erro ao processar <var>query_last</var>.',
+	'DB_ERR_QUERY_FIRST'				=> 'Erro ao executar <var>query_first</var>.',
+	'DB_ERR_QUERY_FIRST_TABLE'			=> 'Erro ao executar <var>query_first</var>, %s ("%s").',
+	'DB_ERR_SELECT'						=> 'Erro ao processar a query <code>SELECT</code>.',
+	'DB_HOST'							=> 'Nome do Servidor da Base de Dados / DSN',
+	'DB_HOST_EXPLAIN'					=> 'DSN significa Data Source Name e apenas é relevante para instalações ODBC. No PostgreSQL, use localhost para ligar ao servidor local através do domínio socket UNIX e 127.0.0.1 para conectar através do TCP. Para SQLite, insira o caminho completo para o ficheiro da sua Base de Dados.',
+	'DB_NAME'							=> 'Nome da Base de Dados',
+	'DB_PASSWORD'						=> 'Senha da Base de Dados',
+	'DB_PORT'							=> 'Porta do Servidor da Base de Dados',
+	'DB_PORT_EXPLAIN'					=> 'Só indique se o Servidor utilizar outra que não a porta padrão.',
+	'DB_UPDATE_NOT_SUPPORTED'			=> 'Pedimos desculpa, mas esse script não suporta a atualização das versões do phpBB antes de “%1$s”. A versão que tem instalada é “%2$s”. Atualize para uma versão anterior antes de executar este script. Está disponível assistência no Suporte Técnico em phpBB.com.',
+	'DB_USERNAME'						=> 'Nome de Utilizador da Base de Dados',
+	'DB_TEST'							=> 'Teste da ligação',
+	'DEFAULT_LANG'						=> 'Idioma padrão do Fórum',
+	'DEFAULT_PREFIX_IS'					=> 'O Conversor não encontrou as tabelas com o prefixo indicado. Verifique se as informações do Fórum estão corretas. O Prefixo Padrão para a tabela %1$s é <strong>%2$s</strong>',
+	'DEV_NO_TEST_FILE'					=> 'Não foi especificado um valor para a variável ficheiro_teste no conversor. Se é utilizador deste conversor, e não deveria estar a ver este erro, por favor, contacte o autor do conversor. Se é o autor do conversor, deve especificar o nome de um ficheiro que exista no Fórum de destino para que seja possível a verificação da pasta.',
+	'DIRECTORIES_AND_FILES'				=> 'Configuração de Ficheiro e Pastas',
+	'DISABLE_KEYS'						=> 'Desativando chaves',
+	'DLL_FTP'							=> 'Suporte Remoto de FTP [ Instalação ]',
+	'DLL_GD'							=> 'Suporte de gráficos GD [ Confirmação Visual ]',
+	'DLL_MBSTRING'						=> 'Suporte a caracteres Multi-byte',
+	'DLL_MSSQL'							=> 'MSSQL Server 2000+',
+	'DLL_MSSQL_ODBC'					=> 'MSSQL Server 2000+ via ODBC',
+	'DLL_MSSQLNATIVE'					=> 'MSSQL Server 2005+ [ Nativo ]',
+	'DLL_MYSQL'							=> 'MySQL 3.23.x/4.x',
+	'DLL_MYSQLI'						=> 'MySQL 4.1.x/5.x com Extensão MySQLi',
+	'DLL_ORACLE'						=> 'Oracle',
+	'DLL_POSTGRES'						=> 'PostgreSQL',
+	'DLL_SQLITE'						=> 'SQLite 2',
+	'DLL_SQLITE3'						=> 'SQLite 3',
+	'DLL_XML'							=> 'Suporte XML [ Jabber ]',
+	'DLL_ZLIB'							=> 'Suporte de compressão zlib [ gz, .tar.gz, .zip ]',
+	'DL_CONFIG'							=> 'Transferência da configuração',
+	'DL_CONFIG_EXPLAIN'					=> 'Deve descarregar o ficheiro config.php para o seu computador agora, e depois enviá-lo para o FTP, substituindo qualquer ficheiro config.php existente na pasta raiz do seu phpBB 3.1. Lembre-se de enviar o ficheiro em formato ASCII (veja a documentação do seu software de FTP caso não saiba como fazer). Quando tiver enviado o ficheiro config.php, clique em "Pronto" para seguir para o próximo passo.',
+	'DL_DOWNLOAD'						=> 'Transferência',
+	'DONE'								=> 'Pronto',
+
+	'ENABLE_KEYS'						=> 'Reativando chaves. Este processo pode demorar alguns minutos',
+
+	'FILES_OPTIONAL'					=> 'Ficheiros opcionais e pastas',
+	'FILES_OPTIONAL_EXPLAIN'			=> '<strong>Opcional</strong> - Estes ficheiros, pastas ou permissões não são necessários. O processo de instalação tentará usar outras técnicas caso eles não existam ou não tenham as permissões adequadas. No entanto, a presença destes ficheiros, pastas e permissões irá acelerar o processo de instalação.',
+	'FILES_REQUIRED'					=> 'Ficheiros e pastas',
+	'FILES_REQUIRED_EXPLAIN'			=> '<strong>Necessário</strong> - Para funcionar corretamente, o phpBB tem que ter acesso de leitura/escrita a vários ficheiros e pastas. Se assinalado "Não Encontrado", tem que criar a pasta ou ficheiro indicado. Se assinalado "Não Escrito", tem que alterar as permissões do ficheiro ou pasta para permitir que o phpBB posso gravá-lo.',
+	'FILLING_TABLE'						=> 'A preencher a tabela <strong>%s</strong>',
+	'FILLING_TABLES'					=> 'A preencher tabelas',
+
+	'FINAL_STEP'						=> 'Etapa Final do Processo',
+	'FORUM_ADDRESS'						=> 'Endereço do Fórum',
+	'FORUM_ADDRESS_EXPLAIN'				=> 'Este é o endereço do seu Fórum, ex. <samp>http://www.exemplo.com/phpBB3/</samp>. Se for escrito aqui algum endereço em vez de deixar em branco, todas as instâncias deste serão substituídas pelo endereço do seu novo painel em mensagens, mensagens privadas e assinaturas.',
+	'FORUM_PATH'						=> 'Pasta do Fórum',
+	'FORUM_PATH_EXPLAIN'				=> 'Este é o caminho <strong>relativo</strong> no disco para o seu antigo fórum da <strong>raiz desta instalação do phpBB3</strong>.',
+	'FOUND'								=> 'Encontrado',
+	'FTP_CONFIG'						=> 'A transferir a configuração por FTP',
+	'FTP_CONFIG_EXPLAIN'				=> 'O phpBB detetou a presença neste servidor dum módulo de FTP. Se desejar, pode tentar enviar o config.php por este método. Tem que introduzir os dados indicados em baixo. O nome de utilizador e senha são referentes ao FTP! (Estas informações devem ser fornecidas pelo seu fornecedor de alojamento)',
+	'FTP_PATH'							=> 'Pasta no FTP',
+	'FTP_PATH_EXPLAIN'					=> 'Este é o local da pasta raiz do seu phpBB, ex. <samp>htdocs/phpBB3/</samp>.',
+	'FTP_UPLOAD'						=> 'Enviar',
+
+	'GPL'								=> 'Licença Pública Geral (GPL)',
+
+	'INITIAL_CONFIG'					=> 'Configuração Básica',
+	'INITIAL_CONFIG_EXPLAIN'			=> 'Visto que o instalador determinou que o servidor pode executar o phpBB, precisa agora de fornecer algumas informações específicas. Se não sabe como se ligar à Base de Dados entre em contacto com o seu fornecedor de alojamento (em primeiro lugar) ou use os fóruns de suporte ao phpBB. Ao inserir os dados, certifique-se que estão corretos antes de continuar.',
+	'INSTALL_CONGRATS'					=> 'Parabéns!',
+	'INSTALL_CONGRATS_EXPLAIN'			=> '
+		Instalou o phpBB %1$s com sucesso. Por favor, proceda à escolha de uma das seguintes opções:</p>
+		<h2>Converter um Fórum existente para phpBB3</h2>
+		<p>O phpBB Unified Framework Converter suporta a conversão do phpBB 2.0.x e outros sistemas de Fóruns para phpBB3. Se desejar converter um Fórum existente, por favor, <a href="%2$s">siga para o conversor</a>.</p>
+		<h2>Parta à descoberta do seu phpBB3!</h2>
+		<p>Clicando no botão abaixo acederá ao formulário de apresentação dos dados estatísticos do phpBB no seu Painel de Administração (ACP). Gostaríamos que nos ajudasse enviando essa informação. Depois, deve examinar as opções disponíveis. Lembre-se que existe ajuda online disponível: <a href="https://www.phpbb.com/support/docs/en/3.1/ug/">Documentação</a>, <a href="%3$s">README</a> e de <a href="https://www.phpbb.com/community/viewforum.php?f=466">fóruns de suporte</a>.</p><p><strong>Por favor apague, mova ou renomeie a pasta de instalação, antes de começar a usar o fórum. Enquanto esta pasta existir, apenas o Painel de Controlo da Administração (ACP) estará acessível.</strong>',
+	'INSTALL_INTRO'						=> 'Bem-vindo à instalação',
+
+	'INSTALL_INTRO_BODY'				=> 'Esta opção permite instalar o phpBB.</p><p>Durante o processo de instalação necessitará de introduzir as configurações da sua Base de Dados. Se não as conhece, obtenha-as junto do fornecedor do Servidor de Alojamento. Necessitará igualmente de conhecer:</p>
 
 	<ul>
 		<li>O Tipo da Base de Dados - a Base de Dados que irá utilizar.</li>
 		<li>O Endereço ou DNS do seu servidor de Base de Dados - o endereço do servidor da Base de Dados.</li>
 		<li>A Porta do servidor de Base de Dados - a porta do servidor da Base de Dados (geralmente não é necessário).</li>
 		<li>O Nome da Base de Dados - o nome da Base de Dados no servidor.</li>
-		<li>P Nome do utilizador e Senha da Base de Dados - os dados para aceder à Base de Dados.</li>
+		<li>O Nome do utilizador e Senha da Base de Dados - os dados para aceder à Base de Dados.</li>
 	</ul>
 
 	<p><strong>Nota:</strong> Se a sua instalação utiliza SQLite, tem que indicar o endereço completo dos ficheiros da Base de Dados no campo DNS e deixar em branco o Nome de Utilizador e Senha. Por razões de segurança, deve certificar-se que este ficheiro da Base de Dados não esteja em locais acessíveis pela web.</p>
@@ -72,6 +211,7 @@ $lang = array_merge($lang, array(
 	<ul>
 		<li>MySQL 3.23 ou superior (Suporte a MySQLi)</li>
 		<li>PostgreSQL 8.3+</li>
+		<li>SQLite 2.8.2+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 ou superior (direto ou via ODBC)</li>
 		<li>MS SQL Server 2005 ou superior (nativo)</li>
@@ -79,154 +219,379 @@ $lang = array_merge($lang, array(
 	</ul>
 
 	<p>Apenas as Bases de Dados suportadas pelo seu servidor estarão disponíveis.',
+	'INSTALL_INTRO_NEXT'				=> 'Para iniciar a instalação, clique no botão abaixo.',
+	'INSTALL_LOGIN'						=> 'Entrar',
+	'INSTALL_NEXT'						=> 'Próximo passo',
+	'INSTALL_NEXT_FAIL'					=> 'Alguns testes falharam, deve corrigir esses problemas antes de continuar para o próximo passo. Caso não o faça a instalação ficará incompleta.',
+	'INSTALL_NEXT_PASS'					=> 'Todos os testes básicos foram concluídos, pode continuar para o próximo passo da instalação. Caso tenha modificado alguma permissão, módulo e etc, e deseja refazer os testes, pode refazê-los agora.',
+	'INSTALL_PANEL'						=> 'Painel de Instalação',
+	'INSTALL_SEND_CONFIG'				=> 'Infelizmente não foi possível escrever as informações de configuração no ficheiro config.php. Ou o ficheiro não existe ou não pode ser escrito. Algumas opções para concluir a instalação estão indicadas abaixo permitindo completar a instalação do config.php.',
+	'INSTALL_START'						=> 'Dar início à instalação',
+	'INSTALL_TEST'						=> 'Testar Novamente',
+	'INST_ERR'							=> 'Erro na instalação',
+	'INST_ERR_DB_CONNECT'				=> 'Não foi possível ligar à base de dados, leia a mensagem de erro em baixo',
+	'INST_ERR_DB_FORUM_PATH'			=> 'O ficheiro da Base de Dados indicado está dentro da estrutura de pastas do Fórum. Deveria pôr este ficheiro num local não acessível pela web.',
+	'INST_ERR_DB_INVALID_PREFIX'		=> 'O prefixo digitado é inválido. Deve começar com uma letra e deve conter apenas letras, números e sublinhados.',
+	'INST_ERR_DB_NO_ERROR'				=> 'Nenhuma mensagem de erro foi reportada.',
+	'INST_ERR_DB_NO_MYSQLI'				=> 'A versão do MySQL instalada nesta máquina é incompatível com a opção “MySQL com Extensão MySQLi” selecionada. Tente com uma outra opção “MySQL”.',
+	'INST_ERR_DB_NO_SQLITE'				=> 'A versão da extensão SQLite instalada é muito antiga, tem que atualizá-la para uma superior à 2.8.2.',
+	'INST_ERR_DB_NO_SQLITE3'			=> 'A versão da extensão SQLite instalada é muito antiga, tem que atualizá-la para pelo menos 3.6.15.',
+	'INST_ERR_DB_NO_ORACLE'				=> 'A versão do Oracle instalada nesta máquina exige que defina o parâmetro <var>NLS_CHARACTERSET</var> para <var>UTF8</var>. Pode atualizar a sua instalação para uma posterior à 9.2+ ou alterar o seu parâmetro.',
+	'INST_ERR_DB_NO_POSTGRES'			=> 'A Base de Dados selecionada não foi criada na codificação <var>UNICODE</var> ou <var>UTF8</var>. Tente instalar uma Base de Dados com codificação<var>UNICODE</var> ou <var>UTF8</var>.',
+	'INST_ERR_DB_NO_NAME'				=> 'Deve indicar uma Base de Dados',
+	'INST_ERR_EMAIL_INVALID'			=> 'O endereço de email indicado é inválido',
+	'INST_ERR_EMAIL_MISMATCH'			=> 'Os emails que introduziu não coincidem.',
+	'INST_ERR_FATAL'					=> 'Erro fatal de instalação',
+	'INST_ERR_FATAL_DB'					=> 'Ocorreu um erro fatal e irrecuperável na Base de Dados. Isso pode ser porque o utilizador especificado não tem permissões adequadas para <code>CRIAR TABELAS</code> ou <code>INSERIR</code> dados, etc. Mais informações podem ser dadas abaixo. Para mais assistência, entre em contacto com seu fornecedor de alojamento, ou consulte os fóruns de suporte de phpBB.',
+	'INST_ERR_FTP_PATH'					=> 'Não foi possível mudar para a pasta indicada, por favor, verifique o caminho.',
+	'INST_ERR_FTP_LOGIN'				=> 'Não foi possível ligar ao servidor de FTP. Por favor, verifique o nome de Utilizador e a Senha.',
+	'INST_ERR_MISSING_DATA'				=> 'Tem que preencher todos os campos deste bloco.',
+	'INST_ERR_NO_DB'					=> 'Não foi possível carregar o módulo PHP para o tipo de Base de Dados selecionado',
+	'INST_ERR_PASSWORD_MISMATCH'		=> 'As senhas introduzidas não coincidem.',
+	'INST_ERR_PASSWORD_TOO_LONG'		=> 'A senha inserida é muito grande. O tamanho máximo é de 30 caracteres.',
+	'INST_ERR_PASSWORD_TOO_SHORT'		=> 'A senha inserida é muito pequena. O tamanho mínimo é de 6 caracteres.',
+	'INST_ERR_PREFIX'					=> 'Já existem tabelas com o prefixo indicado. Por favor, escolha outro prefixo.',
+	'INST_ERR_PREFIX_INVALID'			=> 'O prefixo indicado é inválido para a sua Base de Dados. Tente outro, removendo caracteres, como por exemplo o hífen.',
+	'INST_ERR_PREFIX_TOO_LONG'			=> 'O prefixo indicado é muito comprido. O comprimento máximo é de %d caracteres.',
+	'INST_ERR_USER_TOO_LONG'			=> 'O nome de Utilizador indicado é muito comprido. O comprimento máximo é de 20 caracteres.',
+	'INST_ERR_USER_TOO_SHORT'			=> 'O nome de Utilizador indicado é muito curto. O comprimento mínimo é de 3 caracteres.',
+	'INVALID_PRIMARY_KEY'				=> 'Chave primária inválida : %s',
 
-	'ACP_LINK'			=> 'Aceder à <a href="%1$s">ACP</a>',
+	'LONG_SCRIPT_EXECUTION'				=> 'Aguarde um momento... Por favor, não interrompa este script.',
 
-    'INSTALL_PHPBB_INSTALLED'		=> 'phpBB já está instalado.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ainda não está instalado.'
-));
+	// mbstring
+	'MBSTRING_CHECK'					=> 'Verificação da extensão <samp>mbstring</samp>',
+	'MBSTRING_CHECK_EXPLAIN'			=> '<strong>Necessário</strong> - <samp>mbstring</samp> é uma extensão do PHP que fornece funções string multibyte. Certas características mbstring são incompatíveis com o phpBB e devem ser desativadas.',
+	'MBSTRING_FUNC_OVERLOAD'			=> 'Função overloading',
+	'MBSTRING_FUNC_OVERLOAD_EXPLAIN'	=> '<var>mbstring.func_overload</var> deve ser 0 ou 4.',
+	'MBSTRING_ENCODING_TRANSLATION'		=> 'Codificação de caracteres transparentes',
+	'MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> deve ser 0.',
+	'MBSTRING_HTTP_INPUT'				=> 'Conversão de caracteres de entrada HTTP',
+	'MBSTRING_HTTP_INPUT_EXPLAIN'		=> '<var>mbstring.http_input</var> deve ser <samp>pass</samp>.',
+	'MBSTRING_HTTP_OUTPUT'				=> 'Conversão de caracteres de saída HTTP',
+	'MBSTRING_HTTP_OUTPUT_EXPLAIN'		=> '<var>mbstring.http_output</var> deve ser <samp>pass</samp>.',
 
-// Requirements translation
-$lang = array_merge($lang, array(
-	// Filesystem requirements
-	'FILE_NOT_EXISTS'						=> 'Arquivo não existe',
-	'FILE_NOT_EXISTS_EXPLAIN'				=> 'Para poder instalar o phpBB o %1$s arquivo precisa existir.',
-	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Recomenda-se que o arquivo %1$s existe para uma melhor experiência do usuário do fórum.',
-	'FILE_NOT_WRITABLE'						=> 'O arquivo não pode ser gravado',
-	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'Para poder instalar o phpBB, o arquivo %1$s precisa ser gravável.',
-	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Recomenda-se que o arquivo %1$s seja gravável para uma melhor experiência do usuário do fórum.',
+	'MAKE_FOLDER_WRITABLE'				=> 'Por Favor, certifique-se de que esta pasta existe e pode ser escrita pelo servidor e tente novamente:<br />»<strong>%s</strong>.',
+	'MAKE_FOLDERS_WRITABLE'				=> 'Por Favor, certifique-se de que estas pastas existem e podem ser escritas pelo servidor e tente novamente:<br />»<strong>%s</strong>.',
 
-	'DIRECTORY_NOT_EXISTS'						=> 'O diretório não existe',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN'				=> 'Para poder instalar o phpBB, o diretório %1$s precisa existir.',
-	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Recomenda-se que o diretório %1$s exista para uma melhor experiência do usuário do fórum.',
-	'DIRECTORY_NOT_WRITABLE'					=> 'O diretório não pode ser gravado',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'Para poder instalar o phpBB, o diretório %1$s precisa ser gravável.',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Recomenda-se que o diretório %1$s seja gravável para uma melhor experiência do usuário do fórum.',
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'		=> 'O seu programa de Base de Dados MySQL está desatualizado. O phpBB detetou um programa para MySQL 3.x/4.x, mas o servidor é executado em MySQL %2$s.<br /><strong>Antes de proceder à sua atualização, tem que atualizar o programa.</strong><br /><br />Por favor, reporte para <a href="https://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">Knowledge Base article about upgrading the MySQL schema</a>. Se encontrar algum problema, use por favor, o <a href="https://www.phpbb.com/community/viewforum.php?f=466">Fórum de Suporte em língua inglesa</a> ou o phpBB Portugal.',
 
-	// Server requirements
-	'PHP_VERSION_REQD'					=> 'Versão do PHP',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'PhpBB requer PHP versão 5.4.0 ou superior.',
-	'PHP_GETIMAGESIZE_SUPPORT'			=> 'A função PHP getimagesize() é necessária',
-	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'Para que o phpBB funcione corretamente, a função getimagesize precisa estar disponível.',
-	'PCRE_UTF_SUPPORT'					=> 'Suporte PCRE UTF-8',
-	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'PhpBB não será executado se sua instalação PHP não for compilada com suporte UTF-8 na extensão PCRE.',
+	'NAMING_CONFLICT'					=> 'Conflito de nomes: %s e %s são pseudónimos<br /><br />%s',
+	'NEXT_STEP'							=> 'Avançar para o próximo passo',
+	'NOT_FOUND'							=> 'Não foi possível encontrar',
+	'NOT_UNDERSTAND'					=> 'Não foi possível entender %s #%d, tabela %s ("%s")',
+	'NO_CONVERTORS'						=> 'Não está disponível nenhum conversor',
+	'NO_CONVERT_SPECIFIED'				=> 'Não foi especificado nenhum conversor',
+	'NO_LOCATION'						=> 'Não foi possível determinar o local. Se o ImageMagick estiver instalado, pode especificar o local mais tarde no seu Painel de Administração.',
+	'NO_TABLES_FOUND'					=> 'Não foi encontrada nenhuma tabela.',
+
+	'OVERVIEW_BODY'						=> 'Bem-vindo ao phpBB3!<br /><br />O phpBB® é a solução de código aberto mais utilizada para sistemas de fóruns. A versão 3 é a mais recente de uma série iniciada no ano 2000. Tal como os seus antecessores, tem uma enorme diversidade de ferramentas, uma interface amigável e de fácil compreensão e é suportado pelo phpBB Team. O phpBB3 reuniu o que de melhor havia para o phpBB2 adicionando as ferramentas mais populares e que não se encontravam presentes nas versões anteriores. Esperamos que esta nova versão exceda as suas expectativas.<br /><br />Este sistema de instalação vai conduzi-lo através de diversas ferramentas, como a instalação do phpBB3, atualização do sistema para a versão mais recente do phpBB3 a partir de versões anteriores, bem como a conversão para phpBB3 de sistemas de Fóruns diferentes, incluindo o phpBB 2.0.x. Para informações mais detalhadas, recomendamos a leitura do <a href="../docs/INSTALL.html">Guia de Instalação (em língua inglesa)</a>.<br /><br />Para conhecer a licença do phpBB3 ou saber como obter ajuda online, selecione as opções no menu lateral. Para continuar, selecione o separador apropriado.',
+
+	'PCRE_UTF_SUPPORT'					=> 'Suporte a PCRE UTF-8',
+	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'O phpBB <strong>não</strong> funcionará se a sua instalação do PHP não for compilada com suporte a UTF-8 na extensão PCRE.',
+	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Função do PHP getimagesize() está disponível',
+	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Necessário</strong> - Para o funcionamento correto do phpBB, é necessário que esta função seja disponível.',
 	'PHP_JSON_SUPPORT'					=> 'Suporte PHP JSON',
-	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Para que phpBB funcione corretamente, a extensão PHP JSON precisa estar disponível.',
-	'PHP_XML_SUPPORT'					=> 'Suporte PHP XML/DOM',
-	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Para que phpBB funcione corretamente, a extensão PHP XML/DOM precisa estar disponível.',
-    'PHP_SUPPORTED_DB'					=> 'Bancos de dados suportados',
-	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'Você deve ter suporte para pelo menos um banco de dados compatível dentro do PHP. Se nenhum módulo de banco de dados for mostrado como disponível, você deve entrar em contato com seu provedor de hospedagem ou revisar a documentação de instalação relevante do PHP para obter orientação.',
+	'PHP_JSON_SUPPORT_EXPLAIN'			=> '<strong>Necessário</strong> - para que o phpBB funcione corretamente, a extensão PHP JSON tem que estar ativa.',
+	'PHP_OPTIONAL_MODULE'				=> 'Módulos Opcionais',
+	'PHP_OPTIONAL_MODULE_EXPLAIN'		=> '<strong>Opcional</strong> - Estes módulos ou aplicações são opcionais, não sendo necessários para a utilização do phpBB 3.0. No entanto, se os tiver, obterá maiores funcionalidades.',
+	'PHP_SUPPORTED_DB'					=> 'Bases de Dados suportadas',
+	'PHP_SUPPORTED_DB_EXPLAIN'			=> '<strong>Necessário</strong> - Deve ter pelo menos uma Base de Dados compatível com o phpBB. Se não há nenhuma Base de Dados disponível, contacte o seu fornecedor de Alojamento ou reveja a documentação do phpBB relevante para obter ajuda.',
+	'PHP_REGISTER_GLOBALS'				=> 'A configuração do PHP "register_globals" está desativada',
+	'PHP_REGISTER_GLOBALS_EXPLAIN'		=> 'O phpBB irá funcionar com esta configuração ativada, mas se possível, recomendamos que a configuração register_globals seja desativada no PHP por motivos de segurança.',
+	'PHP_SAFE_MODE'						=> 'Modo Seguro',
+	'PHP_SETTINGS'						=> 'Versão do PHP e Configurações',
+	'PHP_SETTINGS_EXPLAIN'				=> '<strong>Necessário</strong> - Deve possuir no mínimo a versão 5.3.3, do PHP (PHP 7 não é suportado) para instalar o phpBB. Se o "modo seguro" está indicado em baixo, a instalação do PHP decorrerá neste modo. Daí resultarão limitações para a Administração remota e características similares.',
+	'PHP_URL_FOPEN_SUPPORT'				=> 'Configuração do PHP <var>allow_url_fopen</var> está ativada',
+	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'		=> '<strong>Opcional</strong> - Esta configuração é opcional, no entanto algumas funções, como o Avatar fora do site, não funcionarão.',
+	'PHP_VERSION_REQD'					=> 'Versão do PHP >= 5.3.3, < 7.0.0-dev',
+	'POST_ID'							=> 'ID da mensagem',
+	'PREFIX_FOUND'						=> 'Um scan às suas tabelas encontrou uma instalação válida utilizando o prefixo <strong>%s</strong> para as tabelas.',
+	'PREPROCESS_STEP'					=> 'Executando as funções de pré-processamento',
+	'PRE_CONVERT_COMPLETE'				=> 'Todos os passos da pré-conversão foram terminados com sucesso. Pode iniciar o processo de conversão. Por Favor, note que deve ajustar algumas coisas manualmente. Depois da conversão, verifique as permissões atribuídas, reconstrua o índice de Pesquisa se necessário e verifique se os ficheiros foram copiados corretamente, como por exemplo os Avatares as Emoções.',
+	'PROCESS_LAST'						=> 'Executando as últimas instruções',
 
-	'RETEST_REQUIREMENTS'	=> 'Teste de novo os requisitos',
+	'REFRESH_PAGE'						=> 'Atualize a página para continuar a conversão',
+	'REFRESH_PAGE_EXPLAIN'				=> 'Se clicar em "Sim", o conversor irá atualizar a página para continuar a conversão até à etapa final. Se esta é uma conversão apenas de teste e para determinação de erros, clique em "Não".',
+	'REQUIREMENTS_TITLE'				=> 'Compatibilidade de Instalação',
+	'REQUIREMENTS_EXPLAIN'				=> 'Antes de continuar com a instalação completa, o phpBB fará alguns testes à configuração do Servidor e aos ficheiros para garantir a sua instalação e utilização. Leia os resultados com atenção e não continue até que todos os testes necessários terminem. Se desejar selecionar alguma função listada nos testes opcionais, certifique-se que estes são concluídos.',
+	'RETRY_WRITE'						=> 'Tentar escrever a configuração novamente',
+	'RETRY_WRITE_EXPLAIN'				=> 'Pode alterar as Permissões do ficheiro config.php para permitir que o phpBB escreva nele. Caso modifique as permissões, clique em Tentar Novamente. Lembre-se de voltar às permissões originais do config.php após concluir a instalação.',
 
-	'STAGE_REQUIREMENTS'	=> 'Verificação de requisitos'
+	'SCRIPT_PATH'						=> 'Pasta dos Ficheiros',
+	'SCRIPT_PATH_EXPLAIN'				=> 'A pasta onde os ficheiros do phpBB estão localizados no seu servidor, (Exemplo: /phpBB3).',
+	'SELECT_LANG'						=> 'Selecione o idioma',
+	'SERVER_CONFIG'						=> 'Configuração do Servidor',
+	'SEARCH_INDEX_UNCONVERTED'			=> 'Os índices de pesquisa não foram convertidos',
+	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'Os antigos índices de pesquisa não foram convertidos. As pesquisas irão dar erro. Para criar um novo índice de pesquisa, vá ao Painel de Administrador, selecione Manutenção e escolha Índice de pesquisa no sub-menu.',
+	'SELECT_FORUM_GA'					=> 'No phpBB 3.1 os anúncios globais estão ligados aos fóruns. Selecionar um fórum para os anúncios globais atuais (pode ser movido mais tarde):',
+	'SOFTWARE'							=> 'Software do Fórum',
+	'SPECIFY_OPTIONS'					=> 'Escolha as Opções de Conversão',
+	'STAGE_ADMINISTRATOR'				=> 'Detalhes do Administrador',
+	'STAGE_ADVANCED'					=> 'Configurações Avançadas',
+	'STAGE_ADVANCED_EXPLAIN'			=> 'As configurações nesta página apenas são necessárias se desejar introduzir modificações à configuração padrão. Todas as configurações presentes nesta página podem ser efetuadas posteriormente no Painel de Administração.',
+	'STAGE_CONFIG_FILE'					=> 'Ficheiro de Configuração',
+	'STAGE_CREATE_TABLE'				=> 'Criação das Tabelas',
+	'STAGE_CREATE_TABLE_EXPLAIN'		=> 'As Tabelas da Base de Dados utilizadas pelo phpBB 3.1 foram criadas com sucesso e atualizadas com as informações iniciais. Continue para o próximo passo para concluir a instalação do phpBB.',
+	'STAGE_DATABASE'					=> 'Configuração da Base de Dados',
+	'STAGE_FINAL'						=> 'Etapa Final',
+	'STAGE_INTRO'						=> 'Introdução',
+	'STAGE_IN_PROGRESS'					=> 'Conversão em andamento',
+	'STAGE_REQUIREMENTS'				=> 'Exigências',
+	'STAGE_SETTINGS'					=> 'Configurações',
+	'STARTING_CONVERT'					=> 'Iniciando o Processo da Conversão',
+	'STEP_PERCENT_COMPLETED'			=> 'Passo <strong>%d</strong> de <strong>%d</strong>',
+	'SUB_INTRO'							=> 'Introdução',
+	'SUB_LICENSE'						=> 'Licença',
+	'SUB_SUPPORT'						=> 'Suporte',
+	'SUCCESSFUL_CONNECT'				=> 'Ligação Completa',
+	'SUPPORT_BODY'						=> 'Será fornecido gratuitamente suporte completo para a atual versão do phpBB3. Isto inclui:</p><ul><li>instalação</li><li>configuração</li><li>questões técnicas</li><li>problemas relativos a potenciais erros do software</li><li>atualização de versões Release Candidate (RC) para a última versão estável</li><li>conversão phpBB 2.0.x para phpBB3</li><li>conversão de outro software de fórum de discussão para phpBB3 (consulte o <a href="https://www.phpbb.com/community/viewforum.php?f=486">Conversores de fóruns</a>)</li></ul><p>Encorajamos os utilizadores que ainda têm versões beta do phpBB3 a converter a sua instalação para a versão mais recente.</p><h2>Extensões / Estilos</h2><p>Para questões relacionadas com extensões, por favor poste no <a href="https://www.phpbb.com/community/viewforum.php?f=451">Fórum de Extensões</a>.<br />Para questões relacionadas com estilos, por favor poste no <a href="https://www.phpbb.com/community/viewforum.php?f=471">Fórum de estilos</a>.<br /><br />Se a sua pergunta se refere a um pacote específico, por favor escreva diretamente no tópico dedicado ao pacote.</p><h2>Obtendo Suporte</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&amp;t=571070">O pacote de boas-vindas phpBB</a><br /><a href="https://www.phpbb.com/support/">Secção de Suporte</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Guia rápido de iniciação</a><br /><br />Para garantir que se mantém atualizado com as últimas notícias e versões, subscreva a <a href="https://www.phpbb.com/support/">nossa mailing list</a>?<br /><br />',
+	'SYNC_FORUMS'						=> 'Sincronizar Fóruns',
+	'SYNC_POST_COUNT'					=> 'Sincronizar contador de Mensagens',
+	'SYNC_POST_COUNT_ID'				=> 'Sincronizar contador de Mensagens para <var>entry</var> %1$s para %2$s.',
+	'SYNC_TOPICS'						=> 'Sincronizar Tópicos',
+	'SYNC_TOPIC_ID'						=> 'Sincronizando Tópicos a partir do Tópico ID $1%s ao $2%s.',
+
+	'TABLES_MISSING'					=> 'Não foi possível encontrar estas tabelas<br />» <strong>%s</strong>.',
+	'TABLE_PREFIX'						=> 'Prefixo das Tabelas na Base de Dados',
+	'TABLE_PREFIX_EXPLAIN'				=> 'O prefixo deve começar com uma letra e deve conter apenas letras, números e sublinhados.',
+	'TABLE_PREFIX_SAME'					=> 'O Prefixo das Tabelas tem que ser o usado pelo software que está convertendo.<br />» O prefixo de Tabela especificado foi %s',
+	'TESTS_PASSED'						=> 'Os testes foram concluídos com sucesso',
+	'TESTS_FAILED'						=> 'Testes não concluídos',
+
+	'UNABLE_WRITE_LOCK'					=> 'Não foi possível escrever o ficheiro de bloqueio',
+	'UNAVAILABLE'						=> 'Indisponível',
+	'UNWRITABLE'						=> 'Não gravável',
+	'UPDATE_TOPICS_POSTED'				=> 'Gerando informações de Tópicos enviados',
+	'UPDATE_TOPICS_POSTED_ERR'			=> 'Algum erro ocorreu enquanto as informações dos Tópicos eram geradas. Pode tentar novamente esta etapa no Painel de Administração quando a conversão estiver completa.',
+	'VERIFY_OPTIONS'					=> 'Verificando as opções da configuração',
+	'VERSION'							=> 'Versão',
+
+	'WELCOME_INSTALL'					=> 'Bem-vindo à Instalação do phpBB3',
+	'WRITABLE'							=> 'Gravável',
 ));
 
-// General error messages
+// Updater
 $lang = array_merge($lang, array(
-	'INST_ERR_MISSING_DATA'		=> 'Você deve preencher todos os campos deste bloco.',
+	'ALL_FILES_UP_TO_DATE'				=> 'Todos os ficheiros estão atualizados com a última versão do phpBB.',
+	'ARCHIVE_FILE'						=> 'Código fonte dentro do ficheiro',
 
-	'TIMEOUT_DETECTED_TITLE'	=> 'O instalador detectou um tempo limite',
-	'TIMEOUT_DETECTED_MESSAGE'	=> 'O instalador detectou um tempo limite, você pode tentar atualizar a página, o que pode levar a corrupção de dados. Sugerimos que você aumente suas configurações de tempo limite ou tente usar o CLI.',
-));
+	'BACK'								=> 'Voltar',
+	'BINARY_FILE'						=> 'Ficheiro binário',
+	'BOT'								=> 'Motor de Busca',
 
-// Data obtaining translations
-$lang = array_merge($lang, array(
-	'STAGE_OBTAIN_DATA'	=> 'Definir dados de instalação',
+	'CHANGE_CLEAN_NAMES'				=> 'O método utilizado para garantir que um nome de Utilizador não seja usado por múltiplos Utilizadores foi alterado. Existem alguns Utilizadores com o mesmo nome quando comparados com o novo método. Deve excluir ou renomear estes Utilizadores para certificar-se de que cada nome esteja sendo utilizado por apenas um Utilizador antes de continuar.',
+	'CHECK_FILES'						=> 'Verificar ficheiros',
+	'CHECK_FILES_AGAIN'					=> 'Verificar ficheiros novamente',
+	'CHECK_FILES_EXPLAIN'				=> 'Na próxima etapa todos os ficheiros serão verificados com os da atualização - essa operação pode demorar algum tempo caso seja a primeira verificação.',
+	'CHECK_FILES_UP_TO_DATE'			=> 'De acordo com a sua Base de Dados a sua versão do phpBB está atualizada. Pode continuar para a verificação dos ficheiros para ter a certeza de que todos os ficheiros estão realmente atualizados com a versão mais recente do phpBB.',
+	'CHECK_UPDATE_DATABASE'				=> 'Continuar com o processo de Atualização',
+	'COLLECTED_INFORMATION'				=> 'Informação dos ficheiros',
+	'COLLECTED_INFORMATION_EXPLAIN'		=> 'Esta é uma lista dos ficheiros que precisam de ser atualizados. Leia as informações para saber o que tem de fazer para os atualizar.',
+	'COLLECTING_FILE_DIFFS'				=> 'A verificar os diferentes ficheiros',
+	'COMPLETE_LOGIN_TO_BOARD'			=> 'Agora deve <a href="../ucp.php?mode=login">entrar no seu Fórum</a> e verificar se tudo funciona bem. Não se esqueça de eliminar, mover ou apagar a pasta install!',	
+	'CONTINUE_UPDATE_NOW'				=> 'Continuar o processo de atualização agora',		// Shown within the database update script at the end if called from the updater
+	'CONTINUE_UPDATE'					=> 'Continue a atualização agora',					// Shown after file upload to indicate the update process is not yet finished
+	'CURRENT_FILE'						=> 'Início do Conflito - Ficheiro original atual antes da atualização',
+	'CURRENT_VERSION'					=> 'Versão Atual',
 
-	//
-	// Admin data
-	//
-	'STAGE_ADMINISTRATOR'	=> 'Detalhes do Administrador',
+	'DATABASE_TYPE'						=> 'Base de Dados',
+	'DATABASE_UPDATE_COMPLETE'			=> 'A atualização da Base de Dados está completa!',
+	'DATABASE_UPDATE_CONTINUE'			=> 'Continuar com a atualização da Base de Dados',
+	'DATABASE_UPDATE_INFO_OLD'			=> 'O Ficheiro de atualização da Base de Dados na pasta de instalação está desatualizado. Por favor, certifique-se de ter enviado a versão correta do Ficheiro.',
+	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'A atualização da base de Dados ainda não está completa.',
+	'DATABASE_VERSION'					=> 'Versão da base de dados',
+	'DELETE_USER_REMOVE'				=> 'Apagar Utilizador e as suas Mensagens',
+	'DELETE_USER_RETAIN'				=> 'Apagar Utilizador mas deixar as suas Mensagens',
+	'DESTINATION'						=> 'Ficheiro de destino',
+	'DIFF_INLINE'						=> 'Na linha',
+	'DIFF_RAW'							=> 'Diferenças unificadas puras',
+	'DIFF_SEP_EXPLAIN'					=> 'Código bloco utilizado na atualização / novo ficheiro',
+	'DIFF_SIDE_BY_SIDE'					=> 'Lado a lado',
+	'DIFF_UNIFIED'						=> 'Diferenças unificadas',
+	'DO_NOT_UPDATE'						=> 'Não atualize este Ficheiro',
+	'DONE'								=> 'Pronto',
+	'DOWNLOAD'							=> 'Transferir',
+	'DOWNLOAD_AS'						=> 'Transferir como',
+	'DOWNLOAD_UPDATE_METHOD_BUTTON'		=> 'Transferir o Ficheiro das modificações (recomendado)',
+	'DOWNLOAD_CONFLICTS'				=> 'Transfira os valores em conflito para este ficheiro',
+	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Procure por &lt;&lt;&lt; para encontrar valores em conflito',	
+	'DOWNLOAD_UPDATE_METHOD'			=> 'Transferir os Ficheiros modificados',
+	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Depois de transferir os Ficheiros deve descomprimi-los e enviá-los para a pasta raiz do seu phpBB. Envie os Ficheiros para os seus respetivos locais. Depois de enviar todos os Ficheiros, confira-os novamente clicando no botão abaixo.',
 
-	// Form labels
-	'ADMIN_CONFIG'				=> 'Configuração do Administrador',
-	'ADMIN_PASSWORD'			=> 'Senha do Administrador',
-	'ADMIN_PASSWORD_CONFIRM'	=> 'Confirmar senha de Administrador',
-	'ADMIN_PASSWORD_EXPLAIN'	=> 'Introduza uma palavra-passe com um comprimento entre 6 e 30 caracteres.',
-	'ADMIN_USERNAME'			=> 'Nome de usuário do Administrador',
-	'ADMIN_USERNAME_EXPLAIN'	=> 'Introduza um nome de utilizador com um comprimento entre 3 e 20 caracteres.',
+	'EDIT_USERNAME'						=> 'Editar nome de utilizador',
+	'ERROR'								=> 'Erro',
+	'EVERYTHING_UP_TO_DATE'				=> 'Está concluída a atualização para a última versão do phpBB. Agora deve <a href="%1$s">Ligar-se no seu Fórum</a> e verificar se está tudo bem. Não se esqueça de apagar ou renomear a pasta de instalação! Por favor envie-nos informações sobre as configurações do seu servidor e Fórum a partir do módulo <a href="%2$s">Enviar estatísticas</a> do ACP.',
 
-	// Errors
-	'INST_ERR_EMAIL_INVALID'		=> 'O endereço de e-mail inserido é inválido.',
-	'INST_ERR_PASSWORD_MISMATCH'	=> 'As senhas fornecidas não correspondem.',
-	'INST_ERR_PASSWORD_TOO_LONG'	=> 'A senha inserida é muito longa. O comprimento máximo é de 30 caracteres.',
-	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'A senha inserida é muito curta. O comprimento mínimo é de 6 caracteres.',
-	'INST_ERR_USER_TOO_LONG'		=> 'O nome de usuário inserido é muito longo. O comprimento máximo é de 20 caracteres.',
-	'INST_ERR_USER_TOO_SHORT'		=> 'O nome de usuário inserido é muito curto. O comprimento mínimo é de 3 caracteres.',
+	'FILE_ALREADY_UP_TO_DATE'			=> 'O ficheiro já foi atualizado',
+	'FILE_DIFF_NOT_ALLOWED'				=> 'O ficheiro não se encontra disponível para ser verificado',
+	'FILE_USED'							=> 'A informação foi utilizada de',			// Single file
+	'FILES_CONFLICT'					=> 'Ficheiros em conflito',
+	'FILES_CONFLICT_EXPLAIN'			=> 'Os ficheiros seguintes apresentam alterações relativamente à versão anterior. Eventuais tentativas de alteração aos ficheiros poderiam criar conflitos. Investigue os conflitos e tente resolvê-los manualmente ou continue a atualização selecionando o método desejado. Se resolver os conflitos manualmente, faça nova verificação aos ficheiros depois de modificados. Pode selecionar o método desejado para todos os Ficheiros. O primeiro irá resultar num Ficheiro onde as linhas em conflito do seu Ficheiro anterior serão perdidas, e o outro irá resultar na perda das modificações no novo ficheiro.',
+	'FILES_DELETED'						=> 'Ficheiros apagados',
+	'FILES_DELETED_EXPLAIN'				=> 'Os seguintes ficheiros não existem na nova versão. Esses ficheiros devem ser excluídos de sua instalação.',
+	'FILES_MODIFIED'					=> 'Ficheiros modificados',
+	'FILES_MODIFIED_EXPLAIN'			=> 'Os ficheiros seguintes apresentam alterações relativamente à versão anterior. O novo ficheiro atualizado, resultará da fusão das modificações com o ficheiro atual.',
+	'FILES_NEW'							=> 'Novos ficheiros',
+	'FILES_NEW_EXPLAIN'					=> 'Os ficheiros seguintes não existem atualmente na sua instalação.',
+	'FILES_NEW_CONFLICT'				=> 'Novos Ficheiros em conflito',
+	'FILES_NEW_CONFLICT_EXPLAIN'		=> 'Os ficheiros seguintes são novos na nova versão do phpBB, mas já existe um ficheiro com o mesmo nome na mesma posição. O ficheiro atual será substituído pelo novo.',
+	'FILES_NOT_MODIFIED'				=> 'Ficheiros não modificados',
+	'FILES_NOT_MODIFIED_EXPLAIN'		=> 'Os ficheiros seguintes não necessitam de alterações.',
+	'FILES_UP_TO_DATE'					=> 'Ficheiros já atualizados',
+	'FILES_UP_TO_DATE_EXPLAIN'			=> 'Os ficheiros seguintes já se encontram prontos e não precisam ser atualizados.',
+	'FILES_VERSION'					    => 'Versão dos ficheiros',
+	'FTP_SETTINGS'						=> 'Configurações de FTP',
+	'FTP_UPDATE_METHOD'					=> 'Envio de FTP',
 
-	//
-	// Board data
-	//
-	// Form labels
-	'BOARD_CONFIG'		=> 'Configuração do forum',
-	'DEFAULT_LANGUAGE'	=> 'Idioma padrão',
-	'BOARD_NAME'		=> 'Título do forum',
-	'BOARD_DESCRIPTION'	=> 'Breve descrição do forum',
+	'INCOMPATIBLE_UPDATE_FILES'			=> 'Os ficheiros de atualização encontrados são incompatíveis com a versão do phpBB instalada. A sua versão do phpBB é %1$s e o Ficheiro de atualização é da versão %2$s para %3$s.',
+	'INCOMPLETE_UPDATE_FILES'			=> 'Os ficheiros de atualização estão incompletos',
+	'INLINE_UPDATE_SUCCESSFUL'			=> 'A Base de Dados foi atualizada com sucesso. Pode continuar com o processo.',
 
-	//
-	// Database data
-	//
-	'STAGE_DATABASE'	=> 'Configurações do banco de dados',
+	'KEEP_OLD_NAME'						=> 'Manter o nome de utilizador',
 
-	// Form labels
-	'DB_CONFIG'				=> 'Configuração do banco de dados',
-	'DBMS'					=> 'Tipo de banco de dados',
-	'DB_HOST'				=> 'Nome do servidor do banco de dados ou DSN',
-	'DB_HOST_EXPLAIN'		=> 'DSN significa Data Source Name e é relevante apenas para instalações ODBC. No PostgreSQL, use o localhost para se conectar ao servidor local via soquete de domínio UNIX e 127.0.0.1 para se conectar via TCP. Para SQLite, digite o caminho completo para seu arquivo de banco de dados.',
-	'DB_PORT'				=> 'Porta do servidor de banco de dados',
-	'DB_PORT_EXPLAIN'		=> 'Deixe isso em branco, a menos que saiba que o servidor opera em uma porta não padrão.',
-	'DB_PASSWORD'			=> 'Senha do banco de dados',
-	'DB_NAME'				=> 'Nome do banco de dados',
-	'DB_USERNAME'			=> 'Nome de usuário do banco de dados',
-	'DATABASE_VERSION'		=> 'Versão da base de dados',
-    'TABLE_PREFIX'			=> 'Prefixo para tabelas no banco de dados',
-	'TABLE_PREFIX_EXPLAIN'	=> 'O prefixo deve começar com uma letra e deve conter apenas letras, números e sublinhados.',
+	'LATEST_VERSION'					=> 'Última Versão',
+	'LINE'								=> 'Linha',
+	'LINE_ADDED'						=> 'Adicionadas',
+	'LINE_MODIFIED'						=> 'Alteradas',
+	'LINE_REMOVED'						=> 'Apagadas',
+	'LINE_UNMODIFIED'					=> 'Não Alteradas',
+	'LOGIN_UPDATE_EXPLAIN'				=> 'Pronto para atualizar a sua Instalação. Primeiro tem que ligar-se.',
 
-	// Database options
-	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
-	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Native ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
-	'DB_OPTION_MYSQLI'		=> 'MySQL with MySQLi Extension',
-	'DB_OPTION_ORACLE'		=> 'Oracle',
-	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
-	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
+	'MAPPING_FILE_STRUCTURE'			=> 'Para facilitar a atualização aqui tem a lista dos ficheiros e a respetiva localização.',
 
-	// Errors
-	'INST_ERR_NO_DB'				=> 'Não é possível carregar o módulo PHP para o tipo de banco de dados selecionado.',
-	'INST_ERR_DB_INVALID_PREFIX'	=> 'O prefixo inserido é inválido. Deve começar com uma letra e deve conter apenas letras, números e sublinhados.',
-	'INST_ERR_PREFIX_TOO_LONG'		=> 'O prefixo de tabela que você especificou é muito longo. O comprimento máximo %d caracteres.',
-	'INST_ERR_DB_NO_NAME'			=> 'Nenhum nome de banco de dados especificado.',
-	'INST_ERR_DB_FORUM_PATH'		=> 'O arquivo de banco de dados especificado está dentro da árvore de diretórios do forum. Você deve colocar esse arquivo em um local não acessível pela web.',
-	'INST_ERR_DB_CONNECT'			=> 'Não foi possível conectar-se ao banco de dados, veja a mensagem de erro abaixo.',
-	'INST_ERR_DB_NO_ERROR'			=> 'Nenhuma mensagem de erro fornecida.',
-	'INST_ERR_PREFIX'				=> 'Tabelas com o prefixo especificado já existem, escolha uma alternativa.',
-	'INST_ERR_DB_NO_MYSQLI'			=> 'A versão do MySQL instalada nesta máquina é incompatível com a opção “MySQL com MySQLi Extension” que você selecionou. Por favor, tente a opção “MySQL” em vez disso.',
-	'INST_ERR_DB_NO_SQLITE3'		=> 'A versão da extensão SQLite que você instalou é muito antiga, ele deve ser atualizado para pelo menos 3.6.15.',
-	'INST_ERR_DB_NO_ORACLE'			=> 'A versão do Oracle instalada nesta máquina requer que você defina o parâmetro <var>NLS_CHARACTERSET</var> em <var>UTF8</var>. Atualize sua instalação para 9.2+ ou altere o parâmetro.',
-	'INST_ERR_DB_NO_POSTGRES'		=> 'O banco de dados selecionado não foi criado na codificação <var>UNICODE</var> ou <var>UTF8</var>. Tente instalar com um banco de dados em <var>UNICODE</var> ou <var>UTF8</var> .',
-	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> 'O arquivo de esquema não pode ser gravado',
+	'MERGE_MODIFICATIONS_OPTION'		=> 'Fundir modificação',
 
-	//
-	// Email data
-	//
-	'EMAIL_CONFIG'	=> 'Configuração de e-mail',
+	'MERGE_NO_MERGE_NEW_OPTION'			=> 'Não fundir - utilizar novos Ficheiros',
+	'MERGE_NO_MERGE_MOD_OPTION'			=> 'Não fundir - utilizar Ficheiros instalados atualmente',
+	'MERGE_MOD_FILE_OPTION'				=> 'Fundir modificações (Perde o novo código de phpBB dentro do bloco de conflito)',
+	'MERGE_NEW_FILE_OPTION'				=> 'Fundir modificações (Perde código modificado dentro do bloco de conflito)',
+	'MERGE_SELECT_ERROR'				=> 'Não selecionou corretamente o modo de unir Ficheiros em conflito.',
+	'MERGING_FILES'						=> 'Fundir diferenças',
+	'MERGING_FILES_EXPLAIN'				=> 'Modificações finais do ficheiro em atualização.<br /><br />Por favor, aguarde até que o phpBB termine todas as operações nos Ficheiros modificados.',
 
-	// Package info
-	'PACKAGE_VERSION'					=> 'Versão do pacote instalada',
-	'UPDATE_INCOMPLETE'				=> 'Sua instalação do phpBB não foi atualizada corretamente.',
-	'UPDATE_INCOMPLETE_MORE'		=> 'Por favor, leia as informações abaixo para corrigir este erro.',
-	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Atualização incompleta</h1>
+	'NEW_FILE'							=> 'Fim do Conflito',
+	'NEW_USERNAME'						=> 'Novo Utilizador',
+	'NO_AUTH_UPDATE'					=> 'Não está autorizado a atualizar este painel',
+	'NO_ERRORS'							=> 'Sem Erros',
+	'NO_UPDATE_FILES'					=> 'Sem atualização para os ficheiros seguintes',
+	'NO_UPDATE_FILES_EXPLAIN'			=> 'Os ficheiros seguintes são novos ou modificados, mas a pasta em que eles normalmente se encontram não foi encontrada na sua instalação. Se esta lista contém Ficheiros para as pastas como /language ou /styles que tenha alterado, a sua estrutura de pastas e a atualização deverão ficar incompletas.',
+	'NO_UPDATE_FILES_OUTDATED'			=> 'Nenhuma pasta de atualização válida foi encontrada, por favor, certifique-se de ter enviado corretamente os Ficheiros.<br /><br />A sua Instalação <strong>não</strong> está pronta. As atualizações estão disponíveis para a sua Versão do phpBB %1$s, por favor, visite <a href="https://www.phpbb.com/downloads/" rel="external">https://www.phpbb.com/downloads/</a> para descarregar o pacote correto para atualizar da Versão %2$s para a Versão %3$s.',
+	'NO_UPDATE_FILES_UP_TO_DATE'		=> 'A sua versão está pronta. Não é necessário executar a ferramenta de atualização. Se deseja ter a absoluta certeza, verifique se enviou corretamente os Ficheiros de Atualização.',
+	'NO_UPDATE_INFO'					=> 'A Informação do Ficheiro de atualização não foi encontrada',
+	'NO_UPDATES_REQUIRED'				=> 'Não há alterações a fazer',
+	'NO_VISIBLE_CHANGES'				=> 'Sem alterações visíveis',
+	'NOTICE'							=> 'Aviso',
+	'NUM_CONFLICTS'						=> 'Número de conflitos',
+	'NUMBER_OF_FILES_COLLECTED'			=> 'Atualmente foram detetadas diferenças em %1$d de %2$d ficheiros.<br />Por favor, aguarde até que todos os ficheiros sejam analisados.',
 
-	    <p>Percebemos que a última atualização da sua instalação do phpBB não foi concluída. Visite o <a href="%1$s" title="%1$s">atualizador de banco de dados</a>, verifique se <em>Atualizar banco de dados somente</em> está selecionado e clique em <strong>Enviar </strong>. Não se esqueça de apagar o diretório "install" depois de atualizar o banco de dados com êxito.</p>',
+	'OLD_UPDATE_FILES'					=> 'Os Ficheiros de atualização não estão prontos. Os Ficheiros de atualização encontrados são do phpBB %1$s para o phpBB %2$s, mas a Última Versão do phpBB é a %3$s.',
 
-    //
-	// Server data
-	//
-	// Form labels
-	'SERVER_CONFIG'				=> 'Configuração do servidor',
-	'SCRIPT_PATH'				=> 'Caminho de script',
-	'SCRIPT_PATH_EXPLAIN'		=> 'O caminho onde phpBB está localizado em relação ao nome de domínio, ex. <samp>/phpBB3</samp>.',
+	'PACKAGE_UPDATES_TO'				=> 'O pacote atual irá atualizar para a versão',
+	'PACKAGE_VERSION'					=> 'Versão do pacote instalado',
+	'PERFORM_DATABASE_UPDATE'			=> 'A atualizar a Base de Dados',
+	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Clique no botão para correr a atualização da Base de Dados. A atualização da Base de Dados tem que ser executada em separado para prevenir eventuais erros. Esta operação pode demorar alguns minutos, por favor, não a interrompa. Depois de finalizada a atualização da Base de Dados, feche a janela e continue o processo de atualização.',
+	'PREVIOUS_VERSION'					=> 'Versão Anterior',
+	'PROGRESS'							=> 'Progresso',
+
+	'RELEASE_ANNOUNCEMENT'				=> 'Anúncio',
+	'RESULT'							=> 'Resultado',
+	'RUN_DATABASE_SCRIPT'				=> 'Atualizar Base de Dados',
+
+	'SELECT_DIFF_MODE'					=> 'Selecionar Modo de Diferenciação',
+	'SELECT_DOWNLOAD_FORMAT'			=> 'Selecionar Formato do Ficheiro para Transferência',
+	'SELECT_FTP_SETTINGS'				=> 'Selecionar Configurações de FTP',
+	'SHOW_DIFF_CONFLICT'				=> 'Exibir Diferenças/Conflitos',
+	'SHOW_DIFF_DELETED'					=> 'Mostrar conteúdo do ficheiro',
+	'SHOW_DIFF_FINAL'					=> 'Exibir Ficheiro Resultante',
+	'SHOW_DIFF_MODIFIED'				=> 'Exibir Diferenças Alteradas',
+	'SHOW_DIFF_NEW'						=> 'Exibir Conteúdo do Ficheiro',
+	'SHOW_DIFF_NEW_CONFLICT'			=> 'Exibir Diferenças',
+	'SHOW_DIFF_NOT_MODIFIED'			=> 'Exibir Diferenças',
+	'SOME_QUERIES_FAILED'				=> 'Algumas consultas falharam. As declarações e os erros estão listados abaixo.',
+	'SQL'								=> 'SQL',
+	'SQL_FAILURE_EXPLAIN'				=> 'Provavelmente não há nada de preocupante, a atualização continuará. Para solucionar este problema, deve procurar ajuda no Fórum de Suporte. Veja o <a href="../docs/README.html">README</a> para detalhes em como obter ajuda.',
+	'STAGE_FILE_CHECK'					=> 'Verificar Ficheiros',
+	'STAGE_UPDATE_DB'					=> 'Atualizar Base de Dados',
+	'STAGE_UPDATE_FILES'				=> 'Atualizar Ficheiros',
+	'STAGE_VERSION_CHECK'				=> 'Verificação da versão',
+	'STATUS_CONFLICT'					=> 'Ficheiro Modificado produzindo conflitos',
+	'STATUS_DELETED'					=> 'Ficheiro apagado',
+	'STATUS_MODIFIED'					=> 'Ficheiro Modificado',
+	'STATUS_NEW'						=> 'Novo Ficheiro',
+	'STATUS_NEW_CONFLICT'				=> 'Novo Ficheiro em Conflito',
+	'STATUS_NOT_MODIFIED'				=> 'Ficheiro não Modificado',
+	'STATUS_UP_TO_DATE'					=> 'O Ficheiro já foi atualizado',
+
+	'TOGGLE_DISPLAY'					=> 'Mostrar/Esconder a Lista de Ficheiros',
+	'TRY_DOWNLOAD_METHOD'				=> 'Pode tentar o método de transferência dos Ficheiros modificados.<br />Este método funciona sempre e é também o pacote de atualização recomendado.',
+	'TRY_DOWNLOAD_METHOD_BUTTON'		=> 'Tente este método agora',
+
+	'UPDATE_COMPLETED'					=> 'Atualização concluída',
+	'UPDATE_DATABASE'					=> 'Atualizar Base de Dados',
+	'UPDATE_DATABASE_EXPLAIN'			=> 'Na próxima etapa a Base de Dados será atualizada.',
+	'UPDATE_DATABASE_SCHEMA'			=> 'Atualização da estrutura da Base de Dados',
+	'UPDATE_FILES'						=> 'Atualizar Ficheiros',
+	'UPDATE_FILES_NOTICE'				=> 'Por Favor, certifique-se de ter atualizado os Ficheiros do seu Fórum também, este Ficheiro apenas atualiza a Base de Dados.',
+	'UPDATE_INCOMPLETE'				    => 'A sua instalação do phpBB não foi atualizada corretamente.',
+	'UPDATE_INCOMPLETE_MORE'		    => 'Por favor, leia as informações abaixo, a fim de corrigir este erro.',
+	'UPDATE_INCOMPLETE_EXPLAIN'		    => '<h1>Atualização incompleta</h1>
+
+		<p>Notamos que a última atualização da sua instalação phpBB ainda não foi concluída. Visite a <a href="%1$s" title="%1$s">script database_update</a> e executá-lo. Se estiver em falta, por favor <a href="https://www.phpbb.com/downloads/" title="phpBB downloads">baixar a sua versão do pacote</a>, carregar o "install" pasta para o diretório raiz phpBB  (onde o arquivo config.php é) e <a href="%1$s" title="%1$s">executar a atualização do base de dados do script</a>.</p>',
+
+	'UPDATE_INSTALLATION'				=> 'Atualizar Instalação do phpBB',
+	'UPDATE_INSTALLATION_EXPLAIN'		=> 'Com esta opção, é possível atualizar a instalação do phpBB para a última versão.<br />Durante o processo, todos os ficheiros serão verificados. Pode rever todas as diferenças e ficheiros antes da atualização.<br /><br />A própria atualização do ficheiro pode ser realizada de duas maneiras.</p><h2>Atualização Manual</h2><p>Com esta atualização, apenas transfere a sua seleção pessoal dos ficheiros modificados, e para ter certeza de que não perderá as modificações do seu ficheiro, deve finalizar. Depois de ter transferido este pacote, deve manualmente enviar os ficheiros para as suas respetivas pastas. Em seguida, pode fazer a verificação dos ficheiros novamente para ver se os moveu corretamente.</p><h2>Atualização automática com FTP</h2><p>Este método é similar ao primeiro, mas não precisa descarregar os ficheiros modificados e enviá-los para o servidor. Isto será executado de forma automática. Para utilizar este método, tem que saber os dados da sua conta no servidor de FTP se isso for pedido. Depois de pronto, será redirecionado para nova verificação dos ficheiros para ter a certeza de que tudo foi atualizado corretamente.<br /><br />',
+	'UPDATE_INSTRUCTIONS'				=> '
+
+		<h1>Anúncio do Lançamento Oficial</h1>
+
+		<p>Por Favor, leia O Anúncio do Lançamento Oficial da Nova Versão antes de continuar o processo de atualização, poderá encontrar informações importantes. Também encontrará disponíveis os atalhos para transferência do pacote, bem como o registo das alterações.</p>
+
+		<br />
+
+		<h1>Como Atualizar a sua Instalação</h1>
+
+		<p>O Método recomendado para a atualização da sua instalação apenas indica as seguintes etapas:</p>
+
+		<ul style="margin-left: 20px; font-size: 1.1em;">
+			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o "Pacote de Atualização do phpBB" correto.<br /><br /></li>
+			<li>Descompacte o Ficheiro.<br /><br /></li>
+			<li>Envie as pastas "install" e "vendor" descompactadas para o Servidor (onde está o seu Ficheiro config.php).<br /><br /></li>
+		</ul>
+
+		<p>Depois de enviado, o seu Fórum ficará inacessível aos Utilizadores normais conforme a pasta instalação que enviou agora.<br /><br />
+		<strong><a href="%1$s" title="%1$s">Agora inicie o Processo de Instalação inserindo no seu navegador o endereço da pasta /install</a>.</strong><br />
+		<br />
+		Em seguida será conduzido ao longo do processo de atualização. Será avisado quando a atualização estiver concluída. 
+		</p>
+	',
+	'UPDATE_METHOD'						=> 'Método de atualização',
+	'UPDATE_METHOD_EXPLAIN'				=> 'Pode escolher o método de atualização desejado. Utilizando o envio por FTP, deverá inserir os dados do seu registo no servidor de FTP. Com este método, os Ficheiros serão automaticamente movidos para o novo local e backups dos Ficheiros antigos serão criados com a extensão .bak ao nome do Ficheiro. Se escolher fazer a transferência dos Ficheiros modificados, poderá descompactá-los e enviá-los depois manualmente para os seus locais corretos.',
+	'UPDATE_REQUIRES_FILE'				=> 'O sistema de atualização necessita dos seguintes Ficheiro: %s',
+	'UPDATE_SUCCESS'					=> 'A atualização foi executada com sucesso',
+	'UPDATE_SUCCESS_EXPLAIN'			=> 'Todos os Ficheiros foram atualizados com sucesso. A próxima etapa envolve verificar todos os Ficheiros novamente para ter certeza de que os Ficheiros foram atualizados corretamente.',
+	'UPDATE_VERSION_OPTIMIZE'			=> 'Atualização da versão e otimização das Tabelas',
+	'UPDATING_DATA'						=> 'Atualização dos Dados',
+	'UPDATING_TO_LATEST_STABLE'			=> 'Atualização da Base de Dados para a nova versão',
+	'UPDATED_VERSION'					=> 'Versão atualizada',
+	'UPLOAD_METHOD'						=> 'Método de envio',
+
+	'UPDATE_DB_SUCCESS'					=> 'A Base de Dados foi atualizada com sucesso',
+	'UPDATE_FILE_SUCCESS'				=> 'Ficheiros atualizados com sucesso.',
+	'USER_ACTIVE'						=> 'Utilizador ativo',
+	'USER_INACTIVE'						=> 'Utilizador inativo',
+
+	'VERSION_CHECK'						=> 'Verificação da versão',
+	'VERSION_CHECK_EXPLAIN'				=> 'Verifica se a sua instalação do phpBB está atualizada.',
+	'VERSION_NOT_UP_TO_DATE'			=> 'A sua instalação do phpBB não está atualizada. Por favor, continue com o processo de atualização.',
+	'VERSION_NOT_UP_TO_DATE_ACP'		=> 'A sua instalação do phpBB não está atualizada. <br />Abaixo está um link para o anúncio do lançamento, que contém mais informações, bem como instruções sobre a atualização.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'		=> 'A sua instalação do phpBB não está atualizada.',
+	'VERSION_UP_TO_DATE'				=> 'A sua instalação do phpBB está atualizada. Embora não existam atualizações disponíveis no momento, pode continuar a fim de realizar uma verificação da validade do ficheiro.',
+	'VERSION_UP_TO_DATE_ACP'			=> 'A sua instalação do phpBB está atualizada. Não há atualizações disponíveis no momento.',
+	'VIEWING_FILE_CONTENTS'				=> 'Visualizando conteúdo dos Ficheiros',
+	'VIEWING_FILE_DIFF'					=> 'Visualizando diferenças dos Ficheiros',
+
+	'WRONG_INFO_FILE_FORMAT'			=> 'Informação incorreta do formato do Ficheiro',
 ));
 
 // Default database schema entries...
@@ -273,300 +638,4 @@ $lang = array_merge($lang, array(
 	'SMILIES_WINK'						=> 'Piscar o olho',
 
 	'TOPICS_TOPIC_TITLE'				=> 'Bem-vindo ao phpBB3',
-));
-
-// Common navigation items' translation
-$lang = array_merge($lang, array(
-	'MENU_OVERVIEW'		=> 'Visão geral',
-	'MENU_INTRO'		=> 'Introdução',
-	'MENU_LICENSE'		=> 'Licença',
-	'MENU_SUPPORT'		=> 'Suporte',
-));
-
-// Task names
-$lang = array_merge($lang, array(
-	// Install filesystem
-	'TASK_CREATE_CONFIG_FILE'	=> 'Criando arquivo de configuração',
-
-	// Install database
-	'TASK_ADD_CONFIG_SETTINGS'			=> 'Adicionar definições de configuração',
-	'TASK_ADD_DEFAULT_DATA'				=> 'Adicionando configurações padrão ao banco de dados',
-	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'Criando arquivo de esquema de banco de dados',
-	'TASK_SETUP_DATABASE'				=> 'Configurando o banco de dados',
-	'TASK_CREATE_TABLES'				=> 'Criando tabelas',
-
-	// Install data
-	'TASK_ADD_BOTS'			=> 'Registrando bots',
-	'TASK_ADD_LANGUAGES'	=> 'Instalação de idiomas disponíveis',
-	'TASK_ADD_MODULES'		=> 'Instalação de módulos',
-
-	// Install finish tasks
-	'TASK_INSTALL_EXTENSIONS'	=> 'Instalando extensões empacotadas',
-    'TASK_NOTIFY_USER'			=> 'Enviando e-mail de notificação',
-	'TASK_POPULATE_MIGRATIONS'	=> 'Preencher Migrações',
-
-	// Installer general progress messages
-	'INSTALLER_FINISHED'	=> 'O instalador foi concluído com êxito',
-));
-
-// Installer's general messages
-$lang = array_merge($lang, array(
-	'MODULE_NOT_FOUND'				=> 'Módulo não encontrado',
-	'MODULE_NOT_FOUND_DESCRIPTION'	=> 'Não foi possível encontrar um módulo porque o serviço, %s, é indefinido.',
-
-	'TASK_NOT_FOUND'				=> 'Tarefa não encontrada',
-	'TASK_NOT_FOUND_DESCRIPTION'	=> 'Não foi possível encontrar uma tarefa porque o serviço, %s, é indefinido.',
-
-	'SKIP_MODULE'	=> 'Ignorar o módulo“%s”',
-	'SKIP_TASK'		=> 'Ignorar a tarefa“%s”',
-
-	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Todos os serviços de tarefa do instalador devem começar com“installer”',
-	'TASK_CLASS_NOT_FOUND'				=> 'A definição do serviço da tarefa do instalador é inválida. O nome do serviço prestado“%1$s” class namespace que é esperado para “%2$s” . Para mais informações, por favor consulte a documentação do task_interface.',
-
-	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'O arquivo de instalação de configuração não é gravável.',
-));
-
-// CLI messages
-$lang = array_merge($lang, array(
-	'CLI_INSTALL_BOARD'				=> 'Instalar phpBB',
-	'CLI_UPDATE_BOARD'				=> 'Atualizar phpBB',
- 	'CLI_INSTALL_SHOW_CONFIG'		=> 'Mostrar a configuração que será usada',
- 	'CLI_INSTALL_VALIDATE_CONFIG'	=> 'Validar um arquivo de configuração',
- 	'CLI_CONFIG_FILE'				=> 'Arquivo de configuração a ser usado',
- 	'MISSING_FILE'					=> 'Não é possível acessar o arquivo %1$s',
- 	'MISSING_DATA'					=> 'O arquivo de configuração está faltando dados ou pode conter configurações inválidas.',
- 	'INVALID_YAML_FILE'				=> 'Não foi possível analisar o arquivo YAML %1$s',
-	'CONFIGURATION_VALID'			=> 'O arquivo de configuração é válido',
-));
-
-// Common updater messages
-$lang = array_merge($lang, array(
-	'UPDATE_INSTALLATION'			=> 'Atualizar a instalação do phpBB',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Com esta opção, é possível atualizar sua instalação do phpBB para a versão mais recente.<br />Durante o processo, todos os seus arquivos serão verificados quanto à integridade. Você pode rever todas as diferenças e arquivos antes da atualização.<br /><br />A atualização do arquivo em si pode ser feita de duas maneiras diferentes.</p><h2>Atualização manual</h2><p>Com esta atualização você só faz o download do seu conjunto pessoal de arquivos alterados para se certificar de que não perde as modificações de arquivos que você pode ter feito. Depois de fazer o download deste pacote, você precisa carregar manualmente os arquivos para a posição correta no diretório raiz phpBB. Uma vez feito, você é capaz de fazer a etapa de verificação de arquivo novamente para ver se você moveu os arquivos para sua localização correta.</p><h2>Atualização automática com FTP</h2><p>Este método é semelhante ao primeiro, mas sem a necessidade de baixar os arquivos alterados e enviá-los por conta própria. Isso será feito para você. Para usar este método você precisa saber seus detalhes de login FTP, pois você será perguntado por eles. Uma vez terminado, você será redirecionado para a verificação de arquivo novamente para se certificar de que tudo foi atualizado corretamente.<br /><br />',
-	'UPDATE_INSTRUCTIONS'			=> '
-
-		<h1>Anúncio de lançamento</h1>
-
-		<p>Leia o anúncio de lançamento da versão mais recente antes de continuar o seu processo de atualização, pois ele pode conter informações úteis. Ele também contém links de download completo, bem como o log de alterações.</p>
-
-		<br />
-
-		<h1>Como atualizar sua instalação com o pacote de atualização automática</h1>
-
-		<p>A forma recomendada de atualizar sua instalação listada aqui é válida apenas para o pacote de atualização automática. Você também pode atualizar sua instalação usando os métodos listados no documento INSTALL.html. As etapas para atualizar o phpBB3 automaticamente são:</p>
-
-		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Vá para a <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">página de downloads do phpBB.com</a> e faça o download do arquivo "Automatic Update Package".<br /><br /></li>
-			<li>Descompacte o arquivo.<br /><br /></li>
-			<li>Faça o upload das pastas descompactadas "install" e "vendor" para o diretório raiz phpBB (onde está o arquivo config.php).<br /><br /></li>
-		</ul>
-
-		<p>Uma vez carregado, seu forum ficará off-line para usuários normais devido ao diretório de instalação que você carregou agora presente.<br /><br />
-		<strong><a href="%1$s" title="%1$s">Agora inicie o processo de atualização apontando o navegador para a pasta de instalação</a>.</strong><br />
-		<br />
-		Você será guiado pelo processo de atualização. Você será notificado assim que a atualização for concluída.
-		</p>
-	',
-));
-
-// Updater forms
-$lang = array_merge($lang, array(
-	// Updater types
-	'UPDATE_TYPE'			=> 'Tipo de atualização a ser executada',
-
-	'UPDATE_TYPE_ALL'		=> 'Atualizar sistema de arquivos e banco de dados',
-	'UPDATE_TYPE_DB_ONLY'	=> 'Atualizar apenas o banco de dados',
-
-	// File updater methods
-	'UPDATE_FILE_METHOD_TITLE'		=> 'Métodos de atualização de arquivos',
-
-	'UPDATE_FILE_METHOD'			=> 'Método de atualização de arquivos',
-	'UPDATE_FILE_METHOD_DOWNLOAD'	=> 'Transferir ficheiros modificados num arquivo',
-	'UPDATE_FILE_METHOD_FTP'		=> 'Atualizar arquivos via FTP (Automático)',
-	'UPDATE_FILE_METHOD_FILESYSTEM'	=> 'Atualizar arquivos via acesso direto ao arquivo (Automático)',
-
-	// File updater archives
-	'SELECT_DOWNLOAD_FORMAT'	=> 'Selecione o formato do arquivo de download',
-
-	// FTP settings
-	'FTP_SETTINGS'			=> 'Configurações de FTP',
-));
-
-// Requirements messages
-$lang = array_merge($lang, array(
-	'UPDATE_FILES_NOT_FOUND'	=> 'Nenhum diretório de atualização válido foi encontrado, verifique se carregou os arquivos relevantes.',
-
-	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Sua versão está atualizada. Não é necessário executar a ferramenta de atualização. Se você quiser fazer uma verificação de integridade em seus arquivos, verifique se carregou os arquivos de atualização corretos.',
-	'OLD_UPDATE_FILES'				=> 'Os arquivos de atualização estão desatualizados. Os arquivos de atualização encontrados são para atualizar de phpBB %1$s para phpBB %2$s mas a versão mais recente do phpBB é %3$s.',
-	'INCOMPATIBLE_UPDATE_FILES'		=> 'Os arquivos de atualização encontrados são incompatíveis com a versão instalada. Sua versão instalada é %1$s e o arquivo de atualização é para atualizar phpBB %2$s para %3$s.',
-));
-
-// Update files
-$lang = array_merge($lang, array(
-	'STAGE_UPDATE_FILES'		=> 'Atualizar arquivos',
-
-	// Check files
-	'UPDATE_CHECK_FILES'	=> 'Verificar arquivos para atualizar',
-
-	// Update file differ
-	'FILE_DIFFER_ERROR_FILE_CANNOT_BE_READ'	=> 'Falha na abertura do arquivo %s.',
-
-	'UPDATE_FILE_DIFF'		=> 'Arquivos diferenciados modificados ',
-	'ALL_FILES_DIFFED'		=> 'Todos os arquivos diferentes foram modificados.',
-
-	// File status
-	'UPDATE_CONTINUE_FILE_UPDATE'	=> 'Atualizar arquivos',
-
-	'DOWNLOAD'							=> 'Transferir',
-	'DOWNLOAD_CONFLICTS'				=> 'Transferir  e unir arquivos em conflitos ',
-	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Procure por &lt;&lt;&lt; para detectar conflitos',
-	'DOWNLOAD_UPDATE_METHOD'			=> 'Transferir arquivos modificados',
-	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Uma vez baixado, você deve descompactar o arquivo. Você vai encontrar os arquivos modificados que você precisa para carregar para o seu diretório phpBB raiz dentro dele. Por favor, faça o upload dos arquivos para suas respectivas localizações. Depois de carregar todos os arquivos, você pode continuar com o processo de atualização.',
-
-	'FILE_ALREADY_UP_TO_DATE'		=> 'O arquivo já está atualizado.',
-	'FILE_DIFF_NOT_ALLOWED'			=> 'Arquivo não permitido para ser fundido.',
-	'FILE_USED'						=> 'Informação utilizada',			// Single file
-	'FILES_CONFLICT'				=> 'Arquivos de conflitos',
-	'FILES_CONFLICT_EXPLAIN'		=> 'Os arquivos a seguir são modificados e não representam os arquivos originais da versão antiga. PhpBB determinou que esses arquivos criam conflitos se eles são tentados a serem mesclados. Investigue os conflitos e tente resolvê-los manualmente ou continuar a atualização escolhendo o método de mesclagem preferido. Se você resolver os conflitos, verifique manualmente os arquivos novamente depois de os modificar. Você também pode escolher entre o método de mesclagem preferido para cada arquivo. O primeiro resultará em um arquivo onde as linhas conflitantes do seu arquivo antigo serão perdidas, o outro resultará em perder as alterações do arquivo mais recente.',
-	'FILES_DELETED'					=> 'Arquivos excluídos',
-	'FILES_DELETED_EXPLAIN'			=> 'Os seguintes arquivos não existem na nova versão. Esses arquivos devem ser excluídos da sua instalação.',
-	'FILES_MODIFIED'				=> 'Arquivos modificados',
-	'FILES_MODIFIED_EXPLAIN'		=> 'Os arquivos a seguir são modificados e não representam os arquivos originais da versão antiga. O arquivo atualizado será uma fusão entre suas modificações e o novo arquivo.',
-	'FILES_NEW'						=> 'Novos arquivos',
-	'FILES_NEW_EXPLAIN'				=> 'Atualmente, os arquivos a seguir não existem na sua instalação. Esses arquivos serão adicionados à sua instalação.',
-	'FILES_NEW_CONFLICT'			=> 'Novos arquivos em conflito',
-	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'Os seguintes arquivos são novos dentro da versão mais recente, mas foi determinado que já existe um arquivo com o mesmo nome dentro da mesma posição. Este arquivo será substituído pelo novo arquivo.',
-	'FILES_NOT_MODIFIED'			=> 'Arquivos não modificados',
-	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Os seguintes arquivos não são modificados e representam os arquivos phpBB originais da versão que você deseja atualizar a partir de .',
-	'FILES_UP_TO_DATE'				=> 'Arquivos já atualizados',
-	'FILES_UP_TO_DATE_EXPLAIN'		=> 'The following files are alOs seguintes arquivos já estão atualizados e não precisam ser atualizadosready up to date and do not need to be updated.',
-	'FILES_VERSION'					=> 'Versão de Arquivos',
-    'TOGGLE_DISPLAY'				=> 'Exibir / Ocultar lista de arquivos',
-
-	// File updater
-	'UPDATE_UPDATING_FILES'	=> 'Atualizando arquivos',
-
-	'UPDATE_FILE_UPDATER_HAS_FAILED'	=> 'O atualizador de arquivos “%1$s“ falhou.  O instalador tentará retornar para “%2$s“.',
-	'UPDATE_FILE_UPDATERS_HAVE_FAILED'	=> 'O atualizador de arquivos falhou. Não estão disponíveis mais métodos alternativos.',
-
-	'UPDATE_CONTINUE_UPDATE_PROCESS'	=> 'Continuar processo de atualização',
-	'UPDATE_RECHECK_UPDATE_FILES'		=> 'Verificar arquivos novamente',
-));
-
-// Update database
-$lang = array_merge($lang, array(
-	'STAGE_UPDATE_DATABASE'		=> 'Atualizar o banco de dados',
-
-	'INLINE_UPDATE_SUCCESSFUL'		=> 'A atualização do banco de dados foi bem-sucedida.',
-
-    'TASK_UPDATE_EXTENSIONS'	=> 'Atualizando extensões',
-));
-
-// Converter
-$lang = array_merge($lang, array(
-	// Common converter messages
-	'CONVERT_NOT_EXIST'			=> 'O conversor especificado não existe.',
-	'DEV_NO_TEST_FILE'			=> 'Nenhum valor foi especificado para a variável test_file no conversor. Se você é um usuário deste conversor, você não deve estar vendo este erro, informe esta mensagem para o autor do conversor. Se você for um autor de conversor, você deve especificar o nome de um arquivo que existe na placa de origem para permitir que o caminho para ele seja verificado.',
-	'COULD_NOT_FIND_PATH'		=> 'Não foi possível encontrar o caminho para o forum anterior. Por favor, verifique suas configurações e tente novamente.<br />» %s Foi especificado como o caminho de origem.',
-	'CONFIG_PHPBB_EMPTY'		=> 'A variável de configuração phpBB3 para “%s” está vazia.',
-
-	'MAKE_FOLDER_WRITABLE'		=> 'Certifique-se de que esta pasta existe e é gravável pelo servidor web, em seguida, tente novamente:<br />»<strong>%s</strong>.',
-	'MAKE_FOLDERS_WRITABLE'		=> 'Certifique-se de que estas pastas existem e são graváveis pelo servidor Web, em seguida, tente novamente:<br />»<strong>%s</strong>.',
-
-	'INSTALL_TEST'				=> 'Teste novamente',
-
-	'NO_TABLES_FOUND'			=> 'Nenhuma tabela encontrada.',
-	'TABLES_MISSING'			=> 'Não foi possível encontrar essas tabelas<br />» <strong>%s</strong>.',
-	'CHECK_TABLE_PREFIX'		=> 'Verifique o prefixo da tabela e tente novamente.',
-
-	// Conversion in progress
-	'CONTINUE_CONVERT'			=> 'Continuar a conversão',
-	'CONTINUE_CONVERT_BODY'		=> 'Uma tentativa de conversão anterior foi determinada. Agora você pode escolher entre iniciar uma nova conversão ou continuar a conversão.',
-	'CONVERT_NEW_CONVERSION'	=> 'Nova conversão',
-	'CONTINUE_OLD_CONVERSION'	=> 'Continuar a conversão iniciada anteriormente',
-
-	// Start conversion
-	'SUB_INTRO'					=> 'Introdução',
-	'CONVERT_INTRO'				=> 'Bem-vindo ao phpBB Unified Converter Framework',
-	'CONVERT_INTRO_BODY'		=> 'A partir daqui, você pode importar dados de outros sistemas do forum (instalados). A lista abaixo mostra todos os módulos de conversão atualmente disponíveis. Se não houver um conversor mostrado nesta lista para o software do forum do qual você deseja converter, verifique nosso site onde mais módulos de conversão podem estar disponíveis para download.',
-	'AVAILABLE_CONVERTORS'		=> 'Conversores disponíveis',
-	'NO_CONVERTORS'				=> 'Não há conversores disponíveis para uso.',
-	'CONVERT_OPTIONS'			=> 'Opções',
-	'SOFTWARE'					=> 'Software do forum',
-	'VERSION'					=> 'Versão',
-	'CONVERT'					=> 'Converter',
-
-	// Settings
-	'STAGE_SETTINGS'			=> 'Configurações',
-	'TABLE_PREFIX_SAME'			=> 'O prefixo da tabela precisa ser o usado pelo software que você está convertendo .<br />» O prefixo de tabela especificado foi %s.',
-	'DEFAULT_PREFIX_IS'			=> 'O conversor não foi capaz de localizar tabelas com o prefixo especificado. Certifique-se de que introduziu os detalhes correctos para o forum que está a converter. O prefixo de tabela padrão para %1$s e <strong>%2$s</strong>.',
-	'SPECIFY_OPTIONS'			=> 'Especificar opções de conversão',
-	'FORUM_PATH'				=> 'Caminho do forum',
-	'FORUM_PATH_EXPLAIN'		=> 'Este é o caminho <strong>relativo</strong> no disco para o seu forum anterior a partir da <strong>raiz desta instalação phpBB3</strong>.',
-	'REFRESH_PAGE'				=> 'Atualizar página para continuar a conversão',
-	'REFRESH_PAGE_EXPLAIN'		=> 'Se definido como Sim, o conversor irá atualizar a página para continuar a conversão após ter concluído uma etapa. Se esta for a sua primeira conversão para fins de teste e para determinar quaisquer erros com antecedência, sugerimos que defina isto como Não.',
-
-	// Conversion
-	'STAGE_IN_PROGRESS'			=> 'Conversão em andamento',
-
-	'AUTHOR_NOTES'				=> 'Notas do autor<br />» %s',
-	'STARTING_CONVERT'			=> 'Iniciando processo de conversão',
-	'CONFIG_CONVERT'			=> 'Convertendo a configuração',
-	'DONE'						=> 'Feito',
-	'PREPROCESS_STEP'			=> 'Executar pré-processamento de funções / consultas',
-	'FILLING_TABLE'				=> 'Tabela de preenchimento <strong>%s</strong>',
-	'FILLING_TABLES'			=> 'Preenchendo tabelas',
-	'DB_ERR_INSERT'				=> 'Erro ao processar a consulta <code>INSERT</code>.',
-	'DB_ERR_LAST'				=> 'Erro ao processar <var>query_last</var>.',
-	'DB_ERR_QUERY_FIRST'		=> 'Erro ao executar <var>query_first</var>.',
-	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Erro ao executar <var>query_first</var>, %s (“%s”).',
-	'DB_ERR_SELECT'				=> 'Erro ao executar a consulta <code>SELECT</code>.',
-	'STEP_PERCENT_COMPLETED'	=> 'Etapa <strong>%d</strong> de <strong>%d</strong>',
-	'FINAL_STEP'				=> 'Etapa final do processo',
-	'SYNC_FORUMS'				=> 'Começando a sincronizar fóruns',
-	'SYNC_POST_COUNT'			=> 'Sincronizando post_counts',
-	'SYNC_POST_COUNT_ID'		=> 'Sincronizando post_counts de <var>entry</var> %1$s para %2$s.',
-	'SYNC_TOPICS'				=> 'Começando a sincronizar tópicos',
-	'SYNC_TOPIC_ID'				=> 'Sincronizando tópicos de <var>topic_id</var> %1$s para %2$s.',
-	'PROCESS_LAST'				    => 'Processando as últimas instrução',
-	'UPDATE_TOPICS_POSTED'		=> 'Gerando tópicos de informações postadas',
-	'UPDATE_TOPICS_POSTED_ERR'	=> 'Ocorreu um erro ao gerar informações publicadas por tópicos. Você pode repetir essa etapa no ACP após o processo de conversão ser concluído.',
-	'CONTINUE_LAST'				=> 'Continuar as últimas instruções',
-	'CLEAN_VERIFY'				=> 'Limpeza e verificação da estrutura final',
-	'NOT_UNDERSTAND'			=> 'Não foi possível entender %s #%d, tabela %s (“%s”)',
-	'NAMING_CONFLICT'			=> 'Conflito de nomeação: %s e %s são ambos apelidos <br /><br />%s',
-
-	// Finish conversion
-	'CONVERT_COMPLETE'			=> 'Conversão concluída',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Agora você converteu seu forum com sucesso para phpBB 3.2. Agora pode iniciar sessão e <a href="../">aceder ao seu forum</a>. Certifique-se de que as configurações foram transferidas corretamente antes de ativar seu forum, excluindo o diretório de instalação. Lembre-se de que a ajuda sobre o uso do phpBB está disponível on-line através de <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Documentação</a> e o <a href="https://www.phpbb.com/community/viewforum.php?f=466">suporte forums</a>.',
-
-	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'O upload de FTP para anexos é ativado no forum antiga. Desative a opção de upload de FTP e verifique se um diretório de upload válido é especificado e, em seguida, copie todos os arquivos de anexo para este novo diretório acessível da Web. Depois de ter feito isso, reinicie o conversor.',
-	'CONV_ERROR_CONFIG_EMPTY'			=> 'Não há informações de configuração disponíveis para a conversão.',
-	'CONV_ERROR_FORUM_ACCESS'			=> 'Não é possível obter informações de acesso ao fórum.',
-	'CONV_ERROR_GET_CATEGORIES'			=> 'Não é possível obter categorias.',
-	'CONV_ERROR_GET_CONFIG'				=> 'Não foi possível recuperar a configuração do forum.',
-	'CONV_ERROR_COULD_NOT_READ'			=> 'Não é possível acessar/ler “%s”.',
-	'CONV_ERROR_GROUP_ACCESS'			=> 'Não é possível obter informações de autenticação de grupo.',
-	'CONV_ERROR_INCONSISTENT_GROUPS'	=> 'Inconsistência na tabela de grupos detectada em add_bots() - você precisa adicionar todos os grupos especiais se você fizer isso manualmente.',
-	'CONV_ERROR_INSERT_BOT'				=> 'Não é possível inserir o bot na tabela de usuários.',
-	'CONV_ERROR_INSERT_BOTGROUP'		=> 'Não é possível inserir o bot na tabela de bots.',
-	'CONV_ERROR_INSERT_USER_GROUP'		=> 'Não é possível inserir o usuário na tabela  user_group.',
-	'CONV_ERROR_MESSAGE_PARSER'			=> 'Erro do analisador de mensagens',
-	'CONV_ERROR_NO_AVATAR_PATH'			=> 'Nota para o desenvolvedor: você deve especificar  $convertor[\'avatar_path\'] para usar %s.',
-	'CONV_ERROR_NO_FORUM_PATH'			=> 'O caminho relativo para o forum de origem não foi especificado.',
-	'CONV_ERROR_NO_GALLERY_PATH'		=> 'Nota para o desenvolvedor: você deve especificar  $convertor[\'avatar_gallery_path\'] para usar %s.',
-	'CONV_ERROR_NO_GROUP'				=> 'O grupo “%1$s” não pôde ser encontrado em %2$s.',
-	'CONV_ERROR_NO_RANKS_PATH'			=> 'Nota para o desenvolvedor: você deve especificar $convertor[\'ranks_path\'] para usar %s.',
-	'CONV_ERROR_NO_SMILIES_PATH'		=> 'Nota para o desenvolvedor: você deve especificar $convertor[\'smilies_path\'] para usar %s.',
-	'CONV_ERROR_NO_UPLOAD_DIR'			=> 'Nota para o desenvolvedor: você deve especificar $convertor[\'upload_path\'] para usar %s.',
-	'CONV_ERROR_PERM_SETTING'			=> 'Impossível inserir/atualizar a configuração de permissão.',
-	'CONV_ERROR_PM_COUNT'				=> 'Não é possível selecionar a pasta para a contagem MP.',
-	'CONV_ERROR_REPLACE_CATEGORY'		=> 'Não é possível inserir novo fórum substituindo a categoria antiga.',
-	'CONV_ERROR_REPLACE_FORUM'			=> 'Não é possível inserir novo fórum substituindo o fórum antigo.',
-	'CONV_ERROR_USER_ACCESS'			=> 'Não é possível obter informações de autenticação do usuário.',
-	'CONV_ERROR_WRONG_GROUP'			=> 'Grupo errado “%1$s” definido em %2$s.',
-	'CONV_OPTIONS_BODY'					=> 'Esta página coleta os dados necessários para acessar ao forum de origem. Insira os detalhes do banco de dados do seu forum anterior; O conversor não irá alterar nada no banco de dados fornecido abaixo. O forum de origem deve ser desativada para permitir uma conversão consistente.',
-	'CONV_SAVED_MESSAGES'				=> 'Mensagens guardadas',
-
-	'PRE_CONVERT_COMPLETE'			=> 'Todas as etapas de pré-conversão foram concluídas com êxito. Agora você pode iniciar o processo de conversão real. Por favor note que você pode ter que manualmente fazer e ajustar várias coisas. Após a conversão, especialmente verificar as permissões atribuídas, reconstruir o índice de pesquisa que não é convertido e também certifique-se que os arquivos foram copiados corretamente, por exemplo, avatares e smilies.',
 ));

@@ -70,6 +70,9 @@ $lang = array_merge($lang, array(
 
 	'CAT_FLASH_FILES'					=> 'Ficheiros Flash',
 	'CAT_IMAGES'						=> 'Imagens',
+	'CAT_QUICKTIME_FILES'				=> 'Ficheiro Quicktime',
+	'CAT_RM_FILES'						=> 'Real Media Streams',
+	'CAT_WM_FILES'						=> 'Win Media Streams',
 	'CHECK_CONTENT'						=> 'Verificar ficheiros anexados',
 	'CHECK_CONTENT_EXPLAIN'				=> 'Alguns Ficheiros podem obrigar os navegadores e executar funções incorretas. Esta opção permite recusar esses Ficheiros.',
 	'CREATE_GROUP'						=> 'Criar um novo Grupo',
@@ -102,16 +105,19 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_FLASH_FILES'				=> 'Ficheiros Flash',
 	'EXT_GROUP_IMAGES'					=> 'Imagens',
 	'EXT_GROUP_PLAIN_TEXT'				=> 'Texto simples',
+	'EXT_GROUP_QUICKTIME_MEDIA'			=> 'Quicktime Média',
+	'EXT_GROUP_REAL_MEDIA'				=> 'Real Média',
+	'EXT_GROUP_WINDOWS_MEDIA'			=> 'Windows Média',
 
 	'FILES_GONE'						=> 'Alguns dos anexos que selecionou para eliminar não existem. Eles podem já ter sido excluídos. Os anexos que existiam foram eliminados.',
-	'FILES_STATS_WRONG'					=> 'As estatísticas dos seus ficheiros são imprecisas e provavelmente precisam ser resincronizadas. Valores atuais: Número de ficheiros = %1$d, tamanho total dos ficheiros = %2$s.<br />Clique %3$saqui%4$s para os resincronizar.',
+	'FILES_STATS_WRONG'					=> 'As estatísticas dos seus ficheiros são imprecisas e provavelmente precisam ser ressincronizadas. Valores atuais: Número de ficheiros = %1$d, tamanho total dos ficheiros = %2$s.<br />Clique %3$saqui%4$s para os ressincronizar.',
 
 	'GO_TO_EXTENSIONS'					=> 'Vá para a Tela de Gestão de Extensões',
 	'GROUP_NAME'						=> 'Nome do Grupo',
 
 	'IMAGE_LINK_SIZE'					=> 'Dimensões para o atalho de Imagem',
 	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostra o anexo da imagem como um atalho se a imagem for maior que o selecionado, introduza 0 px por 0 px para desativar.',
-	'IMAGICK_PATH'						=> 'Local do Imagemagick',
+	'IMAGICK_PATH'						=> 'Local do ImageMagick',
 	'IMAGICK_PATH_EXPLAIN'				=> 'Caminho completo para o programa Imagemagick, p.exemplo: /usr/bin/.',
 
 	'MAX_ATTACHMENTS'					=> 'Máximo de anexos por Mensagem',
@@ -145,9 +151,9 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores autorizados',
 	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores proibidos',
-	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja resincronizar estatísticas de ficheiros?',
+	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja ressincronizar estatísticas de ficheiros?',
 
-	'SEARCH_IMAGICK'					=> 'Localizar Imagemagick',
+	'SEARCH_IMAGICK'					=> 'Localizar ImageMagick',
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'			=> 'Permite ou nega a lista de endereços. Esta configuração aplica-se apenas aos Ficheiros para transferência.',
 	'SECURE_DOWNLOADS'					=> 'Ativar transferências seguras',
