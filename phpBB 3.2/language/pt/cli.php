@@ -68,8 +68,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Limpa a extensão especificada.',
 
 	'CLI_DESCRIPTION_REPARSER_LIST'				=> 'Lista os tipos de texto que podem ser reanalisados.',
-	'CLI_DESCRIPTION_REPARSER_AVAILABLE'		=> 'Reparadores disponíveis:',
-    'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Texto reanalisado guardado com o serviço actual de text_formatter.',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'		=> 'Reanalisadores disponíveis:',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Texto reanalisado guardado com o serviço atual de text_formatter.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Tipo de texto a reanalisar. Deixe em branco para reanalisar tudo.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Sem quaisquer alterações, apenas veja o resultado que seria desta operação',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'ID do registo menor a ser processado',
@@ -77,9 +77,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Número aproximado de registos a serem processados de cada vez',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Começar a reanalisar desde onde a última execução parou',
 
-    'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Recalcula a coluna user_email_hash da Tabela de Utilizadores.',
+	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Recalcula a coluna user_email_hash da Tabela de Utilizadores.',
 
-    'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Define o valor de uma opção de configuração só se o anterior corresponde ao valor atual',
+	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Define o valor de uma opção de configuração só se o anterior corresponde ao valor atual',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Define o valor de uma opção de configuração',
 
 	'CLI_DESCRIPTION_THUMBNAIL_DELETE'		=> 'Remover todas as miniaturas existentes.',
@@ -91,22 +91,22 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Executar comando de verificação com cache.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Executar comando escolhendo para verificar somente versões estáveis ou instáveis.',
 
-	'CLI_ERROR_INVALID_STABILITY' => '"%s" não tem uma estabilidade válida.',
+	'CLI_ERROR_INVALID_STABILITY'		 => '"%s" não tem uma estabilidade válida.',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Ativar (ou desativar) uma conta de utilizador.',
-	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Utilizador da conta a ativar',
+	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Nome de Utilizador da conta a ativar.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_DEACTIVATE'	=> 'Desativar a conta do utilizador',
-	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'O utilizador já está ativo.',
-	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'O utilizador já está inativo.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_ACTIVE'		=> 'O utilizador já se encontra ativo.',
+	'CLI_DESCRIPTION_USER_ACTIVATE_INACTIVE'	=> 'O utilizador já se encontra inativo.',
 	'CLI_DESCRIPTION_USER_ADD'					=> 'Adicionar novo utilizador.',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Nome de utilizador do novo utilizador.',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Palavra-passe do novo utilizador',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Email do novo utilizador',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Enviar e-mail de ativação da conta para o novo utilizador (não envia por padrão)',
-	'CLI_DESCRIPTION_USER_DELETE'				=> 'Apagar a conta de utilizador.',
-	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Nome de utilizador do utilizador a apagar',
-	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Apague todas as mensagens do utilizador. Sem esta opção, as mensagens do utilizador serão mantidas.',
-	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Re-limpar nomes de utilizador.',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Nome de Utilizador do novo utilizador',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Senha do novo utilizador',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Endereço e-mail do novo utilizador',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Enviar email de ativação da conta para o novo utilizador (não enviado por defeito)',
+	'CLI_DESCRIPTION_USER_DELETE'				=> 'Remover a conta de utilizador.',
+	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Nome de Utilizador do utilizador a remover',
+	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Remover todas as mensagens do utilizador. Sem esta opção, as mensagens do utilizador serão mantidas.',
+	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Reforçar limpeza dos nomes de utilizadores.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Não foi possível desativar a extensão %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'A Extensão %s foi desativada com sucesso',
@@ -124,15 +124,15 @@ $lang = array_merge($lang, array(
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Recalculado com sucesso todos os hashes de e-mail.',
 
-	'CLI_MIGRATION_NAME'					=> 'Nome da migração, incluindo o namespace (use barras em vez de barras invertidas para evitar problemas).',
+	'CLI_MIGRATION_NAME'					=> 'Nome da migração, incluindo o conjunto de nomes (utilize barras inclinadas ao invés de contra-barras para evitar problemas).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Migrações disponíveis',
 	'CLI_MIGRATIONS_INSTALLED'				=> 'Migrações instaladas',
-	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Mostrar apenas migrações disponíveis',
+	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Mostrar apenas as migrações disponíveis',
 	'CLI_MIGRATIONS_EMPTY'                  => 'Sem migrações.',
 
-	'CLI_REPARSER_REPARSE_REPARSING'		=> 'A reparar %1$s (range %2$d..%3$d)',
-	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'A reparar %s...',
-	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'A reparacão terminou com sucesso',
+	'CLI_REPARSER_REPARSE_REPARSING'		=> 'A reanalisar %1$s (intervalo %2$d..%3$d)',
+	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'A reanalisar %s...',
+	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Reanálise terminada com sucesso',
 
 	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem
 	// eg: big_image.png (2_a51529ae7932008cf8454a95af84cacd) generated.
@@ -146,24 +146,25 @@ $lang = array_merge($lang, array(
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Sem miniaturas para criar.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Sem miniaturas para apagar.',
-
-	'CLI_USER_ADD_SUCCESS'		=> 'Usuário adicionado com êxito %s.',
-	'CLI_USER_DELETE_CONFIRM'	=> 'Tem certeza de que deseja excluir ‘%s’? [y/N]',
-	'CLI_USER_RECLEAN_START'	=> 'voltar a limpar nomes de utilizador',
+	
+	'CLI_USER_ADD_SUCCESS'		=> 'Utilizador %s adicionado com sucesso.',
+	'CLI_USER_DELETE_CONFIRM'	=> 'Tem a certeza que deseja remover ‘%s’? [s/N]',
+	'CLI_USER_RECLEAN_START'	=> 'A limpar nomes de utilizadores',
 	'CLI_USER_RECLEAN_DONE'		=> [
-		0	=> 'Limpeza completa. Não há nomes de usuário para limpar.',
-		1	=> 'Limpeza completa. %d nome de usuário tenha sido limpo.',
-		2	=> 'Limpeza completa. %d nomes de usuário foram limpos.',
+		0	=> 'Limpeza completa. Nenhum nome de utilizador precisava de ser limpo.',
+		1	=> 'Limpeza completa. %d nome de utilizador limpo.',
+		2	=> 'Limpeza completa. %d nomes de utilizadores limpos.',
 	],
 	));
 
 // Additional help for commands.
 $lang = array_merge($lang, array(
-	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcionalmente você pode especificar um nome de tarefa cron para executar apenas a tarefa cron especificada. ',
-	'CLI_HELP_USER_ACTIVATE'	=> 'Ative uma conta de usuário ou desative uma conta usando a opção <info>--deactivate</info> .
-Para enviar opcionalmente um email de ativação para o usuário, use a opção <info>--send-email</info> .',
-	'CLI_HELP_USER_ADD'			=> 'O comando <info>%command.name%</info> adiciona um novo usuário:
-Se este comando for executado sem opções, você será solicitado a digitá-las.
-Para opcionalmente enviar um e-mail para o novo usuário, use a opção <info>--send-email</info>.',
-	'CLI_HELP_USER_RECLEAN'		=> 'Voltar a limpar nomes de utilizadores irá verificar todos os nomes de usuário armazenados e garantir versões limpas também são armazenados. Nomes de usuário limpos são uma forma insensível ao maiúsculas e minúsculas, NFC normalizado e transformado em ASCII.',
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcionalmente pode especificar um nome de tarefa cron para executar apenas a tarefa cron especificada. ',
+\\traduzir
+	'CLI_HELP_USER_ACTIVATE'	=> 'Ativar conta de utilizador, ou desativar uma conta fazendo uso da opção <info>--deactivate</info>.
+Para enviar, opcionalmente, um email de ativação de conta para o utilizador, utilize a opção <info>--send-email</info>.',
+	'CLI_HELP_USER_ADD'			=> 'O comando <info>%command.name%</info> adiciona um novo utilizador:
+Caso este comando seja executado sem opções, será questionado para as introduzir.
+Para enviar, opcionalmente, um email ao novo utilizador, utilize a opção <info>--send-email</info>.',
+	'CLI_HELP_USER_RECLEAN'		=> 'Ao reforçar a limpeza dos nomes dos utilizadores irá verificar e certificar-se que todos os nomes de utilizadores possuem versões limpas dos nomes de utilizadores guardadas. Nomes de utilizadores limpos significa que se encontram em minúsculas, normalizadas em NFC e transformadas em ASCII.',
 	));
