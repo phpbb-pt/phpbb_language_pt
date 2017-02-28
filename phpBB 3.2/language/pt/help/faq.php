@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_LOGIN_REGISTER_QUESTION'	=> 'Por que motivo tenho de me registar?',
 
 	'HELP_FAQ_PMS_CANNOT_SEND_ANSWER'	=> 'Existem três razões para que tal possa acontecer: Não está Registado no Fórum e/ou não se encontra Online, o Administrador terá desativado a opção de Mensagens Privadas em todo o Fórum ou o impede por algum motivo de enviar Mensagens. Se este último é o seu caso, pergunte ao Administrador qual o motivo, caso realmente não saiba.',
-        'HELP_FAQ_PMS_CANNOT_SEND_QUESTION'	=> 'Não consigo enviar Mensagens Privadas!',
+    'HELP_FAQ_PMS_CANNOT_SEND_QUESTION'	=> 'Não consigo enviar Mensagens Privadas!',
 	'HELP_FAQ_PMS_SPAM_ANSWER'	=> 'Embora o sistema de emails deste Fórum tenha funções de segurança que tentam detetar Utilizadores que enviam este tipo de Mensagens, lamentamos que tal tenha acontecido. Informe o Administrador do Fórum enviando uma cópia completa do email recebido, sendo muito importante que inclua os cabeçalhos (é onde se encontram os detalhes do Utilizador que enviou o email). O Administrador poderá então agir em conformidade.',
 	'HELP_FAQ_PMS_SPAM_QUESTION'	=> 'Recebi de alguém neste Fórum um email com assuntos irrelevantes ou abusivos!',
 	'HELP_FAQ_PMS_UNWANTED_ANSWER'	=> 'Pode apagar automaticamente Mensagens Privadas enviadas por um Utilizador usando as regras das mensagens no seu Painel de Controlo do Utilizador. Se estiver recebendo Mensagens indesejáveis por parte de algum Utilizador, denuncie as mensagens a um Moderador do Fórum para que possa proibir o determinado utilizador de enviar este tipo de Mensagens.',
