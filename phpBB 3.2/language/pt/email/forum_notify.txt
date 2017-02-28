@@ -2,7 +2,7 @@ Subject: {FORUM_NAME} - Notificação de resposta ao Fórum
 
 Olá, {USERNAME},
 
-Está a receber esta notificação porque está a observar o fórum, "{FORUM_NAME}" em "{SITENAME}". Este fórum recebeu uma nova resposta no tópico "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita. Pode usar o endereço seguinte para ver as respostas. Não serão enviadas mais notificações até que visite o tópico.
+Está a receber esta notificação porque está a observar o fórum, "{FORUM_NAME}" em "{SITENAME}". Este fórum recebeu uma nova resposta no tópico "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita. Pode usar o endereço seguinte para ver as respostas. Não serão enviadas mais notificações até que visite o tópico.
 
 {U_NEWEST_POST}
 

@@ -37,16 +37,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'pt-PT',
+	'RECAPTCHA_LANG'				=> 'pt',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Para usar o reCaptcha tem que criar uma conta em <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'O código inserido não é o correto.',
+	'RECAPTCHA_INCORRECT'			=> 'A solução apresentada não é correta',
+	'RECAPTCHA_NOSCRIPT'			=> 'Por favor, ative o JavaScript no seu navegador para carregar o desafio.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Chave pública reCaptcha',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A sua Chave pública reCaptcha. Obtenha uma em <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'RECAPTCHA_PRIVATE'				=> 'Chave privada reCaptcha',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A sua chave privada reCaptcha. Obtenha uma em <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'No sentido de evitar registos automáticos, é necessário que introduza as palavras exibidas no campo de texto abaixo.',
-	'RECAPTCHA_SOCKET_ERROR'		=> 'Houve um problema na conexão com o serviço reCAPTCHA: não foi possível abrir o socket. Tente mais tarde.',
+	'RECAPTCHA_EXPLAIN'				=> 'No sentido de evitar registos automáticos, é necessário que seja bem-sucedido no seguinte desafio.',
 ));

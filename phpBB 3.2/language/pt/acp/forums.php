@@ -58,10 +58,10 @@ $lang = array_merge($lang, array(
 	'CREATE_FORUM'					=> 'Criar novo Fórum',
 
 	'DECIDE_MOVE_DELETE_CONTENT'	=> 'Apagar Mensagens ou Mover para Fórum',
-	'DECIDE_MOVE_DELETE_SUBFORUMS'	=> 'Apagar Sub-fóruns ou Mover para Fórum',
+	'DECIDE_MOVE_DELETE_SUBFORUMS'	=> 'Apagar Subfóruns ou Mover para Fórum',
 	'DEFAULT_STYLE'					=> 'Estilo Padrão',
 	'DELETE_ALL_POSTS'				=> 'Apagar Mensagens',
-	'DELETE_SUBFORUMS'				=> 'Apagar Sub-fóruns e Mensagens',
+	'DELETE_SUBFORUMS'				=> 'Apagar Subfóruns e Mensagens',
 	'DISPLAY_ACTIVE_TOPICS'			=> 'Mostrar Tópicos ativos',
 	'DISPLAY_ACTIVE_TOPICS_EXPLAIN'	=> 'Se definido como sim mostra os Tópicos ativos dos Fóruns desta categoria.',
 
@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_TOPIC_ICONS'			=> 'Ativar Ícones de Tópicos',
 
 	'FORUM_ADMIN'					=> 'Administração de Fóruns',
-	'FORUM_ADMIN_EXPLAIN'			=> 'No phpBB3 tudo é baseado em Fóruns que podem ser de três tipos: Categoria, Fórum e Atalho. O Fórum pode ter um número ilimitado de Sub-fóruns, podendo o Administrador decidir o que cada um pode receber. Aqui pode adicionar, editar, apagar, trancar e destrancar Fóruns individuais e ainda adicionar controlos. Se as suas Mensagens e Tópicos não estão sincronizadas, pode ressincronizar um Fórum. <strong>Os Fóruns criados só se tornam visíveis aos Utilizadores depois de definidas ou copiadas as Permissões adequadas.</strong>',
+	'FORUM_ADMIN_EXPLAIN'			=> 'No phpBB3 tudo é baseado em Fóruns que podem ser de três tipos: Categoria, Fórum e Atalho. O Fórum pode ter um número ilimitado de Subfóruns, podendo o Administrador decidir o que cada um pode receber. Aqui pode adicionar, editar, apagar, trancar e destrancar Fóruns individuais e ainda adicionar controlos. Se as suas Mensagens e Tópicos não estão sincronizadas, pode resincronizar um Fórum. <strong>Os Fóruns criados só se tornam visíveis aos Utilizadores depois de definidas ou copiadas as Permissões adequadas.</strong>',
 	'FORUM_AUTO_PRUNE'				=> 'Ativar Auto-limpeza',
 	'FORUM_AUTO_PRUNE_EXPLAIN'		=> 'Elimina os Tópicos deste Fórum conforme os parâmetros de frequência/idade definidos abaixo.',
 	'FORUM_CREATED'					=> 'Fórum criado com sucesso.',
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'FORUM_DESC_EXPLAIN'			=> 'Este texto será exibido com o Fórum. Pode incluir códigos HTML.',
 	'FORUM_EDIT_EXPLAIN'			=> 'Esta ferramenta permite-lhe criar um novo Fórum. Tenha em atenção que a Moderação e o Controlo do Contador de Mensagens são determinados pelas Permissões do Fórum para cada Utilizador ou Grupo.',
 	'FORUM_IMAGE'					=> 'Imagem do Fórum',
-	'FORUM_IMAGE_EXPLAIN'			=> 'Local da Imagem (relativo à pasta raiz do phpBB).',
+	'FORUM_IMAGE_EXPLAIN'			=> 'Local da Imagem (relativo à pasta raíz do phpBB).',
 	'FORUM_IMAGE_NO_EXIST'			=> 'A imagem do Fórum especificada não existe',	
 	'FORUM_LINK_EXPLAIN'			=> 'URL Completa (incluindo o protocolo, ex. <samp>http://</samp>) para o local em que o utilizador será redirecionado ao clicar, ex: http://www.phpbb.com/.',
 	'FORUM_LINK_TRACK'				=> 'Salvar Redirecionamento de Links',
@@ -123,20 +123,20 @@ $lang = array_merge($lang, array(
 	'FORUM_TYPE'					=> 'Tipo de Fórum',
 	'FORUM_UPDATED'					=> 'A Configuração do Fórum foi atualizada com sucesso.',
 
-	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'	=> 'Está a tentar modificar um Fórum com Sub-fóruns para um atalho. Por favor, mova todos os Sub-fóruns deste Fórum antes de continuar, caso não mova os Sub-fóruns e faça a modificação para atalho todos os Sub-fóruns ficarão indisponíveis.',
+	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'	=> 'Está a tentar modificar um Fórum com Subfóruns para um atalho. Por favor, mova todos os Subfóruns deste Fórum antes de continuar, caso não mova os Subfóruns e faça a modificação para atalho todos os Subfóruns ficarão indisponíveis.',
 
 	'GENERAL_FORUM_SETTINGS'		=> 'Configuração Geral dos Fóruns',
 
 	'LINK'							=> 'atalho',
 	'LIST_INDEX'					=> 'Mostrar no Fórum Pai',
-	'LIST_INDEX_EXPLAIN'			=> 'Se definido como Sim, mostra no Fórum Pai, um atalho para este Fórum, se tiver a opção Mostrar os Sub-fóruns ativada.',
-	'LIST_SUBFORUMS'				=> 'Mostrar os Sub-fóruns',
-	'LIST_SUBFORUMS_EXPLAIN'		=> 'Se definido como sim, mostra um atalho para os Sub-fóruns que tiverem a opção Mostrar no Fórum Pai ativada.',
+	'LIST_INDEX_EXPLAIN'			=> 'Se definido como Sim, mostra no Fórum Pai, um atalho para este Fórum, se tiver a opção Mostrar os Subfóruns ativada.',
+	'LIST_SUBFORUMS'				=> 'Mostrar os Subfóruns',
+	'LIST_SUBFORUMS_EXPLAIN'		=> 'Se definido como sim, mostra um atalho para os Subfóruns que tiverem a opção Mostrar no Fórum Pai ativada.',
 	'LOCKED'						=> 'Bloqueado',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'O Fórum escolhido para mover as mensagens não pode receber mensagens. Selecione um Fórum que possa receber mensagens.',
 	'MOVE_POSTS_TO'					=> 'Mover Mensagens para',
-	'MOVE_SUBFORUMS_TO'				=> 'Mover Sub-fóruns para',
+	'MOVE_SUBFORUMS_TO'				=> 'Mover Subfóruns para',
 
 	'NO_DESTINATION_FORUM'			=> 'Não selecionou nenhum Fórum para Mover o conteúdo.',
 	'NO_FORUM_ACTION'				=> 'Sem ações definidas para o conteúdo do Fórum.',
@@ -145,7 +145,7 @@ $lang = array_merge($lang, array(
 	'NO_PERMISSION_FORUM_ADD'		=> 'Não está autorizado a adicionar Fóruns.',
 	'NO_PERMISSION_FORUM_DELETE'	=> 'Não está autorizado a apagar Fóruns.',
 
-	'PARENT_IS_LINK_FORUM'			=> 'O Fórum Pai indicado está na forma de atalho. Fóruns em forma de atalho não podem ter Sub-fóruns, selecione um Fórum ou Categoria.',
+	'PARENT_IS_LINK_FORUM'			=> 'O Fórum Pai indicado está na forma de atalho. Fóruns em forma de atalho não podem ter Subfóruns, selecione um Fórum ou Categoria.',
 	'PARENT_NOT_EXIST'				=> 'O Fórum Pai selecionado não existe.',
 	'PRUNE_ANNOUNCEMENTS'			=> 'Limpar Anúncios',
 	'PRUNE_STICKY'					=> 'Limpar Tópicos Fixos',
@@ -155,7 +155,7 @@ $lang = array_merge($lang, array(
 	'REDIRECT_ACL'					=> 'Aqui pode %sconfigurar as Permissões%s deste Fórum.',
 
 	'SYNC_IN_PROGRESS'				=> 'Sincronizando Fórum',
-	'SYNC_IN_PROGRESS_EXPLAIN'		=> 'Ressincronização em progresso da ordem dos Tópicos %1$d/%2$d.',
+	'SYNC_IN_PROGRESS_EXPLAIN'		=> 'Resincronização em progresso da ordem dos Tópicos %1$d/%2$d.',
 
 	'TYPE_CAT'						=> 'Categoria',
 	'TYPE_FORUM'					=> 'Fórum',

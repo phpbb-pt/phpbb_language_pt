@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'		=> 'Esta secção permite excluir ou desativar Utilizadores do Fórum. As contas podem ser filtradas de várias maneiras: pela contagem de mensagens, atividade mais recente, etc. Os critérios podem ser combinados para determinar as contas afetadas. Por exemplo, pode selecionar os Utilizadores com menos de 10 mensagens, inativos de 01/01/2002. Use um * como complemento para campos de texto. Alternativamente, pode não usar a seleção por critérios, introduzindo a lista de Utilizadores (um por linha) no campo de texto. Tenha cuidado com este recurso! Depois de excluir um Utilizador não é possível reverter a ação.',
+	'ACP_PRUNE_USERS_EXPLAIN'		=> 'Esta secção permite excluir ou desativar Utilizadores do Fórum. As contas podem ser filtradas de várias maneiras: pela contagem de mensagens, atividade mais recente, etc. Os critérios podem ser combinados para determinar as contas afectadas. Por exemplo, pode selecionar os Utilizadores com menos de 10 mensagens, inativos de 01/01/2002. Use um * como complemento para campos de texto. Alternativamente, pode não usar a seleção por critérios, introduzindo a lista de Utilizadores (um por linha) no campo de texto. Tenha cuidado com este recurso! Depois de excluir um Utilizador não é possível reverter a ação.',
 
 	'CRITERIA'						=> 'Critérios',
 

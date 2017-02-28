@@ -2,7 +2,7 @@ Subject: Notificação de resposta ao tópico - "{TOPIC_TITLE}"
 
 Olá, {USERNAME},
 
-Está a receber esta notificação porque está a observar o tópico, "{TOPIC_TITLE}" em "{SITENAME}". Este tópico recebeu uma resposta<!-- IF AUTHOR_NAME != '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita. Pode usar o endereço seguinte para ver as respostas. Não serão enviadas mais notificações até que visite o tópico.
+Está a receber esta notificação porque está a observar o tópico, "{TOPIC_TITLE}" em "{SITENAME}". Este tópico recebeu uma resposta<!-- IF AUTHOR_NAME !== '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita. Pode usar o endereço seguinte para ver as respostas. Não serão enviadas mais notificações até que visite o tópico.
 
 Se deseja ver a mensagem mais recente feita depois da sua última visita, clique no seguinte endereço:
 {U_NEWEST_POST}

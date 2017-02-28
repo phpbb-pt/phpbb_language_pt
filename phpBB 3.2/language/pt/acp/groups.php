@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'GROUP_MEMBERS'						=> 'Membros do Grupo',
 	'GROUP_MEMBERS_EXPLAIN'				=> 'Esta é uma lista completa dos Membros deste Grupo. Inclui secções separadas para Líderes, pendentes e Membros atuais. Neste Painel pode configurar os gestores deste Grupo e as suas tarefas. Para apagar um Líder sem retirá-lo do Grupo, use a Opção Demitir Líder. Para promover um Membro do Grupo a Líder selecione Promover Líder.',
 	'GROUP_MESSAGE_LIMIT'				=> 'Limite de Mensagens Privadas do Grupo por Pasta',
-	'GROUP_MESSAGE_LIMIT_EXPLAIN'		=> 'Esta configuração substitui o limite da pasta de Mensagem por Utilizador. Um valor igual a 0 significa manter as configurações individuais ao Utilizador.',
+	'GROUP_MESSAGE_LIMIT_EXPLAIN'		=> 'Esta configuração substitui o limite da pasta de Mensagem por Utilizador. O valor máximo para todos os grupos do utilizadores é usado para determinar o valor real.<br /> Defina esse valor como 0 para substituir a configuração para todos os utilizadores deste grupo com a configuração do fórum.',
 	'GROUP_MODS_ADDED'					=> 'Os Moderadores do Grupo foram adicionados com sucesso.',
 	'GROUP_MODS_DEMOTED'				=> 'Os Líderes selecionados foram demitidos com sucesso.',
 	'GROUP_MODS_PROMOTED'				=> 'Os Membros selecionados foram promovidos com sucesso.',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'GROUP_OPEN'						=> 'Aberto',
 	'GROUP_PENDING'						=> 'Membros Pendentes',
 	'GROUP_MAX_RECIPIENTS'				=> 'Limite de destinatários por Mensagem Privada',
-	'GROUP_MAX_RECIPIENTS_EXPLAIN'		=> 'Se definido 0, serão usadas as Configurações Gerais do Painel.',
+	'GROUP_MAX_RECIPIENTS_EXPLAIN'		=> 'O número máximo de destinatários permitidos em uma mensagem privada. O valor máximo para todos os grupos do utilizador é utilizado para determinar o valor actual.<br />Defina esse valor como 0 para substituir a configuração para todos os usuários deste grupo com o ajuste da configurações do forum.',
 	'GROUP_OPTIONS_SAVE'				=> 'Opções do Grupo alargadas',
 	'GROUP_PROMOTE'						=> 'Promover a Líder do Grupo',
 	'GROUP_RANK'						=> 'Classificação do Grupo',
@@ -129,6 +129,8 @@ $lang = array_merge($lang, array(
 	'NO_USERS'							=> 'Não especificou nenhum Utilizador.',
 	'NO_USERS_ADDED'					=> 'Não foram adicionados Utilizadores a este Grupo.',
 	'NO_VALID_USERS'					=> 'Não entrou com nenhum Utilizador com Permissões para usar esta opção.',
+
+	'PENDING_MEMBERS'			        => 'Pendente',
 
 	'SELECT_GROUP'						=> 'Selecione um Grupo',
 	'SPECIAL_GROUPS'					=> 'Grupos Pré-Definidos',

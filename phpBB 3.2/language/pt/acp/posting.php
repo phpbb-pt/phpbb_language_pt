@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'		=> 'O Nome da TAG de BBCode selecionado já existe.',
 	'BBCODE_INVALID'				=> 'A construção do seu BBCode é invalido.',
-	'BBCODE_OPEN_ENDED_TAG'			=> 'O BBCode personalizado deve conter uma TAG de início e outra de fim.',
+	'BBCODE_OPEN_ENDED_TAG'			=> 'O BBCode customizado deve conter uma TAG de início e outra de fim.',
 	'BBCODE_TAG'					=> 'TAG',
 	'BBCODE_TAG_TOO_LONG'			=> 'O Nome da TAG selecionado é muito grande.',
 	'BBCODE_TAG_DEF_TOO_LONG'		=> 'A Definição da TAG escrita é muito grande. Por Favor, reescreva de forma mais curta.',
@@ -235,7 +235,7 @@ $lang = array_merge($lang, array(
 
 	'RANK_ADDED'					=> 'A classificação foi adicionada com sucesso.',
 	'RANK_IMAGE'					=> 'Imagem da Classificação',
-	'RANK_IMAGE_EXPLAIN'			=> 'Imagem da Classificação (relativo à pasta raiz do phpBB).',
+	'RANK_IMAGE_EXPLAIN'			=> 'Imagem da Classificação (relativo à pasta raíz do phpBB).',
 	'RANK_IMAGE_IN_USE'				=> '(em uso)',
 	'RANK_MINIMUM'					=> 'Número Mínimo de Mensagens',
 	'RANK_REMOVED'					=> 'A classificação foi apagada com sucesso.',
