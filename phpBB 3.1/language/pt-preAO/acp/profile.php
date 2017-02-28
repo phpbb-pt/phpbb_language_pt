@@ -71,9 +71,9 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_REGISTER'			=> 'Exibir na tela de Registos',
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Se esta opção estiver activa, o Campo será exibido no Registo pode ser alterado no Painel de Controlo do Utilizador.',
 	'DISPLAY_ON_MEMBERLIST'			=> 'Mostrar na tela de lista de membros',
-	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'Se esta opção estiver ativada, o campo será exibido nas linhas do utilizador na tela da lista de membros.',
+	'DISPLAY_ON_MEMBERLIST_EXPLAIN'	=> 'Se esta opção estiver activada, o campo será exibido nas linhas do utilizador na tela da lista de membros.',
 	'DISPLAY_ON_PM'					=> 'Mostrar na tela da Mensagem Privada',
-	'DISPLAY_ON_PM_EXPLAIN'			=> 'Se esta opção estiver ativada, o campo será exibido no mini-perfil na tela da Mensagem Privada.',
+	'DISPLAY_ON_PM_EXPLAIN'			=> 'Se esta opção estiver activada, o campo será exibido no mini-perfil na tela da Mensagem Privada.',
 	'DISPLAY_ON_VT'					=> 'Exibir na página viewtopic',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'Caso esta opção esteja activa, o campo irá ser exibido no mini-perfil na página de Tópicos.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Exibir publicamente o campo do perfil',
@@ -165,9 +165,9 @@ $lang = array_merge($lang, array(
 	'STEP_3_EXPLAIN_EDIT'			=> 'Desde que tenha mais de um Idioma instalado, pode alterar ou adicionar os itens de linguagem restantes também. O Campo irá trabalhar com o Idioma Padrão seleccionado.',
 	'STEP_3_TITLE_CREATE'			=> 'Definições do Idioma Restantes',
 	'STEP_3_TITLE_EDIT'				=> 'Definições do Idioma',
-	'STRING_DEFAULT_VALUE_EXPLAIN'	=> 'Escreva uma frase padrão a ser exibida, um valor padrão. Deixe em branco se não deseja ativar esta opção.',
+	'STRING_DEFAULT_VALUE_EXPLAIN'	=> 'Escreva uma frase padrão a ser exibida, um valor padrão. Deixe em branco se não deseja activar esta opção.',
 
-	'TEXT_DEFAULT_VALUE_EXPLAIN'	=> 'Escreva um texto padrão a ser exibido, um valor padrão. Deixe em branco se não deseja ativar esta opção.',
+	'TEXT_DEFAULT_VALUE_EXPLAIN'	=> 'Escreva um texto padrão a ser exibido, um valor padrão. Deixe em branco se não deseja activar esta opção.',
 	'TRANSLATE'						=> 'Traduzir',
 
 	'USER_FIELD_NAME'				=> 'Título do Campo será mostrado ao Utilizador',

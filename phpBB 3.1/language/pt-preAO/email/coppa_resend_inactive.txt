@@ -33,7 +33,7 @@ Data: ______/_______/_____
 ------------------------------ Recorte por aqui ------------------------------
 
 
-Quando o administrador receber o formulário, a sua conta será ativada.
+Quando o administrador receber o formulário, a sua conta será activada.
 
 A sua senha foi armazenada na nossa Base de Dados de forma segura e não pode ser recuperada. No caso de a esquecer, poderá redefini-la, usando o endereço de e-mail associado à sua conta.
 

@@ -67,15 +67,15 @@ $lang = array_merge($lang, array(
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Não foi possível desactivar a extensão %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'A Extensão %s foi desactivada com sucesso',
-	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Não foi possível ativar a Extensão %s',
-	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Extensão %s ativada com sucesso',
+	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Não foi possível activar a Extensão %s',
+	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Extensão %s activada com sucesso',
 	'CLI_EXTENSION_NAME'				=> 'Nome da Extensão',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Não foi possível limpar a Extensão %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'A Extensão %s foi limpa com sucesso',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Não foram encontradas Extensões.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Disponível',
-	'CLI_EXTENSIONS_DISABLED'			=> 'Desativado',
-	'CLI_EXTENSIONS_ENABLED'			=> 'Ativado',
+	'CLI_EXTENSIONS_DISABLED'			=> 'Desactivado',
+	'CLI_EXTENSIONS_ENABLED'			=> 'Activado',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Recalculado com sucesso todos os hashes de e-mail.',
 ));

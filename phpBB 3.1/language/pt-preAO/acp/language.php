@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Pacotes de idiomas instalados',
 
-	'LANGUAGE_DETAILS_UPDATED'		=> 'A Configuração dos idiomas foi atualizada com sucesso.',
+	'LANGUAGE_DETAILS_UPDATED'		=> 'A Configuração dos idiomas foi actualizada com sucesso.',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'=> 'O Pacote de idiomas já se encontra instalado.',
 	'LANGUAGE_PACK_DELETED'			=> 'O Pacote de idioma “%s” foi removido com sucesso. Foi atribuído o idioma padrão a todos os utilizadores que usavam essa linguagem.',
 	'LANGUAGE_PACK_DETAILS'			=> 'Detalhes do Pacote de idiomas',

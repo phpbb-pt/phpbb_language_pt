@@ -49,7 +49,7 @@ $help = array(
 	),
 	array(
 		0 => 'Registei-me mas não consigo entrar!',
-		1 => 'Verifique se escreveu correctamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão correctos tenha em atenção um de dois fatores. Se a função COPPA (Childrens Online Privacy Protection Act) estiver activa no Fórum e assinalou uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra activado. Alguns Fóruns obrigam à activação dos novos Registos. A Activação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorrectamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correcto, tente contactar o Administrador do Fórum.'
+		1 => 'Verifique se escreveu correctamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão correctos tenha em atenção um de dois factores. Se a função COPPA (Childrens Online Privacy Protection Act) estiver activa no Fórum e assinalou uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra activado. Alguns Fóruns obrigam à activação dos novos Registos. A Activação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorrectamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correcto, tente contactar o Administrador do Fórum.'
 	),
 	array(
 		0 => 'Porque não consigo entrar no Fórum?',
@@ -109,7 +109,7 @@ $help = array(
 	),
 	array(
 		0 => 'Quando clico no email de um Utilizador, pede-me para ligar no fórum?!',
-		1 => 'Só os Utilizadores Registados podem enviar emails através do formulário exclusivo do Fórum (se esta função se encontrar ativada). Isso evita o uso malicioso do sistema de email por Visitantes.'
+		1 => 'Só os Utilizadores Registados podem enviar emails através do formulário exclusivo do Fórum (se esta função se encontrar activada). Isso evita o uso malicioso do sistema de email por Visitantes.'
 	),
 	array(
 		0 => '--',
@@ -173,7 +173,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que é BBCode?',
-		1	=> 'O BBCode é uma implementação especial do HTML. A possibilidade usar BBCode nas mensagens é determinada pelo Administrador do Fórum. Adicionalmente, pode poderá desactivar o BBCode em cada mensagem, seleccionando Desactivar BBCode nesta Mensagem abaixo da caixa principal de cada mensagem. BBCode por si mesmo é similar em estilo ao HTML, as Etiquetas (TAGs) são incluídas entre parêntesis retos, como por [exemplo], em vez de &lt;exemplo&gt; proporcionando uma maior facilidade na formatação dos textos e mensagens dentro do Fórum. Para mais informações, consulte o Guia BBCode, acessível através de um atalho no Painel de Mensagens.',
+		1	=> 'O BBCode é uma implementação especial do HTML. A possibilidade usar BBCode nas mensagens é determinada pelo Administrador do Fórum. Adicionalmente, pode poderá desactivar o BBCode em cada mensagem, seleccionando Desactivar BBCode nesta Mensagem abaixo da caixa principal de cada mensagem. BBCode por si mesmo é similar em estilo ao HTML, as Etiquetas (TAGs) são incluídas entre parêntesis rectos, como por [exemplo], em vez de &lt;exemplo&gt; proporcionando uma maior facilidade na formatação dos textos e mensagens dentro do Fórum. Para mais informações, consulte o Guia BBCode, acessível através de um atalho no Painel de Mensagens.',
 	),
 	array(
 		0	=> 'Posso usar HTML?',
@@ -181,7 +181,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que são Emoções?',
-		1	=> 'As Emoções, ou Smileys, são pequenas representações gráficas que são usadas para expressar sentimentos através da utilização de poucos caracteres. :) quer dizer Feliz, :( quer dizer Triste. A lista completa de pode ser vista no formulário junto à caixa de cada mensagem. Evite o uso excessivo de Emoções, já que podem tornar uma Mensagem ilegível, podendo o Administrador ou um Moderador excluí-las ou apagar a mensagem inteira.',
+		1	=> 'As Emoções, ou Smiles, são pequenas representações gráficas que são usadas para expressar sentimentos através da utilização de poucos caracteres. :) quer dizer Feliz, :( quer dizer Triste. A lista completa de pode ser vista no formulário junto à caixa de cada mensagem. Evite o uso excessivo de Emoções, já que podem tornar uma Mensagem ilegível, podendo o Administrador ou um Moderador excluí-las ou apagar a mensagem inteira.',
 	),
 	array(
 		0	=> 'Posso exibir Imagens?',
@@ -326,7 +326,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Quais os Anexos que são permitidos no Fórum?',
-		1	=> 'Cada Administrador pode ativar ou desactivar os tipos de anexos que desejar. Se não tem certeza sobre o que pode ser enviado, contacte o Administrador para mais informações.',
+		1	=> 'Cada Administrador pode activar ou desactivar os tipos de anexos que desejar. Se não tem certeza sobre o que pode ser enviado, contacte o Administrador para mais informações.',
 	),
 	array(
 		0	=> 'Como posso encontrar Anexos que enviei?',
@@ -350,6 +350,6 @@ $help = array(
 	),
 	array(
 		0 => 'Como faço para entrar em contacto com o administrador do fórum?',
-		1 => 'Todos os Utilizadores do Fórum podem usar o formulário “Contacte-nos”, se a opção estiver ativada.<br />Os Utilizadores podem usar o link “Equipa”.',
+		1 => 'Todos os Utilizadores do Fórum podem usar o formulário “Contacte-nos”, se a opção estiver activada.<br />Os Utilizadores podem usar o link “Equipa”.',
 	),
 );

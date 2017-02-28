@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Aqui pode configurar Utilizadores e Grupos como Moderadores do Fórum. Para configurar Permissões de Utilizador, para definir Permissões de Moderadores Globais ou Administradores, por favor, use a página apropriada.',
 	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> 'Aqui pode definir que Utilizadores e Grupos podem aceder a cada um dos Fóruns. Para configurar Moderadores ou Administradores, por favor, use a página apropriada.',
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> 'Aqui pode copiar as Permissões dum Fórum atribuindo-as a um ou mais Fóruns.',
-	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Aqui pode configurar Permissões de Moderadores Globais para Utilizadores e Grupos. Estes são Moderadores normais, exceto se tiverem acesso a todos Fóruns.',
+	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Aqui pode configurar Permissões de Moderadores Globais para Utilizadores e Grupos. Estes são Moderadores normais, excepto se tiverem acesso a todos Fóruns.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Aqui pode configurar Permissões de Fóruns para Grupos.',
 	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Aqui pode configurar as Permissões Globais dos Grupos - Permissões dos Utilizadores, Permissões Globais e Permissões Administrativas. As Permissões dos Utilizadores incluem o uso de Avatares, envio de Mensagens Privadas, etc. Permissões Globais como a Aprovação de Mensagens, Gestão de Tópicos, Gestão de Expulsões, etc. Por último, as Permissões Administrativas como a alteração de Permissões, definição de BBCodes, Gestão de Fóruns, etc. As Permissões dos Utilizadores individuais apenas devem ser alteradas em ocasiões muito especificas. Adicione os Utilizadores a um Grupo e altere as permissões do Grupo.',
 	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Aqui pode criar e configurar as Categorias dos Administradores. Cada Categoria tem as Permissões definidas pelo conjunto de funções seleccionadas. Alterando uma função, altera as Permissões dos itens associados.',
@@ -148,7 +148,7 @@ $lang = array_merge($lang, array(
 	'ONLY_FORUM_DEFINED'			=> 'Apenas seleccionou Fóruns. Seleccione pelo menos um Utilizador ou um Grupo.',
 
 	'PERMISSION_APPLIED_TO_ALL'		=> 'As Tarefas e Permissões também serão aplicadas a todos os objectos seleccionados',
-	'PLUS_SUBFORUMS'				=> '+ Subfóruns',
+	'PLUS_SUBFORUMS'				=> '+ Sub-fóruns',
 
 	'REMOVE_PERMISSIONS'			=> 'Eliminar Permissões',
 	'REMOVE_ROLE'					=> 'Eliminar Tarefa',
@@ -220,7 +220,7 @@ $lang = array_merge($lang, array(
 	'SELECTED_FORUM_NOT_EXIST'				=> 'Os Fóruns seleccionados não existem.',
 	'SELECTED_GROUP_NOT_EXIST'				=> 'Os Grupos seleccionados não existem.',
 	'SELECTED_USER_NOT_EXIST'				=> 'Os Utilizadores seleccionados não existem.',
-	'SELECT_FORUM_SUBFORUM_EXPLAIN'			=> 'Nesta opção, seleccionando um Fórum incluirá todos os seus Subfóruns.',
+	'SELECT_FORUM_SUBFORUM_EXPLAIN'			=> 'Nesta opção, seleccionando um Fórum incluirá todos os seus Sub-fóruns.',
 	'SELECT_ROLE'							=> 'Seleccionar Tarefa',
 	'SELECT_TYPE'							=> 'Seleccionar Tipo',
 	'SET_PERMISSIONS'						=> 'Dar Permissões',

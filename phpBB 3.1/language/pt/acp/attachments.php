@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_WINDOWS_MEDIA'			=> 'Windows Média',
 
 	'FILES_GONE'						=> 'Alguns dos anexos que selecionou para eliminar não existem. Eles podem já ter sido excluídos. Os anexos que existiam foram eliminados.',
-	'FILES_STATS_WRONG'					=> 'As estatísticas dos seus ficheiros são imprecisas e provavelmente precisam ser resincronizadas. Valores atuais: Número de ficheiros = %1$d, tamanho total dos ficheiros = %2$s.<br />Clique %3$saqui%4$s para os resincronizar.',
+	'FILES_STATS_WRONG'					=> 'As estatísticas dos seus ficheiros são imprecisas e provavelmente precisam ser ressincronizadas. Valores atuais: Número de ficheiros = %1$d, tamanho total dos ficheiros = %2$s.<br />Clique %3$saqui%4$s para os ressincronizar.',
 
 	'GO_TO_EXTENSIONS'					=> 'Vá para a Tela de Gestão de Extensões',
 	'GROUP_NAME'						=> 'Nome do Grupo',
@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores autorizados',
 	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores proibidos',
-	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja resincronizar estatísticas de ficheiros?',
+	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja ressincronizar estatísticas de ficheiros?',
 
 	'SEARCH_IMAGICK'					=> 'Localizar ImageMagick',
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',

@@ -148,7 +148,7 @@ $lang = array_merge($lang, array(
 	'ONLY_FORUM_DEFINED'			=> 'Apenas selecionou Fóruns. Selecione pelo menos um Utilizador ou um Grupo.',
 
 	'PERMISSION_APPLIED_TO_ALL'		=> 'As Tarefas e Permissões também serão aplicadas a todos os objetos selecionados',
-	'PLUS_SUBFORUMS'				=> '+ Subfóruns',
+	'PLUS_SUBFORUMS'				=> '+ Sub-fóruns',
 
 	'REMOVE_PERMISSIONS'			=> 'Eliminar Permissões',
 	'REMOVE_ROLE'					=> 'Eliminar Tarefa',
@@ -220,7 +220,7 @@ $lang = array_merge($lang, array(
 	'SELECTED_FORUM_NOT_EXIST'				=> 'Os Fóruns selecionados não existem.',
 	'SELECTED_GROUP_NOT_EXIST'				=> 'Os Grupos selecionados não existem.',
 	'SELECTED_USER_NOT_EXIST'				=> 'Os Utilizadores selecionados não existem.',
-	'SELECT_FORUM_SUBFORUM_EXPLAIN'			=> 'Nesta opção, selecionando um Fórum incluirá todos os seus Subfóruns.',
+	'SELECT_FORUM_SUBFORUM_EXPLAIN'			=> 'Nesta opção, selecionando um Fórum incluirá todos os seus Sub-fóruns.',
 	'SELECT_ROLE'							=> 'Selecionar Tarefa',
 	'SELECT_TYPE'							=> 'Selecionar Tipo',
 	'SET_PERMISSIONS'						=> 'Dar Permissões',

@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'CHOOSE_MODULE_EXPLAIN'			=> 'Escolher o Ficheiro usado por este módulo.',
 	'CREATE_MODULE'					=> 'Criar novo Módulo',
 
-	'DEACTIVATED_MODULE'			=> 'Módulo Desativado',
+	'DEACTIVATED_MODULE'			=> 'Módulo Desactivado',
 	'DELETE_MODULE'					=> 'Apagar Módulo',
 	'DELETE_MODULE_CONFIRM'			=> 'Deseja realmente Apagar este Módulo?',
 
@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 	'MODULE_DISPLAYED'				=> 'Módulos Exibidos',
 	'MODULE_DISPLAYED_EXPLAIN'		=> 'Se não deseja exibir este Módulo, mas gostaria de utilizá-lo, seleccione Não.',
 	'MODULE_EDITED'					=> 'O Módulo seleccionado foi editado com sucesso.',
-	'MODULE_ENABLED'				=> 'Módulo Ativado',
+	'MODULE_ENABLED'				=> 'Módulo Activado',
 	'MODULE_LANGNAME'				=> 'Nome do Idioma do Módulo',
 	'MODULE_LANGNAME_EXPLAIN'		=> 'Escreva o nome do Módulo exibido. Utilize a constante da Idioma se o nome for oferecido pelo Ficheiro de linguagem.',
 	'MODULE_TYPE'					=> 'Tipo de Módulo',

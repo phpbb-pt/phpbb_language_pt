@@ -3,7 +3,7 @@ Subject: Aviso de registo inactivo
 Olá, {USERNAME};
 
 Esta notificação é um aviso de que a sua conta em "{SITENAME}", criada em {REGISTER_DATE}, permanece inactiva.
-Se quer ativar a conta, visite o endereço que para sua comodidade lhe reenviamos:
+Se quer activar a conta, visite o endereço que para sua comodidade lhe reenviamos:
 {U_ACTIVATE}
 
 

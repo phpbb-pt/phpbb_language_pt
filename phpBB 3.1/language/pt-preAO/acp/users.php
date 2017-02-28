@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_SIG_PREVIEW'				=> 'Pré-visualização da Assinatura',
 	'AT_LEAST_ONE_FOUNDER'			=> 'Não pode mudar este Fundador para um Utilizador normal. É necessário ter no mínimo um Fundador para este Fórum. Se quer mudar a situação deste Fundador, promova outro Utilizador à condição de Fundador primeiro.',
 
-	'BAN_ALREADY_ENTERED'			=> 'A expulsão já tinha sido previamente informada. A lista de expulsões não foi atualizada.',
+	'BAN_ALREADY_ENTERED'			=> 'A expulsão já tinha sido previamente informada. A lista de expulsões não foi actualizada.',
 	'BAN_SUCCESSFUL'				=> 'Expulso com sucesso!',
 
 	'CANNOT_BAN_ANONYMOUS'			=> 'Não tem permissão para eliminar a conta Visitantes. As Permissões dos Visitantes podem ser definidas no separador Permissões.',
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_FOUNDER'			=> 'Não tem permissão para remover contas de fundador.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'Não pode remover sua própria conta.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Não pode promover os Utilizadores ignorados a Fundadores.',
-	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Tem que ativar os Utilizadores antes de os promover a Fundadores, apenas Utilizadores activos podem ser promovidos.',
+	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Tem que activar os Utilizadores antes de os promover a Fundadores, apenas Utilizadores activos podem ser promovidos.',
 	'CONFIRM_EMAIL_EXPLAIN'			=> 'Introduzir apenas se desejar alterar o endereço de email.',
 
 	'DELETE_POSTS'					=> 'Apagar as Mensagens',
@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 
 	'USER_ADMIN'					=> 'Administração de Utilizadores',
 	'USER_ADMIN_ACTIVATE'			=> 'Activar Conta',
-	'USER_ADMIN_ACTIVATED'			=> 'Utilizador Ativado com sucesso.',
+	'USER_ADMIN_ACTIVATED'			=> 'Utilizador Activado com sucesso.',
 	'USER_ADMIN_AVATAR_REMOVED'		=> 'O Avatar foi removido com sucesso da conta do Utilizador.',
 	'USER_ADMIN_BAN_EMAIL'			=> 'Expulso pelo email',
 	'USER_ADMIN_BAN_EMAIL_REASON'	=> 'Endereço de email expulso via Administração do Utilizador.',
@@ -136,8 +136,8 @@ $lang = array_merge($lang, array(
 	'USER_PROFILE'					=> 'Perfil do Utilizador',
 	'USER_PROFILE_UPDATED'			=> 'O Perfil do Utilizador foi actualizado com sucesso.',
 	'USER_RANK'						=> 'Classificação do Utilizador',
-	'USER_RANK_UPDATED'				=> 'Classificação do Utilizador atualizada.',
-	'USER_SIG_UPDATED'				=> 'A Assinatura do Utilizador foi atualizada com sucesso.',
+	'USER_RANK_UPDATED'				=> 'Classificação do Utilizador actualizada.',
+	'USER_SIG_UPDATED'				=> 'A Assinatura do Utilizador foi actualizada com sucesso.',
 	'USER_WARNING_LOG_DELETED'		=> 'Informação não disponível. Possivelmente a entrada de registo foi apagada.',
 	'USER_TOOLS'					=> 'Ferramentas Básicas',
 ));

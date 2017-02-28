@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'		=> 'O Nome da TAG de BBCode seleccionado já existe.',
 	'BBCODE_INVALID'				=> 'A construção do seu BBCode é invalido.',
-	'BBCODE_OPEN_ENDED_TAG'			=> 'O BBCode customizado deve conter uma TAG de início e outra de fim.',
+	'BBCODE_OPEN_ENDED_TAG'			=> 'O BBCode personalizado deve conter uma TAG de início e outra de fim.',
 	'BBCODE_TAG'					=> 'TAG',
 	'BBCODE_TAG_TOO_LONG'			=> 'O Nome da TAG seleccionado é muito grande.',
 	'BBCODE_TAG_DEF_TOO_LONG'		=> 'A Definição da TAG escrita é muito grande. Por Favor, reescreva de forma mais curta.',
@@ -102,9 +102,9 @@ $lang = array_merge($lang, array(
 	'AFTER_SMILIES'					=> 'Depois %s',
 
 	'CODE'							=> 'Código',
-	'CURRENT_ICONS'					=> 'Ícones atuais',
+	'CURRENT_ICONS'					=> 'Ícones actuais',
 	'CURRENT_ICONS_EXPLAIN'			=> 'Escolha o que fazer com os ícones actualmente instalados.',
-	'CURRENT_SMILIES'				=> 'Emoções atuais',
+	'CURRENT_SMILIES'				=> 'Emoções actuais',
 	'CURRENT_SMILIES_EXPLAIN'		=> 'Escolha o que fazer com as Emoções actualmente instaladas.',
 
 	'DISPLAY_ON_POSTING'			=> 'Exibir na Mensagem',
@@ -180,7 +180,7 @@ $lang = array_merge($lang, array(
 	'SMILIE_NO_FILE'				=> 'A Emoção “%s” foi ignorada, porque falta o ficheiro.',
 	'SMILIES_EDITED'			=> array(
 		0	=> 'Não foram actualizadas emoções.',
-		1	=> 'A emoção foi atualizada com sucesso.',
+		1	=> 'A emoção foi actualizada com sucesso.',
 		2	=> 'As emoções foram actualizadas com sucesso.',
 	),
 	'SMILIES_EMOTION'				=> 'Emoção',
@@ -219,7 +219,7 @@ $lang = array_merge($lang, array(
 	'WORD'							=> 'Palavra',
 	'WORD_ADDED'					=> 'A Palavra Censurada foi adicionada com sucesso.',
 	'WORD_REMOVED'					=> 'A Palavra Censurada foi apagada com sucesso.',
-	'WORD_UPDATED'					=> 'A Palavra Censurada foi atualizada com sucesso.',
+	'WORD_UPDATED'					=> 'A Palavra Censurada foi actualizada com sucesso.',
 ));
 
 // Ranks
@@ -235,13 +235,13 @@ $lang = array_merge($lang, array(
 
 	'RANK_ADDED'					=> 'A classificação foi adicionada com sucesso.',
 	'RANK_IMAGE'					=> 'Imagem da Classificação',
-	'RANK_IMAGE_EXPLAIN'			=> 'Imagem da Classificação (relativo à pasta raíz do phpBB).',
+	'RANK_IMAGE_EXPLAIN'			=> 'Imagem da Classificação (relativo à pasta raiz do phpBB).',
 	'RANK_IMAGE_IN_USE'				=> '(em uso)',
 	'RANK_MINIMUM'					=> 'Número Mínimo de Mensagens',
 	'RANK_REMOVED'					=> 'A classificação foi apagada com sucesso.',
 	'RANK_SPECIAL'					=> 'Escreva uma Classificação Especial',
 	'RANK_TITLE'					=> 'Título da Classificação',
-	'RANK_UPDATED'					=> 'A Classificação foi atualizada com sucesso.',
+	'RANK_UPDATED'					=> 'A Classificação foi actualizada com sucesso.',
 ));
 
 // Disallow Usernames
@@ -285,7 +285,7 @@ $lang = array_merge($lang, array(
 	'REASON_REMOVED'				=> 'A razão foi apagada por sucesso.',
 	'REASON_TITLE'					=> 'Título da Razão',
 	'REASON_TITLE_TRANSLATED'		=> 'Título da Razão exibida',
-	'REASON_UPDATED'				=> 'A Razão para Denúncia/Negação foi atualizada com sucesso.',
+	'REASON_UPDATED'				=> 'A Razão para Denúncia/Negação foi actualizada com sucesso.',
 
 	'USED_IN_REPORTS'				=> 'Utilizado em Denúncias',
 ));

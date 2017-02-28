@@ -41,7 +41,7 @@ $help = array(
 	),
 	array(
 		0 => 'O que significa COPPA?',
-		1 => 'COPPA, ou Lei de Proteção da Privacidade Online Infantil de 1998,  é uma Lei dos EUA que exige uma autorização dos encarregados de educação, ou de um responsável legal, para guardar as informações relativas a menores de 13 anos de idade. Caso não saiba se isso se aplica a si, obtenha aconselhamento legal. Por favor, esteja ciente de que nem o phpBB Limited nem o fundador deste fórum o pode aconselhar em termos legais, à excepção da questão “Quem devo contactar em caso de abusos e/ou assuntos legais relacionados com este fórum?”.',
+		1 => 'COPPA, ou Lei de Proteção da Privacidade Online Infantil de 1998,  é uma Lei dos EUA que exige uma autorização dos encarregados de educação, ou de um responsável legal, para guardar as informações relativas a menores de 13 anos de idade. Caso não saiba se isso se aplica a si, obtenha aconselhamento legal. Por favor, esteja ciente de que nem o phpBB Limited nem o fundador deste fórum o pode aconselhar em termos legais, à exceção da questão “Quem devo contactar em caso de abusos e/ou assuntos legais relacionados com este fórum?”.',
 	),
 	array(
 		0 => 'Porque não me posso registar?',
@@ -133,7 +133,7 @@ $help = array(
 	),
 	array(
 		0 => 'Porque não posso adicionar mais opções nas votações?',
-		1 => 'O limite de opções das votações é fixado pelo administrador do fórum. Se acha que precisa adicionar mais opções para a sua votação do que o número permitido, contate o administrador do fórum.'
+		1 => 'O limite de opções das votações é fixado pelo administrador do fórum. Se acha que precisa adicionar mais opções para a sua votação do que o número permitido, contacte o administrador do fórum.'
 	),
 	array(
 		0	=> 'Como posso editar ou apagar uma votação?',
@@ -145,7 +145,7 @@ $help = array(
 	),
 	array(
 		0 => 'Porque não posso adicionar anexos?',
-		1 => 'As permissões dos anexos são atribuídas por fórum, por group, ou por utilizador. O Administrador do Fórum pode não ter permitido anexos em determinado fórum, ou apenas deu permissões a certos grupos. Contacte o mesmo caso não saiba o motivo do porquê de não poder adicionar anexos.'
+		1 => 'As permissões dos anexos são atribuídas por fórum, por grupo, ou por utilizador. O Administrador do Fórum pode não ter permitido anexos em determinado fórum, ou apenas deu permissões a certos grupos. Contacte o mesmo caso não saiba o motivo do porquê de não poder adicionar anexos.'
 	),
 	array(
 		0	=> 'Porque recebi uma Advertência?',
@@ -161,7 +161,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Do que necessita a minha Mensagem para ser Aprovada?',
-		1	=> 'O Administrador pode decidir se na secção em que está postando, as Mensagens precisem ser revisadas ou não. E também é possível que o Administrador O tenha adicionado a um Grupo de Utilizadores que precise ter suas Mensagens aprovadas antes de enviá-las ao Fórum. Por Favor, contate o Administrador para maiores informações.',
+		1	=> 'O Administrador pode decidir se na secção em que está postando, as Mensagens precisem ser revisadas ou não. E também é possível que o Administrador O tenha adicionado a um Grupo de Utilizadores que precise ter suas Mensagens aprovadas antes de enviá-las ao Fórum. Por Favor, contacte o Administrador para maiores informações.',
 	),
 	array(
 		0	=> 'Como posso ressuscitar os meus Tópicos?',
@@ -181,7 +181,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que são Emoções?',
-		1	=> 'As Emoções, ou Smileys, são pequenas representações gráficas que são usadas para expressar sentimentos através da utilização de poucos caracteres. :) quer dizer Feliz, :( quer dizer Triste. A lista completa de pode ser vista no formulário junto à caixa de cada mensagem. Evite o uso excessivo de Emoções, já que podem tornar uma Mensagem ilegível, podendo o Administrador ou um Moderador excluí-las ou apagar a mensagem inteira.',
+		1	=> 'As Emoções, ou Smiles, são pequenas representações gráficas que são usadas para expressar sentimentos através da utilização de poucos caracteres. :) quer dizer Feliz, :( quer dizer Triste. A lista completa de pode ser vista no formulário junto à caixa de cada mensagem. Evite o uso excessivo de Emoções, já que podem tornar uma Mensagem ilegível, podendo o Administrador ou um Moderador excluí-las ou apagar a mensagem inteira.',
 	),
 	array(
 		0	=> 'Posso exibir Imagens?',
@@ -218,7 +218,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que são Administradores?',
-		1	=> 'Administradores são os Utilizadores que possuem o Nível Máximo de controlo sobre todos os aspectos do Fórum. Podem controlar toda a operação das secções, incluindo criar, editar ou apagar secções, determinar permissões, expulsar Utilizadores, criar Grupos de Utilizadores ou Moderadores, etc. E ainda possuem todos os poderes de Moderador em todas as secções existentes.',
+		1	=> 'Administradores são os Utilizadores que possuem o Nível Máximo de controlo sobre todos os aspetos do Fórum. Podem controlar toda a operação das secções, incluindo criar, editar ou apagar secções, determinar permissões, expulsar Utilizadores, criar Grupos de Utilizadores ou Moderadores, etc. E ainda possuem todos os poderes de Moderador em todas as secções existentes.',
 	),
 	array(
 		0	=> 'O que são Moderadores?',

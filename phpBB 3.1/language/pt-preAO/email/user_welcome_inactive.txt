@@ -11,7 +11,7 @@ Utilizador: {USERNAME}
 Endereço do Fórum: {U_BOARD}
 ==============================================
 
-Por favor, visite o seguinte endereço para ativar sua conta:
+Por favor, visite o seguinte endereço para activar sua conta:
 {U_ACTIVATE}
 
 A sua senha foi armazenada na nossa Base de Dados de forma segura e não pode ser recuperada. No caso de a esquecer, poderá redefini-la, usando o endereço de e-mail associado à sua conta.

@@ -1,4 +1,4 @@
-Subject: {SITENAME} - Registo Ativado
+Subject: {SITENAME} - Registo Activado
 
 Olá, {USERNAME};
 

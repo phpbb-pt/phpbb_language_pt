@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'BAN_LENGTH'				=> 'Duração da Expulsão',
 	'BAN_REASON'				=> 'Razão da Expulsão',
 	'BAN_GIVE_REASON'			=> 'Descrição do motivo da expulsão',
-	'BAN_UPDATE_SUCCESSFUL'		=> 'A Lista de Expulsões foi atualizada com sucesso.',
+	'BAN_UPDATE_SUCCESSFUL'		=> 'A Lista de Expulsões foi actualizada com sucesso.',
 	'BANNED_UNTIL_DATE'			=> 'até %s', // Exemplo: "até Seg 13.Jul.2009, 14:44"
 	'BANNED_UNTIL_DURATION'		=> '%1$s (até %2$s)', // Exemplo: "7 dias (até Ter 14.Jul.2009, 14:44)"
 

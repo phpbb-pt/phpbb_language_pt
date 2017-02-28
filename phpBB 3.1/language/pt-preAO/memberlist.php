@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'CONTACT_ADMIN'				=> 'Contacte o Administrador',
 
 	'DEST_LANG'					=> 'Linguagem',
-	'DEST_LANG_EXPLAIN'			=> 'Seleccione a linguagem apropriada (se ativada) para o destinatário desta mensagem.',
+	'DEST_LANG_EXPLAIN'			=> 'Seleccione a linguagem apropriada (se activada) para o destinatário desta mensagem.',
 
 	'EDIT_PROFILE'				=> 'Editar Perfil',
 

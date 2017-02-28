@@ -2,7 +2,7 @@ Subject: Bem vindo ao Fórum {SITENAME}
 
 {WELCOME_MSG}
 
-Em conformidade com o COPPA, sua conta encontra-se inativa.
+Em conformidade com o COPPA, sua conta encontra-se inactiva.
 
 Por favor, imprima esta mensagem, obtenha a assinatura, com a data, dos seus pais ou tutor e envie por fax para:
 
@@ -33,7 +33,7 @@ Data: ______/_______/_____
 ------------------------------ Recorte por aqui ------------------------------
 
 
-Quando o administrador receber o formulário, a sua conta será ativada.
+Quando o administrador receber o formulário, a sua conta será activada.
 
 A sua senha foi armazenada na nossa Base de Dados de forma segura e não pode ser recuperada. No caso de a esquecer, poderá redefini-la, usando o endereço de e-mail associado à sua conta.
 

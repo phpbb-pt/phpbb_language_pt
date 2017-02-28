@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ADMIN_CONFIG'						=> 'Configuração de administração',
+	'ADMIN_CONFIG'						=> 'Configuração de Administração',
 	'ADMIN_PASSWORD'					=> 'Senha do Administrador',
 	'ADMIN_PASSWORD_CONFIRM'			=> 'Confirme a Senha do Administrador',
 	'ADMIN_PASSWORD_EXPLAIN'			=> '(Escolha uma Senha que tenha entre 6 e 30 caracteres).',
@@ -75,7 +75,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_PHPBB_EMPTY'				=> 'A variável de configuração do phpBB3 para “%s” está vazia.',
 	'CONFIG_RETRY'						=> 'Tentar novamente',
 	'CONTINUE_CONVERT'					=> 'Continuar a conversão',
-	'CONTINUE_CONVERT_BODY'				=> 'Foi detectada uma tentativa prévia de conversão. Deve escolher entre iniciar uma nova conversão ou continuar a conversão interrompida.',
+	'CONTINUE_CONVERT_BODY'				=> 'Foi detetada uma tentativa prévia de conversão. Deve escolher entre iniciar uma nova conversão ou continuar a conversão interrompida.',
 	'CONTINUE_LAST'						=> 'Continuar com esta atualização',
 	'CONTINUE_OLD_CONVERSION'			=> 'Continuar a atualização interrompida',
 	'CONVERT'							=> 'Converter',
@@ -129,7 +129,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'			=> 'Erro ao executar <var>query_first</var>, %s ("%s").',
 	'DB_ERR_SELECT'						=> 'Erro ao processar a query <code>SELECT</code>.',
 	'DB_HOST'							=> 'Nome do Servidor da Base de Dados / DSN',
-	'DB_HOST_EXPLAIN'					=> 'DSN significa Data Source Name e apenas é relevante para instalações ODBC. No PostgreSQL, use localhost para ligar ao servidor local através do domínio socket UNIX e 127.0.0.1 para conetar através do TCP. Para SQLite, insira o caminho completo para o ficheiro da sua Base de Dados.',
+	'DB_HOST_EXPLAIN'					=> 'DSN significa Data Source Name e apenas é relevante para instalações ODBC. No PostgreSQL, use localhost para ligar ao servidor local através do domínio socket UNIX e 127.0.0.1 para conectar através do TCP. Para SQLite, insira o caminho completo para o ficheiro da sua Base de Dados.',
 	'DB_NAME'							=> 'Nome da Base de Dados',
 	'DB_PASSWORD'						=> 'Senha da Base de Dados',
 	'DB_PORT'							=> 'Porta do Servidor da Base de Dados',
@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 	'DB_TEST'							=> 'Teste da ligação',
 	'DEFAULT_LANG'						=> 'Idioma padrão do Fórum',
 	'DEFAULT_PREFIX_IS'					=> 'O Conversor não encontrou as tabelas com o prefixo indicado. Verifique se as informações do Fórum estão corretas. O Prefixo Padrão para a tabela %1$s é <strong>%2$s</strong>',
-	'DEV_NO_TEST_FILE'					=> 'Não foi especificado um valor para a variável ficheiro_teste no conversor. Se é utilizador deste conversor, e não deveria estar a ver este erro, por favor, contate o autor do conversor. Se é o autor do conversor, deve especificar o nome de um ficheiro que exista no Fórum de destino para que seja possível a verificação da pasta.',
+	'DEV_NO_TEST_FILE'					=> 'Não foi especificado um valor para a variável ficheiro_teste no conversor. Se é utilizador deste conversor, e não deveria estar a ver este erro, por favor, contacte o autor do conversor. Se é o autor do conversor, deve especificar o nome de um ficheiro que exista no Fórum de destino para que seja possível a verificação da pasta.',
 	'DIRECTORIES_AND_FILES'				=> 'Configuração de Ficheiro e Pastas',
 	'DISABLE_KEYS'						=> 'Desativando chaves',
 	'DLL_FTP'							=> 'Suporte Remoto de FTP [ Instalação ]',
@@ -157,7 +157,7 @@ $lang = array_merge($lang, array(
 	'DLL_XML'							=> 'Suporte XML [ Jabber ]',
 	'DLL_ZLIB'							=> 'Suporte de compressão zlib [ gz, .tar.gz, .zip ]',
 	'DL_CONFIG'							=> 'Transferência da configuração',
-	'DL_CONFIG_EXPLAIN'					=> 'Deve descarregar o ficheiro config.php para o seu computador agora, e depois enviá-lo para o FTP, substituindo qualquer ficheiro config.php existente na pasta raíz do seu phpBB 3.1. Lembre-se de enviar o ficheiro em formato ASCII (veja a documentação do seu software de FTP caso não saiba como fazer). Quando tiver enviado o ficheiro config.php, clique em "Pronto" para seguir para o próximo passo.',
+	'DL_CONFIG_EXPLAIN'					=> 'Deve descarregar o ficheiro config.php para o seu computador agora, e depois enviá-lo para o FTP, substituindo qualquer ficheiro config.php existente na pasta raiz do seu phpBB 3.1. Lembre-se de enviar o ficheiro em formato ASCII (veja a documentação do seu software de FTP caso não saiba como fazer). Quando tiver enviado o ficheiro config.php, clique em "Pronto" para seguir para o próximo passo.',
 	'DL_DOWNLOAD'						=> 'Transferência',
 	'DONE'								=> 'Pronto',
 
@@ -174,12 +174,12 @@ $lang = array_merge($lang, array(
 	'FORUM_ADDRESS'						=> 'Endereço do Fórum',
 	'FORUM_ADDRESS_EXPLAIN'				=> 'Este é o endereço do seu Fórum, ex. <samp>http://www.exemplo.com/phpBB3/</samp>. Se for escrito aqui algum endereço em vez de deixar em branco, todas as instâncias deste serão substituídas pelo endereço do seu novo painel em mensagens, mensagens privadas e assinaturas.',
 	'FORUM_PATH'						=> 'Pasta do Fórum',
-	'FORUM_PATH_EXPLAIN'				=> 'Este é o caminho <strong>relativo</strong> no disco para o seu antigo fórum da <strong>raíz desta instalação do phpBB3</strong>.',
+	'FORUM_PATH_EXPLAIN'				=> 'Este é o caminho <strong>relativo</strong> no disco para o seu antigo fórum da <strong>raiz desta instalação do phpBB3</strong>.',
 	'FOUND'								=> 'Encontrado',
 	'FTP_CONFIG'						=> 'A transferir a configuração por FTP',
-	'FTP_CONFIG_EXPLAIN'				=> 'O phpBB detectou a presença neste servidor dum módulo de FTP. Se desejar, pode tentar enviar o config.php por este método. Tem que introduzir os dados indicados em baixo. O nome de utilizador e senha são referentes ao FTP! (Estas informações devem ser fornecidas pelo seu fornecedor de alojamento)',
+	'FTP_CONFIG_EXPLAIN'				=> 'O phpBB detetou a presença neste servidor dum módulo de FTP. Se desejar, pode tentar enviar o config.php por este método. Tem que introduzir os dados indicados em baixo. O nome de utilizador e senha são referentes ao FTP! (Estas informações devem ser fornecidas pelo seu fornecedor de alojamento)',
 	'FTP_PATH'							=> 'Pasta no FTP',
-	'FTP_PATH_EXPLAIN'					=> 'Este é o local da pasta raíz do seu phpBB, ex. <samp>htdocs/phpBB3/</samp>.',
+	'FTP_PATH_EXPLAIN'					=> 'Este é o local da pasta raiz do seu phpBB, ex. <samp>htdocs/phpBB3/</samp>.',
 	'FTP_UPLOAD'						=> 'Enviar',
 
 	'GPL'								=> 'Licença Pública Geral (GPL)',
@@ -202,7 +202,7 @@ $lang = array_merge($lang, array(
 		<li>O Endereço ou DNS do seu servidor de Base de Dados - o endereço do servidor da Base de Dados.</li>
 		<li>A Porta do servidor de Base de Dados - a porta do servidor da Base de Dados (geralmente não é necessário).</li>
 		<li>O Nome da Base de Dados - o nome da Base de Dados no servidor.</li>
-		<li>P Nome do utilizador e Senha da Base de Dados - os dados para aceder à Base de Dados.</li>
+		<li>O Nome do utilizador e Senha da Base de Dados - os dados para aceder à Base de Dados.</li>
 	</ul>
 
 	<p><strong>Nota:</strong> Se a sua instalação utiliza SQLite, tem que indicar o endereço completo dos ficheiros da Base de Dados no campo DNS e deixar em branco o Nome de Utilizador e Senha. Por razões de segurança, deve certificar-se que este ficheiro da Base de Dados não esteja em locais acessíveis pela web.</p>
@@ -304,7 +304,7 @@ $lang = array_merge($lang, array(
 	'PHP_SETTINGS_EXPLAIN'				=> '<strong>Necessário</strong> - Deve possuir no mínimo a versão 5.3.3, do PHP (PHP 7 não é suportado) para instalar o phpBB. Se o "modo seguro" está indicado em baixo, a instalação do PHP decorrerá neste modo. Daí resultarão limitações para a Administração remota e características similares.',
 	'PHP_URL_FOPEN_SUPPORT'				=> 'Configuração do PHP <var>allow_url_fopen</var> está ativada',
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'		=> '<strong>Opcional</strong> - Esta configuração é opcional, no entanto algumas funções, como o Avatar fora do site, não funcionarão.',
-	'PHP_VERSION_REQD'					=> 'Versão do PHP >= 5.3.3', < 7.0.0-dev',
+	'PHP_VERSION_REQD'					=> 'Versão do PHP >= 5.3.3, < 7.0.0-dev',
 	'POST_ID'							=> 'ID da mensagem',
 	'PREFIX_FOUND'						=> 'Um scan às suas tabelas encontrou uma instalação válida utilizando o prefixo <strong>%s</strong> para as tabelas.',
 	'PREPROCESS_STEP'					=> 'Executando as funções de pré-processamento',
@@ -417,7 +417,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_CONFLICTS'				=> 'Transfira os valores em conflito para este ficheiro',
 	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Procure por &lt;&lt;&lt; para encontrar valores em conflito',	
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Transferir os Ficheiros modificados',
-	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Depois de transferir os Ficheiros deve descomprimi-los e enviá-los para a pasta raíz do seu phpBB. Envie os Ficheiros para os seus respetivos locais. Depois de enviar todos os Ficheiros, confira-os novamente clicando no botão abaixo.',
+	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Depois de transferir os Ficheiros deve descomprimi-los e enviá-los para a pasta raiz do seu phpBB. Envie os Ficheiros para os seus respetivos locais. Depois de enviar todos os Ficheiros, confira-os novamente clicando no botão abaixo.',
 
 	'EDIT_USERNAME'						=> 'Editar nome de utilizador',
 	'ERROR'								=> 'Erro',
@@ -533,11 +533,11 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'			=> 'Atualização da estrutura da Base de Dados',
 	'UPDATE_FILES'						=> 'Atualizar Ficheiros',
 	'UPDATE_FILES_NOTICE'				=> 'Por Favor, certifique-se de ter atualizado os Ficheiros do seu Fórum também, este Ficheiro apenas atualiza a Base de Dados.',
-	'UPDATE_INCOMPLETE'				    => 'Sua instalação do phpBB não foi atualizado corretamente.',
+	'UPDATE_INCOMPLETE'				    => 'A sua instalação do phpBB não foi atualizada corretamente.',
 	'UPDATE_INCOMPLETE_MORE'		    => 'Por favor, leia as informações abaixo, a fim de corrigir este erro.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		    => '<h1>Atualização incompleta</h1>
 
-		<p>Notamos que a última actualização da sua instalação phpBB ainda não foi concluída. Visite a <a href="%1$s" title="%1$s">script database_update</a> e executá-lo. Se estiver em falta, por favor <a href="https://www.phpbb.com/downloads/" title="phpBB downloads">baixar a sua versão do pacote</a>, carregar o "install" pasta para o diretório raiz phpBB  (onde o arquivo config.php é) e <a href="%1$s" title="%1$s">executar a atualização do base de dados do script</a>.</p>',
+		<p>Notamos que a última atualização da sua instalação phpBB ainda não foi concluída. Visite a <a href="%1$s" title="%1$s">script database_update</a> e executá-lo. Se estiver em falta, por favor <a href="https://www.phpbb.com/downloads/" title="phpBB downloads">baixar a sua versão do pacote</a>, carregar o "install" pasta para o diretório raiz phpBB  (onde o arquivo config.php é) e <a href="%1$s" title="%1$s">executar a atualização do base de dados do script</a>.</p>',
 
 	'UPDATE_INSTALLATION'				=> 'Atualizar Instalação do phpBB',
 	'UPDATE_INSTALLATION_EXPLAIN'		=> 'Com esta opção, é possível atualizar a instalação do phpBB para a última versão.<br />Durante o processo, todos os ficheiros serão verificados. Pode rever todas as diferenças e ficheiros antes da atualização.<br /><br />A própria atualização do ficheiro pode ser realizada de duas maneiras.</p><h2>Atualização Manual</h2><p>Com esta atualização, apenas transfere a sua seleção pessoal dos ficheiros modificados, e para ter certeza de que não perderá as modificações do seu ficheiro, deve finalizar. Depois de ter transferido este pacote, deve manualmente enviar os ficheiros para as suas respetivas pastas. Em seguida, pode fazer a verificação dos ficheiros novamente para ver se os moveu corretamente.</p><h2>Atualização automática com FTP</h2><p>Este método é similar ao primeiro, mas não precisa descarregar os ficheiros modificados e enviá-los para o servidor. Isto será executado de forma automática. Para utilizar este método, tem que saber os dados da sua conta no servidor de FTP se isso for pedido. Depois de pronto, será redirecionado para nova verificação dos ficheiros para ter a certeza de que tudo foi atualizado corretamente.<br /><br />',
@@ -570,7 +570,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_REQUIRES_FILE'				=> 'O sistema de atualização necessita dos seguintes Ficheiro: %s',
 	'UPDATE_SUCCESS'					=> 'A atualização foi executada com sucesso',
 	'UPDATE_SUCCESS_EXPLAIN'			=> 'Todos os Ficheiros foram atualizados com sucesso. A próxima etapa envolve verificar todos os Ficheiros novamente para ter certeza de que os Ficheiros foram atualizados corretamente.',
-	'UPDATE_VERSION_OPTIMIZE'			=> 'Atualização da versão e optimização das Tabelas',
+	'UPDATE_VERSION_OPTIMIZE'			=> 'Atualização da versão e otimização das Tabelas',
 	'UPDATING_DATA'						=> 'Atualização dos Dados',
 	'UPDATING_TO_LATEST_STABLE'			=> 'Atualização da Base de Dados para a nova versão',
 	'UPDATED_VERSION'					=> 'Versão atualizada',
