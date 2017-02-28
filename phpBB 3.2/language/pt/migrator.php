@@ -51,15 +51,13 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_INSTALLED'			=> 'A migração "%s" não está instalada.',
 	'MIGRATION_NOT_VALID'				=> '%s não é uma migração válida.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Dados: %2$.2f segundos',
-	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'A instalar esquema: %1$s; Tempo: %2$.2f segundos',
-    'MIGRATION_SCHEMA_RUNNING'			=> 'A instalar esquema: %s.',
+	'MIGRATION_SCHEMA_RUNNING'			=> 'A instalar esquema: %s.',
 
 	'MIGRATION_REVERT_DATA_DONE'		=> 'Dados revertidos: %1$s; Tempo: %2$.2f segundos',
 	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'A reverter dados: %1$s; Tempo: %2$.2f segundos',
 	'MIGRATION_REVERT_DATA_RUNNING'		=> 'A reverter dados: %s.',
-	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Esquema revertido: %1$s; Tempo: %2$.2f segundos',
-    'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'A reverter esquema: %1$s; Tempo: %2$.2f segundos',
-	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'A reverter o esquema: %s.',
+	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Schemas revertidos: %1$s; Tempo: %2$.2f segundos',
+	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'A reverter Schemas: %s.',
 
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migração é inválida. Está em falta uma condição na estrutura « IF ».',
 	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> 'A migração é inválida. Está em falta uma chamada válida, para uma etapa de migração, na estrutura « IF ».',
@@ -69,13 +67,10 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migração é inválida. Foi encontrado um método de ferramenta de migração indefinido.',
 
 	'MODULE_ERROR'						=> 'Ocorreu um erro durante a criação de um módulo: %s',
-	'MODULE_EXISTS'						=> 'Um módulo já existe: %s',
-	'MODULE_EXIST_MULTIPLE'				=> 'Vários módulos com inclinação para módulo pai nome_da_linguagem já existem: %s. Tente usar antes / depois chaves para esclarecer o posicionamento do módulo',
-    'MODULE_INFO_FILE_NOT_EXIST'		=> 'Um ficheiro com informações do módulo necessário está em falta: %2$s',
+	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Um ficheiro com informações do módulo necessário está em falta: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Um módulo necessário não existe: %s',
 
-	'PARENT_MODULE_FIND_ERROR'			=> 'Não foi possível determinar o identificador módulo pai: %s',
-    'PERMISSION_NOT_EXIST'				=> 'Inesperadamente a configuração de permissão "%s" não existe.',
+	'PERMISSION_NOT_EXIST'				=> 'Inesperadamente a configuração de permissão "%s" não existe.',
 
 	'ROLE_NOT_EXIST'					=> 'Inesperadamente a permissão "%s" não existe.',
 ));

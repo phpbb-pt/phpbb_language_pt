@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	// You can define different rules for the determination of plural forms here.
 	// See http://wiki.phpbb.com/Plural_Rules for more information
 	// or ask the translation manager for help.
-	'PLURAL_RULE'						=> 1,
+	'PLURAL_RULE'						=> 2,
 
 	'1_DAY'								=> '1 Dia',
 	'1_MONTH'							=> '1 Mês',
@@ -81,10 +81,10 @@ $lang = array_merge($lang, array(
 	'ALL_FORUMS'						=> 'Todos os Fóruns',
 	'ALL_MESSAGES'						=> 'Todas as Mensagens',
 	'ALL_POSTS'							=> 'Todas as Mensagens',
-	'ALL_TIMES'							=> 'Todos os horários são <span title="%2$s">%1$s</span>',
-	'ALL_TOPICS'						=> 'Todos os Tópicos',
+	'ALL_TIMES'							=> 'Fuso Horário <span title="%2$s">%1$s</span>',
 	'ALT_TEXT'							=> 'Texto alternativo',
-    'AND'								=> 'E',
+	'ALL_TOPICS'						=> 'Todos os Tópicos',
+	'AND'								=> 'E',
 	'ARE_WATCHING_FORUM'				=> 'Optou por receber atualizações deste Fórum.',
 	'ARE_WATCHING_TOPIC'				=> 'Optou por receber atualizações deste Tópico.',
 	'ASCENDING'							=> 'Crescente',
@@ -98,8 +98,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
-    'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'OAuth token não guardados.',
+	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'OAuth token não guardados.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'OAuth token guardados incorretamente.',
 	'AVATAR_DISALLOWED_CONTENT'			=> 'O envio foi recusado porque o Ficheiro foi identificado como potencialmente malicioso.',
 	'AVATAR_DISALLOWED_EXTENSION'		=> 'A extensão %s não é permitida.',
@@ -118,7 +117,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_URL_NOT_FOUND'				=> 'O Ficheiro indicado não foi encontrado.',
 	'AVATAR_WRONG_FILESIZE'				=> 'O tamanho do Avatar deve estar entre 0 e %1$d %2$s.',
 	'AVATAR_WRONG_SIZE'					=> 'O avatar submetido tem %5$s de largura e %6$s de altura. Avatares devem ter pelo menos %1$s de largura e %2$s de altura, e não maiores do que %3$s de largura %4$s de altura.',
-
+	
 	'BACK_TO_TOP'						=> 'Topo',
 	'BACK_TO_PREV'						=> 'Voltar à página anterior',
 	'BAN_TRIGGERED_BY_EMAIL'			=> 'O seu endereço de email foi banido do Fórum.',
@@ -178,10 +177,7 @@ $lang = array_merge($lang, array(
 	'CONTACT'							=> 'Contacto',
 	'CONTACT_USER'						=> 'Contacto %s',
 	'CONTACT_US'						=> 'Contacte-nos',
-	'COOKIE_CONSENT_INFO'	            => 'Saiba mais',
-	'COOKIE_CONSENT_MSG'	            => 'Este site utiliza cookies para lhe proporcionar uma melhor experiência.',
-	'COOKIE_CONSENT_OK'		            => 'Entendi!',
-    'COOKIES_DELETED'					=> 'Todos os cookies deste Fórum foram apagados.',
+	'COOKIES_DELETED'					=> 'Todos os cookies deste Fórum foram apagados.',
 	'CURRENT_TIME'						=> 'Data/Hora: %s',
 
 	'DAY'								=> 'Dia',
@@ -344,8 +340,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'							=> 'Interesses',
 	'INVALID_DIGEST_CHALLENGE'			=> 'Desafio de Sumário Inválido.',
 	'INVALID_EMAIL_LOG'					=> '%s é um endereço de email possivelmente incorreto?',
-	'INVALID_FEED_ATTACHMENTS'	        => 'O Feed selecionado tentou processar anexos com restrições inválidas.',
-    'INVALID_PLURAL_RULE'				=> 'A regra do plural escolhida é inválida. Os valores válidos são números inteiros entre 0 e 15.',
+	'INVALID_PLURAL_RULE'				=> 'A regra do plural escolhida é inválida. Os valores válidos são números inteiros entre 0 e 15.',
 	'IP'								=> 'IP',
 	'IP_BLACKLISTED'					=> 'O Seu endereço de IP %1$s foi expulso porque está na lista negra. Para mais detalhes leia <a href="%2$s">%2$s</a>.',
 
@@ -537,8 +532,8 @@ $lang = array_merge($lang, array(
 		0								=> 'Nenhuma mensagem na lista',		// 0
 		1								=> '1 mensagem na lista',		// 1
 		2								=> '%d mensagens na lista',		// 2+
-	),
-
+	),	
+	
 	'OCCUPATION'							=> 'Ocupação',
 	'OFFLINE'							=> 'Desligado',
 	'ONLINE'							=> 'Ligado',
@@ -703,11 +698,9 @@ $lang = array_merge($lang, array(
 	'SORRY_AUTH_READ_TOPIC'				=> 'Não está autorizado a ler este Tópico.',
 	'SORRY_AUTH_VIEW_ATTACH'			=> 'Não está autorizado a transferir este anexo.',
 	'SORT_BY'							=> 'Ordenar por',
-	'SORT_DIRECTION'			        => 'Direção',
-    'SORT_JOINED'						=> 'Data de Registo',
+	'SORT_JOINED'						=> 'Data de Registo',
 	'SORT_LOCATION'						=> 'Localização',
-	'SORT_OPTIONS'				        => 'Opções de visualização e ordenação',
-    'SORT_RANK'							=> 'Classificação',
+	'SORT_RANK'							=> 'Classificação',
 	'SORT_POSTS'						=> 'Mensagens',
 	'SORT_TOPIC_TITLE'					=> 'Título do Tópico',
 	'SORT_USERNAME'						=> 'Utilizador',
@@ -950,8 +943,8 @@ $lang = array_merge($lang, array(
 	// because they are named invers to their offset.
 	'timezones'		=> array(
 		'UTC'					=> 'UTC',
-		'UTC_OFFSET'			=> 'UTC%1$s',
-		'UTC_OFFSET_CURRENT'	=> 'UTC%1$s - %2$s',
+		'UTC_OFFSET'			=> '%1$s',
+		'UTC_OFFSET_CURRENT'	=> '%1$s - %2$s',
 
 		'Etc/GMT-12'	=> 'UTC+12',
 		'Etc/GMT-11'	=> 'UTC+11',

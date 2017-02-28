@@ -108,9 +108,7 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'Permissões do Grupo',
 	'ACP_GROUPS_POSITION'			=> 'Administrar posições dos Grupos',
 
-	'ACP_HELP_PHPBB'			    => 'Ajuda de suporte phpBB',
-
-    'ACP_ICONS'						=> 'Ícones',
+	'ACP_ICONS'						=> 'Ícones',
 	'ACP_ICONS_SMILIES'				=> 'Ícones/Emoções',
 	'ACP_INACTIVE_USERS'			=> 'Utilizadores Inativos',
 	'ACP_INDEX'						=> 'Índice do ACP',
@@ -169,6 +167,7 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS'			=> 'Configurações de Pesquisa',
 
 	'ACP_SECURITY_SETTINGS'			=> 'Configurações de Segurança',
+	'ACP_SEND_STATISTICS'			=> 'Enviar dados estatísticos',
 	'ACP_SERVER_CONFIGURATION'		=> 'Configurações do Servidor',
 	'ACP_SERVER_SETTINGS'			=> 'Configurações do Servidor',
 	'ACP_SIGNATURE_SETTINGS'		=> 'Configuração da Assinatura',
@@ -225,19 +224,20 @@ $lang = array_merge($lang, array(
 	'ADM_LOGGED_OUT'				=> 'Saiu com sucesso do ACP',
 
 	'BACK'							=> 'Voltar',
+\\ Falta Tradução
+	
+	'CANNOT_CHANGE_FILE_GROUP'	=> 'Unable to change file group',
+	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Unable to change file permissions',
+	'CANNOT_COPY_FILES'		=> 'Unable to copy files',
+	'CANNOT_CREATE_SYMLINK'	=> 'Unable to create a symlink',
+	'CANNOT_DELETE_FILES'	=> 'Unable to delete files from the system',
+	'CANNOT_DUMP_FILE'		=> 'Unable to dump file',
+	'CANNOT_MIRROR_DIRECTORY'	=> 'Unable to mirror directory',
+	'CANNOT_RENAME_FILE'	=> 'Unable to rename a file from the system',
+	'CANNOT_TOUCH_FILES'	=> 'Unable to determine if the file exists',
 
-	'CANNOT_CHANGE_FILE_GROUP'	=> 'Não é possível alterar o grupo de arquivos',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Não é possível alterar as permissões do ficheiro',
-	'CANNOT_COPY_FILES'		=> 'Não é possível copiar os ficheiros',
-	'CANNOT_CREATE_SYMLINK'	=> 'Não é possível criar um link simbólico',
-	'CANNOT_DELETE_FILES'	=> 'Não é possível apagar os ficheiros do sistema',
-	'CANNOT_DUMP_FILE'		=> 'Não é possivel limpar os ficheiros ',
-	'CANNOT_MIRROR_DIRECTORY'	=> 'Não é possível espelhar o diretório',
-	'CANNOT_RENAME_FILE'	=> 'Não é possível renomear um ficheiro do sistema',
-	'CANNOT_TOUCH_FILES'	=> 'Não foi possível determinar se o arquivo existe',
-
-	'CONTAINER_EXCEPTION' => 'O phpBB encontrou um erro ao criar o contêiner devido a uma extensão instalada. Por esse motivo, todas as extensões foram desativadas temporariamente. Tente purgar o cache do fórum. Todas as extensões serão reabilitadas automaticamente depois que o erro do contêiner for resolvido. Se esse erro continuar, visite <a href="https://www.phpbb.com/support">phpBB.com</a> para obter suporte.',
-	'EXCEPTION' => 'Exceção',
+	'CONTAINER_EXCEPTION' => 'phpBB encountered an error building the container due to an installed extension. For this reason, all extensions have been temporarily disabled. Please try purging your forum cache. All extensions will automatically be re-enabled once the container error is resolved. If this error continues, please visit <a href="https://www.phpbb.com/support">phpBB.com</a> for support.',
+	'EXCEPTION' => 'Exception',
 
 	'COLOUR_SWATCH'					=> 'Cores seguras de navegação',
 	'CONFIG_UPDATED'				=> 'Configuração atualizada com sucesso.',
@@ -245,7 +245,6 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'				=> 'A tarefa Cron “%s” não foi encontrada.',
 	'CRON_NO_TASK'					=> 'Não há nenhuma tarefa Cron para executar.',
 	'CRON_NO_TASKS'					=> 'Não foram encontradas tarefas Cron.',
-    'CURRENT_VERSION'		        => 'Versão atual',
 
 	'DEACTIVATE'				=> 'Desativar',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'A Pasta "%s" selecionada não existe.',
@@ -271,7 +270,6 @@ $lang = array_merge($lang, array(
 	'IP'						=> 'IP',
 	'IP_HOSTNAME'				=> 'Endereço de IP ou hostnames',
 
-    'LATEST_VERSION'		    => 'Última versão',
 	'LOAD_NOTIFICATIONS'			=> 'Mostrar notificações',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Mostrar a lista de notificações em cada página (normalmente no cabeçalho).',
 	'LOGGED_IN_AS'				=> 'Está ligado como:',
@@ -304,10 +302,8 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Atualmente está com as Permissões de %1$s. Pode navegar pelo Fórum com as Permissões deste Utilizador, mas só pode aceder ao Painel de Administração se este Utilizador tiver Permissões de Administrador. Em qualquer momento pode <a href="%2$s"><strong>regressar às suas Permissões</strong></a>.',
 	'PROCEED_TO_ACP'					=> '%sIr para o Painel de Administração%s',
 
-	'RELEASE_ANNOUNCEMENT'		    => 'Anúncio',
-    'REMIND'						=> 'Lembrar',
-	'REPARSE_LOCK_ERROR'			=> 'A reanálise já está em execução com outro processo..',
-    'RESYNC'						=> 'Ressincronizar',
+	'REMIND'						=> 'Lembrar',
+	'RESYNC'						=> 'Ressincronizar',
 
 	'RUNNING_TASK'					=> 'Executando as tarefas: %s.',
 	'SELECT_ANONYMOUS'				=> 'Selecionar Utilizador Anónimo',
@@ -328,11 +324,7 @@ $lang = array_merge($lang, array(
 	'USERNAMES_EXPLAIN'				=> 'Insira cada um dos Utilizadores em linhas separadas.',
 	'USER_CONTROL_PANEL'			=> 'Painel de Utilizadores',
 
-    'UPDATE_NEEDED'			        => 'O Fórum não está atualizado',
-	'UPDATE_NOT_NEEDED'		        => 'O Fórum  está atualizado',
-	'UPDATES_AVAILABLE'		        => 'Atualizações disponíveis:',	
-
-    'WARNING'						=> 'Advertência',
+	'WARNING'						=> 'Advertência',
 ));
 
 // PHP info
@@ -442,12 +434,7 @@ $lang = array_merge($lang, array(
 	'VALUE'							=> 'Valor',
 	'VERSIONCHECK_FAIL'				=> 'Não foi possível obter informações da versão mais recente.',
 	'VERSIONCHECK_FORCE_UPDATE'		=> 'Verificar versão',
-	'VERSION_CHECK'				    => 'Verificar versão',
-	'VERSION_CHECK_EXPLAIN'		    => 'Verificar se a instalação do phpBB está atualizada.',
-	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'A tua instalação do phpBB não está atualizada.<br />Abaixo está um link para o anúncio de lançamento, que contém mais informações, bem como as instruções sobre como atualizar.',
-	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'A tua instalação do phpBB não está atualizada.',
-	'VERSION_UP_TO_DATE_ACP'	    => 'A tua instalação do phpBB está atualizada. Não há atualizações disponíveis de momento.',
-    'VIEW_ADMIN_LOG'				=> 'Ver registos do Administrador',
+	'VIEW_ADMIN_LOG'				=> 'Ver registos do Administrador',
 	'VIEW_INACTIVE_USERS'			=> 'Ver Utilizadores Inativos',
 
 	'WELCOME_PHPBB'					=> 'Bem-vindo ao phpBB',
@@ -486,11 +473,9 @@ $lang = array_merge($lang, array(
 	'DONT_SEND_STATISTICS'			=> 'Clique aqui para entrar no ACP, se não deseja enviar as informações estatísticas para o phpBB.',
 	'GO_ACP_MAIN'					=> 'Ir para a página inicial do ACP',
 	'HIDE_STATISTICS'				=> 'Esconder detalhes',
-	'SEND_STATISTICS'			    => 'Enviar estatísticas',
-	'SEND_STATISTICS_LONG'		    => 'Enviar informação estatística',
+	'SEND_STATISTICS'				=> 'Enviar a informação estatística',
 	'SHOW_STATISTICS'				=> 'Mostrar detalhes',
 	'THANKS_SEND_STATISTICS'		=> 'Obrigado por enviar as suas informações.',
-    'FAIL_SEND_STATISTICS'		    => 'phpBB não conseguiu enviar estatísticas',
 ));
 
 // Log Entries
@@ -623,8 +608,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'						=> '<strong>Erro de Jabber</strong><br />» %s',
 	'LOG_ERROR_EMAIL'						=> '<strong>Erro no email</strong><br />» %s',
-    'LOG_ERROR_CAPTCHA'		                => '<strong>Erro no CAPTCHA</strong><br />Â» %s',
-
+\\Traduzir
+	'LOG_ERROR_CAPTCHA'		                => '<strong>CAPTCHA error</strong><br />» %s',
+	
 	'LOG_FORUM_ADD'							=> '<strong>Criar um novo Fórum</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Permissões do Fórum copiadas</strong> de %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Fórum apagado</strong><br />» %s',
@@ -823,5 +809,4 @@ $lang = array_merge($lang, array(
 	'LOG_EXT_ENABLE'	=> '<strong>Extensão ativada</strong><br />» %s',
 	'LOG_EXT_DISABLE'	=> '<strong>Extensão desativada</strong><br />» %s',
 	'LOG_EXT_PURGE'		=> '<strong>Dados da extensão apagados</strong><br />» %s',
-    'LOG_EXT_UPDATE'	=> '<strong>Extensão atualizada</strong><br />» %s',
 ));
