@@ -13,8 +13,8 @@ Criador
 
 Gestão da tradução
 ----------
-Pavlov (https://github.com/Pavlov)
-Joaquim (https://github.com/borgesjoaquim)
+* Pavlov (https://github.com/Pavlov)
+* Joaquim (https://github.com/borgesjoaquim)
 
 Colaboradores
 -------
