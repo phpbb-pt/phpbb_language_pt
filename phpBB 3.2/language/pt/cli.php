@@ -146,7 +146,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Sem miniaturas para criar.',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Sem miniaturas para apagar.',
-	
+
 	'CLI_USER_ADD_SUCCESS'		=> 'Utilizador %s adicionado com sucesso.',
 	'CLI_USER_DELETE_CONFIRM'	=> 'Tem a certeza que deseja remover ‘%s’? [s/N]',
 	'CLI_USER_RECLEAN_START'	=> 'A limpar nomes de utilizadores',
@@ -160,7 +160,6 @@ $lang = array_merge($lang, array(
 // Additional help for commands.
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Opcionalmente pode especificar um nome de tarefa cron para executar apenas a tarefa cron especificada. ',
-\\traduzir
 	'CLI_HELP_USER_ACTIVATE'	=> 'Ativar conta de utilizador, ou desativar uma conta fazendo uso da opção <info>--deactivate</info>.
 Para enviar, opcionalmente, um email de ativação de conta para o utilizador, utilize a opção <info>--send-email</info>.',
 	'CLI_HELP_USER_ADD'			=> 'O comando <info>%command.name%</info> adiciona um novo utilizador:

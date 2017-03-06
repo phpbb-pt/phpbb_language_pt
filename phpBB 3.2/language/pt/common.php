@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'ALL_FORUMS'						=> 'Todos os Fóruns',
 	'ALL_MESSAGES'						=> 'Todas as Mensagens',
 	'ALL_POSTS'							=> 'Todas as Mensagens',
-	'ALL_TIMES'							=> 'Fuso Horário <span title="%2$s">%1$s</span>',
+	'ALL_TIMES'							=> 'Todos os horários são <span title="%2$s">%1$s</span>',
 	'ALL_TOPICS'						=> 'Todos os Tópicos',
 	'ALT_TEXT'							=> 'Texto alternativo',
 	'AND'								=> 'E',
@@ -537,8 +537,8 @@ $lang = array_merge($lang, array(
 		0								=> 'Nenhuma mensagem na lista',		// 0
 		1								=> '1 mensagem na lista',		// 1
 		2								=> '%d mensagens na lista',		// 2+
-	),	
-	
+	),
+
 	'OCCUPATION'							=> 'Ocupação',
 	'OFFLINE'							=> 'Desligado',
 	'ONLINE'							=> 'Ligado',
