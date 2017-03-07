@@ -218,7 +218,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_INCOMPLETE_MORE'		=> 'Por favor, leia as informações abaixo para corrigir este erro.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>Atualização incompleta</h1>
 
-	    <p>Percebemos que a última atualização da sua instalação do phpBB não foi concluída. Visite o <a href="%1$s" title="%1$s">atualizador de banco de dados</a>, verifique se <em>Atualizar apenas base de dados</em> está selecionado e clique em <strong>Enviar</strong>. Não se esqueça de apagar a pasta "install" depois de atualizar a base de dados com êxito.</p>',
+	    <p>Percebemos que a última atualização da sua instalação do phpBB não foi concluída. Visite o <a href="%1$s" title="%1$s">atualizador da base de dados</a>, verifique se <em>Atualizar apenas base de dados</em> está selecionado e clique em <strong>Enviar</strong>. Não se esqueça de apagar a pasta "install" depois de atualizar a base de dados com êxito.</p>',
 
     //
 	// Server data
