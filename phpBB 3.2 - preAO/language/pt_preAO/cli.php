@@ -59,6 +59,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Desactiva a extensão especificada.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Activa a extensão especificada.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Encontra migrações não dependentes.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Corrige a estrutura da árvore dos fóruns e dos módulos.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Obtém o valor de uma opção de configuração',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Aumenta o valor de uma opção de configuração',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Lista todas as Extensões na Base de Dados e no sistema de ficheiros.',
@@ -93,7 +94,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_CACHE'		=> 'Executar comando de verificação com cache.',
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Executar comando escolhendo para verificar somente versões estáveis ou instáveis.',
 
-	'CLI_ERROR_INVALID_STABILITY'		 => '"%s" não tem uma estabilidade válida.',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Actualiza as senhas com hashes desactualizadas por novas com hashes encriptadas por bcrypt. ',
+
+	'CLI_ERROR_INVALID_STABILITY' => '"%s" precisa de ser definido como "estável" ou "instável".',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activar (ou desactivar) uma conta de utilizador.',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Nome de Utilizador da conta a activar.',
@@ -112,8 +115,10 @@ $lang = array_merge($lang, array(
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Não foi possível desactivar a extensão %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'A Extensão %s foi desactivada com sucesso',
+	'CLI_EXTENSION_DISABLED'			=> 'A Extensão %s não está activada',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Não foi possível activar a Extensão %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Extensão %s activada com sucesso',
+	'CLI_EXTENSION_ENABLED'				=> 'A Extensão %s já se encontrava activada',
 	'CLI_EXTENSION_NAME'				=> 'Nome da Extensão',
 	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Não foi possível limpar a Extensão %s',
 	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'A Extensão %s foi limpa com sucesso',
@@ -124,7 +129,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Desactivado',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Activado',
 
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Recalculado com sucesso todos os hashes de e-mail.',
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Correcção da estrutura da árvore dos fóruns e dos módulos efectuada com sucesso.',
+	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Todos os hashes de e-mail foram recalculados com sucesso.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Senhas com hashes desactualizadas foram encriptadas por bcrypt com sucesso.',
 
 	'CLI_MIGRATION_NAME'					=> 'Nome da migração, incluindo o conjunto de nomes (utilize barras inclinadas ao invés de contra-barras para evitar problemas).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Migrações disponíveis',

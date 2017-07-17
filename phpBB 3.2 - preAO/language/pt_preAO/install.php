@@ -82,8 +82,8 @@ $lang = array_merge($lang, array(
 
 	'ACP_LINK'			=> 'Aceder à <a href="%1$s">ACP</a>',
 
-    'INSTALL_PHPBB_INSTALLED'		=> 'O phpBB já está instalado.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'O phpBB ainda não está instalado.'
+	'INSTALL_PHPBB_INSTALLED'		=> 'O phpBB já está instalado.',
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'O phpBB ainda não está instalado.',
 ));
 
 // Requirements translation
@@ -114,12 +114,12 @@ $lang = array_merge($lang, array(
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Para que o phpBB funcione correctamente, a extensão PHP JSON precisa estar disponível.',
 	'PHP_XML_SUPPORT'					=> 'Suporte PHP XML/DOM',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Para que o phpBB funcione correctamente, a extensão PHP XML/DOM precisa estar disponível.',
-    'PHP_SUPPORTED_DB'					=> 'Bancos de dados suportados',
+	'PHP_SUPPORTED_DB'					=> 'Bancos de dados suportados',
 	'PHP_SUPPORTED_DB_EXPLAIN'			=> 'Você deve ter suporte para pelo menos um banco de dados compatível dentro do PHP. Se nenhum módulo de banco de dados for mostrado como disponível, você deve entrar em contacto com seu provedor de hospedagem ou revisar a documentação de instalação relevante do PHP para obter orientação.',
 
 	'RETEST_REQUIREMENTS'	=> 'Teste de novo os requisitos',
 
-	'STAGE_REQUIREMENTS'	=> 'Verificação de requisitos'
+	'STAGE_REQUIREMENTS'	=> 'Verificação de requisitos',
 ));
 
 // General error messages
@@ -180,7 +180,7 @@ $lang = array_merge($lang, array(
 	'DB_NAME'				=> 'Nome da Base de Dados',
 	'DB_USERNAME'			=> 'Nome de Utilizador da Base de Dados',
 	'DATABASE_VERSION'		=> 'Versão da base de dados',
-    'TABLE_PREFIX'			=> 'Prefixo das Tabelas na Base de Dados',
+	'TABLE_PREFIX'			=> 'Prefixo das Tabelas na Base de Dados',
 	'TABLE_PREFIX_EXPLAIN'	=> 'O prefixo deve começar com uma letra e deve conter apenas letras, números e sublinhados.',
 
 	// Database options
@@ -199,6 +199,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_NAME'			=> 'Deve indicar uma Base de Dados',
 	'INST_ERR_DB_FORUM_PATH'		=> 'O ficheiro da Base de Dados indicado está dentro da estrutura de pastas do Fórum. Deveria pôr este ficheiro num local não acessível pela web.',
 	'INST_ERR_DB_CONNECT'			=> 'Não foi possível ligar à base de dados, leia a mensagem de erro em baixo',
+	'INST_ERR_DB_NO_WRITABLE'		=> 'Tanto a base de dados como as pastas do fórum devem permitir a escrita.',
 	'INST_ERR_DB_NO_ERROR'			=> 'Nenhuma mensagem de erro foi reportada.',
 	'INST_ERR_PREFIX'				=> 'Já existem tabelas com o prefixo indicado. Por favor, escolha outro prefixo.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'A versão do MySQL instalada nesta máquina é incompatível com a opção “MySQL com Extensão MySQLi” seleccionada. Tente com uma outra opção “MySQL”.',
@@ -218,12 +219,13 @@ $lang = array_merge($lang, array(
 	'UPDATE_INCOMPLETE_MORE'		=> 'Por favor, leia as informações abaixo para corrigir este erro.',
 	'UPDATE_INCOMPLETE_EXPLAIN'		=> '<h1>actualização incompleta</h1>
 
-	    <p>Percebemos que a última actualização da sua instalação do phpBB não foi concluída. Visite o <a href="%1$s" title="%1$s">script database_update</a>, verifique se <em>Actualizar apenas base de dados</em> está seleccionado e clique em <strong>Enviar</strong>. Não se esqueça de apagar a pasta "install" depois de actualizar a base de dados com êxito.</p>',
+		<p>Percebemos que a última actualização da sua instalação do phpBB não foi concluída. Visite o <a href="%1$s" title="%1$s">script database_update</a>, verifique se <em>Actualizar apenas base de dados</em> está seleccionado e clique em <strong>Enviar</strong>. Não se esqueça de apagar a pasta "install" depois de actualizar a base de dados com êxito.</p>',
 
-    //
+	//
 	// Server data
 	//
 	// Form labels
+	'UPGRADE_INSTRUCTIONS'		=> 'Encontra-se disponível uma nova versão <strong>%1$s</strong>. Por favor, leia o <a href="%2$s" title="%2$s"><strong>anúncio de lançamento</strong></a> para saber mais sobre o que oferece e como efectuar a actualização.',
 	'SERVER_CONFIG'				=> 'Configuração do servidor',
 	'SCRIPT_PATH'				=> 'Pasta dos Ficheiros',
 	'SCRIPT_PATH_EXPLAIN'		=> 'A pasta onde os ficheiros do phpBB estão localizados no seu servidor, (Exemplo: <samp>/phpBB3</samp>).',
@@ -286,24 +288,25 @@ $lang = array_merge($lang, array(
 // Task names
 $lang = array_merge($lang, array(
 	// Install filesystem
-	'TASK_CREATE_CONFIG_FILE'	=> 'Criando ficheiro de configuração',
+	'TASK_CREATE_CONFIG_FILE'	=> 'A criar ficheiro de configuração',
 
 	// Install database
-	'TASK_ADD_CONFIG_SETTINGS'			=> 'Adicionar definições de configuração',
-	'TASK_ADD_DEFAULT_DATA'				=> 'Adicionando configurações padrão à base de dados',
-	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'Criando ficheiro de esquema de base de dados',
-	'TASK_SETUP_DATABASE'				=> 'Configurando a base de dados',
-	'TASK_CREATE_TABLES'				=> 'Criando tabelas',
+	'TASK_ADD_CONFIG_SETTINGS'			=> 'A adicionar definições de configuração',
+	'TASK_ADD_DEFAULT_DATA'				=> 'A adicionar configurações padrão à base de dados',
+	'TASK_CREATE_DATABASE_SCHEMA_FILE'	=> 'A criar ficheiro do esquema da base de dados',
+	'TASK_SETUP_DATABASE'				=> 'A configurar a base de dados',
+	'TASK_CREATE_TABLES'				=> 'A criar tabelas',
 
 	// Install data
-	'TASK_ADD_BOTS'			=> 'Registando bots',
-	'TASK_ADD_LANGUAGES'	=> 'Instalação de idiomas disponíveis',
-	'TASK_ADD_MODULES'		=> 'Instalação de módulos',
+	'TASK_ADD_BOTS'				=> 'A registar bots',
+	'TASK_ADD_LANGUAGES'		=> 'A instalar idiomas disponíveis',
+	'TASK_ADD_MODULES'			=> 'A instalar módulos',
+	'TASK_CREATE_SEARCH_INDEX'	=> 'A criar índice de pesquisa',
 
 	// Install finish tasks
-	'TASK_INSTALL_EXTENSIONS'	=> 'Instalando extensões comprimidas',
-    'TASK_NOTIFY_USER'			=> 'Enviando e-mail de notificação',
-	'TASK_POPULATE_MIGRATIONS'	=> 'Preencher Migrações',
+	'TASK_INSTALL_EXTENSIONS'	=> 'A instalar extensões comprimidas',
+	'TASK_NOTIFY_USER'			=> 'A enviar e-mail de notificação',
+	'TASK_POPULATE_MIGRATIONS'	=> 'A preencher migrações',
 
 	// Installer general progress messages
 	'INSTALLER_FINISHED'	=> 'O instalador foi concluído com êxito',
@@ -441,7 +444,7 @@ $lang = array_merge($lang, array(
 	'FILES_UP_TO_DATE'				=> 'Ficheiros já actualizados',
 	'FILES_UP_TO_DATE_EXPLAIN'		=> 'Os ficheiros seguintes já se encontram prontos e não precisam ser actualizados.',
 	'FILES_VERSION'					=> 'Versão dos Ficheiros',
-    'TOGGLE_DISPLAY'				=> 'Mostrar/Ocultar lista de ficheiros',
+	'TOGGLE_DISPLAY'				=> 'Mostrar/Ocultar lista de ficheiros',
 
 	// File updater
 	'UPDATE_UPDATING_FILES'	=> 'A actualizar ficheiros',
@@ -459,7 +462,7 @@ $lang = array_merge($lang, array(
 
 	'INLINE_UPDATE_SUCCESSFUL'		=> 'A Base de Dados foi actualizada com sucesso.',
 
-    'TASK_UPDATE_EXTENSIONS'	=> 'A actualizar extensões',
+	'TASK_UPDATE_EXTENSIONS'	=> 'A actualizar extensões',
 ));
 
 // Converter
