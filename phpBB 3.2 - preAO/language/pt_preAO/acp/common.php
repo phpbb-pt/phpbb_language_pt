@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_PERMISSIONS'		=> 'Permissões do Grupo',
 	'ACP_GROUPS_POSITION'			=> 'Administrar posições dos Grupos',
 
-	'ACP_HELP_PHPBB'			    => 'Ajude o phpBB',
+	'ACP_HELP_PHPBB'				=> 'Ajude o phpBB',
 
 	'ACP_ICONS'						=> 'Ícones',
 	'ACP_ICONS_SMILIES'				=> 'Ícones/Emoções',
@@ -245,7 +245,7 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'			=> 'A tarefa Cron “%s” não foi encontrada.',
 	'CRON_NO_TASK'				=> 'Não há nenhuma tarefa Cron para executar.',
 	'CRON_NO_TASKS'				=> 'Não foram encontradas tarefas Cron.',
-	'CURRENT_VERSION'		        => 'Versão atual',
+	'CURRENT_VERSION'				=> 'Versão atual',
 
 	'DEACTIVATE'				=> 'Desactivar',
 	'DIRECTORY_DOES_NOT_EXIST'	=> 'A Pasta "%s" seleccionada não existe.',
@@ -271,7 +271,7 @@ $lang = array_merge($lang, array(
 	'IP'						=> 'IP',
 	'IP_HOSTNAME'				=> 'Endereço de IP ou hostnames',
 
-	'LATEST_VERSION'		    => 'Última versão',
+	'LATEST_VERSION'			=> 'Última versão',
 	'LOAD_NOTIFICATIONS'			=> 'Mostrar notificações',
 	'LOAD_NOTIFICATIONS_EXPLAIN'	=> 'Mostrar a lista de notificações em cada página (normalmente no cabeçalho).',
 	'LOGGED_IN_AS'				=> 'Está ligado como:',
@@ -304,17 +304,17 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Actualmente está com as Permissões de %1$s. Pode navegar pelo Fórum com as Permissões deste Utilizador, mas só pode aceder ao Painel de Administração se este Utilizador tiver Permissões de Administrador. Em qualquer momento pode <a href="%2$s"><strong>regressar às suas Permissões</strong></a>.',
 	'PROCEED_TO_ACP'					=> '%sIr para o Painel de Administração%s',
 
-	'RELEASE_ANNOUNCEMENT'		    => 'Anúncio',
-    'REMIND'						=> 'Lembrar',
+	'RELEASE_ANNOUNCEMENT'			=> 'Anúncio',
+	'REMIND'						=> 'Lembrar',
 	'REPARSE_LOCK_ERROR'			=> 'A reanálise já está em execução com outro processo.',
-    'RESYNC'						=> 'Ressincronizar',
+	'RESYNC'						=> 'Ressincronizar',
 
 	'RUNNING_TASK'					=> 'Executando as tarefas: %s.',
 	'SELECT_ANONYMOUS'				=> 'Seleccionar Utilizador Anónimo',
 	'SELECT_OPTION'					=> 'Seleccionar Opção',
 
 	'SETTING_TOO_LOW'				=> 'O valor escrito para a configuração "%1$s" é muito baixo. O valor mínimo permitido é %2$d.',
-	'SETTING_TOO_BIG'				=> 'O valor escrito para a configuração "%1$s" é muito alto. O valor máximo permitido é %2$d.',    
+	'SETTING_TOO_BIG'				=> 'O valor escrito para a configuração "%1$s" é muito alto. O valor máximo permitido é %2$d.',	
 	'SETTING_TOO_LONG'				=> 'O valor escrito para a configuração "%1$s" é muito longo. O comprimento máximo permitido é %2$d.',
 	'SETTING_TOO_SHORT'				=> 'O valor escrito para a configuração "%1$s" é muito curto. O comprimento mínimo permitido é %2$d.',
 
@@ -328,9 +328,9 @@ $lang = array_merge($lang, array(
 	'USERNAMES_EXPLAIN'				=> 'Insira cada um dos Utilizadores em linhas separadas.',
 	'USER_CONTROL_PANEL'			=> 'Painel de Utilizadores',
 
-	'UPDATE_NEEDED'			        => 'O Fórum não se encontra actualizado',
-	'UPDATE_NOT_NEEDED'		        => 'O Fórum encontra-se actualizado',
-	'UPDATES_AVAILABLE'		        => 'Actualizações disponíveis:',
+	'UPDATE_NEEDED'					=> 'O Fórum não se encontra actualizado',
+	'UPDATE_NOT_NEEDED'				=> 'O Fórum encontra-se actualizado',
+	'UPDATES_AVAILABLE'				=> 'Actualizações disponíveis:',
 
 	'WARNING'						=> 'Advertência',
 ));
@@ -443,11 +443,11 @@ $lang = array_merge($lang, array(
 	'VALUE'							=> 'Valor',
 	'VERSIONCHECK_FAIL'				=> 'Não foi possível obter informações da versão mais recente.',
 	'VERSIONCHECK_FORCE_UPDATE'		=> 'Forçar verificação da versão',
-	'VERSION_CHECK'				    => 'Verificar versão',
-	'VERSION_CHECK_EXPLAIN'		    => 'Verificar se a instalação do phpBB está actualizada.',
+	'VERSION_CHECK'					=> 'Verificar versão',
+	'VERSION_CHECK_EXPLAIN'			=> 'Verificar se a instalação do phpBB está actualizada.',
 	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'A tua instalação do phpBB não está actualizada.<br />Abaixo está um link para o anúncio de lançamento, que contém mais informações, bem como as instruções sobre como actualizar.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'A tua instalação do phpBB não está actualizada.',
-	'VERSION_UP_TO_DATE_ACP'	    => 'A tua instalação do phpBB está actualizada. Não há actualizações disponíveis de momento.',
+	'VERSION_UP_TO_DATE_ACP'		=> 'A tua instalação do phpBB está actualizada. Não há actualizações disponíveis de momento.',
 	'VIEW_ADMIN_LOG'				=> 'Ver registos do Administrador',
 	'VIEW_INACTIVE_USERS'			=> 'Ver Utilizadores Inactivos',
 
@@ -488,10 +488,10 @@ $lang = array_merge($lang, array(
 	'GO_ACP_MAIN'					=> 'Ir para a página inicial do ACP',
 	'HIDE_STATISTICS'				=> 'Esconder detalhes',
 	'SEND_STATISTICS'				=> 'Enviar estatísticas',
-	'SEND_STATISTICS_LONG'		    => 'Enviar informações estatísticas',
+	'SEND_STATISTICS_LONG'			=> 'Enviar informações estatísticas',
 	'SHOW_STATISTICS'				=> 'Mostrar detalhes',
 	'THANKS_SEND_STATISTICS'		=> 'Obrigado por enviar as suas informações.',
-	'FAIL_SEND_STATISTICS'		    => 'O phpBB não conseguiu enviar as estatísticas',
+	'FAIL_SEND_STATISTICS'			=> 'O phpBB não conseguiu enviar as estatísticas',
 ));
 
 // Log Entries
@@ -624,7 +624,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'						=> '<strong>Erro de Jabber</strong><br />» %s',
 	'LOG_ERROR_EMAIL'						=> '<strong>Erro no email</strong><br />» %s',
-	'LOG_ERROR_CAPTCHA'		                => '<strong>Erro no CAPTCHA</strong><br />» %s',
+	'LOG_ERROR_CAPTCHA'						=> '<strong>Erro no CAPTCHA</strong><br />» %s',
 	
 	'LOG_FORUM_ADD'							=> '<strong>Criar um novo Fórum</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Permissões do Fórum copiadas</strong> de %1$s<br />» %2$s',

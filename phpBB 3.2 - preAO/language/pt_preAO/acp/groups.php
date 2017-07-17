@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
 	'NO_USERS_ADDED'					=> 'Não foram adicionados Utilizadores a este Grupo.',
 	'NO_VALID_USERS'					=> 'Não entrou com nenhum Utilizador com Permissões para usar esta opção.',
 
-	'PENDING_MEMBERS'			        => 'Pendente',
+	'PENDING_MEMBERS'					=> 'Pendente',
 
 	'SELECT_GROUP'						=> 'Seleccione um Grupo',
 	'SPECIAL_GROUPS'					=> 'Grupos Pré-Definidos',

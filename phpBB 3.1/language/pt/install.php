@@ -440,7 +440,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'		=> 'Os ficheiros seguintes não necessitam de alterações.',
 	'FILES_UP_TO_DATE'					=> 'Ficheiros já atualizados',
 	'FILES_UP_TO_DATE_EXPLAIN'			=> 'Os ficheiros seguintes já se encontram prontos e não precisam ser atualizados.',
-	'FILES_VERSION'					    => 'Versão dos ficheiros',
+	'FILES_VERSION'						=> 'Versão dos ficheiros',
 	'FTP_SETTINGS'						=> 'Configurações de FTP',
 	'FTP_UPDATE_METHOD'					=> 'Envio de FTP',
 
@@ -533,9 +533,9 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'			=> 'Atualização da estrutura da Base de Dados',
 	'UPDATE_FILES'						=> 'Atualizar Ficheiros',
 	'UPDATE_FILES_NOTICE'				=> 'Por Favor, certifique-se de ter atualizado os Ficheiros do seu Fórum também, este Ficheiro apenas atualiza a Base de Dados.',
-	'UPDATE_INCOMPLETE'				    => 'A sua instalação do phpBB não foi atualizada corretamente.',
-	'UPDATE_INCOMPLETE_MORE'		    => 'Por favor, leia as informações abaixo, a fim de corrigir este erro.',
-	'UPDATE_INCOMPLETE_EXPLAIN'		    => '<h1>Atualização incompleta</h1>
+	'UPDATE_INCOMPLETE'					=> 'A sua instalação do phpBB não foi atualizada corretamente.',
+	'UPDATE_INCOMPLETE_MORE'			=> 'Por favor, leia as informações abaixo, a fim de corrigir este erro.',
+	'UPDATE_INCOMPLETE_EXPLAIN'			=> '<h1>Atualização incompleta</h1>
 
 		<p>Notamos que a última atualização da sua instalação phpBB ainda não foi concluída. Visite a <a href="%1$s" title="%1$s">script database_update</a> e executá-lo. Se estiver em falta, por favor <a href="https://www.phpbb.com/downloads/" title="phpBB downloads">baixar a sua versão do pacote</a>, carregar o "install" pasta para o diretório raiz phpBB  (onde o arquivo config.php é) e <a href="%1$s" title="%1$s">executar a atualização do base de dados do script</a>.</p>',
 

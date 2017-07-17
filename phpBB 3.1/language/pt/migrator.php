@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Um ficheiro com informações do módulo necessário está em falta: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Um módulo necessário não existe: %s',
 
-    'PARENT_MODULE_FIND_ERROR'			=> 'Não foi possível determinar o identificador módulo pai: %s',
+	'PARENT_MODULE_FIND_ERROR'			=> 'Não foi possível determinar o identificador módulo pai: %s',
 	'PERMISSION_NOT_EXIST'				=> 'Inesperadamente a configuração de permissão "%s" não existe.',
 
 	'ROLE_NOT_EXIST'					=> 'Inesperadamente a permissão "%s" não existe.',
