@@ -116,7 +116,7 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME'						=> 'Nome do Grupo',
 
 	'IMAGE_LINK_SIZE'					=> 'Dimensões para o atalho de Imagem',
-	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostra o anexo da imagem como um atalho se a imagem for maior que o selecionado, introduza 0 px por 0 px para desativar.',
+	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostra o anexo da imagem como um atalho se a imagem for maior que o selecionado, introduza 0px por 0px para desativar.',
 	'IMAGICK_PATH'						=> 'Local do ImageMagick',
 	'IMAGICK_PATH_EXPLAIN'				=> 'Caminho completo para o programa Imagemagick, p.exemplo: /usr/bin/.',
 
@@ -124,9 +124,9 @@ $lang = array_merge($lang, array(
 	'MAX_ATTACHMENTS_PM'				=> 'Máximo de anexos por Mensagem Privada',
 	'MAX_EXTGROUP_FILESIZE'				=> 'Tamanho Máximo dos Ficheiros',
 	'MAX_IMAGE_SIZE'					=> 'Dimensão Máxima das Imagens',
-	'MAX_IMAGE_SIZE_EXPLAIN'			=> 'Tamanho Máximo das imagens anexadas, 0 px por 0 px impede anexo de imagens.',
-	'MAX_THUMB_WIDTH'					=> 'Largura máxima das imagens em miniaturas em píxeis',
-	'MAX_THUMB_WIDTH_EXPLAIN'			=> 'A largura das miniaturas geradas não ultrapassará a selecionada.',
+	'MAX_IMAGE_SIZE_EXPLAIN'			=> 'Tamanho Máximo das imagens anexadas, 0px por 0px impede anexo de imagens.',
+	'MAX_THUMB_WIDTH'					=> 'Altura/Largura máxima das miniaturas em píxeis',
+	'MAX_THUMB_WIDTH_EXPLAIN'			=> 'A altura/largura das imagens em miniaturas geradas não ultrapassará a selecionada.',
 	'MIN_THUMB_FILESIZE'				=> 'Tamanho Mínimo de imagem reduzida',
 	'MIN_THUMB_FILESIZE_EXPLAIN'		=> 'Não criar imagem reduzida para imagens menores do que o selecionado.',
 	'MODE_INLINE'						=> 'Na linha',

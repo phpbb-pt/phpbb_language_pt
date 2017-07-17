@@ -8,10 +8,11 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-*
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 */
 
 /**
+* DO NOT CHANGE
 */
 if (!defined('IN_PHPBB'))
 {

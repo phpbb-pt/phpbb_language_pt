@@ -345,11 +345,14 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'			=> 'Estas configurações definem os dados usados nos cookies enviados aos navegadores do Utilizadores. Na generalidade dos casos os valores abaixo são suficientes. Se os mudar faça-o com cuidado. Qualquer incorreção impede os Utilizadores de aceder ao Fórum.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'			=> 'Estas configurações definem os dados usados nos cookies enviados aos navegadores dos Utilizadores. Na maioria dos casos os valores predefinidos são suficientes. Se os alterar faça-o com cuidado. Qualquer incorreção impede os Utilizadores de acederem ao Fórum. Se verificar que os utilizadores não conseguem entrar ou sair da sua conta, visite <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Corrigindo configurações de Cookies Incorretas</a></b>.',
 
 	'COOKIE_DOMAIN'							=> 'Domínio do Cookie',
+	'COOKIE_DOMAIN_EXPLAIN'					=> 'Na maioria dos casos o domínio do cookie é opcional. Deixe em branco em caso de dúvida.<br /><br /> No caso de ter o fórum integrado com outro software ou de ter múltiplos domínios, então, para determinar o domínio do cookie, deverá fazer o seguinte.  Caso tenha algo como <i>exemplo.pt</i> e <i>forum.exemplo.pt</i>, ou talvez <i>forum.exemplo.pt</i> e <i>blog.exemplo.pt</i>. Remova os subdomínios até que reste o domínio principal, <i>exemplo.pt</i>. Agora adicione um ponto final em frente ao domínio, ou seja, ficaria: .exemplo.pt (repare no ponto final no ínicio).',
 	'COOKIE_NAME'							=> 'Nome do Cookie',
+	'COOKIE_NAME_EXPLAIN'					=> 'Pode colocar aqui o que bem desejar, seja original. Sempre que as configurações dos cookies sejam alteradas, o nome do cookie deve ser também alterado.',
 	'COOKIE_PATH'							=> 'Caminho do Cookie',
+	'COOKIE_PATH_EXPLAIN'					=> 'Aqui é sempre uma barra, não importa qual seja o URL do fórum.',
 	'COOKIE_SECURE'							=> 'Cookie seguro',
 	'COOKIE_SECURE_EXPLAIN'					=> 'Se o Servidor funciona por SSL, mude para Ativado caso contrário, deixe-o Desativado. Estando Ativado sem funcionar por SSL poderá resultar em erros no Servidor durante os redirecionamentos.',
 	'ONLINE_LENGTH'							=> 'Tempo limite para visualização online',
@@ -558,6 +561,8 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG_EXPLAIN'						=> 'Este texto será anexado a todos os emails que o Fórum enviar.',
 	'ENABLE_EMAIL'							=> 'Correio eletrónico do Fórum',
 	'ENABLE_EMAIL_EXPLAIN'					=> 'Se estiver definido como desativado não poderá ser enviado correio eletrónico através do Fórum. <em>Note que a ativação e configuração de contas requer que esta função esteja ativada. Desativar esta função impedirá que a ativação de novas contas seja feita pelo  “Utilizador” ou “Administrador”.</em>',
+	'SMTP_ALLOW_SELF_SIGNED'				=> 'Permitir certificados SSL autoassinados',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'		=> 'Permite conexões ao servidor SMTP com certificado SSL autoassinado.<em><strong>Aviso:</strong> Permitir certificados SSL autoassinados pode causar implicações de segurança.</em>',
 	'SMTP_AUTH_METHOD'						=> 'Método de Autenticação para o SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'				=> 'Apenas usado se um Nome/Senha é atribuído, pergunte ao seu ISP se não sabe que método usa.',
 	'SMTP_CRAM_MD5'							=> 'CRAM-MD5',
@@ -574,6 +579,11 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'							=> 'Configurações do SMTP',
 	'SMTP_USERNAME'							=> 'Nome de Utilizador SMTP',
 	'SMTP_USERNAME_EXPLAIN'					=> 'Só introduza um Nome se o Servidor de SMTP o pedir.',
+	'SMTP_VERIFY_PEER'						=> 'Verificar certificado SSL',
+	'SMTP_VERIFY_PEER_EXPLAIN'				=> 'Requer a verificação do certificado SSL usado pelo servidor SMTP.<em><strong>Aviso:</strong> Conectar pontos de rede com certificados SSL não verificados pode causar implicações de segurança.</em>',
+	'SMTP_VERIFY_PEER_NAME'					=> 'Verificar nome do ponto de rede SMTP',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'			=> 'Requer verificação do nome do ponto de rede para os servidores SMTP que usem conexões SSL / TLS.<em><strong>Aviso:</strong> Conectar a pontos de rede não verificados pode causar implicações de segurança.</em>',
+
 	'USE_SMTP'								=> 'Usar um Servidor de SMTP para enviar emails',
 	'USE_SMTP_EXPLAIN'						=> 'Marque “Sim” se quer ou tem que enviar os emails recorrendo a um Servidor SMTP em vez da função de email do Servidor.',
 ));
@@ -582,20 +592,27 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'			=> 'Aqui pode ativar e controlar o uso do Jabber para Mensagens Instantâneas e Notícias. Jabber é um Protocolo código-aberto e por isso mesmo disponível a qualquer pessoa interessada. Alguns Servidores de Jabber incluem Gateways e transportes que permitem que contacte Utilizadores em outras redes. Nem todos os servidores oferecem todos os transportes, e mudanças nos protocolos podem evitar operações de transportes. Note que pode levar muitos segundos até à atualização dos detalhes da conta de Jabber, então não interrompa a execução dos procedimentos enquanto não estiver completo!',
 
-	'JAB_ENABLE'							=> 'Ativa Jabber',
-	'JAB_ENABLE_EXPLAIN'					=> 'Ativar o uso de Mensagens e Avisos Jabber.',
-	'JAB_GTALK_NOTE'						=> 'Por favor, note que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é implementada nas plataformas do windows. Isto não é executável atualmente em sistemas BSD-based, incluindo o Mac OS.',
+	'JAB_ALLOW_SELF_SIGNED'					=> 'Permitir certificados SSL autoassinados',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'			=> 'Permite conexões ao servidor Jabber com certificado SSL autoassinado.<em><strong>Aviso:</strong> Permitir certificados SSL autoassinados pode causar implicações de segurança.</em>',
+	'JAB_ENABLE'							=> 'Ativar Jabber',
+	'JAB_ENABLE_EXPLAIN'					=> 'Ativa o uso de Mensagens e Avisos Jabber.',
+	'JAB_GTALK_NOTE'						=> 'Por favor, note que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é iconv(in_charset, out_charset, str)mplementada nas plataformas do windows. Isto não é executável atualmente em sistemas BSD-based, incluindo o Mac OS.',
 	'JAB_PACKAGE_SIZE'						=> 'Tamanho do pacote de Jabber',
 	'JAB_PACKAGE_SIZE_EXPLAIN'				=> 'Este é o número de Mensagens enviadas num pacote. Se for 0, a Mensagem será enviada imediatamente e não será colocada em fila de espera para posterior envio.',
 	'JAB_PASSWORD'							=> 'Senha Jabber',
 	'JAB_PASSWORD_EXPLAIN'					=> '<em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
 	'JAB_PORT'								=> 'Porta do Jabber',
-	'JAB_PORT_EXPLAIN'						=> 'Deixe em branco se souber que não é 5222.',
+	'JAB_PORT_EXPLAIN'						=> 'Deixe em branco se souber que a porta usada é 5222. Caso contrário, coloque a porta correta',
 	'JAB_SERVER'							=> 'Servidor Jabber',
 	'JAB_SERVER_EXPLAIN'					=> 'Veja a lista de Servidores em %sjabber.org%s.',
 	'JAB_SETTINGS_CHANGED'					=> 'Configurações do Jabber alteradas com sucesso.',
 	'JAB_USE_SSL'							=> 'Usar SSL para se ligar',
-	'JAB_USE_SSL_EXPLAIN'					=> 'Se ativado, uma ligação segura tentará ser estabilizada. A porta Jabber será alterada para 5223 se a porta 5222 tiver sido indicado.',
-	'JAB_USERNAME'							=> 'Utilizador Jabber',
-	'JAB_USERNAME_EXPLAIN'					=> 'Se não estiver registado será criado se possível.',
+	'JAB_USE_SSL_EXPLAIN'					=> 'Se ativado, será tentado efetuar-se uma ligação segura. A porta Jabber será alterada para 5223 se a porta 5222 tiver sido indicada.',
+	'JAB_USERNAME'							=> 'Nome de Utilizador Jabber ou JID',
+	'JAB_USERNAME_EXPLAIN'					=> 'Especifique um nome de utilizador registado ou um JID válido. O nome de utilizador não será verificado. Se especificares o nome de utilizador, o JID usado será o nome de utilizador e o servidor aquele especificado acima. Caso contrário, especifique um JID válido, por exemplo utilizador@jabber.org.',
+	'JAB_VERIFY_PEER'						=> 'Verificar certificado SSL',
+	'JAB_VERIFY_PEER_EXPLAIN'				=> 'Requer a verificação do certificado SSL usado pelo servidor Jabber.<em><strong>Aviso:</strong> Conectar pontos de rede com certificados SSL não verificados pode causar implicações de segurança.</em>',
+	'JAB_VERIFY_PEER_NAME'					=> 'Verificar nome do ponto de rede Jabber',
+	'JAB_VERIFY_PEER_NAME_EXPLAIN'			=> 'Requer verificação do nome do ponto de rede para os servidores Jabber que usem conexões SSL / TLS.<em><strong>Aviso:</strong> Conectar a pontos de rede não verificados pode causar implicações de segurança.</em>',
 ));
+	
