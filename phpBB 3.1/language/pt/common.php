@@ -368,7 +368,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_CHECK_PM'					=> 'Ver Mensagens Privadas.',
 	'LOGIN_CONFIRMATION'				=> 'Confirmação de acesso',
 	'LOGIN_CONFIRM_EXPLAIN'				=> 'Para prevenir ataques "brute force" o Administrador exige o código de confirmação após sucessivas tentativas falhadas de acesso. O código é exibido na imagem abaixo. Se tiver problemas em ver esta imagem, por favor, contacte um %sAdministrador%s.', // unused
-    'LOGIN_ERROR_ATTEMPTS'				=> 'Excedeu o número máximo de tentativas de acesso. Além do seu nome de Utilizador e Senha tem de resolver o CAPTCHA abaixo',
+	'LOGIN_ERROR_ATTEMPTS'				=> 'Excedeu o número máximo de tentativas de acesso. Além do seu nome de Utilizador e Senha tem de resolver o CAPTCHA abaixo',
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Não foi autenticado pelo Apache.',
 	'LOGIN_ERROR_OAUTH_SERVICE_DOES_NOT_EXIST'	=> 'O serviço OAuth indicado não existe.',
 	'LOGIN_ERROR_PASSWORD'				=> 'A Senha introduzida não está correta, tente novamente. Se continuar com problemas, contacte um %sAdministrador do Fórum%s.',
@@ -423,7 +423,7 @@ $lang = array_merge($lang, array(
 	'NEW_MESSAGES'						=> 'Novas Mensagens',
 	'NEW_POST'							=> 'Nova Mensagem',   // Not used anymore
 	'NEW_POSTS'							=> 'Novas Mensagens',   // Not used anymore
-	'NEXT'								=> 'Próximo',      // Used in pagination
+	'NEXT'								=> 'Próximo',	  // Used in pagination
 	'NEXT_STEP'							=> 'Próximo',
 	'NEVER'								=> 'Nunca',
 	'NO'								=> 'Não',
@@ -591,7 +591,7 @@ $lang = array_merge($lang, array(
 	'POST_UNAPPROVED'					=> 'Esta mensagem não foi aprovada.',
 	'POWERED_BY'						=> 'Desenvolvido por %s',
 	'PREVIEW'							=> 'Prever',
-	'PREVIOUS'							=> 'Anterior',      // Used in pagination
+	'PREVIOUS'							=> 'Anterior',	  // Used in pagination
 	'PREVIOUS_STEP'						=> 'Anterior',
 	'PRIVACY'							=> 'Política de Privacidade',
 	'PRIVATE_MESSAGE'					=> 'Mensagem Privada',
@@ -723,7 +723,7 @@ $lang = array_merge($lang, array(
 	'TIMEOUT_PROCESSING_REQ'			=> 'O pedido excedeu o tempo.',
 
 	'TOO_LARGE'							=> 'O valor que inseriu é muito grande.',
-    'TOO_LARGE_MAX_RECIPIENTS'			=> 'O valor definido para o <strong>número máximo de destinatários permitidos por Mensagem Privada</strong> é muito grande.',
+	'TOO_LARGE_MAX_RECIPIENTS'			=> 'O valor definido para o <strong>número máximo de destinatários permitidos por Mensagem Privada</strong> é muito grande.',
 
 	'TOO_LONG'							=> 'O valor definido é muito longo.',
 

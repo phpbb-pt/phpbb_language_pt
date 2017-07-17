@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'MIGRATION_REVERT_DATA_IN_PROGRESS'	=> 'A reverter dados: %1$s; Tempo: %2$.2f segundos',
 	'MIGRATION_REVERT_DATA_RUNNING'		=> 'A reverter dados: %s.',
 	'MIGRATION_REVERT_SCHEMA_DONE'		=> 'Esquemas revertidos: %1$s; Tempo: %2$.2f segundos',
-    'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'A reverter esquema: %1$s; Tempo: %2$.2f segundos',
+	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> 'A reverter esquema: %1$s; Tempo: %2$.2f segundos',
 	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> 'A reverter Esquemas: %s.',
 
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migração é inválida. Está em falta uma condição na estrutura « IF ».',

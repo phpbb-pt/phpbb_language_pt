@@ -530,9 +530,9 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'			=> 'Actualização da estrutura da Base de Dados',
 	'UPDATE_FILES'						=> 'Actualizar Ficheiros',
 	'UPDATE_FILES_NOTICE'				=> 'Por Favor, certifique-se de ter actualizado os Ficheiros do seu Fórum também, este Ficheiro apenas actualiza a Base de Dados.',
-	'UPDATE_INCOMPLETE'				    => 'A sua instalação do phpBB não foi atualizada corretamente.',
-	'UPDATE_INCOMPLETE_MORE'		    => 'Por favor, leia as informações abaixo, a fim de corrigir este erro.',
-	'UPDATE_INCOMPLETE_EXPLAIN'		    => '<h1>Atualização incompleta</h1>
+	'UPDATE_INCOMPLETE'					=> 'A sua instalação do phpBB não foi atualizada corretamente.',
+	'UPDATE_INCOMPLETE_MORE'			=> 'Por favor, leia as informações abaixo, a fim de corrigir este erro.',
+	'UPDATE_INCOMPLETE_EXPLAIN'			=> '<h1>Atualização incompleta</h1>
 
 		<p>Notamos que a última atualização da sua instalação phpBB ainda não foi concluída. Visite a <a href="%1$s" title="%1$s">script database_update</a> e executá-lo. Se estiver em falta, por favor <a href="https://www.phpbb.com/downloads/" title="phpBB downloads">baixar a sua versão do pacote</a>, carregar o "install" pasta para o diretório raiz phpBB  (onde o arquivo config.php é) e <a href="%1$s" title="%1$s">executar a atualização do base de dados do script</a>.</p>',
 

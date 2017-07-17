@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'DELETE_PERMANENTLY'			=> 'Eliminar',
 	'DELETE_POST_CONFIRM'			=> 'Tem a certeza que deseja apagar esta mensagem?',
 	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Tem a certeza que deseja eliminar <strong>permanentemente</strong> esta mensagem?',
-    'DELETE_POST_PERMANENTLY'	    => array(
+	'DELETE_POST_PERMANENTLY'		=> array(
 		1	=> 'Excluir permanentemente esta mensagem, não poderá ser depois recuperada',
 		2	=> 'Excluir permanentemente %1$d mensagens, não poderão ser depois recuperadas',
 	),

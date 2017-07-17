@@ -296,7 +296,7 @@ $lang = array_merge($lang, array(
 	'SELECT_OPTION'					=> 'Seleccionar Opção',
 
 	'SETTING_TOO_LOW'				=> 'O valor escrito para a configuração "%1$s" é muito baixo. O valor mínimo permitido é %2$d.',
-	'SETTING_TOO_BIG'				=> 'O valor escrito para a configuração "%1$s" é muito alto. O valor máximo permitido é %2$d.',    
+	'SETTING_TOO_BIG'				=> 'O valor escrito para a configuração "%1$s" é muito alto. O valor máximo permitido é %2$d.',	
 	'SETTING_TOO_LONG'				=> 'O valor escrito para a configuração "%1$s" é muito longo. O comprimento máximo permitido é %2$d.',
 	'SETTING_TOO_SHORT'				=> 'O valor escrito para a configuração "%1$s" é muito curto. O comprimento mínimo permitido é %2$d.',
 

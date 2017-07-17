@@ -136,8 +136,8 @@ $lang = array_merge($lang, array(
 	'CLI_MIGRATION_NAME'					=> 'Nome da migração, incluindo o conjunto de nomes (utilize barras inclinadas ao invés de contra-barras para evitar problemas).',
 	'CLI_MIGRATIONS_AVAILABLE'				=> 'Migrações disponíveis',
 	'CLI_MIGRATIONS_INSTALLED'				=> 'Migrações instaladas',
-	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Mostrar apenas as migrações disponíveis',
-	'CLI_MIGRATIONS_EMPTY'                  => 'Sem migrações.',
+	'CLI_MIGRATIONS_ONLY_AVAILABLE'			=> 'Mostrar apenas as migrações disponíveis',
+	'CLI_MIGRATIONS_EMPTY'				  => 'Sem migrações.',
 
 	'CLI_REPARSER_REPARSE_REPARSING'		=> 'A reanalisar %1$s (intervalo %2$d..%3$d)',
 	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'A reanalisar %s...',
