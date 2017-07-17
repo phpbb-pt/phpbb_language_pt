@@ -1,19 +1,19 @@
 <?php
 /**
- *
- * This file is part of the phpBB Forum Software package.
- *
- * @copyright (c) phpBB Limited <https://www.phpbb.com>
- * @license GNU General Public License, version 2 (GPL-2.0)
- *
- * For full copyright and license information, please see
- * the docs/CREDITS.txt file.
- *
- */
+*
+* This file is part of the phpBB Forum Software package.
+*
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
+* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+*/
 
 /**
- * DO NOT CHANGE
- */
+* DO NOT CHANGE
+*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -23,6 +23,18 @@ if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
+
+// DEVELOPERS PLEASE NOTE
+//
+// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
+//
+// Placeholders can now contain order information, e.g. instead of
+// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
+// translators to re-order the output of data while ensuring it remains correct
+//
+// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
+// equally where a string contains only two placeholders which are used to wrap text
+// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
 	'HELP_BBCODE_BLOCK_IMAGES'	=> 'Exibir imagens nas mensagens',
@@ -52,7 +64,7 @@ $lang = array_merge($lang, array(
 	'HELP_BBCODE_OTHERS_CUSTOM_ANSWER'	=> 'Se é Administrador ou tem as Permissões adequadas, pode adicionar BBCodes no Painel de Administração.',
 	'HELP_BBCODE_OTHERS_CUSTOM_QUESTION'	=> 'Posso criar as minhas próprias tags?',
 
-	'HELP_BBCODE_QUOTES_CODE_ANSWER'	=> 'Para deixar o texto todo ou parte dele em formato de código deve usar as tags <strong>[code][/code]</strong>.<br /><br />Por exemplo:<br /><strong>[code]</strong>echo "Isto é algum código";<strong>[/code]</strong><br /><br />Todo texto dentro das tags <strong>[code][/code]</strong> pode ser modificado ou eliminado.',
+	'HELP_BBCODE_QUOTES_CODE_ANSWER'	=> 'Para deixar o texto todo ou parte dele em formato de código deve usar as tags <strong>[code][/code]</strong>.<br /><br />Por exemplo:<br /><strong>[code]</strong>echo &quot;Isto é algum código&quot;;<strong>[/code]</strong><br /><br />Todo texto dentro das tags <strong>[code][/code]</strong> não são convertidos e mantêm-se em formato texto para poderem ser lidos como código.',
 	'HELP_BBCODE_QUOTES_CODE_QUESTION'	=> 'Deixar o texto completo em forma de código ou apenas uma parte',
 	'HELP_BBCODE_QUOTES_TEXT_ANSWER'	=> 'Há duas formas de fazer uma citação, com ou sem referência ao autor.<ul><li>Quando utiliza a função Citar para responder a uma mensagem no fórum, note que o texto dessa mensagem é adicionado ao corpo da mensagem incluído num bloco <strong>[quote=&quot;&quot;][/quote]</strong> Este método permite-lhe citar com referência a uma pessoa ou o que decida colocar! Por exemplo, para citar uma peça de texto que o Sr. Silva escreveu, escreverá:<br /><br /><strong>[quote=&quot;Sr. Silva&quot;]</strong> O texto que o Sr. Silva escreveu irá aparecer aqui[/quote] <strong> [/quote] </strong> <br /> <br /> O resultado será adicionado automaticamente &quot;Mr. Silva wrote:&quot; antes do texto. Lembre-se que <strong> deve obrigatoriamente </strong> incluir as aspas &quot;&quot; à volta do nome que deseja citar.</li><br /><li>O segundo método permite-lhe citar algo cegamente. Para o fazer, englobe o texto nas tags <strong> [quote][/quote] </strong> Quando visualizar a mensagem verá o texto num bloco de citação.</li></ul>',
 	'HELP_BBCODE_QUOTES_TEXT_QUESTION'	=> 'Fazer uma citação nas suas respostas',

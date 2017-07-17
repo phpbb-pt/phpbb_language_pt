@@ -336,6 +336,7 @@ $lang = array_merge($lang, array(
 	'INTERESTS'							=> 'Interesses',
 	'INVALID_DIGEST_CHALLENGE'			=> 'Desafio de Sumário Inválido.',
 	'INVALID_EMAIL_LOG'					=> '%s é um endereço de email possivelmente incorreto?',
+	'INVALID_FEED_ATTACHMENTS'			=> 'O feed selecionado tentou obter anexos com restrições inválidas.',
 	'INVALID_PLURAL_RULE'				=> 'A regra do plural escolhida é inválida. Os valores válidos são números inteiros entre 0 e 15.',
 	'IP'								=> 'IP',
 	'IP_BLACKLISTED'					=> 'O Seu endereço de IP %1$s foi expulso porque está na lista negra. Para mais detalhes leia <a href="%2$s">%2$s</a>.',

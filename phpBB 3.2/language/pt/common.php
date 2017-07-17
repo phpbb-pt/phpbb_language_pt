@@ -178,9 +178,10 @@ $lang = array_merge($lang, array(
 	'CONTACT'							=> 'Contacto',
 	'CONTACT_USER'						=> 'Contacto %s',
 	'CONTACT_US'						=> 'Contacte-nos',
-	'COOKIE_CONSENT_INFO'	            => 'Saiba mais',
-	'COOKIE_CONSENT_MSG'	            => 'Este site utiliza cookies para lhe proporcionar uma melhor experiência.',
-	'COOKIE_CONSENT_OK'		            => 'Entendido!',
+	'COOKIE_CONSENT_INFO'				=> 'Saiba mais',
+	'COOKIE_CONSENT_MSG'				=> 'Este site utiliza cookies para lhe proporcionar uma melhor experiência.',
+	'COOKIE_CONSENT_OK'					=> 'Entendido!',
+	'COOKIE_CONSENT_HREF'				=> 'http://cookiesandyou.com',
 	'COOKIES_DELETED'					=> 'Todos os cookies deste Fórum foram apagados.',
 	'CURRENT_TIME'						=> 'Data/Hora: %s',
 

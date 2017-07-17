@@ -81,6 +81,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL_DEPENDENT'		=> 'O estilo "%s" não pode ser desinstalado porque há um ou mais estilos secundários.',
 	'STYLE_UNINSTALLED'				=> 'O estilo "%s" foi desinstalado com sucesso.',
 	'STYLE_USED_BY'					=> 'Usado por (incluindo Motor de Busca)',
+	'STYLE_VERSION'					=> 'Versão do Estilo',
 
 	'UNINSTALL_DEFAULT'				=> 'Não é possível desinstalar o estilo padrão.',
 
