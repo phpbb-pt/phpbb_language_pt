@@ -233,9 +233,9 @@ $lang = array_merge($lang, array(
 	'SMILIES'						=> 'Emoções',
 	'SMILIES_ARE_OFF'				=> 'Emoções estão <em>Desligadas</em>',
 	'SMILIES_ARE_ON'				=> 'Emoções estão <em>Ligadas</em>',
-	'STICKY_ANNOUNCE_TIME_LIMIT'	=> 'Tempo limite do Fixo/Anúncio',
+	'STICKY_ANNOUNCE_TIME_LIMIT'	=> 'Tempo limite do Fixo/Anúncio/Global',
 	'STICK_TOPIC_FOR'				=> 'Fixar Tópico por',
-	'STICK_TOPIC_FOR_EXPLAIN'		=> 'Digite 0 para manter Fixo/Anúncio por tempo indeterminado. Por favor note que este número é relativo à data do envio da mensagem.',
+	'STICK_TOPIC_FOR_EXPLAIN'		=> 'Digite 0 para manter Fixo/Anúncio/Global por tempo indeterminado. Por favor, note que este número é relativo à data do envio da mensagem.',
 	'STYLES_TIP'					=> 'Dica: Estilos podem ser aplicados a textos seleccionados.',
 
 	'TOO_FEW_CHARS'					=> 'A Mensagem contém poucos caracteres.',
