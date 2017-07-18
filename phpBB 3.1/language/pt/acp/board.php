@@ -575,7 +575,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'								=> 'Porta do Servidor de SMTP',
 	'SMTP_PORT_EXPLAIN'						=> 'Mude apenas se tiver a certeza de que seu Servidor de SMTP está numa porta diferente.',
 	'SMTP_SERVER'							=> 'Endereço do Servidor de SMTP',
-	'SMTP_SERVER_EXPLAIN'					=> 'Note que você tem que fornecer o protocolo que o servidor utiliza. Se você estiver usando SSL, isso tem que ser "SSL: //your.mailserver.com"',
+	'SMTP_SERVER_EXPLAIN'					=> 'Note que tem que fornecer o protocolo que o servidor utiliza. Se estiver a usar SSL, tem que colocar "ssl://your.mailserver.com"',
 	'SMTP_SETTINGS'							=> 'Configurações do SMTP',
 	'SMTP_USERNAME'							=> 'Nome de Utilizador SMTP',
 	'SMTP_USERNAME_EXPLAIN'					=> 'Só introduza um Nome se o Servidor de SMTP o pedir.',
@@ -615,4 +615,3 @@ $lang = array_merge($lang, array(
 	'JAB_VERIFY_PEER_NAME'					=> 'Verificar nome do ponto de rede Jabber',
 	'JAB_VERIFY_PEER_NAME_EXPLAIN'			=> 'Requer verificação do nome do ponto de rede para os servidores Jabber que usem conexões SSL / TLS.<em><strong>Aviso:</strong> Conectar a pontos de rede não verificados pode causar implicações de segurança.</em>',
 ));
-	

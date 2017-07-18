@@ -50,6 +50,7 @@ $lang = array_merge($lang, array(
 	'MIGRATION_NOT_FULFILLABLE'			=> 'A migração "%1$s" é impossível de se realizar, a migração "%2$s" está em falta.',
 	'MIGRATION_NOT_VALID'				=> '%s não é uma migração válida.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Esquema instalado: %1$s; Dados: %2$.2f segundos',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'A instalar esquema: %1$s; Tempo: %2$.2f segundos',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'A instalar esquema: %s.',
 
 	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> 'A migração é inválida. Está em falta uma condição na estrutura « IF ».',
@@ -60,9 +61,12 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> 'A migração é inválida. Foi encontrado um método de ferramenta de migração indefinido.',
 
 	'MODULE_ERROR'						=> 'Ocorreu um erro durante a criação de um módulo: %s',
+	'MODULE_EXISTS'						=> 'Um módulo já existe: %s',
+	'MODULE_EXIST_MULTIPLE'				=> 'Vários módulos com inclinação para módulo pai nome_da_linguagem já existem: %s. Tente usar as chaves antes / depois para esclarecer o posicionamento do módulo',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> 'Um ficheiro com informações do módulo necessário está em falta: %2$s',
 	'MODULE_NOT_EXIST'					=> 'Um módulo necessário não existe: %s',
 
+	'PARENT_MODULE_FIND_ERROR'			=> 'Não foi possível determinar o identificador módulo pai: %s',
 	'PERMISSION_NOT_EXIST'				=> 'Inesperadamente a configuração de permissão "%s" não existe.',
 
 	'ROLE_NOT_EXIST'					=> 'Inesperadamente a permissão "%s" não existe.',
