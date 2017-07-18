@@ -45,6 +45,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_NOT_AVAILABLE'	=> 'A extensão seleccionada não está disponível para este Fórum, por favor, verifique versões do phpBB e PHP permitidas (veja a página de detalhes).',
 	'EXTENSION_DIR_INVALID'		=> 'A extensão seleccionada não pode ser activada porque tem uma estrutura de pastas inválida.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'A extensão seleccionada não pode ser activada, por favor, verifique os requisitos do extensão.',
+	'EXTENSION_NOT_INSTALLED'	=> 'A extensão %s não está disponível. Verifique se instalou correctamente.',
 
 	'DETAILS'				=> 'Detalhes',
 
