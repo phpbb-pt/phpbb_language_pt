@@ -1,22 +1,19 @@
-Subject: Notificação de Resposta ao Tópico {TOPIC_TITLE}
+Subject: Notificação de resposta ao tópico - "{TOPIC_TITLE}"
 
-Olá {USERNAME};
+Olá {USERNAME},
 
-Tem em observação o Tópico "{TOPIC_TITLE}" em "{SITENAME}", onde há uma nova Mensagem que pode ver no seguinte endereço:
+Está a receber esta notificação porque está a observar o tópico, "{TOPIC_TITLE}" em "{SITENAME}". Este tópico recebeu uma resposta<!-- IF AUTHOR_NAME !== '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita. Não serão enviadas mais notificações até que visite o tópico.
+
+Se deseja ver a mensagem mais recente feita depois da sua última visita, clique no seguinte link:
 {U_NEWEST_POST}
-Não receberá mais notificações enquanto não visitar o Tópico.
 
-Pode ver o Tópico no seguinte endereço:
+Se deseja ver o tópico, clique no seguinte link:
 {U_TOPIC}
 
+Se deseja ver o fórum, clique no seguinte link:
+{U_FORUM}
 
-Se não pretende continuar a observar o Tópico, pode clicar em "Parar de observar Tópico" no Tópico indicado ou no atalho seguinte:
+Se não quer vigiar a este tópico, pode clicar em "Parar de Observar Tópico" na parte inferior do tópico acima indicado, ou clicando no seguinte link:
 {U_STOP_WATCHING_TOPIC}
-
-
-{USERNAME}, obrigado pela sua colaboração.
-
-
-
 
 {EMAIL_SIG}

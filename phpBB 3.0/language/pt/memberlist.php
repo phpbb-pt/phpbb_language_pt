@@ -68,7 +68,7 @@ $lang = array_merge($lang, array(
 	'FIND_USERNAME_EXPLAIN'		=> 'Utilize este formulário para procurar Utilizadores. Não é necessário preencher todos os campos. Para dados parciais utilize o *. Se indicar uma data, use o formato <kbd>YYYY-MM-DD</kbd> ex. <samp>2004-02-29</samp>. Nas caixas de seleção escreva um ou mais nomes de utilizador (são aceites vários Utilizadores).',
 	'FLOOD_EMAIL_LIMIT'			=> 'Não pode enviar novo email tão rapidamente. Aguarde algum tempo e tente novamente mais tarde.',
 
-	'GROUP_LEADER'				=> 'Lider do Grupo',
+	'GROUP_LEADER'				=> 'Líder do Grupo',
 
 	'HIDE_MEMBER_SEARCH'		=> 'Ocultar as opções de pesquisa dos Utilizadores',
 
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'IM_MESSAGE'				=> 'Sua mensagem',
 	'IM_MSNM'					=> 'Tem que ter o Windows Messenger instalado para usar essa opção.',
 	'IM_MSNM_BROWSER'			=> 'Seu navegador não suporta isto.',
-	'IM_MSNM_CONNECT'			=> 'O MSNM não está ligado. \\Tem que iniciar o MSNM para continuar.',
+	'IM_MSNM_CONNECT'			=> 'O MSNM não está ligado.\nTem que iniciar o MSNM para continuar.',
 	'IM_NAME'					=> 'Seu nome',
 	'IM_NO_DATA'				=> 'Não existe informação de contacto para este utilizador.',
 	'IM_NO_JABBER'				=> 'Enviar mensagens Jabber não é suportado neste Servidor. Tem que ter um cliente Jabber instalado no seu sistema para contatar o destinatário.',

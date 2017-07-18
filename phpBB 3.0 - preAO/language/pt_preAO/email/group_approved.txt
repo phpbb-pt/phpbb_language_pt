@@ -1,15 +1,10 @@
-Subject: {GROUP_NAME} - Inscrição aprovada
+Subject: O seu pedido foi aprovado
 
-Parabéns {USERNAME};
+Parabéns,
 
 O seu pedido para entrar no Grupo "{GROUP_NAME}" em "{SITENAME}" foi aceite.
-Pode ver mais informações sobre o "{GROUP_NAME}" no seguinte endereço:
+Clique no link abaixo para ver a sua participação no grupo.
+
 {U_GROUP}
-
-
-Obrigado {USERNAME}.
-Continue a participar activamente.
-A sua colaboração é fundamental para todos nós.
-
 
 {EMAIL_SIG}

@@ -2,13 +2,13 @@
 Olá {TO_USERNAME},
 
 
-O email que se segue foi enviado por {FROM_USERNAME} utilizando a sua conta em {SITENAME}.
+A mensagem que se segue foi enviada para si de {FROM_USERNAME} através da sua conta em {SITENAME}.
 Se há material abusivo, "spam", ou comentários que considera ofensivos contacte o seguinte endereço:
 {BOARD_CONTACT}
 enviando este email completo, particularmente os cabeçalhos.
-Por favor, note que o remetente desta mensagem foi definido como sendo a conta IM do Forum.
+Por favor, note que o remetente desta mensagem é o Fórum {FROM_USERNAME}.
 
-A mensagem que lhe foi enviada é a seguinte:
+A Mensagem que lhe foi enviada é a seguinte:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

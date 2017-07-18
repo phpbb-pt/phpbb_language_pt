@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'ENTRIES'						=> 'Entradas',
 	'EVERYTHING_OK'					=> 'Tudo OK',
 
-	'FIELD_BOOL'					=> 'Boolean (Sim/Não)',
+	'FIELD_BOOL'					=> 'Booleano (Sim/Não)',
 	'FIELD_DATE'					=> 'Data',
 	'FIELD_DESCRIPTION'				=> 'Descrição do Campo',
 	'FIELD_DESCRIPTION_EXPLAIN'		=> 'A explicação para este Campo será mostrada ao Utilizador.',
@@ -115,7 +115,7 @@ $lang = array_merge($lang, array(
 	'NO_FIELD_ID'					=> 'Não foi especificada a Identificação do Campo.',
 	'NO_FIELD_TYPE'					=> 'Não foi especificado o Tipo de Campo.',
 	'NO_VALUE_OPTION'				=> 'Campo a evitar pelo Utilizador',
-	'NO_VALUE_OPTION_EXPLAIN'		=> 'Se este campo for seleccionado o Utilizador recebe um erro, tendo que escolher outro para continuar.',
+	'NO_VALUE_OPTION_EXPLAIN'		=> 'Se este campo for selecionado o Utilizador recebe um erro, tendo que escolher outro para continuar.',
 	'NUMBERS_ONLY'					=> 'Apenas Números (0-9)',
 
 	'PROFILE_BASIC_OPTIONS'			=> 'Opções Básicas',
@@ -132,10 +132,10 @@ $lang = array_merge($lang, array(
 
 	'SAVE'							=> 'Guardar',
 	'SECOND_OPTION'					=> 'Segunda Opção',
-	'SHOW_NOVALUE_FIELD'			=> 'Mostrar campo se nenhum valor for seleccionado',
+	'SHOW_NOVALUE_FIELD'			=> 'Mostrar campo se nenhum valor for selecionado',
 	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Define se deve ser mostrado o campo do perfil, caso nenhum valor nos campos opcionais ou obrigatórios for selecionado.',
 	'STEP_1_EXPLAIN_CREATE'			=> 'Aqui pode escrever os primeiros parâmetros básicos de seu novo Campo no Perfil. Estas informações são necessárias para a segunda etapa, onde poderá inserir as opções restantes e prever o seu Campo mais adiante.',
-	'STEP_1_EXPLAIN_EDIT'			=> 'Aqui pode alterar os parâmetros básicos de seu campo no Perfil. As opções relevantes são re-calculadas com a segunda etapa, onde poderá prever e testar as suas novas configurações.',
+	'STEP_1_EXPLAIN_EDIT'			=> 'Aqui pode alterar os parâmetros básicos de seu campo no Perfil. As opções relevantes são recalculadas com a segunda etapa, onde poderá prever e testar as suas novas configurações.',
 	'STEP_1_TITLE_CREATE'			=> 'Adicionar Campo de Perfil',
 	'STEP_1_TITLE_EDIT'				=> 'Editar Campo de Perfil',
 	'STEP_2_EXPLAIN_CREATE'			=> 'Aqui pode definir algumas opções comuns. Além disso, pode prever o Campo o qual gerou, visualizando-o enquanto Utilizador. Por Favor, teste as suas configurações para ver se tudo está funcionando corretamente.',

@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* memberlist [Português]
+* memberlist [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_SUBJECT_EMAIL'		=> 'Indique um assunto para o email',
 	'EQUAL_TO'					=> 'Igual a',
 
-	'FIND_USERNAME_EXPLAIN'		=> 'Utilize este formulário para procurar Utilizadores. <br />Não é necessário preencher todos os campos. Para dados parciais utilize o *. Se indicar uma data, use o formato <kbd>YYYY-MM-DD</kbd> ex. <samp>2004-02-29</samp>. <br />Nas caixas de selecção escreva um ou mais nomes de utilizador (são aceites vários Utilizadores).',
+	'FIND_USERNAME_EXPLAIN'		=> 'Utilize este formulário para procurar Utilizadores. Não é necessário preencher todos os campos. Para dados parciais utilize o *. Se indicar uma data, use o formato <kbd>YYYY-MM-DD</kbd> ex. <samp>2004-02-29</samp>. Nas caixas de selecção escreva um ou mais nomes de utilizador (são aceites vários Utilizadores).',
 	'FLOOD_EMAIL_LIMIT'			=> 'Não pode enviar novo email tão rapidamente. Aguarde algum tempo e tente novamente mais tarde.',
 
 	'GROUP_LEADER'				=> 'Líder do Grupo',
@@ -80,11 +80,11 @@ $lang = array_merge($lang, array(
 	'IM_JABBER'					=> 'Os Utilizadores podem ter seleccionado não receber mensagens instantâneas não solicitadas.',
 	'IM_JABBER_SUBJECT'			=> 'Esta é uma mensagem automática, por favor, não responda! Mensagem enviada pelo Utilizador %1$s em %2$s.',
 	'IM_MESSAGE'				=> 'Sua mensagem',
-	'IM_MSNM'					=> 'Tem que ter o Windows Messenger instalado para usar esta opção.',
+	'IM_MSNM'					=> 'Tem que ter o Windows Messenger instalado para usar essa opção.',
 	'IM_MSNM_BROWSER'			=> 'Seu navegador não suporta isto.',
-	'IM_MSNM_CONNECT'			=> 'O MSNM não está ligado. \\Tem que iniciar o MSNM para continuar.',
+	'IM_MSNM_CONNECT'			=> 'O MSNM não está ligado.\nTem que iniciar o MSNM para continuar.',
 	'IM_NAME'					=> 'Seu nome',
-	'IM_NO_DATA'				=> 'Não existe informação de contacto para este Utilizador.',
+	'IM_NO_DATA'				=> 'Não existe informação de contacto para este utilizador.',
 	'IM_NO_JABBER'				=> 'Enviar mensagens Jabber não é suportado neste Servidor. Tem que ter um cliente Jabber instalado no seu sistema para contactar o destinatário.',
 	'IM_RECIPIENT'				=> 'Destinatário',
 	'IM_SEND'					=> 'Enviar Mensagem',
@@ -111,7 +111,6 @@ $lang = array_merge($lang, array(
 
 	'POST_IP'					=> 'Enviado do IP/Domínio',
 
-//	'RANK'						=> 'Rank',
 	'REAL_NAME'					=> 'Nome do destinatário',
 	'RECIPIENT'					=> 'Destinatário',
 	'REMOVE_FOE'				=> 'Apagar dos inimigos',
@@ -135,11 +134,12 @@ $lang = array_merge($lang, array(
 	'USER_BAN'					=> 'Expulsar',
 	'USER_FORUM'				=> 'Estatísticas do Utilizador',
 	'USER_LAST_REMINDED'		=> array(
-		0						=> 'Neste momento não existe nenhuma advertência',
-		1						=> '%1$d advertência enviada<br />» %2$s',
+		0		=> 'Não há nenhuma advertência enviada',
+		1		=> '%1$d advertência enviada<br />» %2$s',
 	),
 	'USER_ONLINE'				=> 'Online',
 	'USER_PRESENCE'				=> 'Presença no Fórum',
+	'USERS_PER_PAGE'			=> 'Utilizadores por página',
 
 	'VIEWING_PROFILE'			=> 'A ver o Perfil de: %s',
 	'VISITED'					=> 'Última visita',

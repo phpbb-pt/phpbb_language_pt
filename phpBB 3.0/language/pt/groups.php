@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 	'GROUP_JOIN_PENDING'				=> 'Pedir para entrar no Grupo',
 	'GROUP_JOIN_PENDING_CONFIRM'		=> 'Tem certeza que deseja pedir para entrar no Grupo?',
 	'GROUP_JOINED'						=> 'Entrou no Grupo',
-	'GROUP_JOINED_PENDING'				=> 'Pediu para entrar no Grupo. Espere que o Lider aprove a sua entrada.',
+	'GROUP_JOINED_PENDING'				=> 'Pediu para entrar no Grupo. Espere que o Líder aprove a sua entrada.',
 	'GROUP_LIST'						=> 'Gerir Utilizadores',
 	'GROUP_MEMBERS'						=> 'Utilizadores do Grupo',
 	'GROUP_NAME'						=> 'Nome do Grupo',
@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_SELECTED'					=> 'Remover Selecionado',
 	
 	'USER_GROUP_CHANGE'					=> 'Do grupo “%1$s” para “%2$s”',
-	'USER_GROUP_DEMOTE'					=> 'Lider do Grupo',
+	'USER_GROUP_DEMOTE'					=> 'Líder do Grupo',
 	'USER_GROUP_DEMOTE_CONFIRM'			=> 'Tem a certeza de que deseja tornar-se Líder do Grupo Selecionado?',
 	'USER_GROUP_DEMOTED'				=> 'Tornou-se Líder do Grupo com sucesso.',
 ));

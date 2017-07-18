@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* groups [Português]
+* groups [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'GROUP_DESC'						=> 'Descrição do Grupo',
 	'GROUP_HIDDEN'						=> 'Escondido',
 	'GROUP_INFORMATION'					=> 'Informações do Grupo',
-	'GROUP_IS_CLOSED'					=> 'Este é um Grupo fechado, não podem entrar novos Utilizadores automaticamente.',
+	'GROUP_IS_CLOSED'					=> 'Este é um Grupo fechado, não podem entrar novos Utilizadores automática mente.',
 	'GROUP_IS_FREE'						=> 'Este é um Grupo aberto, todos os Utilizadores são bem-vindos',
 	'GROUP_IS_HIDDEN'					=> 'Este é um Grupo invisível, só os seus membros podem vê-lo.',
 	'GROUP_IS_OPEN'						=> 'Este é um Grupo aberto, podem entrar novos Utilizadores.',

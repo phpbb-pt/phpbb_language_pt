@@ -22,7 +22,7 @@ Email: {EMAIL_ADDRESS}
 ==============================================
 
 Li as regras de utilização e autorizo o "{SITENAME}" a guardar os dados do meu educando numa Base de Dados. 
-Tenho consciência que estes dados podem ser alterados com o uso da senha correcta. 
+Tenho consciência que estes dados podem ser alterados com o uso da senha correta. 
 A qualquer momento e a meu pedido, o "{SITENAME}" eliminará da Base de Dados toda a informação relativa ao meu educando.
 
 

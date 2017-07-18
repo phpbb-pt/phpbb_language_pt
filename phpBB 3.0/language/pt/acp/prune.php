@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Introduza a data no formato <kbd>YYYY-MM-DD</kbd>. Introduza <kbd>0000-00-00</kbd> para selecionar Utilizadores que nunca entraram, as condições <em>Antes</em> e <em>Depois</em> serão ignoradas.',
 
-	'PRUNE_USERS_LIST'				=> 'Limpeza automatica de Utilizadores',
+	'PRUNE_USERS_LIST'				=> 'Limpeza automática de Utilizadores',
 	'PRUNE_USERS_LIST_DELETE'		=> 'Se selecionar este critério, os Utilizadores terão as suas contas removidas.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Se selecionar este critério, os Utilizadores terão as suas contas desativadas.',
 
@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 	'PRUNE_ANNOUNCEMENTS'			=> 'Limpar Anúncios',
 	'PRUNE_FINISHED_POLLS'			=> 'Limpar Votações Encerradas',
 	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Apagar Tópicos com Votações concluídas',
-	'PRUNE_FORUM_CONFIRM'			=> 'Tem a certeza de que deseja ativar a limpeza automatica nos Fóruns selecionados com as configurações especificadas? Os Tópicos e Mensagens apagados não podem ser recuperados.',
+	'PRUNE_FORUM_CONFIRM'			=> 'Tem a certeza de que deseja ativar a limpeza automática nos Fóruns selecionados com as configurações especificadas? Os Tópicos e Mensagens apagados não podem ser recuperados.',
 	'PRUNE_NOT_POSTED'				=> 'Dias desde o último enviado',
 	'PRUNE_NOT_VIEWED'				=> 'Dias desde o último visualizado',
 	'PRUNE_OLD_POLLS'				=> 'Limpar votações Antigas',

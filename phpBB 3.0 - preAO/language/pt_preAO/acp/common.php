@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* acp_common [Português]
+* acp_common [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'ACP_BAN'						=> 'Expulsões',
 	'ACP_BAN_EMAILS'				=> 'Expulsar Emails',
 	'ACP_BAN_IPS'					=> 'Expulsar IPs',
-	'ACP_BAN_USERNAMES'				=> 'Expulsar Nomes de Utilizadores',
+	'ACP_BAN_USERNAMES'				=> 'Expulsar Utilizadores',
 	'ACP_BBCODES'					=> 'BBCodes',
 	'ACP_BOARD_CONFIGURATION'		=> 'Configuração Geral',
 	'ACP_BOARD_FEATURES'			=> 'Ferramentas do Fórum',
@@ -97,7 +97,7 @@ $lang = array_merge($lang, array(
 	'ACP_GLOBAL_MODERATORS'			=> 'Moderadores Globais',
 	'ACP_GLOBAL_PERMISSIONS'		=> 'Permissões Globais',
 	'ACP_GROUPS'					=> 'Grupos',
-	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Permissões de Fóruns e Grupos',
+	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Permissões de Grupos',
 	'ACP_GROUPS_MANAGE'				=> 'Administrar Grupos',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Administração de Grupos',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Permissões do Grupo',
@@ -271,7 +271,7 @@ $lang = array_merge($lang, array(
 	'PROCEED_TO_ACP'					=> '%sIr para o Painel de Administração%s',
 
 	'REMIND'						=> 'Lembrar',
-	'RESYNC'						=> 'Re-Sincronizar',
+	'RESYNC'						=> 'Ressincronizar',
 	'RETURN_TO'						=> 'Voltar a',
 
 	'SELECT_ANONYMOUS'				=> 'Seleccionar Utilizador Anónimo',
@@ -293,7 +293,7 @@ $lang = array_merge($lang, array(
 
 // PHP info 
 $lang = array_merge($lang, array( 
-	'ACP_PHP_INFO_EXPLAIN'			=> 'Esta página mostra informações da versão do PHP instalada neste servidor, incluindo detalhes dos módulos carregados, variáveis disponíveis e as configurações padrão. Esta informação pode ser necessária quando forem detectados erros. Alguns servidores podem limitar, por medida de segurança, as informações exibidas. Mantenha estas informações reservadas excepto quando questionado pela <a href="http://www.phpbb.com/about/">Equipa Oficial de Membros</a> no Fórum de Suporte.',
+	'ACP_PHP_INFO_EXPLAIN'			=> 'Esta página mostra informações da versão do PHP instalada neste servidor, incluindo detalhes dos módulos carregados, variáveis disponíveis e as configurações padrão. Esta informação pode ser necessária quando forem detectados erros. Alguns servidores podem limitar, por medida de segurança, as informações exibidas. Mantenha estas informações reservadas excepto quando questionado pela <a href="https://www.phpbb.com/about/team/">membros da equipa oficial</a> no Fórum de Suporte.',
 
 	'NO_PHPINFO_AVAILABLE'			=> 'As informações do PHP não podem ser determinadas. O Phpinfo() foi desactivado por medidas de segurança.',
 )); 
@@ -317,9 +317,9 @@ $lang = array_merge($lang, array(
 
 // Index page 
 $lang = array_merge($lang, array( 
-	'ADMIN_INTRO'					=> 'Obrigado por usar o <b>phpBB3</b> no seu Fórum. Esta página apresenta as Estatísticas Gerais do Fórum.<br /> À esquerda encontra os Menus de acesso ao <b>Painel de Administração</b>. Cada um deles contém instruções de configuração.',
+	'ADMIN_INTRO'					=> 'Obrigado por usar o phpBB3 no seu Fórum. Esta página apresenta as Estatísticas Gerais do Fórum. À esquerda encontra os menus de acesso ao Painel de Administração. Cada um deles contém instruções de configuração.',
 	'ADMIN_LOG'						=> 'Registos da acções dos Administradores',
-	'ADMIN_LOG_INDEX_EXPLAIN'		=> 'Este registo mostra as últimas cinco acções dos Administradores.<br />Uma cópia completa do registo está disponível no item apropriado do Menu ou seguindo o atalho abaixo.',
+	'ADMIN_LOG_INDEX_EXPLAIN'		=> 'Este registo mostra as últimas cinco acções dos Administradores. Uma cópia completa do registo está disponível no item apropriado do Menu ou seguindo o atalho abaixo.',
 	'AVATAR_DIR_SIZE'				=> 'Tamanho da directoria dos avatares',
 
 	'BOARD_STARTED'					=> 'Data de criação do Fórum',
@@ -329,14 +329,14 @@ $lang = array_merge($lang, array(
 	'DATABASE_SIZE'					=> 'Tamanho da Base de Dados',
 
 	// Enviroment configuration checks, mbstring related
-	'ERROR_MBSTRING_FUNC_OVERLOAD'			=> 'A função de sobrecarga não se encontra configurada correctamente',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'		=> '<var>mbstring.func_overload</var> deve ser definido para 0 ou 4. Pode verificar o valor actual em <samp>informação PHP</samp>.',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION'		=> 'A codificação de caracteres transparentes não se encontra configurada correctamente',
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'A função de sobrecarga não se encontra configurada correctamente',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> deve ser definido para 0 ou 4. Pode verificar o valor actual em <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'A codificação de caracteres transparentes não se encontra configurada correctamente',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> deve ser definido para 0. Pode verificar o valor actual em <samp>informação PHP</samp>.',
-	'ERROR_MBSTRING_HTTP_INPUT'			=> 'A conversão de entrada de caracteres via HTTP não se encontra configurada correctamente',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'		=> '<var>mbstring.http_input</var>tem de estar configurado como <samp>pass</samp>. Pode verificar o valor actual em <samp>informação PHP</samp>.',
-	'ERROR_MBSTRING_HTTP_OUTPUT'			=> 'A conversão de saída de caracteres via HTTP não se encontra configurada correctamente',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'		=> '<var>mbstring.http_output</var> tem de estar configurado como <samp>pass</samp>. Pode verificar o valor actual em <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'A conversão de entrada de caracteres via HTTP não se encontra configurada correctamente',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> tem de estar configurado como <samp>pass</samp>. Pode verificar o valor actual em <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'A conversão de saída de caracteres via HTTP não se encontra configurada correctamente',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> tem de estar configurado como <samp>pass</samp>. Pode verificar o valor actual em <samp>informação PHP</samp>.',
 
 	'FILES_PER_DAY'					=> 'Média de Anexos diários',
 	'FORUM_STATS'					=> 'Estatísticas do Fórum',
@@ -368,12 +368,12 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE_CONFIRM'			=> 'Tem a certeza de que deseja reiniciar o contador do Recorde de Utilizadores online?',
 	'RESYNC_POSTCOUNTS'				=> 'Sincronizar contagem de Mensagens',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Apenas são consideradas as mensagens actuais.',
-	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Tem certeza que deseja re-sincronizar o contador de mensagens?',
+	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Tem certeza que deseja ressincronizar o contador de mensagens?',
 	'RESYNC_POST_MARKING'			=> 'Sincronizar Tópicos Recentes',
-	'RESYNC_POST_MARKING_CONFIRM'	=> 'Tem a certeza que deseja re-sincronizar os Tópicos recentes?',
+	'RESYNC_POST_MARKING_CONFIRM'	=> 'Tem a certeza que deseja ressincronizar os Tópicos recentes?',
 	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Primeiro desmarca todos os Tópicos. Finalmente marca correctamente os Tópicos com actividade nos últimos seis meses.',
 	'RESYNC_STATS'					=> 'Sincronizar Estatísticas',
-	'RESYNC_STATS_CONFIRM'			=> 'Tem a certeza que deseja re-sincronizar as estatísticas?',
+	'RESYNC_STATS_CONFIRM'			=> 'Tem a certeza que deseja ressincronizar as estatísticas?',
 	'RESYNC_STATS_EXPLAIN'			=> 'Calcular o total de Mensagens, Tópicos, Utilizadores e Ficheiros.',
 	'RUN'							=> 'Sincronizar',
 
@@ -392,7 +392,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'			=> 'Ver Utilizadores Inactivos',
 
 	'WELCOME_PHPBB'					=> 'Bem-vindo ao phpBB',
-	'WRITABLE_CONFIG'				=> 'O seu ficheiro de configuração (config.php) encontra-se universalmente configurável. É altamente recomendável que modifique as Permissões do ficheiro para 640 ou 644 (leia: <a href="http://pt.wikipedia.org/wiki/Chmod" rel="external">chmod</a>).',
+	'WRITABLE_CONFIG'				=> 'O seu ficheiro de configuração (config.php) encontra-se universalmente configurável. É altamente recomendável que modifique as Permissões do ficheiro para 640 ou 644 (leia: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 )); 
 
 // Inactive Users
@@ -422,7 +422,7 @@ $lang = array_merge($lang, array(
 
 // Send statistics page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'		=> 'Por favor, envie informação acerca do seu servidor e configurações do Fórum para análise de estatística do phpBB. Toda a informação que possa identificá-lo a si ou ao seu website será removida - os dados são totalmente <strong>anónimos</strong>. Basearemos as nossas decisões sobre as futuras versões de phpBB com esta informação. As estatísticas serão publicamente disponibilizadas. Compartilharemos igualmente os dados com o projeto PHP, a linguagem de programação phpBB é baseada nele.',
+	'EXPLAIN_SEND_STATISTICS'		=> 'Por favor, envie informação acerca do seu servidor e configurações do Fórum para análise de estatística do phpBB. Toda a informação que possa identificá-lo a si ou ao seu website será removida - os dados são totalmente <strong>anónimos</strong>. Basearemos as nossas decisões sobre as futuras versões de phpBB com esta informação. As estatísticas serão publicamente disponibilizadas. Compartilharemos igualmente os dados com o projecto PHP, a linguagem de programação phpBB é baseada nele.',
 	'EXPLAIN_SHOW_STATISTICS'		=> 'Usando o botão abaixo pode visualizar todas as variáveis que serão transmitidas.',
 	'DONT_SEND_STATISTICS'			=> 'Clique aqui para entrar no ACP, se não deseja enviar as informações estatísticas para o phpBB.',
 	'GO_ACP_MAIN'					=> 'Ir para a página inicial do ACP',
@@ -508,7 +508,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_MESSAGE'					=> '<strong>Configurações de Mensagem Privada Alteradas</strong>',
 	'LOG_CONFIG_POST'						=> '<strong>Configurações de Mensagem Alteradas</strong>',
 	'LOG_CONFIG_REGISTRATION'				=> '<strong>Configurações de Registo Alteradas</strong>',
-	'LOG_CONFIG_FEED'						=> '<strong>Configurações syndication feeds alteradas</strong>',
+	'LOG_CONFIG_FEED'						=> '<strong>Configurações Sindicação de Feeds Alteradas</strong>',
 	'LOG_CONFIG_SEARCH'						=> '<strong>Configurações de Pesquisa Alteradas</strong>',
 	'LOG_CONFIG_SECURITY'					=> '<strong>Configurações de Segurança Alteradas</strong>',
 	'LOG_CONFIG_SERVER'						=> '<strong>Configurações do Servidor Alteradas</strong>',
@@ -518,27 +518,27 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'						=> '<strong>Tópico Aprovado</strong><br />» %s',
 	'LOG_BUMP_TOPIC'						=> '<strong>Tópico Ressuscitado</strong><br />» %s',
-	'LOG_DELETE_POST'						=> '<strong>Mensagem Apagada</strong><br />» %s',
-    'LOG_DELETE_SHADOW_TOPIC'				=> '<strong>Tópico fantasma eliminado</strong><br />Â» %s',
-	'LOG_DELETE_TOPIC'						=> '<strong>Tópico Apagado</strong><br />» %s',
+	'LOG_DELETE_POST'						=> '<strong>Mensagem apagada “%1$s” escrita por</strong><br />» %2$s',
+    'LOG_DELETE_SHADOW_TOPIC'				=> '<strong>Tópico fantasma eliminado</strong><br />» %s',
+	'LOG_DELETE_TOPIC'						=> '<strong>Tópico apagado “%1$s” escrito por</strong><br />» %2$s',
 	'LOG_FORK'								=> '<strong>Tópico Copiado</strong><br />» de %s',
 	'LOG_LOCK'								=> '<strong>Tópico Bloqueado</strong><br />» %s',
 	'LOG_LOCK_POST'							=> '<strong>Mensagem Bloqueada</strong><br />» %s',
-	'LOG_MERGE'								=> '<strong>Mensagens fundidas</strong> into topic<br />» %s',
-	'LOG_MOVE'								=> '<strong>Tópico Movido</strong><br />» de %s',
+	'LOG_MERGE'								=> '<strong>Mensagens fundidas</strong> no tópico<br />» %s',
+	'LOG_MOVE'								=> '<strong>Tópico movido</strong><br />» de %1$s para %2$s',
 	'LOG_PM_REPORT_CLOSED'					=> '<strong>Denúncia de MP fechada</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'					=> '<strong>Denúncia de MP apagada</strong><br />» %s',
 	'LOG_POST_APPROVED'						=> '<strong>Mensagem Aprovada</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'					=> '<strong>Mensagem Desaprovada “%1$s” pelo seguinte motivo</strong><br />%2$s',
-	'LOG_POST_EDITED'						=> '<strong>Mensagem Editada “%1$s” por “%3$s”</strong><br />» Link para a mensagem: %2$s',
+	'LOG_POST_EDITED'						=> '<strong>Mensagem Editada “%1$s” escrita por</strong><br />» %2$s',
 	'LOG_REPORT_CLOSED'						=> '<strong>Denúncia Bloqueada</strong><br />» %s',
 	'LOG_REPORT_DELETED'					=> '<strong>Denúncia Apagada</strong><br />» %s',
 	'LOG_SPLIT_DESTINATION'					=> '<strong>Tópico Subdividido</strong><br />» para %s',
 	'LOG_SPLIT_SOURCE'						=> '<strong>Mensagens Subdivididas</strong><br />» de %s',
 
-	'LOG_TOPIC_APPROVED'					=> '<strong>Tópido Aprovado</strong><br />» %s',
+	'LOG_TOPIC_APPROVED'					=> '<strong>Tópico Aprovado</strong><br />» %s',
 	'LOG_TOPIC_DISAPPROVED'					=> '<strong>Tópico não Aprovado “%1$s” pelo seguinte motivo</strong><br />%2$s',
-	'LOG_TOPIC_RESYNC'						=> '<strong>Contadores de Tópico Re-Sincronizado</strong><br />» %s',
+	'LOG_TOPIC_RESYNC'						=> '<strong>Contadores de Tópico Ressincronizado</strong><br />» %s',
 	'LOG_TOPIC_TYPE_CHANGED'				=> '<strong>Tipo de Tópico Alterado</strong><br />» %s',
 	'LOG_UNLOCK'							=> '<strong>Tópico Desbloqueado</strong><br />» %s',
 	'LOG_UNLOCK_POST'						=> '<strong>Mensagem Desbloqueada</strong><br />» %s',
@@ -560,23 +560,23 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_ADD'							=> '<strong>Criar um novo Fórum</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Permissões do Fórum copiadas</strong> de %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Fórum apagado</strong><br />» %s',
-	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Fórum e Sub-fórum apagados</strong><br />» %s',
-	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Fórum apagado e Sub-fórum Movido</strong> para %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Fórum e Subfórum apagados</strong><br />» %s',
+	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Fórum apagado e Subfórum Movido</strong> para %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_MOVE_POSTS'				=> '<strong>Fórum apagado e Mensagens Movidas</strong> para %1$s<br />» %2$s',
-	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Eliminado Fórum e Sub-fóruns, movidas mensagens</strong> para %1$s<br />» %2$s',
-	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Eliminado Fórum, movidas mensagens</strong> para %1$s <strong>e Sub-fóruns</strong> para %2$s<br />» %3$s',
+	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Eliminado Fórum e Subfóruns, movidas mensagens</strong> para %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Eliminado Fórum, movidas mensagens</strong> para %1$s <strong>e Subfóruns</strong> para %2$s<br />» %3$s',
 	'LOG_FORUM_DEL_POSTS'					=> '<strong>Eliminado Fórum e as mensagens</strong><br />» %s',
-	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Eliminado Fórum, as mensagens e Sub-fóruns</strong><br />» %s',
-	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Eliminado Fórum e as mensagens, movidos Sub-fóruns</strong> para %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Eliminado Fórum, as mensagens e Subfóruns</strong><br />» %s',
+	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Eliminado Fórum e as mensagens, movidos Subfóruns</strong> para %1$s<br />» %2$s',
 	'LOG_FORUM_EDIT'						=> '<strong>Detalhes do Fórum editados</strong><br />» %s',
 	'LOG_FORUM_MOVE_DOWN'					=> '<strong>Fórum Movido</strong> %1$s <strong>abaixo/acima</strong> %2$s',
 	'LOG_FORUM_MOVE_UP'						=> '<strong>Fórum Movido</strong> %1$s <strong>acima/abaixo</strong> %2$s',
-	'LOG_FORUM_SYNC'						=> '<strong>Fórum resincronizado</strong><br />» %s',
+	'LOG_FORUM_SYNC'						=> '<strong>Fórum ressincronizado</strong><br />» %s',
 
 	'LOG_GENERAL_ERROR'						=> '<strong>Ocorreu um erro geral</strong>: %1$s <br />» %2$s',
 
 	'LOG_GROUP_CREATED'						=> '<strong>Novo Grupo criado</strong><br />» %s',
-	'LOG_GROUP_DEFAULTS'					=> '<strong>Grupo Padrão para Membros</strong><br />» %s',
+	'LOG_GROUP_DEFAULTS'					=> '<strong>Grupo “%1$s” definido padrão para membros</strong><br />» %2$s',
 	'LOG_GROUP_DELETE'						=> '<strong>Grupo apagado</strong><br />» %s',
 	'LOG_GROUP_DEMOTED'						=> '<strong>Líderes demitidos do Grupo</strong> %1$s<br />» %2$s',
 	'LOG_GROUP_PROMOTED'					=> '<strong>Membros promovidos a Líderes do Grupo</strong> %1$s<br />» %2$s',
@@ -595,7 +595,7 @@ $lang = array_merge($lang, array(
 	'LOG_IMAGESET_EDIT_DETAILS'				=> '<strong>Detalhes da Imagem Editados</strong><br />» %s',
 	'LOG_IMAGESET_EDIT'						=> '<strong>Imagem Editada</strong><br />» %s',
 	'LOG_IMAGESET_EXPORT'					=> '<strong>Imagem Exportada</strong><br />» %s',
-	'LOG_IMAGESET_LANG_MISSING'				=> '<strong>Erro na localização do Conjunto de Imagens</strong><br />» %1$s',
+	'LOG_IMAGESET_LANG_MISSING'				=> '<strong>Erro na localização do conjunto de imagens “%2$s” </strong><br />» %1$s',
 	'LOG_IMAGESET_LANG_REFRESHED'			=> '<strong>Actualizado a localização do Conjunto de Imagens “%2$s”</strong><br />» %1$s',
 	'LOG_IMAGESET_REFRESHED'				=> '<strong>Imagem Actualizada</strong><br />» %s',
 
@@ -616,16 +616,16 @@ $lang = array_merge($lang, array(
 	'LOG_LANGUAGE_PACK_INSTALLED'			=> '<strong>Pacotes de idiomas instalados</strong><br />» %s',
 	'LOG_LANGUAGE_PACK_UPDATED'				=> '<strong>Detalhes do Pacote de idiomas actualizados</strong><br />» %s',
 	'LOG_LANGUAGE_FILE_REPLACED'			=> '<strong>Ficheiros de Linguagem substituídos</strong><br />» %s',
-	'LOG_LANGUAGE_FILE_SUBMITTED'			=> '<strong>Ficheiro de Linguagem enviado e armazenado na pasta <b>\store<\b></strong><br />» %s',
+	'LOG_LANGUAGE_FILE_SUBMITTED'			=> '<strong>Ficheiro de Linguagem enviado e armazenado na pasta \store</strong><br />» %s',
 
 	'LOG_MASS_EMAIL'						=> '<strong>Enviar Email em Massa</strong><br />» %s',
 
 	'LOG_MCP_CHANGE_POSTER'					=> '<strong>Autor do Tópico alterado "%1$s"</strong><br />» de %2$s para %3$s',
 
-	'LOG_MODULE_DISABLE'					=> '<strong>Módulo Desactivado</strong>',
-	'LOG_MODULE_ENABLE'						=> '<strong>Módulo Activado</strong>',
-	'LOG_MODULE_MOVE_DOWN'					=> '<strong>Módulo Movido - Baixo</strong><br />» %s',
-	'LOG_MODULE_MOVE_UP'					=> '<strong>Módulo Movido - Cima</strong><br />» %s',
+	'LOG_MODULE_DISABLE'					=> '<strong>Módulo desactivado</strong><br />» %s',
+	'LOG_MODULE_ENABLE'						=> '<strong>Módulo activado</strong><br />» %s',
+	'LOG_MODULE_MOVE_DOWN'					=> '<strong>Módulo movido</strong><br />» %1$s para baixo %2$s',
+	'LOG_MODULE_MOVE_UP'					=> '<strong>Módulo movido</strong><br />» %1$s para cima %2$s',
 	'LOG_MODULE_REMOVED'					=> '<strong>Módulo Apagado</strong><br />» %s',
 	'LOG_MODULE_ADD'						=> '<strong>Módulo Adicionado</strong><br />» %s',
 	'LOG_MODULE_EDIT'						=> '<strong>Módulo Editado</strong><br />» %s',
@@ -670,9 +670,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_RESET_DATE'						=> '<strong>Reiniciar Início do Fórum</strong>',
 	'LOG_RESET_ONLINE'						=> '<strong>Reiniciar Utilizadores Mais Activos</strong>',
-	'LOG_RESYNC_POSTCOUNTS'					=> '<strong>Contagem de Mensagens Re-Sincronizadas</strong>',
-	'LOG_RESYNC_POST_MARKING'				=> '<strong>Tópicos Pontilhados Re-Sincronizados</strong>',
-	'LOG_RESYNC_STATS'						=> '<strong>Estatísticas de Utilizadores, Tópicos e Mensagens Re-Sincronizadas</strong>',
+	'LOG_RESYNC_POSTCOUNTS'					=> '<strong>Contagem de Mensagens Ressincronizadas</strong>',
+	'LOG_RESYNC_POST_MARKING'				=> '<strong>Tópicos Pontilhados Ressincronizados</strong>',
+	'LOG_RESYNC_STATS'						=> '<strong>Estatísticas de Utilizadores, Tópicos e Mensagens Ressincronizadas</strong>',
 
 	'LOG_SEARCH_INDEX_CREATED'				=> '<strong>Índice de busca criado por</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'				=> '<strong>Índice de busca excluído por</strong><br />» %s',
@@ -694,7 +694,7 @@ $lang = array_merge($lang, array(
 	'LOG_THEME_ADD_FS'						=> '<strong>Novo Tema adicionado ao Sistema</strong><br />» %s',
 	'LOG_THEME_DELETE'						=> '<strong>Tema Apagado</strong><br />» %s',
 	'LOG_THEME_EDIT_DETAILS'				=> '<strong>Detalhes do Tema Editados</strong><br />» %s',
-	'LOG_THEME_EDIT'						=> '<strong>Tema Editado <em>%1$s</em></strong><br />» Categoria Editada <em>%2$s</em>',
+	'LOG_THEME_EDIT'						=> '<strong>Tema editado <em>%1$s</em></strong>',
 	'LOG_THEME_EDIT_FILE'					=> '<strong>Tema Editado <em>%1$s</em></strong><br />» Ficheiro Modificado <em>%2$s</em>',
 	'LOG_THEME_EXPORT'						=> '<strong>Tema Exportado</strong><br />» %s',
 	'LOG_THEME_REFRESHED'					=> '<strong>Tema Actualizado</strong><br />» %s',
@@ -713,7 +713,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_DEL_POSTS'					=> '<strong>Todas as Mensagens do Utilizador Apagadas</strong><br />» %s',
 	'LOG_USER_DEL_SIG'						=> '<strong>Assinatura do Utilizador Apagada</strong><br />» %s',
 	'LOG_USER_INACTIVE'						=> '<strong>Utilizador Desactivado</strong><br />» %s',
-	'LOG_USER_MOVE_POSTS'					=> '<strong>Mensagens do Utilizador Movidas</strong><br />» posts by "%1$s" para o Fórum "%2$s"',
+	'LOG_USER_MOVE_POSTS'					=> '<strong>Mensagens do Utilizador Movidas</strong><br />» mensagens por "%1$s" para o Fórum "%2$s"',
 	'LOG_USER_NEW_PASSWORD'					=> '<strong>Senha do Utilizador Alterada</strong><br />» %s',
 	'LOG_USER_REACTIVATE'					=> '<strong>Reactivação de Registo do Utilizador Forçada</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'					=> '<strong>Removida bandeira de utilizador recente</strong><br />» %s',
@@ -741,7 +741,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_JOIN_PENDING'			=> '<strong>O Utilizador inscreveu-se no Grupo e precisa de ser Aprovado</strong><br />» %s',
 	'LOG_USER_GROUP_RESIGN'					=> '<strong>Utilizador excluído do Grupo</strong><br />» %s',
 
-	'LOG_WARNING_DELETED'					=> '<strong>Eliminados utilizadores avisados</strong><br />» %s',
+	'LOG_WARNING_DELETED'					=> '<strong>Eliminado utilizador avisado</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'					=> '<strong>Eliminados %2$s utilizadores avisados</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
 	'LOG_WARNINGS_DELETED_ALL'				=> '<strong>Eliminados todos os utilizadores avisados</strong><br />» %s',
 

@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* acp_ban [Português]
+* acp_ban [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'30_MINS'					=> '30 Minutos',
 	'6_HOURS'					=> '6 Horas',
 
-	'ACP_BAN_EXPLAIN'			=> 'Aqui pode fazer a Gestão dos Utilizadores expulsos por nome, endereço de IP, ou endereço de email. A expulsão impede o Utilizador de entrar no Fórum. Se desejar pode explicar o motivo da expulsão (3.000 caracteres). O motivo da expulsão será mostrado no registo do Administrador. A duração da expulsão também pode ser especificada. Se quiser que a expulsão termine numa data específica depois de outra especificação de tempo seleccione <u><STRONG>Até -></STRONG></u> para a longevidade da expulsão e insira a data em ano-mês-dia.',
+	'ACP_BAN_EXPLAIN'			=> 'Aqui pode fazer a Gestão dos Utilizadores expulsos por nome, endereço de IP, ou endereço de email. A expulsão impede o Utilizador de entrar no Fórum. Se desejar pode explicar o motivo da expulsão (3.000 caracteres). O motivo da expulsão será mostrado no registo do Administrador. A duração da expulsão também pode ser especificada. Se quiser que a expulsão termine numa data específica depois de outra especificação de tempo seleccione<span style="text-decoration: underline;">Até -&gt;</span> para a longevidade da expulsão e insira a data em <kbd>YYYY-MM-DD</kbd>.',
 
 	'BAN_EXCLUDE'				=> 'Apagar Expulsão',
 	'BAN_LENGTH'				=> 'Duração da Expulsão',
@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'IP_BAN'					=> 'Expulsar um ou mais IPs',
 	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Active esta opção para excluir IPs da expulsão.',
-	'IP_BAN_EXPLAIN'			=> 'Para especificar diferentes IPs ou hostnames digite cada um numa nova linha. Para especificar uma range de endereços de IP separe o inicio e o fim com um hifen (-), para especificar uma wildcard use asterisco *.',
+	'IP_BAN_EXPLAIN'			=> 'Para especificar diferentes IPs ou hostnames digite cada um numa nova linha. Para especificar uma range de endereços de IP separe o inicio e o fim com um hífen (-), para especificar uma wildcard use asterisco *.',
 	'IP_HOSTNAME'				=> 'Endereços IP ou hostnames',
 	'IP_NO_BANNED'				=> 'Não há endereços de IP expulsos',
 	'IP_UNBAN'					=> 'Desbloquear um ou mais endereços de IP',
@@ -75,11 +75,11 @@ $lang = array_merge($lang, array(
 	'PERMANENT'					=> 'Permanente',
 
 	'UNTIL'						=> 'Até',
-	'USER_BAN'					=> 'Expulsar um ou mais utilizadores',
+	'USER_BAN'					=> 'Expulsar um ou mais utilizadores pelo nome de utilizador',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Active esta opção para excluir Utilizadores da expulsão.',
-	'USER_BAN_EXPLAIN'			=> 'Pode expulsar múltiplos Utilizadores de uma só vez, escrevendo um nome por linha. <br />Use <b>Procurar Utilizador</b> para adicionar automaticamente um ou mais Utilizadores.',
+	'USER_BAN_EXPLAIN'			=> 'Pode expulsar múltiplos Utilizadores de uma só vez, escrevendo um nome por linha. Use Procurar Utilizador para adicionar automaticamente um ou mais Utilizadores.',
 	'USER_NO_BANNED'			=> 'Não há utilizadores expulsos',
-	'USER_UNBAN'				=> 'Desbloquear ou retirar expulsão a utilizadores',
+	'USER_UNBAN'				=> 'Retirar expulsão a utilizadores pelo nome de utilizador',
 	'USER_UNBAN_EXPLAIN'		=> 'Pode desbloquear (ou retirar a expulsão) múltiplos IPs apenas de uma só vez usando a combinação apropriada do rato e teclado do seu computador. IPs expulsos têm uma marcação no fundo.',
 ));
 

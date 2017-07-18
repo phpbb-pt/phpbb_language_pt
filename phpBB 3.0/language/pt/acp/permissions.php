@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 		<p>Aqui pode controlar o acesso Básico ao Fórum. As Permissões estão dividias em Permissões de Fóruns, Moderadores de Fóruns, Permissões de Utilizadores em Fóruns e Permissões de Grupos em Fóruns.</p>
 
 		<h2>3 - Tarefas de Permissão</h2>
-		<p>Aqui pode criar diferentes terefas de Permissão para os diversos tipos de Permissões existentes. As configurações padrão devem cobrir a Administração do Fórum, entretanto com uma das quatro divisões, deve ainda pode adicionar/editar/excluir configurações se assim desejar ou achar necessário.</p>
+		<p>Aqui pode criar diferentes tarefas de Permissão para os diversos tipos de Permissões existentes. As configurações padrão devem cobrir a Administração do Fórum, entretanto com uma das quatro divisões, deve ainda pode adicionar/editar/excluir configurações se assim desejar ou achar necessário.</p>
 
 		<h2>4 - Máscaras de Permissões</h2>
 		<p>Aqui pode ver as Permissões atribuídas a Utilizadores, Moderadores (locais e globais), Administradores ou Fóruns.</p>
@@ -138,7 +138,7 @@ $lang = array_merge($lang, array(
 	'MANAGE_USERS'					=> 'Administrar Utilizadores',
 
 	'NO_AUTH_SETTING_FOUND'			=> 'A Configuração de Permissões não foi definida.',
-	'NO_ROLE_ASSIGNED'				=> 'Sem Tarefas atribuidas',
+	'NO_ROLE_ASSIGNED'				=> 'Sem Tarefas atribuídas',
 	'NO_ROLE_ASSIGNED_EXPLAIN'		=> 'A Configuração para esta Tarefa não alterou as Permissões na direita. Se deseja desativar/excluir todas as Permissões deve utilizar o atalho "Tudo <samp>Não</samp>".',
 	'NO_ROLE_AVAILABLE'				=> 'Sem Tarefas Disponíveis',
 	'NO_ROLE_NAME_SPECIFIED'		=> 'Deve inserir o nome da Categoria',
@@ -228,7 +228,7 @@ $lang = array_merge($lang, array(
 	'SET_USERS_PERMISSIONS'					=> 'Dar Permissões de Utilizador',
 	'SET_USERS_FORUM_PERMISSIONS'			=> 'Dar Permissões de Utilizador do Fórum',
 
-	'TRACE_DEFAULT'							=> 'Por Padrão, todas as opções estão assinaladas como <samp>NÃO</samp> (unset). Então, a permissão pode ser substituida por outras configurações.',
+	'TRACE_DEFAULT'							=> 'Por Padrão, todas as opções estão assinaladas como <samp>NÃO</samp> (desmarcadas). Então, a permissão pode ser substituída por outras configurações.',
 	'TRACE_FOR'								=> 'Copiar para',
 	'TRACE_GLOBAL_SETTING'					=> '%s (global)',
 	'TRACE_GROUP_NEVER_TOTAL_NEVER'			=> 'A Permissão do Grupo está assinalada como <samp>NUNCA</samp> como o resultado total, então o resultado antigo foi salvo.',
@@ -242,7 +242,7 @@ $lang = array_merge($lang, array(
 	'TRACE_GROUP_YES_TOTAL_NEVER'			=> 'A Permissão do Grupo está assinalada como <samp>SIM</samp> mas o total <samp>NUNCA</samp> não pode ser substituído.',
 	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'		=> 'A Permissão do Grupo está assinalada como <samp>SIM</samp> mas o total <samp>NUNCA</samp> não pode ser substituído.',
 	'TRACE_GROUP_YES_TOTAL_NO'				=> 'A Permissão do Grupo está assinalada como <samp>SIM</samp> que torna-se o novo valor total porque ainda não estava assinalado (assinale <samp>NÃO</samp>).',
-	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'		=> 'A Permissão do Grupo está assinalada como <samp>SIM</samp> que se torna um novo valor total pois ainda não estava definito (assinale <samp>NÃO</samp>).',
+	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'		=> 'A Permissão do Grupo está assinalada como <samp>SIM</samp> que se torna um novo valor total pois ainda não estava definido (assinale <samp>NÃO</samp>).',
 	'TRACE_GROUP_YES_TOTAL_YES'				=> 'A Permissão do Grupo está assinalada como <samp>SIM</samp> e a permissão total já está assinalada como <samp>SIM</samp>, então o resultado total foi salvo.',
 	'TRACE_GROUP_YES_TOTAL_YES_LOCAL'		=> 'A Permissão do Grupo para este Fórum está assinalada como <samp>SIM</samp> e a permissão total já está assinalada como <samp>SIM</samp>, então o antigo resultado total foi salvo.',
 	'TRACE_PERMISSION'						=> 'Permissão de Cópia - %s',
@@ -268,13 +268,13 @@ $lang = array_merge($lang, array(
 	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'A Permissão do Utilizador está assinalada como <samp>SIM</samp> mas o total <samp>NUNCA</samp> não pode ser substituído.',
 	'TRACE_USER_YES_TOTAL_NO'				=> 'A Permissão do Utilizador está assinalada como <samp>SIM</samp> que torna-se o valor total porque estava assinalado como <samp>NÃO</samp>.',
 	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> 'A Permissão do Utilizador está assinalada como <samp>SIM</samp> que torna-se o valor total porque estava assinalado como <samp>NÃO</samp>.',
-	'TRACE_USER_YES_TOTAL_YES'				=> 'A Permissão do Utilizador está assinalada como <samp>SIM</samp> and o valor total é assinalado como <samp>SIM</samp>, então nada é alterado.',
-	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'A Permissão do Utilizador está assinalada como <samp>SIM</samp> and o valor total é assinalado como <samp>SIM</samp>, então nada é alterado.',
+	'TRACE_USER_YES_TOTAL_YES'				=> 'A Permissão do Utilizador está assinalada como <samp>SIM</samp> e o valor total é assinalado como <samp>SIM</samp>, então nada é alterado.',
+	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'A Permissão do Utilizador está assinalada como <samp>SIM</samp> e o valor total é assinalado como <samp>SIM</samp>, então nada é alterado.',
 	'TRACE_WHO'								=> 'Quem',
 	'TRACE_TOTAL'							=> 'Total',
 
 	'USERS_NOT_ASSIGNED'					=> 'Não há utilizadores com esta tarefa atribuída',
-	'USER_IS_MEMBER_OF_DEFAULT'				=> 'é um Membro dos Grupos Pre-Definidos seguintes',
+	'USER_IS_MEMBER_OF_DEFAULT'				=> 'é um Membro dos Grupos Pré-Definidos seguintes',
 	'USER_IS_MEMBER_OF_CUSTOM'				=> 'é um Membro dos Grupos Personalizados pelo Utilizador seguintes',
 
 	'VIEW_ASSIGNED_ITEMS'					=> 'Ver Itens Atribuídos',

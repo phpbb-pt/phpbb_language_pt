@@ -12,7 +12,7 @@ Utilizador: {USERNAME}
 Endereço do Fórum: {U_BOARD}
 ----------------------------
 
-Informações úteis sobre o software phpBB podem ser encontradas na directoria docs da sua instalação e em phpBB.com na página de suporte - http://www.phpbb.com/support/
+Informações úteis sobre o software phpBB podem ser encontradas na directoria docs da sua instalação e em phpBB.com na página de suporte - https://www.phpbb.com/support/
 
 A fim de manter o seu Fórum seguro e protegido, é altamente recomendável mantê-lo actualizado com as versões mais recentes deste de software. Para sua comodidade, uma lista de endereços está disponível na página acima referenciada.
 

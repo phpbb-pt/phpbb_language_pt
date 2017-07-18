@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // Database Backup/Restore
 $lang = array_merge($lang, array(
 	'ACP_BACKUP_EXPLAIN'		=> 'Aqui pode fazer Cópias de Segurança da Base de Dados do Fórum. Os ficheiros podem ser guardados na diretoria /store, ou pode transferi-los para o seu computador. Dependendo das configurações do Servidor, o ficheiro poderá ser comprimido em diversos formatos.',
-	'ACP_RESTORE_EXPLAIN'		=> 'Esta operação recuperará todas as Tabelas da Base de Dados do phpBB incluídas no Ficheiro. Se o Servidor suportar compressão de Ficheiros de texto gzip ou bzpi2 a descompressão será automática. <strong>ATENÇÃO</strong> A Base da Dados atual, e toda a informação nela contida, será substituída. A reposição dos dados poderá demorar, aguarde até que o processo esteja concluído.',
+	'ACP_RESTORE_EXPLAIN'		=> 'Esta operação recuperará todas as Tabelas da Base de Dados do phpBB incluídas no Ficheiro. Se o Servidor suportar compressão de Ficheiros de texto gzip ou bzip2 a descompressão será automática. <strong>ATENÇÃO</strong> A Base da Dados atual, e toda a informação nela contida, será substituída. A reposição dos dados poderá demorar, aguarde até que o processo esteja concluído.',
 
 	'BACKUP_DELETE'				=> 'O Ficheiro da Cópia de Segurança foi apagado com sucesso.',
 	'BACKUP_INVALID'			=> 'O Ficheiro selecionado para a Cópia de Segurança é inválido.',
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_BACKUP'			=> 'Transferir Cópia de Segurança',
 
 	'FILE_TYPE'					=> 'Tipo de Ficheiro',
-	'FILE_WRITE_FAIL'	=> 'Incapaz de escrever ficheiro para a pasta de armazenamento.',
+	'FILE_WRITE_FAIL'			=> 'Incapaz de escrever ficheiro para a pasta de armazenamento.',
 	'FULL_BACKUP'				=> 'Completa',
 
 	'RESTORE_FAILURE'			=> 'O Ficheiro da Cópia de Segurança deve estar corrompido.',

@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* acp_groups [Português]
+* acp_groups [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -37,9 +37,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_GROUPS_MANAGE_EXPLAIN'			=> 'Aqui pode criar, configurar e eliminar Grupos.<br /> Pode ainda escolher os Líderes dos Grupos, especificar o seu estado (Aberto ou Fechado) e atribuir um Nome e uma Descrição ao Grupo.',
+	'ACP_GROUPS_MANAGE_EXPLAIN'			=> 'Aqui pode criar, configurar e eliminar Grupos. Pode ainda escolher os Líderes dos Grupos, especificar o seu estado (Aberto ou Fechado) e atribuir um Nome e uma Descrição ao Grupo.',
 	'ADD_USERS'							=> 'Adicionar Utilizadores',
-	'ADD_USERS_EXPLAIN'					=> 'Aqui pode adicionar novos Membros ao Grupo. Deve indicar se é o Grupo Padrão dos Utilizadores seleccionados. Pode seleccionar os Líderes do Grupo. Escreva apena um Utilizador por linha.',
+	'ADD_USERS_EXPLAIN'					=> 'Aqui pode adicionar novos Membros ao Grupo. Deve indicar se é o Grupo Padrão dos Utilizadores seleccionados. Pode seleccionar os Líderes do Grupo. Escreva apenas um Utilizador por linha.',
 
 	'COPY_PERMISSIONS'					=> 'Copiar Permissões de',
 	'COPY_PERMISSIONS_EXPLAIN'			=> 'Uma vez criadas, o Grupo terá as mesmas Permissões que seleccionar aqui.',
@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 	'GROUP_DEMOTE'						=> 'Demitir Líder do Grupo',
 	'GROUP_DESC'						=> 'Descrição do Grupo',
 	'GROUP_DETAILS'						=> 'Informação do Grupo',
-	'GROUP_EDIT_EXPLAIN'				=> 'Aqui pode configurar os Grupos existentes. Alterar o nome (<i>excepto dos Grupos Pré-Definidos, onde o nome não pode ser alterado</i>), descrição e estado (Aberto/Fechado). Também é possível especificar outras opções como a cor, a Classificação, etc. As alterações aqui feitas afectarão os Membros do Grupo. De notar que os Membros do Grupo podem alterar os Avatares a não ser que seleccione as Permissões de Utilizadores apropriadas.',
+	'GROUP_EDIT_EXPLAIN'				=> 'Aqui pode configurar os Grupos existentes. Alterar o nome (excepto dos Grupos Pré-Definidos, onde o nome não pode ser alterado), descrição e estado (Aberto/Fechado). Também é possível especificar outras opções como a cor, a classificação, etc. As alterações aqui feitas afectarão os Membros do Grupo. De notar que os Membros do Grupo podem alterar os Avatares a não ser que seleccione as Permissões de Utilizadores apropriadas.',
 	'GROUP_ERR_USERS_EXIST'				=> 'Os Utilizadores seleccionados já são Membros deste Grupo.',
 	'GROUP_FOUNDER_MANAGE'				=> 'Gerir apenas por Fundadores',
 	'GROUP_FOUNDER_MANAGE_EXPLAIN'		=> 'Limitar a Gestão deste Grupo aos Administradores Fundadores. Os Utilizadores que possuem as Permissões de Grupo apropriadas, têm autorização para visualizar este Grupo bem como os seus Membros.',
@@ -78,9 +78,9 @@ $lang = array_merge($lang, array(
 	'GROUP_LIST_EXPLAIN'				=> 'Esta é uma lista completa de todos os Membros actuais com Direcção Geral neste Grupo. Pode apagar Utilizadores (excepto em certos Grupos especiais) ou adicionar novos como pode ver.',
     'GROUP_MAX_RECIPIENTS'				=> 'Limite de destinatários por Mensagem Privada',
 	'GROUP_MAX_RECIPIENTS_EXPLAIN'		=> 'Se definido 0, serão usadas as Configurações Gerais do Painel.',
-	'GROUP_OPTIONS_SAVE'			=> 'Opções do Grupo alargadas',
+	'GROUP_OPTIONS_SAVE'				=> 'Opções do Grupo alargadas',
 	'GROUP_MEMBERS'						=> 'Membros do Grupo',
-	'GROUP_MEMBERS_EXPLAIN'				=> 'Esta é uma lista completa dos Membros deste Grupo. Inclui secções separadas para Líderes, pendentes e Membros atuais. Neste Painel pode configurar os gestores deste Grupo e as suas tarefas. Para apagar um Líder sem retirá-lo do Grupo, use a Opção <b>Demitir Líder</b>. Para promover um Membro do Grupo a Líder seleccione <b>Promover Líder</b>.',
+	'GROUP_MEMBERS_EXPLAIN'				=> 'Esta é uma lista completa dos Membros deste Grupo. Inclui secções separadas para Líderes, pendentes e Membros actuais. Neste Painel pode configurar os gestores deste Grupo e as suas tarefas. Para apagar um Líder sem retirá-lo do Grupo, use a Opção Demitir Líder. Para promover um Membro do Grupo a Líder seleccionePromover Líder.',
 	'GROUP_MESSAGE_LIMIT'				=> 'Limite de Mensagens Privadas do Grupo por Pasta',
 	'GROUP_MESSAGE_LIMIT_EXPLAIN'		=> 'Esta configuração substitui o limite da pasta de Mensagem por Utilizador. Um valor igual a 0 significa manter as configurações individuais ao Utilizador.',
 	'GROUP_MODS_ADDED'					=> 'Os Moderadores do Grupo foram adicionados com sucesso.',
@@ -91,14 +91,14 @@ $lang = array_merge($lang, array(
 	'GROUP_OPEN'						=> 'Aberto',
 	'GROUP_PENDING'						=> 'Membros Pendentes',
 	'GROUP_PROMOTE'						=> 'Promover a Líder do Grupo',
-	'GROUP_RANK'						=> 'Classificações do Grupo',
+	'GROUP_RANK'						=> 'Classificação do Grupo',
 	'GROUP_RECEIVE_PM'					=> 'Grupo autorizado a receber Mensagens Privadas',
 	'GROUP_RECEIVE_PM_EXPLAIN'			=> 'Os Grupos ocultos não podem receber mensagens, mesmo seleccionando esta opção.',
 	'GROUP_REQUEST'						=> 'Inscrição',
 	'GROUP_SETTINGS_SAVE'				=> 'Configurações do Grupo',
 	'GROUP_TYPE'						=> 'Estado do Grupo',
-	'GROUP_SKIP_AUTH'				=> 'Exibir líder de grupo das permissões',
-	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'Caso esteja activo, o líder de grupo deixará de herdar as permissões deste grupo.',
+	'GROUP_SKIP_AUTH'					=> 'Exibir líder de grupo das permissões',
+	'GROUP_SKIP_AUTH_EXPLAIN'			=> 'Caso esteja activo, o líder de grupo deixará de herdar as permissões deste grupo.',
 	'GROUP_TYPE_EXPLAIN'				=> 'Isto determina quais os Utilizadores que podem entrar ou ver este Grupo.',
 	'GROUP_UPDATED'						=> 'O Grupo foi actualizado com sucesso.',
 
@@ -117,7 +117,7 @@ $lang = array_merge($lang, array(
 	'NO_VALID_USERS'					=> 'Não entrou com nenhum Utilizador com Permissões para usar esta opção.',
 
 	'SPECIAL_GROUPS'					=> 'Grupos Pré-Definidos',
-	'SPECIAL_GROUPS_EXPLAIN'			=> 'São os Grupos Básicos do phpBB. Não podem ser apagados ou modificados.<br > Porém, pode adicionar membros a estes Grupos e modificar as Configurações de cada um dos Grupos.',
+	'SPECIAL_GROUPS_EXPLAIN'			=> 'São os Grupos Básicos do phpBB. Não podem ser apagados ou modificados. Porém, pode adicionar membros a estes Grupos e modificar as Configurações de cada um dos Grupos.',
 
 	'TOTAL_MEMBERS'						=> 'Membros',
 

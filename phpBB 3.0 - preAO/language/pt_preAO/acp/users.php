@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* acp_users [Português]
+* acp_users [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -53,6 +53,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Não pode forçar a Reactivação de uma conta de Fundador.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Não pode forçar a Reactivação da sua própria conta.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'Não pode remover a conta de Utilizador convidado.',
+	'CANNOT_REMOVE_FOUNDER'			=> 'Não tem permissão para remover contas de fundadores.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'Não pode remover sua própria conta.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Não pode promover os Utilizadores ignorados a Fundadores.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Tem que activar os Utilizadores antes de os promover a Fundadores, apenas Utilizadores activos podem ser promovidos.',
@@ -60,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_POSTS'					=> 'Apagar as Mensagens',
 	'DELETE_USER'					=> 'Apagar Utilizador',
-	'DELETE_USER_EXPLAIN'			=> '<b>Atenção:</b> Esta operação é irreversível. Não é possível recuperar utilizadores depois de apagados. As Mensagens Privadas enviadas por este utilizador serão apagadas e deixarão de estar disponíveis nos seus destinatários.',
+	'DELETE_USER_EXPLAIN'			=> 'Atenção: Esta operação é irreversível. Não é possível recuperar utilizadores depois de apagados. As Mensagens Privadas enviadas por este utilizador serão apagadas e deixarão de estar disponíveis nos seus destinatários.',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'A Reactivação foi forçada com sucesso.',
 	'FOUNDER'						=> 'Fundador',
@@ -108,13 +109,13 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_DEL_OUTBOX'			=> 'Caixa de saída de Mensagens Privadas vazias',
 	'USER_ADMIN_DEL_POSTS'			=> 'Apagar todas as Mensagens',
 	'USER_ADMIN_DEL_SIG'			=> 'Apagar Assinatura',
-	'USER_ADMIN_EXPLAIN'			=> 'Aqui pode alterar as informações dos Utilizadores.<br /> Para modificar as Permissões dos Utilizadores use o Sistema de Permissões de Utilizadores e Grupos.',
+	'USER_ADMIN_EXPLAIN'			=> 'Aqui pode alterar as informações dos Utilizadores. Para modificar as Permissões dos Utilizadores use o Sistema de Permissões de Utilizadores e Grupos.',
 	'USER_ADMIN_FORCE'				=> 'Forçar a Reactivação',
 	'USER_ADMIN_LEAVE_NR'			=> 'Apague para um Novo Registo',
 	'USER_ADMIN_MOVE_POSTS'			=> 'Move todas as Mensagens',
 	'USER_ADMIN_SIG_REMOVED'		=> 'Assinatura removida com sucesso da Conta do Utilizador.',
 	'USER_ATTACHMENTS_REMOVED'		=> 'Todos os Anexos feitos por este Utilizador foram apagados com sucesso.',
-	'USER_AVATAR_NOT_ALLOWED'		=> 'O avatar não pode ser exibido porque os avatars não são permitidos.',
+	'USER_AVATAR_NOT_ALLOWED'		=> 'O avatar não pode ser exibido porque os avatares não são permitidos.',
 	'USER_AVATAR_UPDATED'			=> 'Detalhes dos Avatares do Utilizador foram actualizados com sucesso.',
 	'USER_AVATAR_TYPE_NOT_ALLOWED'	=> 'O avatar actual não pode ser exibido porque não é permitido.',
 	'USER_CUSTOM_PROFILE_FIELDS'	=> 'Campos de Perfil Personalizados',

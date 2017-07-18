@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 // Smilies and topic icons 
 $lang = array_merge($lang, array( 
 	'ACP_ICONS_EXPLAIN'				=> 'Aqui pode adicionar, editar e apagar os ícones que os Utilizador terão disponíveis para adicionar nos Tópicos e Mensagens. Estes ícones são exibidos geralmente perto do Título dos Tópicos na lista de Fóruns, ou o título do Tópico na lista de Tópicos. Também pode instalar e criar Pacotes de Ícones novos.',
-	'ACP_SMILIES_EXPLAIN'			=> 'Emoções ou Smiles são tipicamente pequenas, às vezes imagens animadas utilizadas para mostrar alguma emoção ou sentimento. Aqui pode adicionar, editar e apagar as Emoções que os Utilizadores terão disponíveis nos Tópicos e Mensagens Privadas. Também pode instalar e criar Pacotes de Emoções.',
+	'ACP_SMILIES_EXPLAIN'			=> 'Emoções ou Smilies são tipicamente pequenas, às vezes imagens animadas utilizadas para mostrar alguma emoção ou sentimento. Aqui pode adicionar, editar e apagar as Emoções que os Utilizadores terão disponíveis nos Tópicos e Mensagens Privadas. Também pode instalar e criar Pacotes de Emoções.',
 	'ADD_SMILIES'					=> 'Adicionar Múltiplas Emoções',
 	'ADD_SMILEY_CODE'				=> 'Adicionar Código Adicional à Emoção',
 	'ADD_ICONS'						=> 'Adicionar Ícones Múltiplos',
@@ -115,9 +115,9 @@ $lang = array_merge($lang, array(
 	'EDIT_SMILIES'					=> 'Editar Emoções',
 	'EMOTION'						=> 'Emoção',
 	'EXPORT_ICONS'					=> 'Exportar e descarregar Pacote de ícones (smilies.pak)',
-	'EXPORT_ICONS_EXPLAIN'			=> '%sClicando neste atalho, as configurações para os seus ícones instalados serão compatadas para <samp>icons.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os seus ícones mais este ficheiro de configuração<samp>icons.pak</samp>%s.',
+	'EXPORT_ICONS_EXPLAIN'			=> '%sClicando neste atalho, as configurações para os seus ícones instalados serão compactadas para <samp>icons.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os seus ícones mais este ficheiro de configuração<samp>icons.pak</samp>%s.',
 	'EXPORT_SMILIES'				=> 'Exportar e descarregar um pack de Emoções',
-	'EXPORT_SMILIES_EXPLAIN'		=> '%sClicando neste atalho, os icones de emoções instalados será compatado para <samp>smilies.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todas as suas emoções mais este ficheiro de configuração<samp>smilies.pak</samp>%s.',
+	'EXPORT_SMILIES_EXPLAIN'		=> '%sClicando neste atalho, os ícones de emoções instalados será compactado para <samp>smilies.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todas as suas emoções mais este ficheiro de configuração<samp>smilies.pak</samp>%s.',
 
 	'FIRST'							=> 'Primeiro',
 
@@ -224,7 +224,7 @@ $lang = array_merge($lang, array(
 
 	'RANK_ADDED'					=> 'A classificação foi adicionada com sucesso.',
 	'RANK_IMAGE'					=> 'Imagem da Classificação',
-	'RANK_IMAGE_EXPLAIN'			=> 'Imagem da Classificação (relativo à pasta raíz do phpBB).',
+	'RANK_IMAGE_EXPLAIN'			=> 'Imagem da Classificação (relativo à pasta raiz do phpBB).',
 	'RANK_IMAGE_IN_USE'		=> '(em uso)',
 	'RANK_MINIMUM'					=> 'Número Mínimo de Mensagens',
 	'RANK_REMOVED'					=> 'A classificação foi apagada com sucesso.',
@@ -253,7 +253,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array( 
 	'ACP_REASONS_EXPLAIN'			=> 'Aqui pode gerir as razões utilizadas em denúncias e mensagens negativas quando desaprovando mensagens. Existe uma razão padrão (marcada com um (*)) em que não pode apagar, esta razão é normalmente utilizada para mensagens Personalizadas se não possuírem motivos plausíveis.',
 	'ADD_NEW_REASON'				=> 'Adicionar nova Razão',
-	'AVAILABLE_TITLES'				=> 'Titulos de Razões Locais Disponveis',
+	'AVAILABLE_TITLES'				=> 'Títulos de Razões Locais Disponíveis',
 
 	'IS_NOT_TRANSLATED'				=> 'A Razão <strong>não</strong> foi encontrada.',
 	'IS_NOT_TRANSLATED_EXPLAIN'		=> 'A Razão <strong>não</strong> foi encontrada. Se deseja estabelecer a forma local, especifique a chave correta através dos ficheiros de linguagem do Fórum de razões para denúncias.',

@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* search_synonyms [Português]
+* search_synonyms [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -33,7 +33,7 @@ $synonyms = array(
 	'arqueiro'				=> 'guerreiro', 
 	'arqueologia'			=> 'antiguidade', 
 	'arqueozologia'			=> 'arqueológico', 
-	'árctico'				=> 'do norte', 
+	'ártico'				=> 'do norte', 
 	'atendimento'			=> 'recepção', 
 	'ausência'				=> 'falta', 
 	'avião'					=> 'aeronave', 
@@ -77,7 +77,7 @@ $synonyms = array(
 
 	'favorito'				=> 'predilecto', 
 	'feto'					=> 'ser vivo', 
-	'ficção'					=> 'efeitos', 
+	'fição'					=> 'efeitos', 
 	'flores'				=> 'florescente', 
 
 	'galera'				=> 'pessoal', 
@@ -145,7 +145,7 @@ $synonyms = array(
 	'porto'					=> 'parada', 
 	'possuir'				=> 'ter', 
 	'praticar'				=> 'desempenhar', 
-	'projecto'				=> 'programa',
+	'projeto'				=> 'programa',
 	'vc'					=> 'você',
 	'tb'					=> 'também',
 	'tbr'					=> 'trabalhar',
@@ -168,7 +168,7 @@ $synonyms = array(
 	'sabor'					=> 'gosto', 
 	'salvador'				=> 'herói', 
 	'separar'				=> 'dividir', 
-	'set'					=> 'Setembro', 
+	'set'					=> 'setembro', 
 	'sincero'				=> 'verdadeiro', 
 	'sincronizar'			=> 'ajustar', 
 	'substituído'			=> 'trocado', 

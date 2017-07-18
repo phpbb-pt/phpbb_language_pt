@@ -1,10 +1,14 @@
-Subject: Bem vindo ao Fórum {SITENAME}
+Subject: Bem-vindo ao Fórum {SITENAME}
 
 {WELCOME_MSG}
 
 Em conformidade com o COPPA, sua conta está inactiva.
 
 Por favor, imprima esta mensagem, obtenha a assinatura, com a data, dos seus pais ou tutor e envie por fax para:
+{FAX_INFO}
+
+ou email para:
+
 {MAIL_INFO}
 
 -- Recorte por aqui --

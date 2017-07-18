@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* acp_modules [Português]
+* acp_modules [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'DELETE_MODULE_CONFIRM'			=> 'Deseja realmente Apagar este Módulo?',
 
 	'EDIT_MODULE'					=> 'Editar Módulo',
-	'EDIT_MODULE_EXPLAIN'			=> 'Módulos são modificações ao phpBB para a realização de tarefas específicas.<br /> Aqui pode definir as configurações dos Módulos.',
+	'EDIT_MODULE_EXPLAIN'			=> 'Módulos são modificações ao phpBB para a realização de tarefas específicas. Aqui pode definir as configurações dos Módulos.',
 
 	'HIDDEN_MODULE'					=> 'Módulo Invisível',
 
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 	'MODULE_LANGNAME_EXPLAIN'		=> 'Escreva o nome do Módulo exibido. Utilize a constante da Idioma se o nome for oferecido pelo Ficheiro de linguagem.',
 	'MODULE_TYPE'					=> 'Tipo de Módulo',
 
-	'NO_CATEGORY_TO_MODULE'			=> 'Não é possível transformar esta Categoria em Módulo. Por Favor, exclua ou mova todas as Crianças antes de efectuar esta ação.',
+	'NO_CATEGORY_TO_MODULE'			=> 'Não é possível transformar esta Categoria em Módulo. Por Favor, exclua ou mova todas as Crianças antes de efectuar esta acção.',
 	'NO_MODULE'						=> 'Nenhum módulo foi encontrado.',
 	'NO_MODULE_ID'					=> 'A ID do Módulo não foi especificada.',
 	'NO_MODULE_LANGNAME'			=> 'O Nome do Idioma do Módulo não foi especificado.',

@@ -3,7 +3,7 @@ Subject: {POST_SUBJECT} - Mensagem reprovada
 Olá {USERNAME},
 
 A sua Mensagem "{POST_SUBJECT}" em "{SITENAME}" foi reprovada por um Moderador ou Administrador do Fórum.
-O motivo da reprovação é a seguinte:
+O motivo da reprovação é o seguinte:
 {REASON}
 
 

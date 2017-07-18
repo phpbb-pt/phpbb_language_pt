@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* acp_search [Português]
+* acp_search [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'A pesquisa está a apagar os Índices. Esta acção pode levar alguns minutos.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'O modo de pesquisa de textos completos do MySQL pode apenas ser utilizado com o MySQL4 ou superiores.',
-	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'Índices de textos completos do MySQL podem apenas ser utilizados com tabelas do MyISAM.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Índices MySQL fulltext só podem ser usados com tabelas MyISAM ou InnoDB. É necessário MySQL 5.6.4 ou posterior para fulltext indexes em tabelas InnoDB.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Número Total de Mensagens indexadas',
 	'FULLTEXT_MYSQL_MBSTRING'				=> 'Suporte para non-latin UTF-8 caracteres utilizando mbstring:',
 	'FULLTEXT_MYSQL_PCRE'					=> 'Suporte para non-latin UTF-8 caracteres utilizando PCRE:',
@@ -86,14 +86,14 @@ $lang = array_merge($lang, array(
 
 	'SEARCH_GUEST_INTERVAL'					=> 'Intervalo de Pesquisas para Visitantes',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Número em segundos que um Visitante deverá esperar entre pesquisas. Se um visitante realizar pesquisas todos os outros devem esperar até que o intervalo de tempo passe.',
-	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'Todas as mensagens com o id superior a %1$d serão indexadas agora, do qual %2$d mensagens serão nesta etapa.<br />A taxa atual de indexação é de aproximadamente %3$.1f mensagens por segundo.<br />Indexação em progresso…',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'Todas as mensagens com o id superior a %1$d serão indexadas agora, do qual %2$d mensagens serão nesta etapa.<br />A taxa actual de indexação é de aproximadamente %3$.1f mensagens por segundo.<br />Indexação em progresso…',
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'Todas as mensagens com o id superior a %1$d serão apagadas da indexação da pesquisa.<br />Remoção em progresso…',
 	'SEARCH_INDEX_CREATED'					=> 'Todas as Mensagens foram indexadas na Base de Dados com sucesso.',
 	'SEARCH_INDEX_REMOVED'					=> 'O Índice de Pesquisa foi apagado com sucesso.',
 	'SEARCH_INTERVAL'						=> 'Intervalo de Pesquisas para Utilizadores',
 	'SEARCH_INTERVAL_EXPLAIN'				=> 'Número em segundos que os utilizadores devem esperar entre uma pesquisa e outra. Este intervalo é controlado independentemente para cada utilizador.',
 	'SEARCH_STORE_RESULTS'					=> 'Tamanho da Cache de resultados da pesquisa',
-	'SEARCH_STORE_RESULTS_EXPLAIN'			=> 'A Cache dos resultados da pesquisa irá expirar após este tempo, em segundos. Escreva 0 se deseja desativar esta opção.',
+	'SEARCH_STORE_RESULTS_EXPLAIN'			=> 'A Cache dos resultados da pesquisa irá expirar após este tempo, em segundos. Escreva 0 se deseja desactivar esta opção.',
 	'SEARCH_TYPE'							=> 'Modo de pesquisa',
 	'SEARCH_TYPE_EXPLAIN'					=> 'O phpBB permite-lhe seleccionar o modo que será utilizado para a pesquisa de textos nos conteúdos da mensagem. Por padrão, será utilizado apenas o próprio sistema de pesquisas por textos completos.',
 	'SWITCHED_SEARCH_BACKEND'				=> 'O modo de pesquisa foi seleccionado com sucesso. Agora, para utilizá-lo terá que certificar-se da existência de um índice para o modo escolhido.',

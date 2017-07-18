@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* captcha_qa [Português]
+* captcha_qa [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -38,11 +38,11 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
     'CAPTCHA_QA'				=> 'Q&amp;A',
-    'CONFIRM_QUESTION_EXPLAIN'	=> 'Esta pergunta destina-se a prevenir submissões automáticas por spambots.',
+    'CONFIRM_QUESTION_EXPLAIN'	=> 'Esta pergunta destina-se a prevenir submissões automática s por spambots.',
     'CONFIRM_QUESTION_WRONG'	=> 'A sua resposta à questão está errada.',
 
 	'QUESTION_ANSWERS'			=> 'Respostas',
-	'ANSWERS_EXPLAIN'			=> 'Introduza respostas correctas, uma por linha.',
+	'ANSWERS_EXPLAIN'			=> 'Introduza respostas corretas, uma por linha.',
 	'CONFIRM_QUESTION'			=> 'Pergunta',
 
 	'ANSWER'					=> 'Resposta',

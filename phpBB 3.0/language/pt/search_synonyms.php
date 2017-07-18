@@ -34,7 +34,7 @@ $synonyms = array(
 	'arqueologia'			=> 'antiguidade', 
 	'arqueozologia'			=> 'arqueológico', 
 	'ártico'				=> 'do norte', 
-	'atendimento'			=> 'recepção', 
+	'atendimento'			=> 'receção', 
 	'ausência'				=> 'falta', 
 	'avião'					=> 'aeronave', 
 
@@ -124,7 +124,7 @@ $synonyms = array(
 	'ok'					=> 'correto', 
 	'omissão'				=> 'falta', 
 	'organizar'				=> 'arrumar', 
-	'optimizar'				=> 'óptimo', 
+	'optimizar'				=> 'ótimo', 
 
 	'país'					=> 'não', 
 	'paleografia'			=> 'decifrar', 

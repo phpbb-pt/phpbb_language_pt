@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* viewtopic [Português]
+* viewtopic [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 	'VIEW_UNREAD_POST'					=> 'Mensagens por ler',
 	'VISIT_WEBSITE'						=> 'Visitar o sítio web do Utilizador',
 	'VOTE_SUBMITTED'					=> 'O seu voto foi registado.',
-	'VOTE_CONVERTED'					=> 'Não é possível alterar votos .',
+	'VOTE_CONVERTED'					=> 'Não é possível alterar votos.',
 	
 ));
 

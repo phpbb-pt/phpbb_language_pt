@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
     'CAPTCHA_QA'				=> 'Q&amp;A',
-    'CONFIRM_QUESTION_EXPLAIN'	=> 'Esta pergunta destina-se a prevenir submissões automaticas por spambots.',
+    'CONFIRM_QUESTION_EXPLAIN'	=> 'Esta pergunta destina-se a prevenir submissões automáticas por spambots.',
     'CONFIRM_QUESTION_WRONG'	=> 'A sua resposta à questão está errada.',
 
 	'QUESTION_ANSWERS'			=> 'Respostas',

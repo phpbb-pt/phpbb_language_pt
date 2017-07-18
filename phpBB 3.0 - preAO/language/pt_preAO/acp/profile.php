@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* acp_profile [Português]
+* acp_profile [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -71,16 +71,15 @@ $lang = array_merge($lang, array(
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'Caso esta opção esteja activa, o campo irá ser exibido no mini-perfil na página de Tópicos.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Exibir publicamente o campo do perfil',
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'O Campo do Perfil será visualizado nos Tópicos, Perfis e Lista de Membros, se isto estiver activo com as configurações de carga.',
-
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Escreva as suas Opções agora, todas elas numa linha.',
 
-	'EDIT_DROPDOWN_LANG_EXPLAIN'	=> 'Por Favor, note que pode alterar os seus textos de opções e também pode adicionar novas opções ao fim. Não é aconselhável adicionar novas Opções dentre outras opções existentes - isto pode resultar em opções defeituosas exibidas aos utilizadores. Isto pode também acontecer se apagar opções no meio de outras. Excluindo opções do fim, resultará em Utilizadores com este item revertido ao padrão inicial.',
+	'EDIT_DROPDOWN_LANG_EXPLAIN'	=> 'Por Favor, note que pode alterar os seus textos de Opções e também pode adicionar novas opções ao fim. Não é aconselhável adicionar novas Opções dentre outras opções existentes - isto pode resultar em opções defeituosas exibidas aos utilizadores. Isto pode também acontecer se apagar opções no meio de outras. Excluindo opções do fim, resultará em Utilizadores com este item revertido ao padrão inicial.',
 	'EMPTY_FIELD_IDENT'				=> 'Identificação do Campo vazia',
 	'EMPTY_USER_FIELD_NAME'			=> 'Por Favor, dê um Título ao Campo',
 	'ENTRIES'						=> 'Entradas',
 	'EVERYTHING_OK'					=> 'Tudo OK',
 
-	'FIELD_BOOL'					=> 'Boolean (Sim/Não)',
+	'FIELD_BOOL'					=> 'Booleano (Sim/Não)',
 	'FIELD_DATE'					=> 'Data',
 	'FIELD_DESCRIPTION'				=> 'Descrição do Campo',
 	'FIELD_DESCRIPTION_EXPLAIN'		=> 'A explicação para este Campo será mostrada ao Utilizador.',
@@ -99,7 +98,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'					=> 'Primeira Opção',
 
 	'HIDE_PROFILE_FIELD'			=> 'Campo de Perfil Invisível',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Apenas Administradores e Moderadores podem visualizar/preencher este Campo. Se esta opção estiver activa, o Campo será exibido apenas no Perfil dos Utilizadores.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Apenas Administradores e Moderadores podem visualizar/preencher este Campo. Se esta opção estiver ativa, o Campo será exibido apenas no Perfil dos Utilizadores.',
 
 	'INVALID_CHARS_FIELD_IDENT'		=> 'A Identificação do Campo pode conter apenas a-z e _',
 	'INVALID_FIELD_IDENT_LEN'		=> 'A Identificação do Campo pode conter apenas 17 caracteres',
@@ -134,8 +133,6 @@ $lang = array_merge($lang, array(
 	'SAVE'							=> 'Guardar',
 	'SECOND_OPTION'					=> 'Segunda Opção',
 	'SHOW_NOVALUE_FIELD'			=> 'Mostrar campo se nenhum valor for seleccionado',
-	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Define se deve ser mostrado o campo do perfil, caso nenhum valor nos campos opcionais ou obrigatórios for selecionado.',
-	'SHOW_NOVALUE_FIELD'			=> 'Mostrar campo se não for selecionado nenhum valor',
 	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Define se deve ser mostrado o campo do perfil, caso nenhum valor nos campos opcionais ou obrigatórios for seleccionado.',
 	'STEP_1_EXPLAIN_CREATE'			=> 'Aqui pode escrever os primeiros parâmetros básicos de seu novo Campo no Perfil. Estas informações são necessárias para a segunda etapa, onde poderá inserir as opções restantes e prever o seu Campo mais adiante.',
 	'STEP_1_EXPLAIN_EDIT'			=> 'Aqui pode alterar os parâmetros básicos de seu campo no Perfil. As opções relevantes são recalculadas com a segunda etapa, onde poderá prever e testar as suas novas configurações.',

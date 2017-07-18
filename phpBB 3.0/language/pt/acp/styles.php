@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'ADD_THEME'						=> 'Criar Tema',
 	'ADD_THEME_EXPLAIN'				=> 'Aqui pode adicionar um novo Tema. As opções adicionais dependem da configuração do Servidor e das Permissões de Ficheiros. Pode usar um Tema existente para criar um novo. Também pode enviar, importar (do sistema de Ficheiros) um Ficheiro de Tema. Se enviar ou importar um Ficheiro o nome do novo Tema pode ser o nome do Ficheiro (para isto deixe o nome do Tema em branco).',
 	'ARCHIVE_FORMAT'				=> 'Tipo do Ficheiro',
-	'AUTOMATIC_EXPLAIN'				=> 'Deixe em branco para deteção automatica.',
+	'AUTOMATIC_EXPLAIN'				=> 'Deixe em branco para deteção automática.',
 
 	'BACKGROUND'					=> 'Fundo',
 	'BACKGROUND_COLOUR'				=> 'Cor de Fundo',

@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* ucp [Português]
+* ucp [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -38,60 +38,21 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'				=> 'A equipa responsável pelo Fórum preocupa-se em mantê-lo livre de material indesejável.
-											<br />
-												Apesar disso, é impossível evitar o aparecimento desse tipo de mensagens.
-											<br />
-											<br />
-												Assim, como futuro <b>Utilizador</b>, reconhece que todas as mensagens enviadas para o <b>Fórum</b> expressam única e exclusivamente os pontos de vista e opiniões dos seus autores.
-											<br />
-											<br />
-												Como futuro <b>Utilizador</b> compromete-se a não colocar neste <b>Fórum</b> mensagens de ódio, ameaçadoras, abusivas, obscenas, insultuosas, sexualmente tendenciosas ou qualquer outro material inadequado ao âmbito temático deste Fórum.
-											<br />
-											<br />
-												<b>Reconhece e aceita que tal conduta implicará a sua expulsão imediata e permanente</b>.
-											<br />
-											<br />
-												Os endereços de <b>IP’s</b> de todas as mensagens são registados na nossa <b>Base de Dados</b> para ajudar a implementar estas regras.
-											<br />
-											<br />
-												Concorda que a <b>Equipa Responsável</b> deste Fórum tem o direito de apagar, editar, mover ou encerrar qualquer conteúdo, e excluir imediatamente os seus autores sem aviso ou explicações adicionais, sempre que estas regras sejam violadas.
-											<br />
-											<br />
-												Como futuro <b>Utilizador</b> aceita que todas as informações que fornecer sejam guardadas e mantidas numa <b>Base de Dados</b>.
-											<br />
-											<br />
-												O software que suporta o <b>Fórum</b> usa <b>”cookies”</b> para guardar informação no seu computador. Os nossos <b>”cookies”</b> não guardam informações pessoais. Servem única e exclusivamente para facilitar a navegação do seu <b>Navegador</b> (<i>Browser</i>).
-											<br />
-											<br />
-												O endereço de correio electrónico que fornecer no seu Registo é usado na <b>Activação</b> da sua <b>Conta de Utilizador</b>, para o envio de informação considerada relevante por parte da Equipa de Responsáveis pelo Fórum e para uma possível recuperação de <b>Senha</b> caso a esqueça ou perca a sua.
-											<br />
-											<br />
-												<b>Se aceitar continuar com o seu registo, compromete-se a cumprir e aceita todas a regras deste Fórum.</b>
-											<br />
-												<br />
-												<b><i>A Administração</b></i>
-												<br />
-												<br />',
-	'PRIVACY_POLICY'					=> '<br />
-											<br />
-												Todas as informações pessoais (<b>Nome de Utilizador, Senha e email</b>) são guardadas na nossa <b>Base de Dados</b> única e exclusivamente com a finalidade de permitir a utilização do <b>Fórum</b>.
-											<br />
-												<b>Esta informação nunca será transmitida a terceiros, de forma gratuita ou onerosa</b>.
-											<br />
-											<br />
-												Para evitar expor o seu correio electrónico a <b>spam</b> ou outros ataques, nunca o revele publicamente neste, ou em qualquer outro Fórum.
-											<br />
-											<br />
-												Apesar de nos propormos manter as medidas de segurança sempre actualizadas, não é possível garantir uma protecção total.
-
-											<br />
-												Por isso recomendamos que <b>nunca revele a ninguém</b> os dados da sua conta, com vista a evitar o uso abusivo dos mesmos.
-											<br />
-											<br />
-												<b><i>Pel\'Administração</b></i>
-											<br />
-											<br />',
+	'TERMS_OF_USE_CONTENT'				=> 'Ao entrar em “%1$s” (doravante “nós”, “nosso”, “%1$s”, “%2$s”), concorda sujeitar-se aos termos seguintes. Se não concorda em sujeitar-se aos termos seguintes, por favor não entre e/ou utilize “%1$s”. Nós podemos mudar estes termos a qualquer momento e vamos fazer o nosso melhor para mantê-lo informado. No entanto, seria prudente rever regularmente estes termos. O uso continuado de “%1$s” significa que concorda em ser legalmente sujeito a estes termos quando são actualizados e/ou alterados.<br />
+	<br />
+	Os nossos Fóruns são desenvolvidos pelo phpBB (doravante “eles”, “software phpBB”, “www.phpbb.com”, “Grupo phpBB”, “Equipa phpBB”) que é um sistema de comunidades virtuais sujeito à “<a href="http://opensource.org/licenses/gpl-license.php">GNU General Public License v2</a>” (doravante “GPL”) que pode ser transferido a partir de <a href="https://www.phpbb.com/">www.phpbb.com</a>. O software phpBB apenas facilita discussões através da Internet. O Grupo phpBB não é responsável pelo conteúdo que nós permitimos e/ou impedimos e/ou pela conduta permitida. Para mais informações sobre o phpBB, consulte: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
+	<br />
+	Compromete-se a não colocar qualquer mensagem abusiva, obscena, vulgar, insultuosa, de ódio, ameaçadora, sexualmente tendenciosa ou qualquer outro material que possa violar qualquer lei seja de seu país, o país onde “%1$s” está alojado ou lei Internacional. Fazer isso pode levar você será directamente e permanentemente banido, com notificação de seu Internet Service Provider, se for considerado necessário por nós. O endereço IP de todas as mensagens são registados para ajudar a implementar essas condições. Você concorda que “%1$s” tem o direito de remover, editar, mover ou encerrar qualquer tópico em qualquer momento que se ver necessário. Como utilizador aceita que as informações que forneceu acima sejam guardadas numa Base de Dados. Apesar desta informação não ser divulgada a terceiros sem o seu consentimento, o “%1$s” ou o phpBB não podem ser responsabilizados por qualquer atentado Hacker, que possam expor essa informação.',
+	'PRIVACY_POLICY'					=> 'Esta política explica em detalhe como “%1$s” juntamente com suas empresas afiliadas (doravante "nós", "nosso", “%1$s”, “%2$s”) e o phpBB (doravante “eles”, “phpBB software”, “www.phpbb.com”, “Grupo phpBB”, “Equipas phpBB”) utilizam a informação recolhida durante as suas sessões de online (doravante denominada “a sua informação”).<br />
+	<br />
+	Recolheremos informações suas de duas formas. A primeira, ao navegar no“%1$s” fará com que o Software phpBB crie cookies que são pequenos ficheiros de texto, transferidos temporariamente pelos navegadores web para o seu computador. Os dois primeiros cookies têm a identificação do utilizador (doravante denominado “user-id”) e um identificador de sessão anónima (doravante “session-id”), assinado automática mente para si pelo software phpBB. O terceiro cookie será criado sempre que tenha tópicos lidos em “%1$s” e é usado para registar os tópicos lidos, aumentando assim sua experiência como utilizador.<br />
+	<br />
+	Podem também ser criados cookies externos ao software phpBB enquanto navegar no “%1$s”, ainda que estes sejam externos o âmbito destes cookies é proteger as páginas criadas pelo Software phpBB. A segunda maneira de recolher informações suas é através das mensagens que partilha connosco. Esta recolha pode fazer-se mas não está limitada a: mensagens enquanto utilizador anónimo (doravante “anonymous posts”), registando-se em “%1$s” (doravante denominado “a sua conta”) e através das mensagens enviadas por si depois do registo e quando ligado (doravante “as suas mensagens”).<br />
+	<br />
+	Sua conta deverá ter no mínimo um nome único (doravante “your user name”), uma senha pessoal utilizada para entrar na sua conta (doravante, “your password”) e um endereço pessoal de email válido (doravante “your email”). As informações da sua conta em “%1$s” são protegidas pelas leis de protecção de dados aplicáveis no nosso país. Qualquer outra informação além do seu nome de utilizador, da sua senha e do seu endereço de email solicitados pelo “%1$s” durante o processo de registo, é obrigatória ou opcional, segundo o critério do “%1$s”. Em todos os casos, tem a opção de escolher as informações da sua conta que serão publicadas. Além disso, dentro da sua conta, pode optar por receber ou não receber os emails gerados automática mente pelo software phpBB.<br />
+	<br />
+	A sua senha é encriptada (a one-way hash) para que seja segura. No entanto, recomendamos que não utilize a mesma senha em vários sítios diferentes. A senha é um meio para entrar na sua conta em “%1$s”, então por favor guarde-a com cuidado e em nenhuma circunstância alguém relacionado com “%1$s”, phpBB ou um terceiro, tem legitimidade para lhe pedir a senha. Se esquecer a senha da sua conta, pode usar a opção “Esqueci-me da senha” oferecida pelo software phpBB. Este processo pede-lhe o nome de utilizador e email, para o phpBB gerar uma nova senha e reactivar o seu registo.<br />
+	',
 )); 
 
 
@@ -101,15 +62,15 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE_ADMIN'				=> 'O seu Registo foi activado.',
 	'ACCOUNT_ACTIVE_PROFILE'			=> 'A sua conta foi reactivada com sucesso.',
 	'ACCOUNT_ADDED'						=> 'Obrigado por Registar-se, a sua conta foi criada. Já pode entrar com o seu nome de Utilizador e Senha.',
-	'ACCOUNT_COPPA'						=> 'A sua conta foi criada. <br />Para ser Aprovada é necessário a autorização do seu <b>Encarregado de Educação</b>. <br />Para mais detalhes verifique seu o email.',
-	'ACCOUNT_EMAIL_CHANGED'				=> 'A sua conta foi actualizada. <br />Neste Fórum as alterações de email requerem a reactivação. <br />A chave de activação foi enviada para o seu novo endereço de email. <br />Para mais detalhes verifique seu o email.',
-	'ACCOUNT_EMAIL_CHANGED_ADMIN'		=> 'A sua conta foi actualizada. <br />Neste Fórum as alterações de email requerem a reactivação por um administrador. <br />Receberá um email quando a sua conta for reactivada.',
-	'ACCOUNT_INACTIVE'					=> 'A sua conta foi criada com sucesso. <br />A Chave de Activação foi enviada para o endereço de email que indicou durante o seu Registo. <br />Ao receber o email proceda à Activação da sua conta. Só então poderá entrar no Fórum.',
-	'ACCOUNT_INACTIVE_ADMIN'			=> 'A sua conta foi criada. <br />Neste Fórum a activação da conta é feita pelo Administrador. Foi enviado um email ao Administrador que o informará quando Activar sua conta. <br />Mantenha-se atento ao seu email.',
+	'ACCOUNT_COPPA'						=> 'A sua conta foi criada. Para ser Aprovada é necessário a autorização do seu Encarregado de Educação. Para mais detalhes verifique seu o email.',
+	'ACCOUNT_EMAIL_CHANGED'				=> 'A sua conta foi actualizada. Neste Fórum as alterações de email requerem a reactivação. A chave de activação foi enviada para o seu novo endereço de email. Para mais detalhes verifique seu o email.',
+	'ACCOUNT_EMAIL_CHANGED_ADMIN'		=> 'A sua conta foi actualizada. Neste Fórum as alterações de email requerem a reactivação por um administrador. Receberá um email quando a sua conta for reactivada.',
+	'ACCOUNT_INACTIVE'					=> 'A sua conta foi criada com sucesso. A Chave de Activação foi enviada para o endereço de email que indicou durante o seu Registo. Ao receber o email proceda à Activação da sua conta. Só então poderá entrar no Fórum.',
+	'ACCOUNT_INACTIVE_ADMIN'			=> 'A sua conta foi criada. Neste Fórum a activação da conta é feita pelo Administrador. Foi enviado um email ao Administrador que o informará quando Activar sua conta. Mantenha-se atento ao seu email.',
 	'ACTIVATION_EMAIL_SENT'				=> 'O email de activação foi enviado para o seu endereço de email.',
 	'ACTIVATION_EMAIL_SENT_ADMIN'		=> 'O email de activação foi enviado para o Administrador.',
 	'ADD'								=> 'Adicionar',
-	'ADD_BCC'							=> 'Adicionar [B]',
+	'ADD_BCC'							=> 'Adicionar [Bcc]',
 	'ADD_FOES'							=> 'Adicionar novo Inimigo',
 	'ADD_FOES_EXPLAIN'					=> 'Pode introduzir vários Utilizadores, um por linha.',
 	'ADD_FOLDER'						=> 'Adicionar Pasta',
@@ -118,7 +79,7 @@ $lang = array_merge($lang, array(
 	'ADD_NEW_RULE'						=> 'Adicionar nova Regra',
 	'ADD_RULE'							=> 'Adicionar Regra',
 	'ADD_TO'							=> 'Adicionar [Para]',
-	'ADD_USERS_UCP_EXPLAIN'				=> 'Aqui pode adicionar novos utilizadores ao grupo. Pode seleccionar se este grupo se torna o novo padrão para os utilizadores selecionados. Por favor, digite um nome de utilizador por cada linha.',
+	'ADD_USERS_UCP_EXPLAIN'				=> 'Aqui pode adicionar novos utilizadores ao grupo. Pode seleccionar se este grupo se torna o novo padrão para os utilizadores seleccionados. Por favor, digite um nome de utilizador por cada linha.',
 	'ADMIN_EMAIL'						=> 'Autorizar os Administradores a enviarem-me emails',
 	'AGREE'								=> 'Li e concordo com todas as condições',
 	'ALLOW_PM'							=> 'Autorizar o envio de Mensagens Privadas',
@@ -128,7 +89,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_DELETED'				=> 'Anexos Apagados.',
 	'ATTACHMENT_DELETED'				=> 'Anexo Apagado.',
 	'AVATAR_CATEGORY'					=> 'Categoria',
-	'AVATAR_EXPLAIN'					=> 'Medidas máximas permitidas:<br /> <b>Largura:</b> %1$d píxeis; <b>Altura:</b> %2$d píxeis; <b>Tamanho:</b> %3$dkB.',
+	'AVATAR_EXPLAIN'					=> 'Dimensões máximas; largura: %1$d píxeis, altura: %2$d píxeis, tamanho do ficheiro: %3$.2f KiB.',
 	'AVATAR_FEATURES_DISABLED'			=> 'A função de Avatar está desactivada.',
 	'AVATAR_GALLERY'					=> 'Galeria Local',
 	'AVATAR_GENERAL_UPLOAD_ERROR'		=> 'Não foi possível enviar o Avatar para %s.',
@@ -141,13 +102,13 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'							=> 'Aniversário',
 	'BIRTHDAY_EXPLAIN'					=> 'O seu aniversário será assinalado na data indicada.',
 	'BOARD_DATE_FORMAT'					=> 'O meu formato de data',
-	'BOARD_DATE_FORMAT_EXPLAIN'			=> 'A sintaxe usada é idêntica à função PHP <a href="http://www.php.net/date" onclick="this.target=\'_blank\';" title="Abrir este atalho numa nova Janela">date()</a>.',
+	'BOARD_DATE_FORMAT_EXPLAIN'			=> 'A sintaxe usada é idêntica à função PHP <a href="http://www.php.net/date">date()</a>.',
 	'BOARD_DST'							=> 'Activar Horário de Verão',
 	'BOARD_LANGUAGE'					=> 'O meu idioma',
 	'BOARD_STYLE'						=> 'O Estilo do meu Painel',
 	'BOARD_TIMEZONE'					=> 'O meu Fuso Horário',
 	'BOOKMARKS'							=> 'Favoritos',
-	'BOOKMARKS_EXPLAIN'					=> 'Esta é a sua lista de Favoritos. <br >Para remover da lista um Favorito, seleccione a caixa correspondente e carregue no botão <b>Apagar Favoritos Marcados</b>.',
+	'BOOKMARKS_EXPLAIN'					=> 'Esta é a sua lista de Favoritos. Para remover da lista um Favorito, seleccione a caixa correspondente e carregue no botão Apagar Favoritos Marcados.',
 	'BOOKMARKS_DISABLED'				=> 'Favoritos foram desactivados.',
 	'BOOKMARKS_REMOVED'					=> 'Os Favoritos seleccionados foram apagados com sucesso.',
 
@@ -170,9 +131,9 @@ $lang = array_merge($lang, array(
 	
 	'CONFIRM_PASSWORD'					=> 'Confirme a sua Senha',
 	'CONFIRM_PASSWORD_EXPLAIN'			=> 'Só se alterar a Senha actual.',
-	'COPPA_BIRTHDAY'					=> 'Neste Fórum o Registo de <b>Utilizadores menores de 13 anos</b> necessita da Aprovação do <b>Encarregado de Educação</b>. <br />Se tem menos de 13 anos o Registo só será Aprovado pelo Administrador do Fórum depois do seu Encarregado de Educação enviar a autorização para a sua participação. <br /><br /><b>Para continuar com o Registo, seleccione a opção correcta, de acordo com a sua idade.</b>',
+	'COPPA_BIRTHDAY'					=> 'Neste Fórum o Registo de Utilizadores menores de 13 anos necessita da Aprovação do Encarregado de Educação. Se tem menos de 13 anos o Registo só será Aprovado pelo Administrador do Fórum depois do seu Encarregado de Educação enviar a autorização para a sua participação. Para continuar com o Registo, seleccione a opção correta, de acordo com a sua idade.',
 	'COPPA_COMPLIANCE'					=> 'De acordo com a COPPA',
-	'COPPA_EXPLAIN'						=> 'Ao clicar em enviar, criará a sua conta. No entanto, só será activada quando o seu <b>Encarregado de Educação</b> ou o responsável legal autorizar a sua participação no Fórum. Para isso receberá um email com mais detalhes.',
+	'COPPA_EXPLAIN'						=> 'Ao clicar em enviar, criará a sua conta. No entanto, só será activada quando o seu Encarregado de Educação ou o responsável legal autorizar a sua participação no Fórum. Para isso receberá um email com mais detalhes.',
 	'CREATE_FOLDER'						=> 'Adicionar Pasta',
 	'CURRENT_IMAGE'						=> 'Imagem Actual',
 	'CURRENT_PASSWORD'					=> 'Senha Actual',
@@ -215,7 +176,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'				=> 'Aqui pode editar seu rascunho. Rascunhos não contêm anexos e informações de votações.',
 	'EMAIL_BANNED_EMAIL'				=> 'Não é permitido utilizar o endereço de email indicado.',
-	'EMAIL_INVALID_EMAIL'				=> 'O endereço de email indicado é inválido.',
+
 	'EMAIL_REMIND'						=> 'Este deve ser o endereço de email que indicou ao registar-se.',
 	'EMAIL_TAKEN_EMAIL'					=> 'Este endereço de email já está em uso.',
 	'EMPTY_DRAFT'						=> 'Deve escrever uma mensagem antes de enviar as suas alterações.',
@@ -227,24 +188,24 @@ $lang = array_merge($lang, array(
 	'EXPORT_AS_MSG'						=> 'Exportar em MSG',
 	'EXPORT_FOLDER'						=> 'Exportar Pasta',
 
-	'FIELD_REQUIRED'					=> 'O Campo "% s" deve ser preenchido.',
+	'FIELD_REQUIRED'					=> 'O Campo “%s” deve ser preenchido.',
 	'FIELD_TOO_SHORT'					=> 'O Campo "%1$s" é muito curto. O mínimo de caracteres é de %2$d.',
 	'FIELD_TOO_LONG'					=> 'O Campo "%1$s" é muito longo. O máximo de caracteres permitidos são %2$d.',
 	'FIELD_TOO_SMALL'					=> 'O Valor de "%1$s" é muito pequeno. O valor mínimo é de %2$d.',
 	'FIELD_TOO_LARGE'					=> 'O Valor de "%1$s" é muito grande. O valor máximo é de %2$d.',
-	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'O Campo "% s" tem caracteres inválidos. São permitidos somente números.',
-	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'O Campo "% s" tem caracteres inválidos. São permitidos somente caracteres alfanuméricos.',
-	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'O Campo "% s" tem caracteres inválidos. Somente alfanumérico, espaço ou - +_ [] são permitidos.',
-	'FIELD_INVALID_DATE'				=> 'O Campo "% s" tem uma data inválida.',
+	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'O Campo “%s” tem caracteres inválidos. São permitidos somente números.',
+	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'O Campo “%s” tem caracteres inválidos. São permitidos somente caracteres alfanuméricos.',
+	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'O Campo “%s” tem caracteres inválidos. Somente alfanumérico, espaço ou - +_ [] são permitidos.',
+	'FIELD_INVALID_DATE'				=> 'O Campo “%s” tem uma data inválida.',
 	'FIELD_INVALID_VALUE'				=> 'O Campo “%s” um valor inválido.',
 
 	'FOE_MESSAGE'						=> 'Mensagem de um Inimigo',
-	'FOES_EXPLAIN'						=> 'Inimigos são Utilizadores que serão ignorados.<br /> As Mensagens destes Utilizadores não serão totalmente visíveis e as Mensagens Privadas não são autorizadas.<br /> No entanto não pode ignorar Administradores ou Moderadores.',
+	'FOES_EXPLAIN'						=> 'Inimigos são Utilizadores que serão ignorados. As Mensagens destes Utilizadores não serão totalmente visíveis e as Mensagens Privadas não são autorizadas. No entanto não pode ignorar Administradores ou Moderadores.',
 	'FOES_UPDATED'						=> 'A sua Lista de Inimigos foi actualizada com sucesso.',
 	'FOLDER_ADDED'						=> 'A Pasta foi adicionada com sucesso.',
 	'FOLDER_MESSAGE_STATUS'				=> '%1$d Mensagens de %2$d armazenadas ',
 	'FOLDER_NAME_EMPTY'					=> 'Deve escrever um nome para esta pasta.',
-	'FOLDER_NAME_EXIST'					=> 'A Pasta <b>%s</b> já existe.',
+	'FOLDER_NAME_EXIST'					=> 'A Pasta %s já existe.',
 	'FOLDER_OPTIONS'					=> 'Opções de Pasta',
 	'FOLDER_RENAMED'					=> 'A Pasta foi renomeada com sucesso.',
 	'FOLDER_REMOVED'					=> 'A Pasta foi apagada com sucesso.',
@@ -253,7 +214,7 @@ $lang = array_merge($lang, array(
 	'FORCE_PASSWORD_EXPLAIN'			=> 'Antes de continuar, é necessário alterar a sua senha.',
 	'FRIEND_MESSAGE'					=> 'Mensagem de um Amigo',
 	'FRIENDS'							=> 'Amigos',
-	'FRIENDS_EXPLAIN'					=> 'Os <b>Amigos</b> permitem o acesso rápido aos Utilizadores com quem comunica frequentemente.<br /> As Mensagens dos <b>Amigos</b> só serão destacadas se o Template do Fórum o permitir.',
+	'FRIENDS_EXPLAIN'					=> 'Os Amigos permitem o acesso rápido aos Utilizadores com quem comunica frequentemente. As Mensagens dos Amigos só serão destacadas se o Template do Fórum o permitir.',
 	'FRIENDS_OFFLINE'					=> 'Desligado',
 	'FRIENDS_ONLINE'					=> 'Ligado',
 	'FRIENDS_UPDATED'					=> 'A sua Lista de Amigos foi actualizada com sucesso.',
@@ -284,7 +245,7 @@ $lang = array_merge($lang, array(
 	'LINK_REMOTE_AVATAR'				=> 'Atalho Remoto',
 	'LINK_REMOTE_AVATAR_EXPLAIN'		=> 'Indique a URL do local que contém a imagem de Avatar que deseja.',
 	'LINK_REMOTE_SIZE'					=> 'Dimensões do Avatar',
-	'LINK_REMOTE_SIZE_EXPLAIN'			=> 'Especifique a <b>Largura</b> e <b>Altura</b> do Avatar. Deixe espaço em branco para tentar a verificação automática.',
+	'LINK_REMOTE_SIZE_EXPLAIN'			=> 'Especifique a Largura e Altura do Avatar. Deixe espaço em branco para tentar a verificação automática.',
 	'LOGIN_EXPLAIN_UCP'					=> 'Tem que estar ligado para entrar no Painel de Controlo do Utilizador.',
 	'LOGIN_REDIRECT'					=> 'A sua sessão foi iniciada.',
 	'LOGOUT_FAILED'						=> 'A sua sessão não foi encerrada. Se continuar tendo este problema contacte um Administrador.',
@@ -296,8 +257,9 @@ $lang = array_merge($lang, array(
 	'MESSAGE_BY_AUTHOR'					=> 'por',
 	'MESSAGE_COLOURS'					=> 'Cores da Mensagem',
 	'MESSAGE_DELETED'					=> 'A Mensagem seleccionada foi apagada com sucesso.',
+	'MESSAGE_EDITED'					=> 'Mensagem editada com sucesso.',
 	'MESSAGE_HISTORY'					=> 'Histórico de Mensagens',
-	'MESSAGE_REMOVED_FROM_OUTBOX'		=> 'Esta mensagem foi apagada pelo autor antes de ser entregue.',
+	'MESSAGE_REMOVED_FROM_OUTBOX'		=> 'Esta mensagem foi apagada pelo autor.',
 	'MESSAGE_SENT_ON'					=> 'em',
 	'MESSAGE_STORED'					=> 'A Mensagem foi enviada com sucesso.',
 	'MESSAGE_TO'						=> 'Para',
@@ -305,7 +267,7 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'			=> 'Mover mensagens da pasta apagada para',
 	'MOVE_DOWN'							=> 'Mover - Baixo',
 	'MOVE_MARKED_TO_FOLDER'				=> 'Mover seleccionados para %s',
-	'MOVE_PM_ERROR'						=> 'Um erro ocorreu enquanto as mensagens eram movidas para a nova pasta. Por isso, foram movidas somente as Mensagens %1d de %2d.',
+	'MOVE_PM_ERROR'						=> 'Um erro ocorreu enquanto as mensagens eram movidas para a nova pasta. Por isso, foram movidas somente as Mensagens %1$d de %2$d.',
 	'MOVE_TO_FOLDER'					=> 'Mover para a Pasta',
 	'MOVE_UP'							=> 'Mover - Cima',
 
@@ -331,23 +293,23 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FOES_FRIENDS'			=> 'Não pode adicionar Amigos à sua Lista de Inimigos.',
 	'NOT_ADDED_FOES_SELF'				=> 'Não pode auto adicionar-se à sua Lista de Inimigos.',
 	'NOT_AGREE'							=> 'Li e não concordo com estas condições',
-	'NOT_ENOUGH_SPACE_FOLDER'			=> 'A Pasta de Destino "% s" parece estar cheia. O seu pedido não foi executado.',
+	'NOT_ENOUGH_SPACE_FOLDER'			=> 'A Pasta de Destino “%s” parece estar cheia. O seu pedido não foi executado.',
 	'NOT_MOVED_MESSAGE'					=> 'Tem 1 Mensagem Privada presa, porque sua pasta está cheia.',
 	'NOT_MOVED_MESSAGES'				=> 'Tem %d Mensagens Privadas presas, porque sua pasta está cheia.',
 	'NO_ACTION_MODE'					=> 'Não foi seleccionada uma acção para esta Mensagem.',
 	'NO_AUTHOR'							=> 'Nenhum Autor definido para esta Mensagem',
 	'NO_AVATAR_CATEGORY'				=> 'Nenhum',
 
-	'NO_AUTH_DELETE_MESSAGE'			=> 'Apagar Mensagens Privadas: <b>Proibido</b>.',
-	'NO_AUTH_EDIT_MESSAGE'				=> 'Editar Mensagens Privadas: <b>Proibido</b>.',
-	'NO_AUTH_FORWARD_MESSAGE'			=> 'Responder Mensagens Privadas: <b>Proibido</b>.',
-	'NO_AUTH_GROUP_MESSAGE'				=> 'Enviar Mensagens Privadas para Grupos: <b>Proibido</b>.',
+	'NO_AUTH_DELETE_MESSAGE'			=> 'Apagar Mensagens Privadas: Proibido.',
+	'NO_AUTH_EDIT_MESSAGE'				=> 'Editar Mensagens Privadas: Proibido.',
+	'NO_AUTH_FORWARD_MESSAGE'			=> 'Responder Mensagens Privadas: Proibido.',
+	'NO_AUTH_GROUP_MESSAGE'				=> 'Enviar Mensagens Privadas para Grupos: Proibido.',
 	'NO_AUTH_PASSWORD_REMINDER'			=> 'Não está autorizado a pedir nova senha.',
 	'NO_AUTH_READ_HOLD_MESSAGE'			=> 'Não está autorizado a ler Mensagens Privadas que estejam presas.',
-	'NO_AUTH_READ_MESSAGE'				=> 'Ler Mensagens Privadas: <b>Proibido</b>.',
-	'NO_AUTH_READ_REMOVED_MESSAGE'		=> 'Ler Mensagens Privadas apagadas pelo autor: <b>Proibido</b>.',
-	'NO_AUTH_SEND_MESSAGE'				=> 'Enviar Mensagens Privadas: <b>Proibido</b>.',
-	'NO_AUTH_SIGNATURE'					=> 'Definir a sua Assinatura: <b>Proibido</b>.',
+	'NO_AUTH_READ_MESSAGE'				=> 'Ler Mensagens Privadas: Proibido.',
+	'NO_AUTH_READ_REMOVED_MESSAGE'		=> 'Ler Mensagens Privadas apagadas pelo autor: Proibido.',
+	'NO_AUTH_SEND_MESSAGE'				=> 'Enviar Mensagens Privadas: Proibido.',
+	'NO_AUTH_SIGNATURE'					=> 'Definir a sua Assinatura: Proibido.',
 
 	'NO_BCC_RECIPIENT'					=> 'Nenhum',
 	'NO_BOOKMARKS'						=> 'Não tem Favoritos.',
@@ -403,7 +365,7 @@ $lang = array_merge($lang, array(
 	'POST_REPLY_PM'						=> 'Responder Mensagem Privada',
 	'PRINT_PM'							=> 'Imprimir Mensagem Privada',
 	'PREFERENCES_UPDATED'				=> 'As suas Preferências foram actualizadas.',
-	'PROFILE_INFO_NOTICE'				=> 'Estas informações serão <b>visíveis por todos os Utilizadores</b>.<br /> Verifique se deseja incluir os seus dados pessoais. Todos os campos marcados com (*) são de preenchimento obrigatório.',
+	'PROFILE_INFO_NOTICE'				=> 'Estas informações serão visíveis por todos os Utilizadores. Verifique se deseja incluir os seus dados pessoais. Todos os campos marcados com (*) são de preenchimento obrigatório.',
 	'PROFILE_UPDATED'					=> 'O seu Perfil foi actualizado.',
 
 	'RECIPIENT'							=> 'Destinatário',
@@ -455,12 +417,12 @@ $lang = array_merge($lang, array(
 
 	'UCP'								=> 'Painel de Controlo do Utilizador',
 	'UCP_ACTIVATE'						=> 'Activar Registo',
-	'UCP_ADMIN_ACTIVATE'				=> 'Tem de introduzir um endereço de email válido para que o Registo seja activado. <br />O Administrador verificará o seu Registo, e, se for Aprovado, receberá um email para activar a sua conta.',
+	'UCP_ADMIN_ACTIVATE'				=> 'Tem de introduzir um endereço de email válido para que o Registo seja activado. O Administrador verificará o seu Registo, e, se for Aprovado, receberá um email para activar a sua conta.',
 	'UCP_AIM'							=> 'Mensageiro Instantâneo AOL',
 	'UCP_ATTACHMENTS'					=> 'Anexos',
 	'UCP_COPPA_BEFORE'					=> 'Tenho mais de 13 anos. Nasci antes de %s.',
 	'UCP_COPPA_ON_AFTER'				=> 'Tenho menos de 13 anos. Nasci depois de %s.',
-	'UCP_EMAIL_ACTIVATE'				=> 'Tem que usar um email válido.<br /> Após o Registo receberá um email para Activação da sua conta.<br /> Só depois de receber esse email e Activar a Conta é que poderá entrar no Fórum.',
+	'UCP_EMAIL_ACTIVATE'				=> 'Tem que usar um email válido. Após o Registo receberá um email para Activação da sua conta. Só depois de receber esse email e Activar a Conta é que poderá entrar no Fórum.',
 	'UCP_ICQ'							=> 'Número de ICQ',
 	'UCP_JABBER'						=> 'Endereço Jabber',
 
@@ -501,7 +463,7 @@ $lang = array_merge($lang, array(
 	'UCP_REGISTER_DISABLE'				=> 'Não é possível criar novos Registos.',
 	'UCP_REMIND'						=> 'Enviar Senha',
 	'UCP_RESEND'						=> 'Enviar email de Activação',
-	'UCP_WELCOME'						=> 'Bem-vindo ao Painel de Controlo do Utilizador.<br /> Aqui pode ver e actualizar o seu Perfil, as suas Preferências, observar Fóruns e Tópicos.<br /> Pode enviar Mensagens a outros <b>Utilizadores</b> (<i>se permitido</i>). Verifique se leu todos os anúncios.',
+	'UCP_WELCOME'						=> 'Bem-vindo ao Painel de Controlo do Utilizador. Aqui pode ver e actualizar o seu Perfil, as suas Preferências, observar Fóruns e Tópicos. Pode enviar Mensagens a outros Utilizadores (se permitido). Verifique se leu todos os anúncios.',
 	'UCP_YIM'							=> 'Yahoo! Messenger',
 	'UCP_ZEBRA'							=> 'Amigos e Inimigos',
 	'UCP_ZEBRA_FOES'					=> 'Inimigos',
@@ -543,7 +505,7 @@ $lang = array_merge($lang, array(
 	'VIEW_POSTS_DIR'					=> 'Mostrar Mensagens Ordenados por direcção',
 	'VIEW_POSTS_KEY'					=> 'Mostrar Mensagens Ordenadas por',
 
-	'WATCHED_EXPLAIN'					=> 'Esta é a lista de Fóruns e Tópicos que está a observar.<br /> Será avisado de novas Mensagens em cada um deles.<br /> Para cancelar a observação, marque o Fórum ou Tópico e então pressione o botão <b>Parar de observar marcados</b>.',
+	'WATCHED_EXPLAIN'					=> 'Esta é a lista de Fóruns e Tópicos que está a observar. Será avisado de novas Mensagens em cada um deles. Para cancelar a observação, marque o Fórum ou Tópico e então pressione o botão Parar de observar marcados.',
 	'WATCHED_FORUMS'					=> 'Fóruns observados',
 	'WATCHED_TOPICS'					=> 'Tópicos observados',
 	'WRONG_ACTIVATION'					=> 'O código de Activação que forneceu não confere com o Banco de Dados.',
@@ -586,7 +548,7 @@ $lang = array_merge($lang, array(
 	),
 
 
-	'GROUPS_EXPLAIN'					=> 'Os <b>Grupos de Utilizadores</b> permitem melhorar a gestão dos membros do Fórum. Logo de inicio será colocado num grupo especifico, que será o seu <b>Grupo Padrão</b>. Este grupo define como poderá aparecer aos outros utilizadores, por exemplo a cor do seu Nome, Avatar, Classificação, etc. Dependendo de como o administrador o definiu, poderá ser-lhe permitido alterar o seu grupo Padrão. Poderá também ser mudado de Grupo ou ser-lhe permitido juntar-se a outros Grupos. Alguns grupos poderão dar-lhe permissões adicionais para ver outros conteúdos ou ter capacidades acrescidas.',
+	'GROUPS_EXPLAIN'					=> 'Os Grupos de Utilizadores permitem melhorar a gestão dos membros do Fórum. Logo de inicio será colocado num grupo especifico, que será o seu Grupo Padrão. Este grupo define como poderá aparecer aos outros utilizadores, por exemplo a cor do seu Nome, Avatar, Classificação, etc. Dependendo de como o administrador o definiu, poderá ser-lhe permitido alterar o seu grupo Padrão. Poderá também ser mudado de Grupo ou ser-lhe permitido juntar-se a outros Grupos. Alguns grupos poderão dar-lhe permissões adicionais para ver outros conteúdos ou ter capacidades acrescidas.',
 	'GROUP_LEADER'						=> 'Liderança',
 	'GROUP_MEMBER'						=> 'Inscrito',
 	'GROUP_PENDING'						=> 'Inscrição pendente',

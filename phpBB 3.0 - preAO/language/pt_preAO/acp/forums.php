@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* acp_forums [Português]
+* acp_forums [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -54,26 +54,26 @@ $lang = array_merge($lang, array(
 	'CREATE_FORUM'					=> 'Criar novo Fórum',
 
 	'DECIDE_MOVE_DELETE_CONTENT'	=> 'Apagar Mensagens ou Mover para Fórum',
-	'DECIDE_MOVE_DELETE_SUBFORUMS'	=> 'Apagar Sub-fóruns ou Mover para Fórum',
+	'DECIDE_MOVE_DELETE_SUBFORUMS'	=> 'Apagar Subfóruns ou Mover para Fórum',
 	'DEFAULT_STYLE'					=> 'Estilo Padrão',
 	'DELETE_ALL_POSTS'				=> 'Apagar Mensagens',
-	'DELETE_SUBFORUMS'				=> 'Apagar Sub-fóruns e Mensagens',
+	'DELETE_SUBFORUMS'				=> 'Apagar Subfóruns e Mensagens',
 	'DISPLAY_ACTIVE_TOPICS'			=> 'Mostrar Tópicos activos',
-	'DISPLAY_ACTIVE_TOPICS_EXPLAIN'	=> 'Se definido como <strong>sim</strong>, mostra os Tópicos activos dos Fóruns desta categoria.',
+	'DISPLAY_ACTIVE_TOPICS_EXPLAIN'	=> 'Se definido como sim, mostra os Tópicos activos dos Fóruns desta categoria.',
 
 	'EDIT_FORUM'					=> 'Editar Fórum',
 	'ENABLE_INDEXING'				=> 'Indexar para Pesquisa',
-	'ENABLE_INDEXING_EXPLAIN'		=> 'Se definido como <strong>sim</strong>, as Mensagens deste Fórum serão indexadas para pesquisa.',
+	'ENABLE_INDEXING_EXPLAIN'		=> 'Se definido como sim, as Mensagens deste Fórum serão indexadas para pesquisa.',
 	'ENABLE_POST_REVIEW'			=> 'Revisão de Mensagens',
-	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Se definido como <strong>sim</strong>, as Mensagens podem ser sempre editadas pelos seus autores.',
+	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Se definido como sim, as Mensagens podem ser sempre editadas pelos seus autores.',
 	'ENABLE_QUICK_REPLY'			=> 'Resposta Rápida',
-	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Se definido como <strong>sim</strong>, activa a <strong>Resposta Rápida</strong> neste Fórum. No entanto esta tem que estar globalmente activada. A <strong>Resposta Rápida</strong> só é permitida aos Utilizadores com Permissão para enviar Mensagens neste Fórum.',
+	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Se definido como sim, activa a Resposta Rápida neste Fórum. No entanto esta tem que estar globalmente activada. A Resposta Rápida só é permitida aos Utilizadores com Permissão para enviar Mensagens neste Fórum.',
 	'ENABLE_RECENT'					=> 'Mostrar Tópicos activos',
-	'ENABLE_RECENT_EXPLAIN'			=> 'Se definido como <strong>sim</strong>, inclui os Tópicos deste Fórum na lista de Tópicos activos.',
+	'ENABLE_RECENT_EXPLAIN'			=> 'Se definido como sim, inclui os Tópicos deste Fórum na lista de Tópicos activos.',
 	'ENABLE_TOPIC_ICONS'			=> 'Activar Ícones de Tópicos',
 
 	'FORUM_ADMIN'					=> 'Administração de Fóruns',
-	'FORUM_ADMIN_EXPLAIN'			=> 'No phpBB3 tudo é baseado em Fóruns que podem ser de três tipos: Categoria, Fórum e Atalho. O Fórum pode ter um número ilimitado de Sub-fóruns, podendo o Administrador decidir o que cada um pode receber. Aqui pode adicionar, editar, apagar, trancar e destrancar Fóruns individuais e ainda adicionar controlos. Se as suas Mensagens e Tópicos não estão sincronizadas, pode resincronizar um Fórum.<br /> <strong>Os Fóruns criados só se tornam visíveis aos Utilizadores depois de definidas ou copiadas as Permissões adequadas.</strong>',
+	'FORUM_ADMIN_EXPLAIN'			=> 'No phpBB3 tudo é baseado em Fóruns que podem ser de três tipos: Categoria, Fórum e Atalho. O Fórum pode ter um número ilimitado de Subfóruns, podendo o Administrador decidir o que cada um pode receber. Aqui pode adicionar, editar, apagar, trancar e destrancar Fóruns individuais e ainda adicionar controlos. Se as suas Mensagens e Tópicos não estão sincronizadas, pode ressincronizar um Fórum. <strong>Os Fóruns criados só se tornam visíveis aos Utilizadores depois de definidas ou copiadas as Permissões adequadas.</strong>',
 	'FORUM_AUTO_PRUNE'				=> 'Activar Auto-limpeza',
 	'FORUM_AUTO_PRUNE_EXPLAIN'		=> 'Elimina os Tópicos deste Fórum conforme os parâmetros de frequência/idade definidos abaixo.',
 	'FORUM_CREATED'					=> 'Fórum criado com sucesso.',
@@ -97,13 +97,13 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD'				=> 'Senha do Fórum',
 	'FORUM_PASSWORD_CONFIRM'		=> 'Confirmar Senha do Fórum',
 	'FORUM_PASSWORD_CONFIRM_EXPLAIN'=> 'Só se definir uma senha para este Fórum.',
-	'FORUM_PASSWORD_EXPLAIN'		=> 'Defina uma Senha para este Fórum.<br /> Utilize preferencialmente o sistema de Permissões.',
+	'FORUM_PASSWORD_EXPLAIN'		=> 'Defina uma Senha para este Fórum. Utilize preferencialmente o sistema de Permissões.',
 	'FORUM_PASSWORD_UNSET'			=> 'Remover password do Fórum',
 	'FORUM_PASSWORD_UNSET_EXPLAIN'	=> 'Seleccione se deseja remover a password do Fórum.',
 	'FORUM_PASSWORD_OLD'			=> 'A senha do Fórum está a usar um método de encriptação antigo e deve ser mudada.',
 	'FORUM_PASSWORD_MISMATCH'		=> 'As senhas não coincidem entre si.',
 	'FORUM_PRUNE_SETTINGS'			=> 'Configuração da Limpeza de Fóruns.',
-	'FORUM_RESYNCED'				=> 'O Fórum "%s" foi Re-Sincronizado com sucesso',
+	'FORUM_RESYNCED'				=> 'O Fórum "%s" foi Ressincronizado com sucesso',
 	'FORUM_RULES_EXPLAIN'			=> 'As Regras são exibidas em qualquer página do Fórum seleccionado.',
 	'FORUM_RULES_LINK'				=> 'Link para as Regras do Fórum',
 	'FORUM_RULES_LINK_EXPLAIN'		=> 'Escreva aqui o URL da página das regras do Fórum. Esta configuração irá substituir o texto que escreveu das regras do Fórum.',
@@ -117,20 +117,20 @@ $lang = array_merge($lang, array(
 	'FORUM_TYPE'					=> 'Tipo de Fórum',
 	'FORUM_UPDATED'					=> 'A Configuração do Fórum foi actualizada com sucesso.',
 
-	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'	=> 'Está a tentar modificar um Fórum com Sub-fóruns para um atalho. Por favor, mova todos os Sub-fóruns deste Fórum antes de continuar, caso não mova os Sub-fóruns e faça a modificação para atalho todos os Sub-fóruns ficarão indisponíveis.',
+	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'	=> 'Está a tentar modificar um Fórum com Subfóruns para um atalho. Por favor, mova todos os Subfóruns deste Fórum antes de continuar, caso não mova os Subfóruns e faça a modificação para atalho todos os Subfóruns ficarão indisponíveis.',
 
 	'GENERAL_FORUM_SETTINGS'		=> 'Configuração Geral dos Fóruns',
 
 	'LINK'							=> 'atalho',
 	'LIST_INDEX'					=> 'Mostrar no Fórum Pai',
-	'LIST_INDEX_EXPLAIN'			=> 'Se definido como <strong>Sim</strong>, mostra no Fórum Pai, um atalho para este Fórum, se tiver a opção <strong>Mostrar os Sub-fóruns</strong> activada.',
-	'LIST_SUBFORUMS'				=> 'Mostrar os Sub-fóruns',
-	'LIST_SUBFORUMS_EXPLAIN'		=> 'Se definido como <strong>sim</strong>, mostra um atalho para os Sub-fóruns que tiverem a opção <strong>Mostrar no Fórum Pai</strong> activada.',
+	'LIST_INDEX_EXPLAIN'			=> 'Se definido como Sim, mostra no Fórum Pai, um atalho para este Fórum, se tiver a opção Mostrar os Subfóruns activada.',
+	'LIST_SUBFORUMS'				=> 'Mostrar os Subfóruns',
+	'LIST_SUBFORUMS_EXPLAIN'		=> 'Se definido como sim, mostra um atalho para os Subfóruns que tiverem a opção Mostrar no Fórum Pai activada.',
 	'LOCKED'						=> 'Bloqueado',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'O Fórum escolhido para mover as mensagens não pode receber mensagens. Seleccione um Fórum que possa receber mensagens.',
 	'MOVE_POSTS_TO'					=> 'Mover Mensagens para',
-	'MOVE_SUBFORUMS_TO'				=> 'Mover Sub-fóruns para',
+	'MOVE_SUBFORUMS_TO'				=> 'Mover Subfóruns para',
 
 	'NO_DESTINATION_FORUM'			=> 'Não seleccionou nenhum Fórum para Mover o conteúdo.',
 	'NO_FORUM_ACTION'				=> 'Sem acções definidas para o conteúdo do Fórum.',
@@ -139,17 +139,17 @@ $lang = array_merge($lang, array(
 	'NO_PERMISSION_FORUM_ADD'		=> 'Não está autorizado a adicionar Fóruns.',
 	'NO_PERMISSION_FORUM_DELETE'	=> 'Não está autorizado a apagar Fóruns.',
 
-	'PARENT_IS_LINK_FORUM'			=> 'O Fórum Pai indicado está na forma de atalho. Fóruns em forma de atalho não podem ter Sub-fóruns, seleccione um Fórum ou Categoria.',
+	'PARENT_IS_LINK_FORUM'			=> 'O Fórum Pai indicado está na forma de atalho. Fóruns em forma de atalho não podem ter Subfóruns, seleccione um Fórum ou Categoria.',
 	'PARENT_NOT_EXIST'				=> 'O Fórum Pai seleccionado não existe.',
 	'PRUNE_ANNOUNCEMENTS'			=> 'Limpar Anúncios',
 	'PRUNE_STICKY'					=> 'Limpar Tópicos Fixos',
 	'PRUNE_OLD_POLLS'				=> 'Limpar Votações antigas',
-	'PRUNE_OLD_POLLS_EXPLAIN'		=> 'Apaga os Tópicos com votações sem votos, nos dias que definiu em <strong>Auto-Limpeza por idade</strong>.',
+	'PRUNE_OLD_POLLS_EXPLAIN'		=> 'Apaga os Tópicos com votações sem votos, nos dias que definiu em Auto-Limpeza por idade.',
 
 	'REDIRECT_ACL'					=> 'Aqui pode %sconfigurar as Permissões%s deste Fórum.',
 
 	'SYNC_IN_PROGRESS'				=> 'Sincronizando Fórum',
-	'SYNC_IN_PROGRESS_EXPLAIN'		=> 'Resincronização em progresso da ordem dos Tópicos %1$d/%2$d.',
+	'SYNC_IN_PROGRESS_EXPLAIN'		=> 'Ressincronização em progresso da ordem dos Tópicos %1$d/%2$d.',
 
 	'TYPE_CAT'						=> 'Categoria',
 	'TYPE_FORUM'					=> 'Fórum',

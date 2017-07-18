@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* search_ignore_words [Português]
+* search_ignore_words [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -116,7 +116,6 @@ $words = array(
    'isto', 
    'isto é', 
    'isto não é', 
-   'exato', 
    'exacto', 
    'saber', 
    'largo', 
@@ -219,7 +218,6 @@ $words = array(
    'também', 
    'abaixo', 
    'até', 
-   'incorreto', 
    'incorrecto', 
    'acima', 
    'acima de', 

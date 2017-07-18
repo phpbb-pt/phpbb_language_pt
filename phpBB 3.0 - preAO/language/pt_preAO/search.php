@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* search [Português]
+* search [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL'					=> 'Anúncio Global',
 
 	'IGNORED_TERMS'				=> 'ignorado',
-	'IGNORED_TERMS_EXPLAIN'		=> 'As seguintes palavras foram ignoradas na procura: <b>%s</b>',
+	'IGNORED_TERMS_EXPLAIN'		=> 'As seguintes palavras foram ignoradas na procura: %s',
 
 	'JUMP_TO_POST'				=> 'Ir para a mensagem',
 
@@ -78,19 +78,20 @@ $lang = array_merge($lang, array(
 
 	'SEARCHED_FOR'				=> 'Termo usado na pesquisa',
 	'SEARCHED_TOPIC'			=> 'Pesquisar por Tópicos',
+	'SEARCHED_QUERY'			=> 'Questão pesquisada',
 	'SEARCH_ALL_TERMS'			=> 'Procurar por todos os termos',
 	'SEARCH_ANY_TERMS'			=> 'Procurar por qualquer termo',
 	'SEARCH_AUTHOR'				=> 'Procurar por autor',
-	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use <strong>*</strong> para resultados parciais',
+	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use * para resultados parciais',
 	'SEARCH_FIRST_POST'			=> 'Apenas a primeira Mensagem dos Tópicos',
 	'SEARCH_FORUMS'				=> 'Pesquisar nos Fóruns',
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Seleccione o Fórum ou os Fóruns em que deseja procurar. Para ser mais rápido na pesquisa seleccione o Fórum principal do Sub-fórum e marque a opção de pesquisar em Sub-fórum.',
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Seleccione o Fórum ou os Fóruns em que deseja procurar. Para ser mais rápido na pesquisa seleccione o Fórum principal do Subfórum e marque a opção de pesquisar em Subfórum.',
 	'SEARCH_IN_RESULTS'			=> 'Procurar estes resultados',
 	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Coloque <strong>+</strong> na frente das palavras que têm que ser encontradas e coloque <strong>-</strong> nas palavras que <strong>não</strong> têm que ser encontradas. Faça uma lista de palavras separadas por <strong>|</strong> Use o <strong>*</strong> para resultados parciais.',
 	'SEARCH_MSG_ONLY'			=> 'Apenas Mensagens de texto',
 	'SEARCH_OPTIONS'			=> 'Opções de pesquisa',
 	'SEARCH_QUERY'				=> 'Procurar',
-	'SEARCH_SUBFORUMS'			=> 'Procurar nos Sub-fóruns',
+	'SEARCH_SUBFORUMS'			=> 'Procurar nos Subfóruns',
 	'SEARCH_TITLE_MSG'			=> 'Procurar Títulos e texto dos Tópicos',
 	'SEARCH_TITLE_ONLY'			=> 'Procurar só nos Títulos dos Tópicos',
 	'SEARCH_WITHIN'				=> 'Procurar com',

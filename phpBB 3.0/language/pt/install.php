@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_TEST'						=> 'Verificar as configurações administrativas',
 	'ADMIN_USERNAME'					=> 'Nome de Utilizador do Administrador',
 	'ADMIN_USERNAME_EXPLAIN'			=> 'Escolha um nome de Utilizador que tenha de 3 a 20 caracteres).',
-	'APP_MAGICK'						=> 'Suporte Imagemagick [ Anexos ]',
+	'APP_MAGICK'						=> 'Suporte ImageMagick [ Anexos ]',
 	'AUTHOR_NOTES'						=> 'Notas do Autor<br />» %s',
 	'AVAILABLE'							=> 'Disponível',
 	'AVAILABLE_CONVERTORS'				=> 'Conversores Disponíveis',
@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_OLD_CONVERSION'			=> 'Continuar a atualização interrompida',
 	'CONVERT'							=> 'Converter',
 	'CONVERT_COMPLETE'					=> 'Conversão terminada',
-	'CONVERT_COMPLETE_EXPLAIN'			=> 'O seu Fórum foi convertido com sucesso para o phpBB 3.0. Já pode <a href="../">Entrar no Fórum</a>. Se desejar pode pedir ajuda online através do <a href="https://www.phpbb.com/support/documentation/3.0/">Guía do utilizador</a>, no <a href="https://www.phpbb.com/community/viewforum.php?f=46">Suporte Oficial do phpBB</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'			=> 'O seu Fórum foi convertido com sucesso para o phpBB 3.0. Já pode <a href="../">Entrar no Fórum</a>. Se desejar pode pedir ajuda online através do <a href="https://www.phpbb.com/support/documentation/3.0/">Guia do utilizador</a>, no <a href="https://www.phpbb.com/community/viewforum.php?f=46">Suporte Oficial do phpBB</a>.',
 	'CONVERT_INTRO'						=> 'Bem-vindo à conversão unificada do phpBB',
 	'CONVERT_INTRO_BODY'				=> 'Aqui é possível de importar dados de outros sistemas de Fóruns (instalados). A lista seguinte mostra os módulos de conversão disponíveis. Se não existe um conversor na lista para o código de Fórum que deseja converter, por favor, verifique no nosso sítio web onde podem estar disponíveis outros conversores.',
 	'CONVERT_NEW_CONVERSION'			=> 'Nova conversão',
@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 	'DB_TEST'							=> 'Teste da ligação',
 	'DEFAULT_LANG'						=> 'Idioma padrão do Fórum',
 	'DEFAULT_PREFIX_IS'					=> 'O Conversor não encontrou as tabelas com o prefixo indicado. Verifique se as informações do Fórum estão corretas. O Prefixo Padrão para a tabela %1$s é <strong>%2$s</strong>',
-	'DEV_NO_TEST_FILE'					=> 'Não foi especificado um valor para a variável ficheiro_teste no conversor. Se é utilizador deste conversor, e não deveria estar vendo este erro, por favor, contate o autor do conversor. Se é o autor do conversor, deve especificar o nome de um ficheiro que exista no Fórum de destino para que seja possível a verificação da diretoria.',
+	'DEV_NO_TEST_FILE'					=> 'Não foi especificado um valor para a variável ficheiro_teste no conversor. Se é utilizador deste conversor, e não deveria estar vendo este erro, por favor, contacte o autor do conversor. Se é o autor do conversor, deve especificar o nome de um ficheiro que exista no Fórum de destino para que seja possível a verificação da diretoria.',
 	'DIRECTORIES_AND_FILES'				=> 'Configuração de Ficheiro e Diretoria',
 	'DISABLE_KEYS'						=> 'Desativando chaves',
 	'DLL_FIREBIRD'						=> 'Firebird 1.5+',
@@ -235,7 +235,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_FORUM_PATH'			=> 'O ficheiro da Base de Dados indicado está dentro da estrutura de diretorias do Fórum. Deveria pôr este ficheiro um local não acessível pela web.',
 	'INST_ERR_DB_INVALID_PREFIX'		=> 'O prefixo digitado é inválido. Deve começar com uma letra e deve conter apenas letras, números e sublinhados.',
 	'INST_ERR_DB_NO_ERROR'				=> 'Nenhuma mensagem de erro foi reportada.',
-	'INST_ERR_DB_NO_MYSQLI'				=> 'A versão do Mysql instalado nesta máquina é incompativel com a “MySQL with MySQLi Extension” opção selecionada. Tente com uma outra opção “MySQL”.',
+	'INST_ERR_DB_NO_MYSQLI'				=> 'A versão do Mysql instalado nesta máquina é incompatível com a “MySQL with MySQLi Extension” opção selecionada. Tente com uma outra opção “MySQL”.',
 	'INST_ERR_DB_NO_SQLITE'				=> 'A versão da extensão SQLite instalada é muito antiga, tem que atualizá-la para uma superior à 2.8.2.',
 	'INST_ERR_DB_NO_ORACLE'				=> 'A versão do Oracle instalada nesta máquina exige que sete a variável <var>NLS_CHARACTERSET</var> para o parâmetro <var>UTF8</var>. Pode atualizar a sua instalação para uma posterior à 9.2+ ou alterar o seu parâmetro.',
 	'INST_ERR_DB_NO_FIREBIRD'			=> 'A versão do Firebird instalado nesta máquina é mais antiga do que 2.1, atualize para uma versão mais recente.',
@@ -285,7 +285,7 @@ $lang = array_merge($lang, array(
 	'NOT_UNDERSTAND'					=> 'Não foi possível entender %s #%d, tabela %s ("%s")',
 	'NO_CONVERTORS'						=> 'Não está disponível nenhum conversor',
 	'NO_CONVERT_SPECIFIED'				=> 'Não foi especificado nenhum conversor',
-	'NO_LOCATION'						=> 'Não foi possível determinar o local. Se o Imagemagick estiver instalado, pode especificar o local mais tarde no seu Painel de Administração.',
+	'NO_LOCATION'						=> 'Não foi possível determinar o local. Se o imagemagick estiver instalado, pode especificar o local mais tarde no seu Painel de Administração.',
 	'NO_TABLES_FOUND'					=> 'Não foi encontrada nenhuma tabela.',
 
 	'OVERVIEW_BODY'						=> 'Bem-vindo ao phpBB3!<br /><br />O phpBB® é a solução de código aberto mais utilizada para sistemas de fóruns. A versão 3 é a mais recente de uma série iniciada no ano 2000. Tal como os seus antecessores, tem uma enorme diversidade de ferramentas, uma interface amigável e de fácil compreensão e é suportado pelo phpBB Team. O phpBB3 reuniu o que de melhor havia para o phpBB2 adicionando as ferramentas mais populares e que não se encontravam presentes nas versões anteriores.<br /><br /> Esperamos que esta nova versão exceda as suas expectativas. Este sistema de instalação vai conduzi-lo através de diversas ferramentas, como a instalação do phpBB3, atualização do sistema para a versão mais recente do phpBB3 a partir de versões anteriores, bem como a conversão para phpBB3 de sistemas de Fóruns diferentes, incluindo o phpBB 2.0.x. Para informações mais detalhadas, recomendamos a leitura do <a href="../docs/INSTALL.html">Guia de Instalação</a>.<br /><br />Para conhecer a licença do phpBB3 ou saber como obter ajuda online, selecione as opções no menu lateral. <br /><br />Para continuar, selecione o separador apropriado, INSTALAR ou CONVERTER no canto superior esquerdo do seu monitor.',
@@ -293,16 +293,16 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT'					=> 'Suporte a PCRE UTF-8',
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'O phpBB <strong>não</strong> funcionará se a sua instalação do PHP não for compilada com suporte a UTF-8 na extensão PCRE.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Função do PHP getimagesize() está disponível',
-	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Essêncial</strong> - Para o funcionamento correto do phpBB, é necessário que esta função seja disponível.',
+	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Essencial</strong> - Para o funcionamento correto do phpBB, é necessário que esta função seja disponível.',
 	'PHP_OPTIONAL_MODULE'				=> 'Módulos Opcionais',
 	'PHP_OPTIONAL_MODULE_EXPLAIN'		=> '<strong>Opcional</strong> - Estes módulos ou aplicações são opcionais, não sendo necessários para a utilização do phpBB 3.0. No entanto, se os tiver, obterá maiores funcionalidades.',
 	'PHP_SUPPORTED_DB'					=> 'Bases de Dados suportadas',
-	'PHP_SUPPORTED_DB_EXPLAIN'			=> '<strong>Necessário</strong> - Deve ter pelo menos uma Base de Dados compatível com o phpBB. Se não há nenhuma Base de Dados disponível, contate o seu fornecedor de Alojamento ou reveja a documentação do phpBB relevante para obter ajuda.',
+	'PHP_SUPPORTED_DB_EXPLAIN'			=> '<strong>Necessário</strong> - Deve ter pelo menos uma Base de Dados compatível com o phpBB. Se não há nenhuma Base de Dados disponível, contacte o seu fornecedor de Alojamento ou reveja a documentação do phpBB relevante para obter ajuda.',
 	'PHP_REGISTER_GLOBALS'				=> 'A configuração do PHP "register_globals" está desativada',
 	'PHP_REGISTER_GLOBALS_EXPLAIN'		=> 'O phpBB irá funcionar com esta configuração ativada, mas se possível, recomendamos que a configuração register_globals seja desativada no PHP por motivos de segurança.',
 	'PHP_SAFE_MODE'						=> 'Modo Seguro',
 	'PHP_SETTINGS'						=> 'Versão do PHP e Configurações',
-	'PHP_SETTINGS_EXPLAIN'				=> '<strong>Necessário</strong> - Deve possuír no mínimo a versão 4.3.3, do PHP para instalar o phpBB. Se o "modo seguro" está indicado em baixo, a instalação do PHP decorrerá neste modo. Daí resultarão limitações para a Administração remota e caraterísticas similares.',
+	'PHP_SETTINGS_EXPLAIN'				=> '<strong>Necessário</strong> - Deve possuir no mínimo a versão 4.3.3, do PHP para instalar o phpBB. Se o "modo seguro" está indicado em baixo, a instalação do PHP decorrerá neste modo. Daí resultarão limitações para a Administração remota e caraterísticas similares.',
 	'PHP_URL_FOPEN_SUPPORT'				=> 'Configuração do PHP <var>allow_url_fopen</var> está ativada',
 	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'		=> '<strong>Opcional</strong> - Esta configuração é opcional, no entanto algumas funções, como o Avatar fora do site, não funcionarão.',
 	'PHP_VERSION_REQD'					=> 'Versão do PHP >= 4.3.3',
@@ -332,7 +332,7 @@ $lang = array_merge($lang, array(
 	'STAGE_ADVANCED_EXPLAIN'			=> 'As configurações nesta página apenas são necessárias se desejar introduzir modificações à configuração padrão. Todas as configurações presentes nesta página podem ser efetuadas posteriormente no Painel de Administração.',
 	'STAGE_CONFIG_FILE'					=> 'Ficheiro de Configuração',
 	'STAGE_CREATE_TABLE'				=> 'Criação das Tabelas',
-	'STAGE_CREATE_TABLE_EXPLAIN'		=> 'As Tabelas da Base de Dados utilizadas pelo phpBB 3x foram criadas com sucesso e atualizadas com as informações iniciais.Continue para o próximo passo para concluir a instalação do phpBB.',
+	'STAGE_CREATE_TABLE_EXPLAIN'		=> 'As Tabelas da Base de Dados utilizadas pelo phpBB 3.0 foram criadas com sucesso e atualizadas com as informações iniciais.Continue para o próximo passo para concluir a instalação do phpBB.',
 	'STAGE_DATABASE'					=> 'Configuração da Base de Dados',
 	'STAGE_FINAL'						=> 'Etapa Final',
 	'STAGE_INTRO'						=> 'Introdução',
@@ -361,14 +361,14 @@ $lang = array_merge($lang, array(
 
 	'UNABLE_WRITE_LOCK'					=> 'Não foi possível escrever o ficheiro de bloqueio',
 	'UNAVAILABLE'						=> 'Indisponível',
-	'UNWRITABLE'						=> 'Não gravável',
+	'UNWRITABLE'						=> 'Não tem permissões de escrita',
 	'UPDATE_TOPICS_POSTED'				=> 'Gerando informações de Tópicos enviados',
 	'UPDATE_TOPICS_POSTED_ERR'			=> 'Algum erro ocorreu enquanto as informações dos Tópicos eram geradas. Pode tentar novamente esta etapa no Painel de Administração quando a conversão estiver completa.',
 	'VERIFY_OPTIONS'					=> 'Verificando as opções da configuração',
 	'VERSION'							=> 'Versão',
 
 	'WELCOME_INSTALL'					=> 'Bem-vindo à Instalação do phpBB3',
-	'WRITABLE'							=> 'Gravável',
+	'WRITABLE'							=> 'Tem permissões de escrita',
 ));
 
 // Updater
@@ -537,8 +537,8 @@ $lang = array_merge($lang, array(
 
 		<ul style="margin-left: 20px; font-size: 1.1em;"> 
 			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com downloads page</a> e descarregue o "Pacote de Atualização do phpBB" correto.<br /><br /></li> 
-			<li>Descompate o Ficheiro.<br /><br /></li> 
-			<li>Envie a Pasta de Instalação completamente descompatada para o seu Servidor (onde o seu Ficheiro config.php se encontra).<br /><br /></li> 
+			<li>Descompacte o Ficheiro.<br /><br /></li> 
+			<li>Envie a Pasta de Instalação completamente descompactada para o seu Servidor (onde o seu Ficheiro config.php se encontra).<br /><br /></li> 
 		</ul> 
 
 		<p>Depois de enviado, o seu Fórum ficará inacessível aos Utilizadores normais conforme a diretoria instalação que enviou agora.<br /><br />
@@ -554,11 +554,11 @@ $lang = array_merge($lang, array(
        <p>O phpBB detetou um processo de atualização automática incompleto. Por favor, certifique-se de ter seguido todas as etapas com a ferramenta de atualização automática. Pode encontrar este endereço novamente, ou ir para a diretoria da instalação.</p>
     ',
 	'UPDATE_METHOD'						=> 'Método de atualização',
-	'UPDATE_METHOD_EXPLAIN'				=> 'Pode escolher o método de atualização desejado. Utilizando o envio por FTP, deverá inserir os dados do seu registo no servidor de FTP. Com este método, os Ficheiros serão automaticamente movidos para o novo local e backups dos Ficheiros antigos serão criados com a extensão .bak ao nome do Ficheiro. Se escolher fazer a transferência dos Ficheiros modificados, poderá descompatá-los e enviá-los depois manualmente para os seus locais corretos.',
+	'UPDATE_METHOD_EXPLAIN'				=> 'Pode escolher o método de atualização desejado. Utilizando o envio por FTP, deverá inserir os dados do seu registo no servidor de FTP. Com este método, os Ficheiros serão automaticamente movidos para o novo local e backups dos Ficheiros antigos serão criados com a extensão .bak ao nome do Ficheiro. Se escolher fazer a transferência dos Ficheiros modificados, poderá descompactá-los e enviá-los depois manualmente para os seus locais corretos.',
 	'UPDATE_REQUIRES_FILE'				=> 'O sistema de atualização necessita dos seguintes Ficheiro: %s',
 	'UPDATE_SUCCESS'					=> 'A atualização foi executada com sucesso',
 	'UPDATE_SUCCESS_EXPLAIN'			=> 'Todos os Ficheiros foram atualizados com sucesso. A próxima etapa envolve verificar todos os Ficheiros novamente para ter certeza de que os Ficheiros foram atualizados corretamente.',
-	'UPDATE_VERSION_OPTIMIZE'			=> 'Atualização da versão e optimização das Tabelas',
+	'UPDATE_VERSION_OPTIMIZE'			=> 'Atualização da versão e otimização das Tabelas',
 	'UPDATING_DATA'						=> 'Atualização dos Dados',
 	'UPDATING_TO_LATEST_STABLE'			=> 'Atualização da Base de Dados para a nova versão',
 	'UPDATED_VERSION'					=> 'Versão atualizada',
@@ -595,10 +595,10 @@ $lang = array_merge($lang, array(
 	'FORUMS_TEST_FORUM_TITLE'			=> 'O meu primeiro Fórum',
 
 	'RANKS_SITE_ADMIN_TITLE'			=> 'Administrador',
-	'REPORT_WAREZ'						=> 'A mensagem denúnciada contém endereços ilegais ou de software pirateado.',
-	'REPORT_SPAM'						=> 'A mensagem denúnciada tem apenas o propósito de anunciar um sítio web ou um produto.',
-	'REPORT_OFF_TOPIC'					=> 'A mensagem denúnciada é desnecessária, e não faz sentido.',
-	'REPORT_OTHER'						=> 'A mensagem denúnciada não se encaixa em nenhuma outra categoria, use o campo de descrição para especificar uma.',
+	'REPORT_WAREZ'						=> 'A mensagem denunciada contém endereços ilegais ou de software pirateado.',
+	'REPORT_SPAM'						=> 'A mensagem denunciada tem apenas o propósito de anunciar um sítio web ou um produto.',
+	'REPORT_OFF_TOPIC'					=> 'A mensagem denunciada é desnecessária, e não faz sentido.',
+	'REPORT_OTHER'						=> 'A mensagem denunciada não se encaixa em nenhuma outra categoria, use o campo de descrição para especificar uma.',
 
 	'SMILIES_ARROW'						=> 'Seta',
 	'SMILIES_CONFUSED'					=> 'Confuso',

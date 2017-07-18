@@ -1,16 +1,15 @@
 <?php
 /**
 *
-* acp_posting [Português]
+* acp_posting [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
 */
-
 /**
 * DO NOT CHANGE
 */
@@ -39,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 // BBCodes
 // Note to translators: you can translate everything but what's between { and }
 $lang = array_merge($lang, array(
-	'ACP_BBCODES_EXPLAIN'			=> 'BBCode (Bulletin Board Code) é uma linguagem originalmente desenvolvida para phpBB. Permite configurar o que é, e como é exibido.<br /> Aqui é possível adicionar, editar e apagar BBCodes.',
+	'ACP_BBCODES_EXPLAIN'			=> 'BBCode (Bulletin Board Code) é uma linguagem originalmente desenvolvida para phpBB. Permite configurar o que é, e como é exibido. Aqui é possível adicionar, editar e apagar BBCodes.',
 	'ADD_BBCODE'					=> 'Adicionar novo BBCode',
 	'BBCODE_DANGER'					=> 'O BBCode que está a tentar adicionar parece usar um {TEXT} dentro de um atributo de HTML. Esta é uma possível questão de segurança XSS. Em alternativa, tente usar o mais restritivo {SimpleText} ou {INTTEXT}. Só prossiga se compreende os riscos de segurança envolvidos e se considera inevitável o uso de {TEXT}.',
 	'BBCODE_DANGER_PROCEED'			=> 'Continuar', //'I understand the risk',
@@ -84,7 +83,8 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> 'Qualquer Séries de Dígitos',
 		'EMAIL'			=> 'Um endereço de email válido',
 		'URL'			=> 'Uma URL válida utilizando qualquer protocolo (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, “http://” é o prefixado para a sequência.',
-		'LOCAL_URL'		=> 'Uma URL local. A URL deve ser relativa à página do Tópico e não pode um nome de servidor ou protocolo',
+		'LOCAL_URL'		=> 'Uma URL local. O URL deve ser relativo à página do tópico e não pode conter o nome do servidor ou o protocolo, como as ligações são prefixados com “%s”',
+		'RELATIVE_URL'	=> 'Uma URL relativa. Pode combinar partes de uma URL, mas tenha cuidado: a URL completa é uma URL relativa válida. Quando quiser usar URLs relativas do seu fórum, use o token LOCAL_URL.',
 		'COLOR'			=> 'Uma Cor de HTML, pode ser tanto na forma numérica <samp>#FF1234</samp> ou uma <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS colour keyword</a> assim como <samp>fuchsia</samp> ou <samp>InativeBorder</samp>',
 	)
 ));
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 // Smilies and topic icons 
 $lang = array_merge($lang, array( 
 	'ACP_ICONS_EXPLAIN'				=> 'Aqui pode adicionar, editar e apagar os ícones que os Utilizador terão disponíveis para adicionar nos Tópicos e Mensagens. Estes ícones são exibidos geralmente perto do Título dos Tópicos na lista de Fóruns, ou o título do Tópico na lista de Tópicos. Também pode instalar e criar Pacotes de Ícones novos.',
-	'ACP_SMILIES_EXPLAIN'			=> 'Emoções ou Smiles são tipicamente pequenas, às vezes imagens animadas utilizadas para mostrar alguma emoção ou sentimento. Aqui pode adicionar, editar e apagar as Emoções que os Utilizadores terão disponíveis nos Tópicos e Mensagens Privadas. Também pode instalar e criar Pacotes de Emoções.',
+	'ACP_SMILIES_EXPLAIN'			=> 'Emoções ou Smilies são tipicamente pequenas, às vezes imagens animadas utilizadas para mostrar alguma emoção ou sentimento. Aqui pode adicionar, editar e apagar as Emoções que os Utilizadores terão disponíveis nos Tópicos e Mensagens Privadas. Também pode instalar e criar Pacotes de Emoções.',
 	'ADD_SMILIES'					=> 'Adicionar Múltiplas Emoções',
 	'ADD_SMILEY_CODE'				=> 'Adicionar Código Adicional à Emoção',
 	'ADD_ICONS'						=> 'Adicionar Ícones Múltiplos',
@@ -117,7 +117,7 @@ $lang = array_merge($lang, array(
 	'EXPORT_ICONS'					=> 'Exportar e descarregar Pacote de ícones (smilies.pak)',
 	'EXPORT_ICONS_EXPLAIN'			=> '%sClicando neste atalho, as configurações para os seus ícones instalados serão compactadas para <samp>icons.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os seus ícones mais este ficheiro de configuração<samp>icons.pak</samp>%s.',
 	'EXPORT_SMILIES'				=> 'Exportar e descarregar um pack de Emoções',
-	'EXPORT_SMILIES_EXPLAIN'		=> '%sClicando neste atalho, os icones de emoções instalados será compactado para <samp>smilies.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todas as suas emoções mais este ficheiro de configuração<samp>smilies.pak</samp>%s.',
+	'EXPORT_SMILIES_EXPLAIN'		=> '%sClicando neste atalho, os ícones de emoções instalados será compactado para <samp>smilies.pak</samp> que uma vez descarregado pode ser utilizado para criar um ficheiro <samp>.zip</samp> ou <samp>.tgz</samp> contendo todas as suas emoções mais este ficheiro de configuração<samp>smilies.pak</samp>%s.',
 
 	'FIRST'							=> 'Primeiro',
 
@@ -193,7 +193,7 @@ $lang = array_merge($lang, array(
 
 // Word censors 
 $lang = array_merge($lang, array( 
-	'ACP_WORDS_EXPLAIN'				=> 'Aqui pode adicionar, editar e apagar palavras que serão automaticamente censuradas no Fórum. Adicionando esta opção, os visitantes continuarão a poder registar-se com Nomes de utilizadores contendo estas palavras. Podem ser utilizados asteriscos (*) aumentando as possibilidades de abranger variações de uma mesma palavra. Por exemplo, testa* abrangerá testar e detesta.',
+	'ACP_WORDS_EXPLAIN'				=> 'Aqui pode adicionar, editar e apagar palavras que serão automática mente censuradas no Fórum. Adicionando esta opção, os visitantes continuarão a poder registar-se com Nomes de utilizadores contendo estas palavras. Podem ser utilizados asteriscos (*) aumentando as possibilidades de abranger variações de uma mesma palavra. Por exemplo, testa* abrangerá testar e detesta.',
 	'ADD_WORD'						=> 'Adicionar nova Palavra',
 
  	'EDIT_WORD'						=> 'Editar Palavra Censurada',
@@ -212,31 +212,31 @@ $lang = array_merge($lang, array(
 )); 
 
 // Ranks 
-$lang = array_merge($lang, array(
-    'ACP_RANKS_EXPLAIN'                => 'Aqui poderá adicionar, editar, visualizar e apagar classificações. Pode também criar classificações personalizadas que podem ser aplicados a um Utilizador nas Ferramentas de Administração de Utilizadores.',
-    'ADD_RANK'                        => 'Adicionar nova classificação',
+$lang = array_merge($lang, array( 
+	'ACP_RANKS_EXPLAIN'				=> 'Aqui poderá adicionar, editar, visualizar e apagar classificações. Pode também criar classificações personalizadas que podem ser aplicados a um Utilizador nas Ferramentas de Administração de Utilizadores.',
+	'ADD_RANK'						=> 'Adicionar nova classificação',
 
-    'MUST_SELECT_RANK'                => 'Tem de seleccionar uma classificação.',
+	'MUST_SELECT_RANK'				=> 'Tem de seleccionar uma classificação.',
 
-    'NO_ASSIGNED_RANK'                => 'Nenhuma Classificação Especial existente.',
-    'NO_RANK_TITLE'                    => 'Tem que escrever o Título da Classificação.',
-    'NO_UPDATE_RANKS'                => 'A classificação foi apagada com sucesso. De qualquer modo, os registos que utilizavam esta classificação não foram atualizados. Tem que atualizar as classificações nestes registos manualmente.',
+	'NO_ASSIGNED_RANK'				=> 'Nenhuma Classificação Especial existente.',
+	'NO_RANK_TITLE'					=> 'Tem que escrever o Título da Classificação.',
+	'NO_UPDATE_RANKS'				=> 'A classificação foi apagada com sucesso. De qualquer modo, os registos que utilizavam esta classificação não foram actualizados. Tem que actualizar as classificações nestes registos manualmente.',
 
-    'RANK_ADDED'                    => 'A classificação foi adicionada com sucesso.',
-    'RANK_IMAGE'                    => 'Imagem da Classificação',
-    'RANK_IMAGE_EXPLAIN'            => 'Imagem da Classificação (relativo à pasta raiz do phpBB).',
-    'RANK_IMAGE_IN_USE'        => '(em uso)',
-    'RANK_MINIMUM'                    => 'Número Mínimo de Mensagens',
-    'RANK_REMOVED'                    => 'A classificação foi apagada com sucesso.',
-    'RANK_SPECIAL'                    => 'Escreva uma Classificação Especial',
-    'RANK_TITLE'                    => 'Título da Classificação',
-    'RANK_UPDATED'                    => 'A Classificação foi actualizada com sucesso.',
+	'RANK_ADDED'					=> 'A classificação foi adicionada com sucesso.',
+	'RANK_IMAGE'					=> 'Imagem da Classificação',
+	'RANK_IMAGE_EXPLAIN'			=> 'Imagem da Classificação (relativo à pasta raiz do phpBB).',
+	'RANK_IMAGE_IN_USE'		=> '(em uso)',
+	'RANK_MINIMUM'					=> 'Número Mínimo de Mensagens',
+	'RANK_REMOVED'					=> 'A classificação foi apagada com sucesso.',
+	'RANK_SPECIAL'					=> 'Escreva uma Classificação Especial',
+	'RANK_TITLE'					=> 'Título da Classificação',
+	'RANK_UPDATED'					=> 'A Classificação foi actualizada com sucesso.',
 )); 
 
 // Disallow Usernames 
 $lang = array_merge($lang, array( 
 	'ACP_DISALLOW_EXPLAIN'			=> 'Aqui pode gerir os nomes cuja utilização é proibida. Utilize o asterisco (*) para facilitar a construção de nomes.',
-	'ADD_DISALLOW_EXPLAIN'			=> 'Introduza o nome que deseja proibir. <br />Use os asteriscos (*) cuidadosamente.',
+	'ADD_DISALLOW_EXPLAIN'			=> 'Introduza o nome que deseja proibir. Use os asteriscos (*) cuidadosamente.',
 	'ADD_DISALLOW_TITLE'			=> 'Adicionar um Nome Proibido',
 
 	'DELETE_DISALLOW_EXPLAIN'		=> 'Aqui pode eliminar uma proibição, seleccionando na lista o nome cuja proibição pretende anular, clicando de seguida em enviar.',

@@ -2,8 +2,7 @@ Subject: {FORUM_NAME} - Novo Tópico
 
 Olá {USERNAME},
 
-Está a observar o "{FORUM_NAME}" em "{SITENAME}", onde foi criado o seguinte Tópico:
-"{TOPIC_TITLE}". 
+Está a observar o "{FORUM_NAME}" em "{SITENAME}". Este fórum tem um novo tópico<!-- IF AUTHOR_NAME !== '' --> por {AUTHOR_NAME}<!-- ENDIF -->, "{TOPIC_TITLE}". 
 
 Pode vê-lo no seguinte endereço:
 {U_FORUM}

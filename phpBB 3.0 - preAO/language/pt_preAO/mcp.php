@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* mcp [Português]
+* mcp [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -40,9 +40,9 @@ $lang = array_merge($lang, array(
 	'ACTION'							=> 'Acção',
 	'ACTION_NOTE'						=> 'Acção/Nota',
 	'ADD_FEEDBACK'						=> 'Adicionar relatório',
-	'ADD_FEEDBACK_EXPLAIN'				=> 'Utilize o campo abaixo para escrever o relatório.<br />Não é permitida a utilização de HTML, BBCode, etc.',
+	'ADD_FEEDBACK_EXPLAIN'				=> 'Utilize o campo abaixo para escrever o relatório. Não é permitida a utilização de HTML, BBCode, etc.',
 	'ADD_WARNING'						=> 'Adicionar Explicação',
-	'ADD_WARNING_EXPLAIN'				=> 'Pode enviar este aviso para o utilizador em questão com a opcção em baixo seleccionada. Se acrescentar texto tenha em atenção que HTML, BBCode, etc. não são permitidos.',
+	'ADD_WARNING_EXPLAIN'				=> 'Pode enviar este aviso para o utilizador em questão com a opção em baixo seleccionada. Se acrescentar texto tenha em atenção que HTML, BBCode, etc. não são permitidos.',
 	'ALL_ENTRIES'						=> 'Todas as entradas',
 	'ALL_NOTES_DELETED'					=> 'Todas as notas do Utilizador foram apagadas com sucesso.',
 	'ALL_REPORTS'						=> 'Todas as denúncias.',
@@ -199,7 +199,7 @@ $lang = array_merge($lang, array(
 	'MCP_QUEUE_APPROVE_DETAILS'			=> 'Aprovar detalhes',
 	'MCP_QUEUE_UNAPPROVED_POSTS'		=> 'Mensagens para aprovação',
 	'MCP_QUEUE_UNAPPROVED_POSTS_EXPLAIN'	=> 'Lista de Mensagens que aguardam aprovação para se tornarem visíveis aos Utilizadores.',
-	'MCP_QUEUE_UNAPPROVED_TOPICS'		=> 'Tópicos para aprovação',
+	'MCP_QUEUE_UNAPPROVED_TOPICS'			=> 'Tópicos para aprovação',
 	'MCP_QUEUE_UNAPPROVED_TOPICS_EXPLAIN'	=> 'Lista de Tópicos que aguardam aprovação para se tornarem visíveis aos Utilizadores.',
 
 	'MCP_VIEW_USER'						=> 'Ver avisos dum Utilizador específico',
@@ -211,7 +211,7 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_USER'						=> 'Avisar Utilizador',
 
 	'MERGE_POSTS_CONFIRM'				=> 'Deseja fundir as Mensagens seleccionadas?',
-	'MERGE_TOPIC_EXPLAIN'				=> 'Use este formulário para fundir Mensagens com Tópicos. Depois de fundidas, as mensagens comportam-se como se tiverem sido enviadas originalmente para o Tópico.<br />Digite a ID do Tópico de destino da mensagem ou clique em <strong>Escolher Tópico</strong> e procure-o na lista.',
+	'MERGE_TOPIC_EXPLAIN'				=> 'Use este formulário para fundir Mensagens com Tópicos. Depois de fundidas, as mensagens comportam-se como se tiverem sido enviadas originalmente para o Tópico.<br />Digite a ID do Tópico de destino da mensagem ou clique em Escolher Tópico e procure-o na lista.',
 	'MERGE_TOPIC_ID'					=> 'ID do Tópico de destino',
 	'MERGE_TOPICS'						=> 'Fundir Tópicos',
 	'MERGE_TOPICS_CONFIRM'				=> 'Tem a certeza que deseja fundir os Tópicos seleccionados?',
@@ -254,7 +254,7 @@ $lang = array_merge($lang, array(
 	'PM_REPORTED_SUCCESS'				=> 'Esta mensagem privada foi denunciada com sucesso.',
 	'PM_REPORT_TOTAL'					=> 'No total há <strong>1</strong> MP denunciada para análise.',
 	'PM_REPORTS_CLOSED_SUCCESS'			=> 'Os relatórios das MP seleccionados foram encerrados com sucesso.',
-	'PM_REPORTS_DELETED_SUCCESS'			=> 'Os relatórios das MP seleccionados foram apagados com sucesso.',
+	'PM_REPORTS_DELETED_SUCCESS'		=> 'Os relatórios das MP seleccionados foram apagados com sucesso.',
 	'PM_REPORTS_TOTAL'					=> 'No total há <strong>%d</strong> mensagens privadas denunciadas para análise.',
 	'PM_REPORTS_ZERO_TOTAL'				=> 'Não há mensagens privadas denunciadas para análise.',
 	'PM_REPORT_DETAILS'					=> 'Detalhes da denúncia da mensagem privada.',
@@ -297,7 +297,7 @@ $lang = array_merge($lang, array(
 	'REPORT_REASON'						=> 'Razão da denuncia',
 	'REPORT_TIME'						=> 'Tempo do denuncia',
 	'REPORT_TOTAL'						=> 'No total, há <strong>1</strong> denuncias para análise.',
-	'RESYNC'							=> 'Resincronizar',
+	'RESYNC'							=> 'Ressincronizar',
 	'RETURN_MESSAGE'					=> '%sVoltar à Mensagem%s',
 	'RETURN_NEW_FORUM'					=> '%sVoltar ao novo Fórum%s',
 	'RETURN_NEW_TOPIC'					=> '%sVoltar ao novo Tópico%s',
@@ -337,7 +337,7 @@ $lang = array_merge($lang, array(
 	'TOPICS_FORKED_SUCCESS'				=> 'Os Tópicos seleccionados foram copiados com sucesso.',
 	'TOPICS_LOCKED_SUCCESS'				=> 'Os Tópicos seleccionados foram bloqueados com sucesso.',
 	'TOPICS_MOVED_SUCCESS'				=> 'Os Tópicos seleccionados foram movidos com sucesso.',
-	'TOPICS_RESYNC_SUCCESS'				=> 'Os Tópicos seleccionados foram resincronizados com sucesso.',
+	'TOPICS_RESYNC_SUCCESS'				=> 'Os Tópicos seleccionados foram ressincronizados com sucesso.',
 	'TOPICS_TYPE_CHANGED'				=> 'Tipos dos Tópicos alterados com sucesso.',
 	'TOPICS_UNLOCKED_SUCCESS'				=> 'Os Tópicos seleccionados foram desbloqueados com sucesso.',
 	'TOPIC_APPROVED_SUCCESS'				=> 'O Tópico seleccionado foi aprovado com sucesso.',
@@ -347,7 +347,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_LOCKED_SUCCESS'				=> 'O Tópico seleccionado foi bloqueado com sucesso.',
 	'TOPIC_MOVED_SUCCESS'				=> 'O Tópico seleccionado foi movido com sucesso.',
 	'TOPIC_NOT_EXIST'					=> 'O Tópico seleccionado não existe.',
-	'TOPIC_RESYNC_SUCCESS'				=> 'O Tópico seleccionado foi resincronizado com sucesso.',
+	'TOPIC_RESYNC_SUCCESS'				=> 'O Tópico seleccionado foi ressincronizado com sucesso.',
 	'TOPIC_SPLIT_SUCCESS'				=> 'O Tópico seleccionado foi dividido com sucesso.',
 	'TOPIC_TIME'						=> 'Tempo do Tópico',
 	'TOPIC_TYPE_CHANGED'				=> 'O tipo do Tópico foi modificado com sucesso.',

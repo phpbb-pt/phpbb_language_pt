@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* acp_attachments [Português]
+* acp_attachments [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -38,8 +38,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Aqui pode configurar as Opções Principais para os Anexos e Categorias Especiais associadas.',
-	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui pode adicionar, excluir, modificar e desactivar as Extensões. Consulte o Painel Gestor de Grupos de Extensões.<br >Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras…), por serem potencialmente perigosas.',
-	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui pode controlar as Extensões permitidas. Para activar as suas Extensões, consulte por favor o Painel de Gestão dos Grupos das Extensões.<br > Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras…), por serem potencialmente perigosas.',
+	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Aqui pode adicionar, excluir, modificar e desactivar as Extensões. Consulte o Painel Gestor de Grupos de Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras…), por serem potencialmente perigosas.',
+	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> 'Aqui pode controlar as Extensões permitidas. Para activar as suas Extensões, consulte por favor o Painel de Gestão dos Grupos das Extensões. Recomenda-se que não permita extensões de scripts (tipo: php, php3, php4, phtml, pl, cgi, py, rb, asp, aspx, entre outras…), por serem potencialmente perigosas.',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> 'Estes são os Ficheiros que não estão associados a uma Mensagem.',
 	'ADD_EXTENSION'						=> 'Adicionar Extensão',
 	'ADD_EXTENSION_GROUP'				=> 'Adicionar Grupo de Extensões',
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'CAT_RM_FILES'						=> 'Real Media Streams',
 	'CAT_WM_FILES'						=> 'Win Media Streams',
 	'CHECK_CONTENT'						=> 'Verificar ficheiros anexados',
-	'CHECK_CONTENT_EXPLAIN'				=> 'Alguns Ficheiros podem obrigar os navegadores e executar funções incorrectas. Esta opção permite recusar esses ficheiros.',
+	'CHECK_CONTENT_EXPLAIN'				=> 'Alguns Ficheiros podem obrigar os navegadores e executar funções incorrectas. Esta opção permite recusar esses Ficheiros.',
 	'CREATE_GROUP'						=> 'Criar um novo Grupo',
 	'CREATE_THUMBNAIL'					=> 'Criar uma Imagem reduzida',
 	'CREATE_THUMBNAIL_EXPLAIN'			=> 'Criar uma Imagem reduzida em todas as situações possíveis.',
@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_ADD_IPS_EXPLAIN'			=> 'Para definir vários IPs ou Servidores diferentes, introduza cada um numa nova linha. Para definir uma faixa de endereços de IP separe o início e o fim com um hífen (-). Pode utilizar asteriscos (*)',
 	'DOWNLOAD_REMOVE_IPS_EXPLAIN'		=> 'Pode remover (ou não-excluir) múltiplos endereços de IPs de uma única vez usando a combinação apropriada de rato e teclado para seu computador e navegador. IPs apagados têm um fundo em azul.',
 	'DISPLAY_INLINED'					=> 'Mostrar Imagens',
-	'DISPLAY_INLINED_EXPLAIN'			=> 'Se escolher <b>Não</b> as imagens anexadas serão mostradas como atalhos.',
+	'DISPLAY_INLINED_EXPLAIN'			=> 'Se escolher Não as imagens anexadas serão mostradas como atalhos.',
 	'DISPLAY_ORDER'						=> 'Ordem de visualização dos Anexos',
 	'DISPLAY_ORDER_EXPLAIN'				=> 'Os anexos são ordenados pela hora de envio.',
 
@@ -112,15 +112,15 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME'						=> 'Nome do Grupo',
 
 	'IMAGE_LINK_SIZE'					=> 'Dimensões para o atalho de Imagem',
-	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostra o anexo da imagem como um atalho se a imagem for maior que o seleccionado, introduza 0 px por 0 px para desactivar.',
-	'IMAGICK_PATH'						=> 'Local do Imagemagick',
-	'IMAGICK_PATH_EXPLAIN'				=> 'Caminho completo para o programa Imagemagick, p.exemplo: /usr/bin/.',
+	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostra o anexo da imagem como um atalho se a imagem for maior que o seleccionado, introduza 0px por 0px para desactivar.',
+	'IMAGICK_PATH'						=> 'Local do ImageMagick',
+	'IMAGICK_PATH_EXPLAIN'				=> 'Caminho completo para o programa imagemagick, p.exemplo: /usr/bin/.',
 
 	'MAX_ATTACHMENTS'					=> 'Máximo de anexos por Mensagem',
 	'MAX_ATTACHMENTS_PM'				=> 'Máximo de anexos por Mensagem Privada',
 	'MAX_EXTGROUP_FILESIZE'				=> 'Tamanho Máximo dos Ficheiros',
 	'MAX_IMAGE_SIZE'					=> 'Dimensão Máxima das Imagens',
-	'MAX_IMAGE_SIZE_EXPLAIN'			=> 'Tamanho Máximo das imagens anexadas, 0 px por 0 px impede anexo de imagens.',
+	'MAX_IMAGE_SIZE_EXPLAIN'			=> 'Tamanho Máximo das imagens anexadas, 0px por 0px impede anexo de imagens.',
 	'MAX_THUMB_WIDTH'					=> 'Largura máxima das imagens em miniaturas em píxeis',
 	'MAX_THUMB_WIDTH_EXPLAIN'			=> 'A largura das miniaturas geradas não ultrapassará a seleccionada.',
 	'MIN_THUMB_FILESIZE'				=> 'Tamanho Mínimo de imagem reduzida',
@@ -167,7 +167,7 @@ $lang = array_merge($lang, array(
 	'UPLOADING_FILE_TO'					=> 'A Enviar Ficheiro "%1$s" à Mensagem Nº %2$d...',
 	'UPLOAD_DENIED_FORUM'				=> 'Não tem Permissão para enviar Ficheiros para o Fórum "%s".',
 	'UPLOAD_DIR'						=> 'Directoria de Anexos',
-	'UPLOAD_DIR_EXPLAIN'				=> 'Directoria de arquivo dos anexos.<br /> Se mudar esta directoria tendo já anexos nela, deve mudar manualmente esses anexos para o novo local.',
+	'UPLOAD_DIR_EXPLAIN'				=> 'Directoria de arquivo dos anexos. Se mudar esta directoria tendo já anexos nela, deve mudar manualmente esses anexos para o novo local.',
 	'UPLOAD_ICON'						=> 'Ícone de envio',
 	'UPLOAD_NOT_DIR'					=> 'O local para envio de Ficheiros que indicou não parece ser uma directoria.',
 ));

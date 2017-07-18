@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SIG_FLASH'				=> 'Permitir aos Utilizadores usar BBCode <code>[FLASH]</code> na Assinatura',
 	'ALLOW_SIG_IMG'					=> 'Permitir aos Utilizadores usar BBCode <code>[IMG]</code> na Assinatura',
 	'ALLOW_SIG_LINKS'				=> 'Permitir aos Utilizadores usar Links na Assinatura',
-	'ALLOW_SIG_LINKS_EXPLAIN'		=> 'Se desativado o BBCode <code>[URL]</code> e o processamento automatico de URLs é desativado.',
+	'ALLOW_SIG_LINKS_EXPLAIN'		=> 'Se desativado o BBCode <code>[URL]</code> e o processamento automático de URLs é desativado.',
 	'ALLOW_SIG_SMILIES'				=> 'Permitir aos Utilizadores usar Emoções na Assinatura',
 	'ALLOW_SMILIES'					=> 'Permitir Emoções (Ícones de Emoções)',
 	'ALLOW_TOPIC_NOTIFY'			=> 'Permitir a vigilância dos Tópicos',
@@ -104,7 +104,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_GALLERY_PATH'			=> 'Diretoria da Galeria de Avatares',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Diretoria dependendo da raiz do phpBB para Galeria de Avatares: Exemplo: \images\avatars\gallery.',
 	'AVATAR_STORAGE_PATH'			=> 'Diretoria de arquivo dos Avatares',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Diretoria dependendo da raiz do phpBB para Upload de Avatares  Exemplo: \images\avatars\upload.<br />O upload do Avatar <strong>estará indisponível</strong> se a pasta não for gravável.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Diretoria dependendo da raiz do phpBB para Upload de Avatares  Exemplo: \images\avatars\upload.<br />O upload do Avatar <strong>estará indisponível</strong> se a pasta não tiver permissão de escrita.',
 	'MAX_AVATAR_SIZE'				=> 'Dimensões Máximas do Avatar',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> '(Altura x Largura em píxeis).',
 	'MAX_FILESIZE'					=> 'Tamanho Máximo do Ficheiro Avatar',
@@ -212,7 +212,7 @@ $lang = array_merge($lang, array(
 	'NEW_MEMBER_POST_LIMIT'				=> 'Mensagens dos Utilizadores Registados Recentemente',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'		=> 'Os novos utilizadores entram para o Grupo <em>Utilizadores Registados Recentemente</em> até atingirem este número de mensagens. Pode usar este Grupo para impedir que usem as mensagens privadas ou para rever as suas mensagens. <strong>0 para desativar.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'			=> 'Grupo de Utilizadores Registados Recentemente',
-	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Se definido como Sim e especificado um limite de mensagens, o novo utilizador será colocado no Grupo <em>Utilizadores Registados Recentemente</em>, sendo esse o seu Grupo Padrão. Isso pode ser util se deseja atribuir um Grupo Padrão, Classificação e/ou Avatar a estes utilizadores.',
+	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Se definido como Sim e especificado um limite de mensagens, o novo utilizador será colocado no Grupo <em>Utilizadores Registados Recentemente</em>, sendo esse o seu Grupo Padrão. Isso pode ser útil se deseja atribuir um Grupo Padrão, Classificação e/ou Avatar a estes utilizadores.',
 
 	'ACC_ADMIN'							=> 'Administrador',
 	'ACC_DISABLE'						=> 'Desativar Registos',
@@ -279,7 +279,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Permite mostrar a lista de todos os Fóruns com Feed.',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'Permitir Autenticação HTTP',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Permite aos utilizadores receber o conteúdo oculto para visitantes adicionando o parâmetro <samp>auth=http</samp> ao URL do feed. Note por favor que algumas configurações do PHP exigem mudanças adicionais no ficheiro .htacess. As instruções podem ser encontradas no ficheiro.',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Permite aos utilizadores receber o conteúdo oculto para visitantes adicionando o parâmetro <samp>auth=http</samp> ao URL do feed. Note por favor que algumas configurações do PHP exigem mudanças adicionais no ficheiro .htaccess. As instruções podem ser encontradas no ficheiro.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Item de estatísticas',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Exibe estatísticas individuais por baixo dos itens de feed<br />(Postado por, data e hora, respostas, visualizações)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Excluir Fóruns',
@@ -288,7 +288,7 @@ $lang = array_merge($lang, array(
 
 // Visual Confirmation Settings 
 $lang = array_merge($lang, array(
-	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Aqui pode selecionar e configurar plugins desenhados para bloquear registos automáticos de spambots. Estes plugins fazem um teste ao utilizador <em>(CAPTCHA)</em> de dificil resolução pelos computadores.',
+	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Aqui pode selecionar e configurar plugins desenhados para bloquear registos automáticos de spambots. Estes plugins fazem um teste ao utilizador <em>(CAPTCHA)</em> de difícil resolução pelos computadores.',
 	'AVAILABLE_CAPTCHAS'					=> 'Plugins disponíveis',
 	'CAPTCHA_UNAVAILABLE'					=> 'O plugin não pode ser selecionado enquanto não preencher os requisitos necessários.',
 	'CAPTCHA_GD'							=> 'Imagem GD',
@@ -323,7 +323,7 @@ $lang = array_merge($lang, array(
 	'VISUAL_CONFIRM_POST'				=> 'Confirmação visual de Mensagens dos Visitantes',
 	'VISUAL_CONFIRM_POST_EXPLAIN'		=> 'Exige aos visitantes (anónimos) que introduzam um código aleatório para prevenir mensagens em massa.',
 	'VISUAL_CONFIRM_REG'				=> 'Medidas anti-spambot no registo',
-	'VISUAL_CONFIRM_REG_EXPLAIN'		=> 'Exige aos novos utilizadores uma tarefa anti-spambot para evitar registos automaticos.',
+	'VISUAL_CONFIRM_REG_EXPLAIN'		=> 'Exige aos novos utilizadores uma tarefa anti-spambot para evitar registos automáticos.',
 	'VISUAL_CONFIRM_REFRESH'			=> 'Permitir aos utilizadores atualizem a tarefa anti-spambot',
 	'VISUAL_CONFIRM_REFRESH_EXPLAIN'	=> 'Permite que os utilizadores solicitem uma nova tarefa anti-spambot se forem incapazes de resolver a tarefa corrente durante o registo. Alguns plugins podem não suportar esta opção.',
 ));
@@ -367,7 +367,7 @@ $lang = array_merge($lang, array(
 	'YES_MODERATORS'						=> 'Ativa a visualização de Moderadores',
 	'YES_ONLINE'							=> 'Ativa lista de Utilizadores online',
 	'YES_ONLINE_EXPLAIN'					=> 'Mostra informação de Utilizador online nas páginas de índice, Fóruns e Tópicos.',
-	'YES_ONLINE_GUESTS'						=> 'Ativa lista de convidados on-line na visualização de quem está online',
+	'YES_ONLINE_GUESTS'						=> 'Ativa lista de convidados online na visualização de quem está online',
 	'YES_ONLINE_GUESTS_EXPLAIN'				=> 'Permitir visualização de informações de Utilizadores convidados na visualização de quem está online.',
 	'YES_ONLINE_TRACK'						=> 'Ativa visualização da imagem do Utilizador online',
 	'YES_ONLINE_TRACK_EXPLAIN'				=> 'Mostra informação online para Utilizadores em Perfil e Tópicos.',
@@ -380,7 +380,7 @@ $lang = array_merge($lang, array(
 
 // Auth settings 
 $lang = array_merge($lang, array( 
-	'ACP_AUTH_SETTINGS_EXPLAIN'				=> 'O phpBB suporta Plug-ins ou Módulos que permitem definir o método de autenticação dos Utilizadores que entram no Fórum. São disponibilizados três plugins: DB, LDAP e Apache. Nem todos os Módulos necessitam de informação adicional. Preencha apenas os campos relevantes para o método selecionado.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'				=> 'O phpBB suporta Plugins ou Módulos que permitem definir o método de autenticação dos Utilizadores que entram no Fórum. São disponibilizados três plugins: DB, LDAP e Apache. Nem todos os Módulos necessitam de informação adicional. Preencha apenas os campos relevantes para o método selecionado.',
 
 	'AUTH_METHOD'							=> 'Selecione um método de autenticação',
 
@@ -416,7 +416,7 @@ $lang = array_merge($lang, array(
 	'FORCE_SERVER_VARS'						=> 'Forçar configurações da URL do Servidor',
 	'FORCE_SERVER_VARS_EXPLAIN'				=> 'Se selecionar Sim serão usadas as configurações aqui definidas em alternativa aos valores definidos automaticamente.',
 	'ICONS_PATH'							=> 'Diretoria para Ficheiro de Ícones',
-	'ICONS_PATH_EXPLAIN'					=> 'Diretoria sob o diretoria raiz do phpBB. Exemplo: images/ícons.',
+	'ICONS_PATH_EXPLAIN'					=> 'Diretoria sob o diretoria raiz do phpBB. Exemplo: images/icons.',
 	'PATH_SETTINGS'							=> 'Configurações de Pastas',
 	'RANKS_PATH'							=> 'Diretoria para Ficheiro de Imagens de Classificação',
 	'RANKS_PATH_EXPLAIN'					=> 'Diretoria sob a diretoria raiz do phpBB. Exemplo:  images/ranks.',
@@ -446,12 +446,12 @@ $lang = array_merge($lang, array(
 	'AUTOLOGIN_LENGTH_EXPLAIN'				=> 'Duração das chaves de acesso automático, 0 para desativar.',
 	'BROWSER_VALID'							=> 'Validação do navegador',
 	'BROWSER_VALID_EXPLAIN'					=> 'Ativa a validação do navegador em cada sessão, aumentando a segurança.',
-	'CHECK_DNSBL'							=> 'Verifica se o IP está na lista de DNS bloquados',
+	'CHECK_DNSBL'							=> 'Verifica se o IP está na lista de DNS bloqueados',
 	'CHECK_DNSBL_EXPLAIN'					=> 'Se ativado, os endereços IP dos Utilizadores são verificados nos serviços DNSBL quando forem enviadas Mensagens ou criadas Contas de Utilizador: <a href="http://spamcop.net">spamcop.net</a> e <a href="http://www.spamhaus.org">www.spamhaus.org</a>. Essa operação pode tornar-se demorada, dependendo da configuração do Servidor. Nesse caso, ou se acusar falsamente endereços de IP, desative esta opção.',
 	'CLASS_B'								=> 'A.B',
 	'CLASS_C'								=> 'A.B.C',
 	'EMAIL_CHECK_MX'						=> 'Verificar se o Domínio é um registo MX válido',
-	'EMAIL_CHECK_MX_EXPLAIN'				=> 'Se ativado, o Domínio do email, quando indicado nos Registos ou alterações de Perfil será verficado nos Registos MX.',
+	'EMAIL_CHECK_MX_EXPLAIN'				=> 'Se ativado, o Domínio do email, quando indicado nos Registos ou alterações de Perfil será verificado nos Registos MX.',
 	'FORCE_PASS_CHANGE'						=> 'Força a mudança de Senha',
 	'FORCE_PASS_CHANGE_EXPLAIN'				=> 'Duração em dias da Senha de acesso ao Fórum. Após este prazo é pedido ao Utilizador que altere a sua Senha. 0 para desativar.',
 	'FORM_TIME_MAX'							=> 'Tempo máximo para enviar formas',
@@ -527,24 +527,24 @@ $lang = array_merge($lang, array(
 
 // Jabber settings 
 $lang = array_merge($lang, array( 
-	'ACP_JABBER_SETTINGS_EXPLAIN'			=> 'Aqui pode ativar e controlar o uso do Jabber para Mensagens Instantâneas e Notícias. Jabber é um Protocolo código-aberto e por isso mesmo disponível a qualquer pessoa interessada. Alguns Servidores de Jabber incluem Gateways e transportes que permitem que contate Utilizadores em outras redes. Nem todos os servidores oferecem todos os transportes, e mudanças nos protocolos podem evitar operações de transportes. Note que pode levar muitos segundos até à atualização dos detalhes da conta de Jabber, então não interrompa a execução dos procedimentos enquanto não estiver completo!',
+	'ACP_JABBER_SETTINGS_EXPLAIN'			=> 'Aqui pode ativar e controlar o uso do Jabber para Mensagens Instantâneas e Notícias. Jabber é um Protocolo código-aberto e por isso mesmo disponível a qualquer pessoa interessada. Alguns Servidores de Jabber incluem Gateways e transportes que permitem que contacte Utilizadores em outras redes. Nem todos os servidores oferecem todos os transportes, e mudanças nos protocolos podem evitar operações de transportes. Note que pode levar muitos segundos até à atualização dos detalhes da conta de Jabber, então não interrompa a execução dos procedimentos enquanto não estiver completo!',
 
-	'JAB_ENABLE'							=> 'Ativa Jabber',
-	'JAB_ENABLE_EXPLAIN'					=> 'Ativar o uso de Mensagens e Avisos Jabber.',
-	'JAB_GTALK_NOTE'						=> 'Por favor, note que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é implementada nas plataformas do windows. Isto não é executável atualmente em sistemas BSD-based, incluindo o Mac OS.',
+	'JAB_ENABLE'							=> 'Ativar Jabber',
+	'JAB_ENABLE_EXPLAIN'					=> 'Ativa o uso de Mensagens e Avisos Jabber.',
+	'JAB_GTALK_NOTE'						=> 'Por favor, note que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é implementada nas plataformas do Windows. Isto não é executável atualmente em sistemas BSD-based, incluindo o Mac OS.',
 	'JAB_PACKAGE_SIZE'						=> 'Tamanho do pacote de Jabber',
 	'JAB_PACKAGE_SIZE_EXPLAIN'				=> 'Este é o número de Mensagens enviadas num pacote. Se for 0, a Mensagem será enviada imediatamente e não será colocada em fila de espera para posterior envio.',
 	'JAB_PASSWORD'							=> 'Senha Jabber',
 	'JAB_PASSWORD_EXPLAIN'					=> '<em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
 	'JAB_PORT'								=> 'Porta do Jabber',
-	'JAB_PORT_EXPLAIN'						=> 'Deixe em branco se souber que não é 5222.',
+	'JAB_PORT_EXPLAIN'						=> 'Deixe em branco se souber que a porta usada é 5222. Caso contrário, coloque a porta correta',
 	'JAB_SERVER'							=> 'Servidor Jabber',
 	'JAB_SERVER_EXPLAIN'					=> 'Veja a lista de Servidores em %sjabber.org%s.',
 	'JAB_SETTINGS_CHANGED'					=> 'Configurações do Jabber alteradas com sucesso.',
 	'JAB_USE_SSL'							=> 'Usar SSL para se ligar',
-	'JAB_USE_SSL_EXPLAIN'					=> 'Se ativado, uma ligação segura tentará ser estabilizada. A porta Jabber será alterada para 5223 se a porta 5222 tiver sido indicado.',
-	'JAB_USERNAME'							=> 'Utilizador Jabber',
-	'JAB_USERNAME_EXPLAIN'					=> 'Se não estiver registado será criado se possível.',
+	'JAB_USE_SSL_EXPLAIN'					=> 'Se ativado, será tentado efetuar-se uma ligação segura. A porta Jabber será alterada para 5223 se a porta 5222 tiver sido indicada.',
+	'JAB_USERNAME'							=> 'Nome de Utilizador Jabber ou JID',
+	'JAB_USERNAME_EXPLAIN'					=> 'Especifique um nome de utilizador registado ou um JID válido. O nome de utilizador não será verificado. Se especificares o nome de utilizador, o JID usado será o nome de utilizador e o servidor aquele especificado acima. Caso contrário, especifique um JID válido, por exemplo utilizador@jabber.org.',
 ));
 
 ?>

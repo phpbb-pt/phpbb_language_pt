@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE_EXPLAIN'			=> 'Aqui pode criar, configurar e eliminar Grupos. Pode ainda escolher os Líderes dos Grupos, especificar o seu estado (Aberto ou Fechado) e atribuir um Nome e uma Descrição ao Grupo.',
 	'ADD_USERS'							=> 'Adicionar Utilizadores',
-	'ADD_USERS_EXPLAIN'					=> 'Aqui pode adicionar novos Membros ao Grupo. Deve indicar se é o Grupo Padrão dos Utilizadores selecionados. Pode selecionar os Líderes do Grupo. Escreva apena um Utilizador por linha.',
+	'ADD_USERS_EXPLAIN'					=> 'Aqui pode adicionar novos Membros ao Grupo. Deve indicar se é o Grupo Padrão dos Utilizadores selecionados. Pode selecionar os Líderes do Grupo. Escreva apenas um Utilizador por linha.',
 
 	'COPY_PERMISSIONS'					=> 'Copiar Permissões de',
 	'COPY_PERMISSIONS_EXPLAIN'			=> 'Uma vez criadas, o Grupo terá as mesmas Permissões que selecionar aqui.',
@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 	'GROUP_MAX_RECIPIENTS_EXPLAIN'		=> 'Se definido 0, serão usadas as Configurações Gerais do Painel.',
 	'GROUP_OPTIONS_SAVE'			=> 'Opções do Grupo alargadas',
 	'GROUP_MEMBERS'						=> 'Membros do Grupo',
-	'GROUP_MEMBERS_EXPLAIN'				=> 'Esta é uma lista completa dos Membros deste Grupo. Inclui seções separadas para Líderes, pendentes e Membros atuais. Neste Painel pode configurar os gestores deste Grupo e as suas tarefas. Para apagar um Líder sem retirá-lo do Grupo, use a Opção Demitir Líder. Para promover um Membro do Grupo a Líder selecione Promover Líder.',
+	'GROUP_MEMBERS_EXPLAIN'				=> 'Esta é uma lista completa dos Membros deste Grupo. Inclui secções separadas para Líderes, pendentes e Membros atuais. Neste Painel pode configurar os gestores deste Grupo e as suas tarefas. Para apagar um Líder sem retirá-lo do Grupo, use a Opção Demitir Líder. Para promover um Membro do Grupo a Líder selecione Promover Líder.',
 	'GROUP_MESSAGE_LIMIT'				=> 'Limite de Mensagens Privadas do Grupo por Pasta',
 	'GROUP_MESSAGE_LIMIT_EXPLAIN'		=> 'Esta configuração substitui o limite da pasta de Mensagem por Utilizador. Um valor igual a 0 significa manter as configurações individuais ao Utilizador.',
 	'GROUP_MODS_ADDED'					=> 'Os Moderadores do Grupo foram adicionados com sucesso.',

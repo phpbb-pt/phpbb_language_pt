@@ -4,7 +4,7 @@ Olá {USERNAME};
 
 
 A sua denúncia da Mensagem "{POST_SUBJECT}" no Tópico "{TOPIC_TITLE}" em "{SITENAME}" foi vista e bloqueada por um Moderador ou um Administrador.
-Se tem mais perguntas a este respeito, contate o Utilizador {CLOSER_NAME} por Mensagem Particular.
+Se tem mais perguntas a este respeito, contacte o Utilizador {CLOSER_NAME} por Mensagem Particular.
 
 
 Obrigado {USERNAME}.

@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* posting [Português]
+* posting [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'						=> 'Criar Votação',
 	'ADD_POLL_EXPLAIN'				=> 'Se não deseja adicionar uma votação ao Tópico deixe os campos em branco.',
 	'ALREADY_DELETED'				=> 'Esta Mensagem já foi apagada.',
-	'ATTACH_DISK_FULL'					=> 'Não existe espaço livre suficiente no servidor onde se encontra este fórum para enviar o anexo.',
+	'ATTACH_DISK_FULL'				=> 'Não existe espaço livre suficiente no servidor onde se encontra este fórum para enviar o anexo.',
 	'ATTACH_QUOTA_REACHED'			=> 'A cota máxima de anexos para este painel foi alcançada.',
 	'ATTACH_SIG'					=> 'Anexar a minha assinatura (pode alterar a assinatura no Painel de Controlo do Utilizador)',
 
@@ -55,9 +55,9 @@ $lang = array_merge($lang, array(
 	'BBCODE_IS_OFF'					=> '%sBBCode%s está <em>DESLIGADO</em>',
 	'BBCODE_IS_ON'					=> '%sBBCode%s está <em>LIGADO</em>',
 	'BBCODE_I_HELP'					=> 'Texto em Itálico: [i]texto[/i]  (alt+i)',
-	'BBCODE_L_HELP'					=> 'Lista: [list]texto[/list]  (alt+l)',
-	'BBCODE_LISTITEM_HELP'			=> 'Listar Itens: [*]texto[/*]',
-	'BBCODE_O_HELP'					=> 'Lista Ordenada: [list=]texto[/list]  (alt+o)',
+	'BBCODE_L_HELP'					=> 'Lista: [list][*]texto[/list]', 
+	'BBCODE_LISTITEM_HELP'			=> 'Listar Itens: [*]texto',
+	'BBCODE_O_HELP'					=> 'Lista Ordenada: e.g. [list=1][*]Primeiro Ponto[/list] ou [list=a][*]Ponto a[/list]',
 	'BBCODE_P_HELP'					=> 'Inserir imagem: [img]http://url_da_imagem[/img]  (alt+p)',
 	'BBCODE_Q_HELP'					=> 'Citar Texto: [quote]texto[/quote]  (alt+q)',
 	'BBCODE_S_HELP'					=> 'Cor da Fonte: [color=red]texto[/color]  Também pode usar color=#FF0000',
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_CONFIRM'			=> 'Tem a certeza que deseja apagar esta Mensagem?',
 	'DELETE_POST_WARN'				=> 'Uma vez apagada, a Mensagem não poderá ser recuperada',
 	'DISABLE_BBCODE'				=> 'Desactivar o BBCode',
-	'DISABLE_MAGIC_URL'				=> 'Não processar as URLs automaticamente',
+	'DISABLE_MAGIC_URL'				=> 'Não processar as URLs automática mente',
 	'DISABLE_SMILIES'				=> 'Desactivar as Emoções',
 	'DISALLOWED_CONTENT'			=> 'O envio foi rejeitado porque o Ficheiro enviado foi identificado como provavelmente malicioso.',
 	'DISALLOWED_EXTENSION'			=> 'A extensão %s não é permitida.',
@@ -161,7 +161,7 @@ $lang = array_merge($lang, array(
 	'POSTED_ATTACHMENTS'			=> 'Anexos',
 	'POST_APPROVAL_NOTIFY'			=> 'Será avisado quando a mensagem for aprovada.',
 	'POST_CONFIRMATION'				=> 'Confirmação da Mensagem',
-	'POST_CONFIRM_EXPLAIN'			=> 'Para evitar Mensagens automáticas, o administrador deste painel exige que informe o código de confirmação. O código é mostrado na imagem abaixo. Se não consegue ver a imagem, por favor, contacte o %sAdministrador%s.',
+	'POST_CONFIRM_EXPLAIN'			=> 'Para evitar Mensagens automáticas, o administrador deste painel exige que informe o código de confirmação. O código é mostrado na imagem abaixo. Se não consegue ver a imagem, por favor contacte o %sAdministrador%s.',
 	'POST_DELETED'					=> 'A Mensagem foi apagada com sucesso.',
 	'POST_EDITED'					=> 'A Mensagem foi editada com sucesso.',
 	'POST_EDITED_MOD'				=> 'A Mensagem foi editada mas necessita de ser Aprovada por um Moderador antes de se tornar visível. Será avisado quando a sua Mensagem for aprovada.',
@@ -179,16 +179,17 @@ $lang = array_merge($lang, array(
 
 	'QUOTE_DEPTH_EXCEEDED'			=> 'Só pode inserir %1$d citações dentro de outras.',
 
+	'REMOTE_UPLOAD_TIMEOUT'			=> 'O ficheiro especificado não pôde ser carregado porque o pedido excedeu o tempo limite.',
 	'SAVE'							=> 'Guardar',
 	'SAVE_DATE'						=> 'Guardar em',
 	'SAVE_DRAFT'					=> 'Guardar rascunho',
-	'SAVE_DRAFT_CONFIRM'			=> 'Os rascunhos arquivados só incluem o assunto e o texto da Mensagem. <br />Outros elementos serão removidos.<br />Arquivar o rascunho?',
+	'SAVE_DRAFT_CONFIRM'			=> 'Os rascunhos arquivados só incluem o assunto e o texto da Mensagem. Outros elementos serão removidos. Arquivar o rascunho?',
 	'SMILIES'						=> 'Emoções',
 	'SMILIES_ARE_OFF'				=> 'Emoções estão <em>Desligadas</em>',
 	'SMILIES_ARE_ON'				=> 'Emoções estão <em>Ligadas</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'	=> 'Tempo limite do Fixo/Anúncio',
 	'STICK_TOPIC_FOR'				=> 'Fixar Tópico por',
-	'STICK_TOPIC_FOR_EXPLAIN'		=> 'Digite 0 ou deixe em branco para manter Fixo/Anúncio por tempo indeterminado. Por favor, note que este número é relativo à data da colocação da mensagem.',
+	'STICK_TOPIC_FOR_EXPLAIN'		=> 'Digite 0 ou deixe em branco para manter Fixo/Anúncio por tempo indeterminado. Por favor note que este número é relativo à data da colocação da mensagem.',
 	'STYLES_TIP'					=> 'Dica: Estilos podem ser aplicados a textos seleccionados.',
 
 	'TOO_FEW_CHARS'					=> 'A Mensagem contém poucos caracteres.',
@@ -220,7 +221,7 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'					=> '%sVer a Mensagem enviada%s',
 	'VIEW_PRIVATE_MESSAGE'			=> '%sVer a Mensagem Privada enviada%s',
 
-	'WRONG_FILESIZE'				=> 'O Ficheiro é muito grande. O máximo permitido é %1d %2s.',
+	'WRONG_FILESIZE'				=> 'O Ficheiro é muito grande. O máximo permitido é %1$d %2$s.',
 	'WRONG_SIZE'					=> 'A imagem deve ter pelo menos %1$d píxeis de largura, %2$d píxeis de altura e no máximo %3$d píxeis de largura e %4$d píxeis de altura. A imagem enviada tem %5$d píxeis de largura e %6$d píxeis de altura.',
 ));
 

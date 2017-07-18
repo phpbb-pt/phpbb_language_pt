@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* acp_language [Português]
+* acp_language [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 
 	'LANGUAGE_DETAILS_UPDATED'		=> 'A Configuração dos idiomas foi actualizada com sucesso.',
 	'LANGUAGE_ENTRIES'				=> 'Tradução de instruções',
-	'LANGUAGE_ENTRIES_EXPLAIN'		=> 'Aqui pode alterar os pacotes de idiomas existentes ou não traduzidos.<br /><strong>Nota:</strong> Depois de efectuar as modificações clique em <b>Enviar e Descarregar Ficheiro</b> O mesmo será colocado na directoria <b>/store</b>.<br /> Estas alterações só serão visíveis depois de substituir os ficheiros no servidor.',
+	'LANGUAGE_ENTRIES_EXPLAIN'		=> 'Aqui pode alterar os pacotes de idiomas existentes ou não traduzidos.<br /><strong>Nota:</strong> Depois de efectuar as modificações clique em Enviar e Descarregar Ficheiro O mesmo será colocado na directoria /store.<br /> Estas alterações só serão visíveis depois de substituir os ficheiros no servidor.',
 	'LANGUAGE_FILES'				=> 'Ficheiros dos idiomas',
 	'LANGUAGE_KEY'					=> 'Chave de Linguagem',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'=> 'O Pacote de idiomas já se encontra instalado.',
@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_LOCALNAME'		=> 'Nome do Local',
 	'LANGUAGE_PACK_NAME'			=> 'Nome',
 	'LANGUAGE_PACK_NOT_EXIST'		=> 'O Pacote de idiomas seleccionado não existe.',
-	'LANGUAGE_PACK_USED_BY'			=> 'Utilizado por (incluindo robots)',
+	'LANGUAGE_PACK_USED_BY'			=> 'Utilizado por (incluindo robôs)',
 	'LANGUAGE_VARIABLE'				=> 'Variável de linguagem',
 	'LANG_AUTHOR'					=> 'Autor do Pacote de idioma',
 	'LANG_ENGLISH_NAME'				=> 'Nome Inglês',

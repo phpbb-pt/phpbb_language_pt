@@ -37,7 +37,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Por que é que não consigo entrar no Fórum?',
-		1	=> 'Já se Registou? Deve Registar-se para poder Entrar no Fórum. Foi expulso? Se foi expulso deverá receber uma Mensagem a informá-lo da ocorrência. Se discordar das razões apontadas contate o Administrador. Se está registado, não se encontra expulso e mesmo assim não conseguir entrar, verifique se o seu Nome de Utilizador e Senha estão corretos. Normalmente é esse o problema. Se mesmo assim, não encontra uma explicação para a situação, contate o Administrador porque pode haver alguma configuração errada no Sistema.',
+		1	=> 'Já se Registou? Deve Registar-se para poder Entrar no Fórum. Foi expulso? Se foi expulso deverá receber uma Mensagem a informá-lo da ocorrência. Se discordar das razões apontadas contacte o Administrador. Se está registado, não se encontra expulso e mesmo assim não conseguir entrar, verifique se o seu Nome de Utilizador e Senha estão corretos. Normalmente é esse o problema. Se mesmo assim, não encontra uma explicação para a situação, contacte o Administrador porque pode haver alguma configuração errada no Sistema.',
 	),
 	array(
 		0	=> 'O Registo é obrigatório?',
@@ -57,7 +57,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Registei-me mas não consigo entrar!',
-		1	=> 'Verifique se escreve corretamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão corretos tenha em atenção um de dois fatores. Se a função COPPA (Childrens Online Privacy Protection Act) estiver ativa no Fórum e assinalou a uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra-se ativado. Alguns Fóruns obrigam à ativação dos novos Registos. A Ativação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorretamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correto, tente contatar o Administrador do Fórum.',
+		1	=> 'Verifique se escreve corretamente o Nome de Utilizador e a Senha.  Se tem a certeza de que estão corretos tenha em atenção um de dois fatores. Se a função COPPA (Childrens Online Privacy Protection Act) estiver ativa no Fórum e assinalou a uma idade inferior a 13 anos durante o Registo, então tem que seguir as instruções que recebeu. Se não é este o seu caso, então o seu Registo ainda não se encontra-se ativado. Alguns Fóruns obrigam à ativação dos novos Registos. A Ativação tanto pode ser feita pelo Administrador como pelo próprio Utilizador, que neste último caso receberá um email para esse efeito. Esta informação é fornecida aos novos Utilizadores durante o Registo. Se recebeu um email, siga as suas instruções. Se não recebeu nenhum email pode ter escrito incorretamente o endereço de email ou então está considerado como spam pelo seu cliente de email. Se tem certeza que o endereço de email que forneceu é válido e correto, tente contactar o Administrador do Fórum.',
 	),
 	array(
 		0	=> 'Registei-me e já entrei anteriormente mas agora não!',
@@ -97,7 +97,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Como posso exibir uma Imagem junto ao meu Nome de Utilizador?',
-		1	=> 'Há duas imagens que podem aparecer junto com um nome de Utilizador quando se veem as Mensagens. Uma delas pode ser uma imagem associada à sua classificação, geralmente na forma de blocos, estrelas ou pontos, indicando a quantidade de mensagens que tenha feito ou o seu estatuto no Fórum. Outra, geralmente uma imagem maior, é conhecida como um Avatar, que é normalmente única ou pertencente a cada Utilizador. Cabe ao Administrador permitir ou não o uso de Avatar e definir como podem ser usados. Se não conseguir utilizar Avatares, contate o Administrador do Fórum.',
+		1	=> 'Há duas imagens que podem aparecer junto com um nome de Utilizador quando se veem as Mensagens. Uma delas pode ser uma imagem associada à sua classificação, geralmente na forma de blocos, estrelas ou pontos, indicando a quantidade de mensagens que tenha feito ou o seu estatuto no Fórum. Outra, geralmente uma imagem maior, é conhecida como um Avatar, que é normalmente única ou pertencente a cada Utilizador. Cabe ao Administrador permitir ou não o uso de Avatar e definir como podem ser usados. Se não conseguir utilizar Avatares, contacte o Administrador do Fórum.',
 	),
 	array(
 		0	=> 'Como posso alterar a minha Classificação?',
@@ -137,7 +137,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Por que não consigo entrar num Fórum?',
-		1	=> 'O acesso a algumas seções poderá estar limitado apenas a determinados Utilizadores ou Grupos. Para ver, ler, enviar Mensagens, etc., tem que ter de uma autorização especial. Apenas o Moderador dessa secção e um Administrador podem permitir esse acesso. Entre em contacto, caso ache necessário.',
+		1	=> 'O acesso a algumas secções poderá estar limitado apenas a determinados Utilizadores ou Grupos. Para ver, ler, enviar Mensagens, etc., tem que ter de uma autorização especial. Apenas o Moderador dessa secção e um Administrador podem permitir esse acesso. Entre em contacto, caso ache necessário.',
 	),
 	array(
 		0	=> 'Por que não posso Votar?',
@@ -145,7 +145,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Por que não consigo anexar ficheiros?',
-		1	=> 'Em algumas seções, anexar ficheiros pode estar restrito a alguns Utilizadores ou Grupos. Para anexar um arquivo, tem que ter de uma autorização especial. Apenas o Moderador do Fórum e os Administradores podem lhe dar esse acesso. Por Favor, contate-os.',
+		1	=> 'Em algumas seções, anexar ficheiros pode estar restrito a alguns Utilizadores ou Grupos. Para anexar um arquivo, tem que ter de uma autorização especial. Apenas o Moderador do Fórum e os Administradores podem lhe dar esse acesso. Por Favor, contacte-os.',
 	),
 	array(
 		0	=> 'Por que recebi uma Advertência?',
@@ -161,7 +161,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Do que necessita a minha Mensagem para ser Aprovada?',
-		1	=> 'O Administrador pode decidir se na secção em que está postando, as Mensagens precisem ser revisadas ou não. E também é possível que o Administrador O tenha adicionado a um Grupo de Utilizadores que precise ter suas Mensagens aprovadas antes de enviá-las ao Fórum. Por Favor, contate o Administrador para maiores informações.',
+		1	=> 'O Administrador pode decidir se na secção em que está postando, as Mensagens precisem ser revisadas ou não. E também é possível que o Administrador O tenha adicionado a um Grupo de Utilizadores que precise ter suas Mensagens aprovadas antes de enviá-las ao Fórum. Por Favor, contacte o Administrador para maiores informações.',
 	),
 	array(
 		0	=> 'Como posso ressuscitar os meus Tópicos?',
@@ -181,7 +181,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que são Emoções?',
-		1	=> 'As Emoções, ou Smileys, são pequenas representações gráficas que são usadas para expressar sentimentos através da utilização de poucos caracteres. :) quer dizer Feliz, :( quer dizer Triste. A lista completa de pode ser vista no formulário junto à caixa de cada mensagem. Evite o uso excessivo de Emoções, já que podem tornar uma Mensagem ilegível, podendo o Administrador ou um Moderador excluí-las ou apagar a mensagem inteira.',
+		1	=> 'As Emoções, ou Smilies, são pequenas representações gráficas que são usadas para expressar sentimentos através da utilização de poucos caracteres. :) quer dizer Feliz, :( quer dizer Triste. A lista completa de pode ser vista no formulário junto à caixa de cada mensagem. Evite o uso excessivo de Emoções, já que podem tornar uma Mensagem ilegível, podendo o Administrador ou um Moderador excluí-las ou apagar a mensagem inteira.',
 	),
 	array(
 		0	=> 'Posso exibir Imagens?',
@@ -189,7 +189,7 @@ $help = array(
 	),
 	array(
 		0	=> 'O que são Anúncios Globais?',
-		1	=> 'Os Anúncios Globais contêm normalmente informações importantes e devem ser lidos logo que forem publicados. Eles irão aparecer no topo de todas as seções e também com o seu Painel de Utilizadores. Se pode ou não utilizar essa função, depende das permissões que lhe foram dadas e configuradas pelo Administrador.',
+		1	=> 'Os Anúncios Globais contêm normalmente informações importantes e devem ser lidos logo que forem publicados. Eles irão aparecer no topo de todas as secções e também com o seu Painel de Utilizadores. Se pode ou não utilizar essa função, depende das permissões que lhe foram dadas e configuradas pelo Administrador.',
 	),
 	array(
 		0	=> 'O que são Anúncios?',
@@ -218,11 +218,11 @@ $help = array(
 	),
 	array(
 		0	=> 'O que são Administradores?',
-		1	=> 'Administradores são os Utilizadores que possuem o Nível Máximo de controlo sobre todos os aspetos do Fórum. Podem controlar toda a operação das seções, incluindo criar, editar ou apagar seções, determinar permissões, expulsar Utilizadores, criar Grupos de Utilizadores ou Moderadores, etc. E ainda possuem todos os poderes de Moderador em todas as seções existentes.',
+		1	=> 'Administradores são os Utilizadores que possuem o Nível Máximo de controlo sobre todos os aspetos do Fórum. Podem controlar toda a operação das secções, incluindo criar, editar ou apagar secções, determinar permissões, expulsar Utilizadores, criar Grupos de Utilizadores ou Moderadores, etc. E ainda possuem todos os poderes de Moderador em todas as secções existentes.',
 	),
 	array(
 		0	=> 'O que são Moderadores?',
-		1	=> 'Moderadores são os Utilizadores (ou Grupos de Utilizadores) em que seu trabalho é supervisionar diariamente o andamento das seções que lhes estejam designadas. Eles possuem o poder de editar ou apagar Mensagens, trancar, destrancar, mover e subdividir Tópicos nas seções onde são Moderadores. Geralmente os Moderadores fiscalizam Mensagens que possam ir Além do Assunto em Discussão ou o uso de material abusivo ou ofensivo.',
+		1	=> 'Moderadores são os Utilizadores (ou Grupos de Utilizadores) em que seu trabalho é supervisionar diariamente o andamento das secções que lhes estejam designadas. Eles possuem o poder de editar ou apagar Mensagens, trancar, destrancar, mover e subdividir Tópicos nas secções onde são Moderadores. Geralmente os Moderadores fiscalizam Mensagens que possam ir Além do Assunto em Discussão ou o uso de material abusivo ou ofensivo.',
 	),
 	array(
 		0	=> 'O que são Grupos de Utilizadores?',
@@ -234,7 +234,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Como posso ser Líder de um Grupo?',
-		1	=> 'Os Grupos de Utilizadores são inicialmente criados pelo Administrador do Fórum o qual encarrega alguém de ser responsável pelo mesmo, no caso, o Líder do Grupo. Se está interessado em Criar um Grupo de Utilizadores, deverá primeiramente contatar o Administrador, ao qual deverá contatar com uma Mensagem Privada circunstanciada.',
+		1	=> 'Os Grupos de Utilizadores são inicialmente criados pelo Administrador do Fórum o qual encarrega alguém de ser responsável pelo mesmo, no caso, o Líder do Grupo. Se está interessado em Criar um Grupo de Utilizadores, deverá primeiramente contactar o Administrador, ao qual deverá contactar com uma Mensagem Privada circunstanciada.',
 	),
 	array(
 		0	=> 'Por que alguns Grupos aparecem em diferentes cores?',
@@ -258,7 +258,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Recebo Mensagens Privadas indesejáveis!',
-		1	=> 'Pode bloquear as Mensagens Privadas enviadas por um Utilizador em específico utilizando o seu Painel de Utilizadores. Se estiver recebendo Mensagens indesejáveis por parte de algum Utilizador, contate o Administrador do Fórum para que possa proibir o determinado utilizador de enviar este tipo de Mensagens.',
+		1	=> 'Pode bloquear as Mensagens Privadas enviadas por um Utilizador em específico utilizando o seu Painel de Utilizadores. Se estiver recebendo Mensagens indesejáveis por parte de algum Utilizador, contacte o Administrador do Fórum para que possa proibir o determinado utilizador de enviar este tipo de Mensagens.',
 	),
 	array(
 		0	=> 'Recebi de alguém neste Fórum um email com assuntos irrelevantes ou abusivos!',
@@ -282,7 +282,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Como posso Pesquisar?',
-		1	=> 'Escrevendo um Termo de Pesquisa na respetiva página localizada no Índice do Fórum, Visualizando Tópicos ou Seções. Pode aceder à Pesquisa Avançada clicando no atalho Pesquisar que encontra-se disponível em todas as páginas do Fórum.',
+		1	=> 'Escrevendo um Termo de Pesquisa na respetiva página localizada no Índice do Fórum, Visualizando Tópicos ou Secções. Pode aceder à Pesquisa Avançada clicando no atalho Pesquisar que encontra-se disponível em todas as páginas do Fórum.',
 	),
 	array(
 		0	=> 'Por que a minha Pesquisa resultou em nenhuma ocorrência?',
@@ -290,7 +290,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Por que a minha Pesquisa resultou em uma página em branco!?',
-		1	=> 'A sua Pesquisa resultou em inúmeras ocorrências. Use a Pesquisa Avançada e seja mais específico nos termos escritos e selecione seções onde possam ser pesquisados.',
+		1	=> 'A sua Pesquisa resultou em inúmeras ocorrências. Use a Pesquisa Avançada e seja mais específico nos termos escritos e selecione secções onde possam ser pesquisados.',
 	),
 	array(
 		0	=> 'Como posso Pesquisar por Utilizadores?',
@@ -322,7 +322,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Quais os Anexos que são permitidos no Fórum?',
-		1	=> 'Cada Administrador pode ativar ou desativar os tipos de anexos que desejar. Se não tem certeza sobre o que pode ser enviado, contate o Administrador para mais informações.',
+		1	=> 'Cada Administrador pode ativar ou desativar os tipos de anexos que desejar. Se não tem certeza sobre o que pode ser enviado, contacte o Administrador para mais informações.',
 	),
 	array(
 		0	=> 'Como posso encontrar Anexos que enviei?',
@@ -346,7 +346,7 @@ $help = array(
 	),
 	array(
 		0	=> 'Contactos sobre questões abusivas e/ou ilegais relativas ao Fórum.',
-		1	=> 'Contate o Administrador deste Fórum. Veja no canto superior direito da imagem encontrará um atalho para a lista de Utilizadores onde está o Administrador. Envie-lhe uma Mensagem Privada a expor o assunto.',
+		1	=> 'Contacte o Administrador deste Fórum. Veja no canto superior direito da imagem encontrará um atalho para a lista de Utilizadores onde está o Administrador. Envie-lhe uma Mensagem Privada a expor o assunto.',
 	),
 );
 

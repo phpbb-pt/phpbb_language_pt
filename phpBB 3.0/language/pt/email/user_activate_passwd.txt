@@ -15,7 +15,7 @@ Antes de poder utilizá-la tem que proceder à sua ativação no seguinte endere
 
 A sua senha foi codificada na nossa Base de Dados e não é recuperável.
 Se a perder continua a ser possível alterar a senha na página do seu Perfil.
-Em caso de dificuldade contate o Administrador.
+Em caso de dificuldade contacte o Administrador.
 
 
 

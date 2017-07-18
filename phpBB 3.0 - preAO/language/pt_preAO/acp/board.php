@@ -1,16 +1,15 @@
 <?php
 /**
 *
-* acp_board [Português]
+* acp_board [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
 */
-
 /**
 * DO NOT CHANGE
 */
@@ -41,11 +40,11 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS_EXPLAIN'	=> 'Aqui pode definir configurações básicas do phpBB e configurações gerais do Fórum.',
 	'CUSTOM_DATEFORMAT'				=> 'Pessoal',
 	'DEFAULT_DATE_FORMAT'			=> 'Formato da Data',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'A sintaxe usada é idêntica à função PHP <a href="http://www.php.net/date" onclick="this.target=\'_blank\';" title="Abrir este atalho numa nova Janela">date()</a>.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'A sintaxe usada é idêntica à função PHP <code>date</code>.',
 	'DEFAULT_LANGUAGE'				=> 'Idioma Padrão',
 	'DEFAULT_STYLE'					=> 'Estilo Padrão',
 	'DISABLE_BOARD'					=> 'Desactivar o Fórum',
-	'DISABLE_BOARD_EXPLAIN'			=> 'O Fórum fica inacessível aos Utilizadores. Pode justificar o fecho temporário introduzindo uma Mensagem até 255 caracteres',
+	'DISABLE_BOARD_EXPLAIN'			=> 'O Fórum fica inacessível aos Utilizadores que não são Administradores nem Moderadores. Pode justificar o fecho temporário introduzindo uma Mensagem até 255 caracteres',
 	'OVERRIDE_STYLE'				=> 'Sobrepor Estilo do Utilizador',
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Substitui o Estilo do Utilizador pelo Estilo Padrão do Fórum.',
 	'SITE_DESC'						=> 'Descrição do Site',
@@ -75,7 +74,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_PM_REPORT'				=> 'Permitir aos utilizadores reportar Mensagens Privadas',
 	'ALLOW_PM_REPORT_EXPLAIN'		=> 'Caso esteja activado, os utilizadores terão a opção de reportar uma mensagem privada que tenham recebido ou enviado para moderação. Estas mensagens privadas irão ser visíveis no Painel de Controlo de Moderação.',
 	'ALLOW_QUICK_REPLY'				=> 'Permitir Resposta Rápida',
-	'ALLOW_QUICK_REPLY_EXPLAIN'		=> 'Este interruptor permite activar/desactivar globalmente a <b>Resposta Rápida</b> em todo o Fórum. Quando activado, terá ainda que activar a <b>Resposta Rápida</b> individualmente em cada um dos Fóruns.',
+	'ALLOW_QUICK_REPLY_EXPLAIN'		=> 'Este interruptor permite activar/desactivar globalmente a Resposta Rápida em todo o Fórum. Quando activado, terá ainda que activar a Resposta Rápida individualmente em cada um dos Fóruns.',
 	'ALLOW_QUICK_REPLY_BUTTON'		=> 'Activar a Resposta Rápida em todos os Fóruns',
 	'ALLOW_SIG'						=> 'Permitir Assinaturas',
 	'ALLOW_SIG_BBCODE'				=> 'Permitir aos Utilizadores usar BBCode na Assinatura',
@@ -103,9 +102,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permitir o envio de avatares de um outro sítio.',	
 	'ALLOW_UPLOAD'					=> 'Activar o envio de Avatar',
 	'AVATAR_GALLERY_PATH'			=> 'Directoria da Galeria de Avatares',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Directoria dependendo da raiz do phpBB para Galeria de Avatares: Exemplo: <b>\images\avatars\gallery</b>.',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Directoria dependendo da raiz do phpBB para Galeria de Avatares: Exemplo: \images\avatars\gallery.',
 	'AVATAR_STORAGE_PATH'			=> 'Directoria de arquivo dos Avatares',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Directoria dependendo da raiz do phpBB para Upload de Avatares  Exemplo: <b>\images\avatars\upload</b>.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Directoria dependendo da raiz do phpBB para Upload de Avatares  Exemplo: \images\avatars\upload.<br />O upload do Avatar <strong>estará indisponível</strong> se a pasta não tiver permissão de escrita.',
 	'MAX_AVATAR_SIZE'				=> 'Dimensões Máximas do Avatar',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> '(Altura x Largura em píxeis).',
 	'MAX_FILESIZE'					=> 'Tamanho Máximo do Ficheiro Avatar',
@@ -119,10 +118,10 @@ $lang = array_merge($lang, array(
 	'ACP_MESSAGE_SETTINGS_EXPLAIN'	=> 'Aqui pode configurar as opções das Mensagens Privadas.',
 
 	'ALLOW_BBCODE_PM'				=> 'Permitir BBCode nas Mensagens Privadas',
-	'ALLOW_FLASH_PM'				=> 'Permitir o uso do BBCode [FLASH]',
+	'ALLOW_FLASH_PM'				=> 'Permitir o uso do BBCode FLASH',
 	'ALLOW_FLASH_PM_EXPLAIN'		=> 'Para enviar Flash nas Mensagens Privadas tem que activar esta opção. O que depende das suas Permissões.',
 	'ALLOW_FORWARD_PM'				=> 'Permitir reencaminhamento das Mensagens Privadas',
-	'ALLOW_IMG_PM'					=> 'Permitir o uso do BBCode [IMG]',
+	'ALLOW_IMG_PM'					=> 'Permitir o uso do BBCode IMG',
 	'ALLOW_MASS_PM'					=> 'Permitir envio de Mensagens Privadas para múltiplos Utilizadores e Grupos',
 	'ALLOW_MASS_PM_EXPLAIN'			=> 'O envio para Grupos pode ser ajustado individualmente de acordo com a página de configurações do Grupo.',	
 	'ALLOW_PRINT_PM'				=> 'Permitir a impressão das Mensagem Privadas',
@@ -146,10 +145,10 @@ $lang = array_merge($lang, array(
 // Post Settings 
 $lang = array_merge($lang, array( 	
 	'ACP_POST_SETTINGS_EXPLAIN'		=> 'Aqui pode configurar todas as opções de Mensagens.',
-	'ALLOW_POST_LINKS'				=> 'Permitir a Tag BBCode <b>[URL]</b> nas Mensagens Privadas',
-	'ALLOW_POST_LINKS_EXPLAIN'		=> 'Se desactivado, a Tag BBCode <b>[URL]</b> e as URLs mágicas serão desactivadas nas Mensagens Privadas.',
-	'ALLOW_POST_FLASH'				=> 'Permitir o uso da Tag BBCode <b>[FLASH]</b> nas Mensagens',
-	'ALLOW_POST_FLASH_EXPLAIN'		=> 'Se desactivado, a Tag BBCode <b>[FLASH]</b> ficará inactiva nas Mensagens em geral. De qualquer forma, o Sistema de Permissões pode ajudar a controlar as TAGs que Utilizadores podem usar.',
+	'ALLOW_POST_LINKS'				=> 'Permitir a Tag BBCode [URL] nas Mensagens Privadas',
+	'ALLOW_POST_LINKS_EXPLAIN'		=> 'Se desactivado, a Tag BBCode [URL] e as URLs mágicas serão desactivadas nas Mensagens Privadas.',
+	'ALLOW_POST_FLASH'				=> 'Permitir o uso da Tag BBCode [FLASH] nas Mensagens',
+	'ALLOW_POST_FLASH_EXPLAIN'		=> 'Se desactivado, a Tag BBCode [FLASH] ficará inactiva nas Mensagens em geral. De qualquer forma, o Sistema de Permissões pode ajudar a controlar as TAGs que Utilizadores podem usar.',
 
 	'BUMP_INTERVAL'					=> 'Intervalo de Bump',
 	'BUMP_INTERVAL_EXPLAIN'			=> 'Número de minutos, horas ou dias entre a última Mensagem num Tópico e a reactivação deste Tópico. Definir o valor como 0 desactiva este recurso.',
@@ -164,7 +163,7 @@ $lang = array_merge($lang, array(
 	'FLOOD_INTERVAL'				=> 'Intervalo de Segurança',
 	'FLOOD_INTERVAL_EXPLAIN'		=> 'Número de segundos que o Utilizador tem de esperar para criar nova Mensagem.',
 	'HOT_THRESHOLD'					=> 'Mensagens para se tornar um Tópico Popular',
-	'HOT_THRESHOLD_EXPLAIN'			=> 'Número de Mensagens para tornar um Tópico Popular. <strong>0 para desactivar</strong>',
+	'HOT_THRESHOLD_EXPLAIN'			=> 'Número de Mensagens para tornar um Tópico Popular. 0 para desactivar',
 	'MAX_POLL_OPTIONS'				=> 'Número máximo de opções em votações',
 	'MAX_POST_FONT_SIZE'			=> 'Tamanho máximo da fonte nas Mensagens',
 	'MAX_POST_FONT_SIZE_EXPLAIN'	=> 'Tamanho máximo da letra numa mensagem. 0 = ilimitado.',
@@ -179,7 +178,7 @@ $lang = array_merge($lang, array(
 	'POSTING'						=> 'Publicação de mensagens',
 	'POSTS_PER_PAGE'				=> 'Mensagens por página',
 	'QUOTE_DEPTH_LIMIT'				=> 'Tamanho máximo das citações',
-	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> 'Número máximo de citações por mensagem. <strong>0 = Ilimitadas</strong>.',
+	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> 'Número máximo de citações por mensagem. 0 = Ilimitadas.',
 	'SMILIES_LIMIT'					=> 'Máximo de Emoções por Mensagem',
 	'SMILIES_LIMIT_EXPLAIN'			=> 'Número máximo de Emoções que podem ser inseridas numa mensagem. 0 = Ilimitadas.',
 	'SMILIES_PER_PAGE'				=> 'Emoções por página',
@@ -213,7 +212,7 @@ $lang = array_merge($lang, array(
 	'NEW_MEMBER_POST_LIMIT'				=> 'Mensagens dos Utilizadores Registados Recentemente',
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'		=> 'Os novos utilizadores entram para o Grupo <em>Utilizadores Registados Recentemente</em> até atingirem este número de mensagens. Pode usar este Grupo para impedir que usem as mensagens privadas ou para rever as suas mensagens. <strong>0 para desactivar.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'			=> 'Grupo de Utilizadores Registados Recentemente',
-	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Se definido como <strong>Sim</strong> e especificado um limite de mensagens, o novo utilizador será colocado no Grupo <em>Utilizadores Registados Recentemente</em>, sendo esse o seu Grupo Padrão. Isso pode ser útil se deseja atribuir um Grupo Padrão, Classificação e/ou Avatar a estes utilizadores.',
+	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Se definido como Sim e especificado um limite de mensagens, o novo utilizador será colocado no Grupo <em>Utilizadores Registados Recentemente</em>, sendo esse o seu Grupo Padrão. Isso pode ser útil se deseja atribuir um Grupo Padrão, Classificação e/ou Avatar a estes utilizadores.',
 
 	'ACC_ADMIN'							=> 'Administrador',
 	'ACC_DISABLE'						=> 'Desactivar Registos',
@@ -222,10 +221,10 @@ $lang = array_merge($lang, array(
 //	'ACC_USER_ADMIN'					=> 'User + Admin',
 	'ALLOW_EMAIL_REUSE'					=> 'Activar duplicação de emails',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'			=> 'O mesmo email pode ser usado no Registo de vários Utilizadores.',
-	'COPPA'								=> '<a href="http://www.coppa.org/coppa.htm" target="_blank";" title="Abrir numa janela nova"><i><b>COPPA</b> (Childrens Online Privacy Protection Act)</i></a>',
+	'COPPA'								=> 'COPPA',
 	'COPPA_FAX'							=> 'Número de Fax do COPPA',
 	'COPPA_MAIL'						=> 'Email do COPPA',
-	'COPPA_MAIL_EXPLAIN'				=> 'Email para os <b>Encarregados de Educação</b>, enviarem a Autorização de Registo dos menores de 13 anos.',
+	'COPPA_MAIL_EXPLAIN'				=> 'Email para os Encarregados de Educação, enviarem a Autorização de Registo dos menores de 13 anos.',
 	'ENABLE_COPPA'						=> 'Activar COPPA',
 	'ENABLE_COPPA_EXPLAIN'				=> 'Solicita ao Utilizador declaração de idade superior a 13 anos.',
 	'MAX_CHARS'							=> 'Máximo',
@@ -265,7 +264,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL'					=> 'Activar Feeds em todo o Fórum',
 	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Novas mensagens em todo o Fórum.',
 	'ACP_FEED_FORUM'					=> 'Activa os Feeds por Fórum',
-	'ACP_FEED_FORUM_EXPLAIN'			=> 'Fórum e Sub-fórum de novas mensagens.',
+	'ACP_FEED_FORUM_EXPLAIN'			=> 'Fórum e Subfórum de novas mensagens.',
 	'ACP_FEED_TOPIC'					=> 'Activa os Feeds por Tópico',
 	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Tópicos únicos de novas mensagens.',
 
@@ -277,10 +276,10 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_NEWS_EXPLAIN'				=> 'Seleccione a primeira mensagem destes Fóruns. Seleccione nenhum Fórum para desactivar o Feed de notícias.<br />Seleccione múltiplos Fóruns clicando na tecla <samp>CTRL</samp> e clicando no Fórum.',
 
 	'ACP_FEED_OVERALL_FORUMS'			=> 'Activar Feed nos Fóruns',
-	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Permite mostrar a lista de <strong>todos os Fóruns</strong> com Feed.',
+	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Permite mostrar a lista de todos os Fóruns com Feed.',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'Permitir Autenticação HTTP',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Permite aos utilizadores receber o conteúdo oculto para visitantes adicionando o parâmetro <samp>auth=http</samp> ao URL do feed. Note por favor que algumas configurações do PHP exigem mudanças adicionais no ficheiro <b>.htacess</b>. As instruções podem ser encontradas no ficheiro.',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Permite aos utilizadores receber o conteúdo oculto para visitantes adicionando o parâmetro <samp>auth=http</samp> ao URL do feed. Note por favor que algumas configurações do PHP exigem mudanças adicionais no ficheiro .htaccess. As instruções podem ser encontradas no ficheiro.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Item de estatísticas',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Exibe estatísticas individuais por baixo dos itens de feed<br />(Postado por, data e hora, respostas, visualizações)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Excluir Fóruns',
@@ -317,7 +316,7 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_SELECT'					=> 'Plugins instalados',
 	'CAPTCHA_SELECT_EXPLAIN'			=> 'O menu mostra os plugins instalados. A cinzento estão os indisponíveis, porque precisam de configuração prévia.',
 	'CAPTCHA_CONFIGURE'					=> 'Configurar plugins',
-	'CAPTCHA_CONFIGURE_EXPLAIN'			=> 'Altere as definições do plugin seleccionado.',
+	'CAPTCHA_CONFIGURE_EXPLAIN'			=> 'Altere as definições do plugins seleccionado.',
 	'CONFIGURE'							=> 'Configuração',
 	'CAPTCHA_NO_OPTIONS'				=> 'Este plugin não tem opções de configuração.',
 
@@ -337,7 +336,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_NAME'							=> 'Nome do Cookie',
 	'COOKIE_PATH'							=> 'Directoria do Cookie',
 	'COOKIE_SECURE'							=> 'Cookie seguro',
-	'COOKIE_SECURE_EXPLAIN'					=> 'Se o Servidor funciona por SSL, mude para <b>Activado</b> caso contrário, deixe-o <b>Desactivado</b>. Estando <b>Activado</b> sem funcionar por SSL poderá resultar em erros no Servidor durante os redireccionamentos.',
+	'COOKIE_SECURE_EXPLAIN'					=> 'Se o Servidor funciona por SSL, mude para Activado caso contrário, deixe-o Desactivado. Estando Activado sem funcionar por SSL poderá resultar em erros no Servidor durante os redireccionamentos.',
 	'ONLINE_LENGTH'							=> 'Tempo limite para visualização online',
 	'ONLINE_LENGTH_EXPLAIN'					=> 'Tempo em minutos após o qual o Utilizador inactivo não aparecerá na lista de Utilizadores online. Quanto menor, menos processamento exige.',
 	'SESSION_LENGTH'						=> 'Tempo da Sessão [ segundos ]',
@@ -368,7 +367,7 @@ $lang = array_merge($lang, array(
 	'YES_MODERATORS'						=> 'Activa a visualização de Moderadores',
 	'YES_ONLINE'							=> 'Activa lista de Utilizadores online',
 	'YES_ONLINE_EXPLAIN'					=> 'Mostra informação de Utilizador online nas páginas de índice, Fóruns e Tópicos.',
-	'YES_ONLINE_GUESTS'						=> 'Activa lista de convidados on-line na visualização de quem está online',
+	'YES_ONLINE_GUESTS'						=> 'Activa lista de convidados online na visualização de quem está online',
 	'YES_ONLINE_GUESTS_EXPLAIN'				=> 'Permitir visualização de informações de Utilizadores convidados na visualização de quem está online.',
 	'YES_ONLINE_TRACK'						=> 'Activa visualização da imagem do Utilizador online',
 	'YES_ONLINE_TRACK_EXPLAIN'				=> 'Mostra informação online para Utilizadores em Perfil e Tópicos.',
@@ -381,14 +380,14 @@ $lang = array_merge($lang, array(
 
 // Auth settings 
 $lang = array_merge($lang, array( 
-	'ACP_AUTH_SETTINGS_EXPLAIN'				=> 'O phpBB suporta Plug-ins ou Módulos que permitem definir o método de autenticação dos Utilizadores que entram no Fórum. <br />São disponibilizados três plugins: DB, LDAP e Apache. Nem todos os Módulos necessitam de informação adicional. Preencha apenas os campos relevantes para o método seleccionado.',
+	'ACP_AUTH_SETTINGS_EXPLAIN'				=> 'O phpBB suporta Plugins ou Módulos que permitem definir o método de autenticação dos Utilizadores que entram no Fórum. São disponibilizados três plugins: DB, LDAP e Apache. Nem todos os Módulos necessitam de informação adicional. Preencha apenas os campos relevantes para o método seleccionado.',
 
 	'AUTH_METHOD'							=> 'Seleccione um método de autenticação',
 
 	'APACHE_SETUP_BEFORE_USE'				=> 'Tem que configurar a autenticação no Apache antes de mudar para este método de autenticação. Certifique-se de que o nome do Utilizador usado para a autenticação Apache seja a mesma que o seu nome de Utilizador no phpBB. A autenticação Apache apenas pode ser utilizada com o mod_php (com uma versão CGI não funciona) e o safe_mode desactivados.',
 
 	'LDAP_DN'								=> 'LDAP base <var>dn</var>',
-	'LDAP_DN_EXPLAIN'						=> 'Este é o Nome Distinto (dn), determinando a informação do Utilizador, Exemplo: <b>o=Minha Companhia, c=EU</b>.',
+	'LDAP_DN_EXPLAIN'						=> 'Este é o Nome Distinto (dn), determinando a informação do Utilizador, Exemplo: o=Minha Companhia, c=EU.',
 	'LDAP_EMAIL'							=> 'Atributo do email LDAP',
 	'LDAP_EMAIL_EXPLAIN'					=> 'Atribui automaticamente ao nome de seu atributo de entrada de email do Utilizador (se existir um) o email ao novo Utilizador. Se deixar em branco, resulta num endereço de email vazio para os Utilizadores que entrem pela primeira vez ao Fórum.',
 	'LDAP_INCORRECT_USER_PASSWORD'			=> 'As ligações para o Servidor LDAP falharam com nome de Utilizador e senha indicados.',
@@ -410,30 +409,30 @@ $lang = array_merge($lang, array(
 
 // Server Settings 
 $lang = array_merge($lang, array( 
-	'ACP_SERVER_SETTINGS_EXPLAIN'			=> 'Aqui são definidas as configurações dos Servidores e Domínios. Certifique-se de que os dados estão correto. Eventuais erros resultarão em emails contendo informações incorrectas. Quando introduzir o domínio, inclua o <b>http://</b> ou outro protocolo. Altere apenas o número da Porta do Servidor se souber que seu Servidor usa um valor diferente, a <b>Porta 80</b> é usada na maioria dos casos.',
+	'ACP_SERVER_SETTINGS_EXPLAIN'			=> 'Aqui são definidas as configurações dos Servidores e Domínios. Certifique-se de que os dados estão correto. Eventuais erros resultarão em emails contendo informações incorrectas. Quando introduzir o domínio, inclua o http:// ou outro protocolo. Altere apenas o número da Porta do Servidor se souber que seu Servidor usa um valor diferente, a Porta 80 é usada na maioria dos casos.',
 
 	'ENABLE_GZIP'							=> 'Activa Compressão GZip',
 	'ENABLE_GZIP_EXPLAIN'					=> 'Conteúdo gerado será comprimido antes de enviado ao utilizador. Isto pode reduzir o tráfego na rede, mas irá aumentar o uso do CPU no servidor e cliente. Requer a utilização da extensão PHP zlib.',
 	'FORCE_SERVER_VARS'						=> 'Forçar configurações da URL do Servidor',
-	'FORCE_SERVER_VARS_EXPLAIN'				=> 'Se seleccionar <b>Sim</b> serão usadas as configurações aqui definidas em alternativa aos valores definidos automaticamente.',
+	'FORCE_SERVER_VARS_EXPLAIN'				=> 'Se seleccionar Sim serão usadas as configurações aqui definidas em alternativa aos valores definidos automaticamente.',
 	'ICONS_PATH'							=> 'Directoria para Ficheiro de Ícones',
-	'ICONS_PATH_EXPLAIN'					=> 'Directoria sob o directoria raiz do phpBB. Exemplo: <b>images/ícons</b>.',
+	'ICONS_PATH_EXPLAIN'					=> 'Directoria sob o directoria raiz do phpBB. Exemplo: images/icons.',
 	'PATH_SETTINGS'							=> 'Configurações de Pastas',
 	'RANKS_PATH'							=> 'Directoria para Ficheiro de Imagens de Classificação',
-	'RANKS_PATH_EXPLAIN'					=> 'Directoria sob a directoria raiz do phpBB. Exemplo: <b> images/ranks.</b>',
+	'RANKS_PATH_EXPLAIN'					=> 'Directoria sob a directoria raiz do phpBB. Exemplo:  images/ranks.',
 	'SCRIPT_PATH'							=> 'Directoria do script',
-	'SCRIPT_PATH_EXPLAIN'					=> 'Directoria onde o phpBB está instalado com relação ao Domínio. Exemplo: <b>phpBB3</b>.',
+	'SCRIPT_PATH_EXPLAIN'					=> 'Directoria onde o phpBB está instalado com relação ao Domínio. Exemplo: phpBB3.',
 	'SERVER_NAME'							=> 'Nome do Domínio',
-	'SERVER_NAME_EXPLAIN'					=> 'O nome do Domínio que executa o Fórum. Exemplo: <b>www.exemplo.com</b>.',
+	'SERVER_NAME_EXPLAIN'					=> 'O nome do Domínio que executa o Fórum. Exemplo: www.exemplo.com.',
 	'SERVER_PORT'							=> 'Porta do Servidor',
 	'SERVER_PORT_EXPLAIN'					=> 'A Porta usada pelo Servidor, normalmente a 80. Altere apenas se for diferente.',
 	'SERVER_PROTOCOL'						=> 'Protocolo do Servidor',
-	'SERVER_PROTOCOL_EXPLAIN'				=> 'Será usado como o protocolo do servidor se essa configuração for forçada. Se vazio ou não forçado, o protocolo é determinado pela configuração de segurança do cookie <b>http://</b> ou <b>https://</b>.',
+	'SERVER_PROTOCOL_EXPLAIN'				=> 'Será usado como o protocolo do servidor se essa configuração for forçada. Se vazio ou não forçado, o protocolo é determinado pela configuração de segurança do cookie http:// ou https://.',
 	'SERVER_URL_SETTINGS'					=> 'Configurações da URL do Servidor',
 	'SMILIES_PATH'							=> 'Directoria de Ficheiro de Emoções',
-	'SMILIES_PATH_EXPLAIN'					=> 'Directoria sob a directoria raiz do phpBB. Exemplo: <b>images/smilies</b>.',
+	'SMILIES_PATH_EXPLAIN'					=> 'Directoria sob a directoria raiz do phpBB. Exemplo: images/smilies.',
 	'UPLOAD_ICONS_PATH'						=> 'Directoria de Ficheiro de Ícones de Grupos de Extensões',
-	'UPLOAD_ICONS_PATH_EXPLAIN'				=> 'Directoria sob a directoria raiz do phpBB. Exemplo: <b>images/upload_icons</b>.',
+	'UPLOAD_ICONS_PATH_EXPLAIN'				=> 'Directoria sob a directoria raiz do phpBB. Exemplo: images/upload_icons.',
 )); 
 
 // Security Settings 
@@ -444,17 +443,17 @@ $lang = array_merge($lang, array(
 	'ALLOW_AUTOLOGIN'						=> 'Permitir acesso automático',
 	'ALLOW_AUTOLOGIN_EXPLAIN'				=> 'Permite aos Utilizadores entrar automaticamente quando regressam ao Fórum.',
 	'AUTOLOGIN_LENGTH'						=> 'Activar duração do acesso automático',
-	'AUTOLOGIN_LENGTH_EXPLAIN'				=> 'Duração das chaves de acesso automático, <strong>0 para desactivar</strong>.',
+	'AUTOLOGIN_LENGTH_EXPLAIN'				=> 'Duração das chaves de acesso automático, 0 para desactivar.',
 	'BROWSER_VALID'							=> 'Validação do navegador',
 	'BROWSER_VALID_EXPLAIN'					=> 'Activa a validação do navegador em cada sessão, aumentando a segurança.',
 	'CHECK_DNSBL'							=> 'Verifica se o IP está na lista de DNS bloqueados',
-	'CHECK_DNSBL_EXPLAIN'					=> 'Se activado, os endereços IP dos Utilizadores são verificados nos serviços DNSBL quando forem enviadas Mensagens ou criadas Contas de Utilizador: <a href="http://spamcop.net">spamcop.net</a>, <a href="http://dsbl.org">dsbl.org</a> e <a href="http://spamhaus.org">spamhaus.org</a>. Essa operação pode tornar-se demorada, dependendo da configuração do Servidor. Nesse caso, ou se acusar falsamente endereços de IP, desactive esta opção.',
+	'CHECK_DNSBL_EXPLAIN'					=> 'Se activado, os endereços IP dos Utilizadores são verificados nos serviços DNSBL quando forem enviadas Mensagens ou criadas Contas de Utilizador: <a href="http://spamcop.net">spamcop.net</a> e <a href="http://www.spamhaus.org">www.spamhaus.org</a>. Essa operação pode tornar-se demorada, dependendo da configuração do Servidor. Nesse caso, ou se acusar falsamente endereços de IP, desactive esta opção.',
 	'CLASS_B'								=> 'A.B',
 	'CLASS_C'								=> 'A.B.C',
 	'EMAIL_CHECK_MX'						=> 'Verificar se o Domínio é um registo MX válido',
 	'EMAIL_CHECK_MX_EXPLAIN'				=> 'Se activado, o Domínio do email, quando indicado nos Registos ou alterações de Perfil será verificado nos Registos MX.',
 	'FORCE_PASS_CHANGE'						=> 'Força a mudança de Senha',
-	'FORCE_PASS_CHANGE_EXPLAIN'				=> 'Duração em dias da Senha de acesso ao Fórum. Após este prazo é pedido ao Utilizador que altere a sua Senha. <strong>0 para desactivar</strong>.',
+	'FORCE_PASS_CHANGE_EXPLAIN'				=> 'Duração em dias da Senha de acesso ao Fórum. Após este prazo é pedido ao Utilizador que altere a sua Senha. 0 para desactivar.',
 	'FORM_TIME_MAX'							=> 'Tempo máximo para enviar formas',
 	'FORM_TIME_MAX_EXPLAIN'					=> 'Tempo máximo para enviar formas. Use -1 para desactivar. Note que uma forma pode vir a ser inválida se a sessão expirar.',
 	'FORM_SID_GUESTS'						=> 'Formas de laço para Sessões de Visitantes',
@@ -462,7 +461,7 @@ $lang = array_merge($lang, array(
 	'FORWARDED_FOR_VALID'					=> 'Cabeçalho <var>X_FORWARDED_FOR</var> validado',
 	'FORWARDED_FOR_VALID_EXPLAIN'			=> 'As Sessões só continuarão se o cabeçalho <var>X_FORWARDED_FOR</var> enviado for igual ao enviado na última visita. Serão expulsos os IPs que contiverem o mesmo cabeçalho <var>X_FORWARDED_FOR</var> validado.',
 	'IP_VALID'								=> 'Verificação do IP da Sessão',
-	'IP_VALID_EXPLAIN'						=> 'Determina como é autenticado o IP do Utilizador. <b>Todos</b> compara o endereço completo. <b>A.B.C</b> os primeiros x.x.x. <b>A.B</b> os primeiros x.x. <b>Nenhum</b> desactiva a verificação. Em endereços IPv6: <b>A.B.C</b> compara os primeiros quatro blocos. <b>A.B</b> os primeiros 3 blocos.',
+	'IP_VALID_EXPLAIN'						=> 'Determina como é autenticado o IP do Utilizador. Todos compara o endereço completo. A.B.C os primeiros x.x.x. A.B os primeiros x.x. Nenhum desactiva a verificação. Em endereços IPv6: A.B.C compara os primeiros quatro blocos. A.B os primeiros 3 blocos.',
 	'IP_LOGIN_LIMIT_MAX'					=> 'Número máximo de tentativas de acesso por endereço IP',
 	'IP_LOGIN_LIMIT_MAX_EXPLAIN'			=> 'Limite de tentativas de acesso permitido, a partir de um único endereço IP, antes da tarefa anti-spambot ser accionada. Digite 0 para impedir que a tarefa anti-spambot de ser desencadeada por endereços IP.',
 	'IP_LOGIN_LIMIT_TIME'					=> 'Tempo de duração para tentativas de acesso por endereço IP',
@@ -489,7 +488,7 @@ $lang = array_merge($lang, array(
 
 // Email Settings 
 $lang = array_merge($lang, array( 
-	'ACP_EMAIL_SETTINGS_EXPLAIN'			=> 'Esta informação é usada quando o Fórum envia emails aos Utilizadores. Certifique-se que usa um email válido. Qualquer Mensagem incorreta não será entregue neste endereço. Se o seu serviço de hospedagem não oferece um serviço nativo de email baseado no PHP, pode enviar mensagens através de SMTP. É necessário um Servidor adequado, não especifique qualquer nome antigo aqui! Se o servidor requer autenticação, introduza os nomes e senhas necessários. tenha em atenção que apenas é usada a autenticação básica. Implementações de autenticações diferentes não estão disponíveis.',
+	'ACP_EMAIL_SETTINGS_EXPLAIN'			=> 'Esta informação é usada quando o Fórum envia emails aos Utilizadores. Certifique-se que usa um email válido. Qualquer Mensagem incorrecta não será entregue neste endereço. Se o seu serviço de hospedagem não oferece um serviço nativo de email baseado no PHP, pode enviar mensagens através de SMTP. É necessário um Servidor adequado, não especifique qualquer nome antigo aqui! Se o servidor requer autenticação, introduza os nomes e senhas necessários. tenha em atenção que apenas é usada a autenticação básica. Implementações de autenticações diferentes não estão disponíveis.',
 
 	'ADMIN_EMAIL'							=> 'Endereço de Email de resposta',
 	'ADMIN_EMAIL_EXPLAIN'					=> 'Será utilizado como endereço de resposta em todas as Mensagens. Este é o email padrão do Fórum para contacto e envio de emails pelo sistema phpBB.',
@@ -497,7 +496,7 @@ $lang = array_merge($lang, array(
 	'BOARD_EMAIL_FORM_EXPLAIN'				=> 'Permite aos Utilizadores do Fórum enviarem correio electrónico.',
 	'BOARD_HIDE_EMAILS'						=> 'Ocultar os endereços de email',
 	'BOARD_HIDE_EMAILS_EXPLAIN'				=> 'Esta função esconde os endereços de email.',
-	'CONTACT_EMAIL'							=> 'Endereço email de Contacto',
+	'CONTACT_EMAIL'							=> 'Endereço email de contacto',
 	'CONTACT_EMAIL_EXPLAIN'					=> 'Este endereço será usado sempre que é necessário um contacto específico, (spam, erro de saída, etc). Pode ser sempre utilizado como endereço para envio e respostas nos emails.',
 	'EMAIL_FUNCTION_NAME'					=> 'Nome da Função de email',
 	'EMAIL_FUNCTION_NAME_EXPLAIN'			=> 'Função de email usada para enviar emails através do PHP.',
@@ -530,22 +529,22 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array( 
 	'ACP_JABBER_SETTINGS_EXPLAIN'			=> 'Aqui pode activar e controlar o uso do Jabber para Mensagens Instantâneas e Notícias. Jabber é um Protocolo código-aberto e por isso mesmo disponível a qualquer pessoa interessada. Alguns Servidores de Jabber incluem Gateways e transportes que permitem que contacte Utilizadores em outras redes. Nem todos os servidores oferecem todos os transportes, e mudanças nos protocolos podem evitar operações de transportes. Note que pode levar muitos segundos até à actualização dos detalhes da conta de Jabber, então não interrompa a execução dos procedimentos enquanto não estiver completo!',
 
-	'JAB_ENABLE'							=> 'Activa Jabber',
-	'JAB_ENABLE_EXPLAIN'					=> 'Activar o uso de Mensagens e Avisos Jabber.',
-	'JAB_GTALK_NOTE'						=> 'Por favor, note que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é implementada nas plataformas do windows. Isto não é executável actualmente em sistemas BSD-based, incluindo o Mac OS.',
+	'JAB_ENABLE'							=> 'Activar Jabber',
+	'JAB_ENABLE_EXPLAIN'					=> 'Activa o uso de Mensagens e Avisos Jabber.',
+	'JAB_GTALK_NOTE'						=> 'Por favor, note que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é implementada nas plataformas do Windows. Isto não é executável actualmente em sistemas BSD-based, incluindo o Mac OS.',
 	'JAB_PACKAGE_SIZE'						=> 'Tamanho do pacote de Jabber',
 	'JAB_PACKAGE_SIZE_EXPLAIN'				=> 'Este é o número de Mensagens enviadas num pacote. Se for 0, a Mensagem será enviada imediatamente e não será colocada em fila de espera para posterior envio.',
 	'JAB_PASSWORD'							=> 'Senha Jabber',
 	'JAB_PASSWORD_EXPLAIN'					=> '<em><strong>Aviso:</strong> Esta senha será armazenada como texto simples na Base de Dados, visível a todos que podem aceder à Base de Dados ou a quem pode ver esta página de configuração.</em>',
 	'JAB_PORT'								=> 'Porta do Jabber',
-	'JAB_PORT_EXPLAIN'						=> 'Deixe em branco se souber que não é 5222.',
+	'JAB_PORT_EXPLAIN'						=> 'Deixe em branco se souber que a porta usada é 5222. Caso contrário, coloque a porta correta',
 	'JAB_SERVER'							=> 'Servidor Jabber',
 	'JAB_SERVER_EXPLAIN'					=> 'Veja a lista de Servidores em %sjabber.org%s.',
 	'JAB_SETTINGS_CHANGED'					=> 'Configurações do Jabber alteradas com sucesso.',
 	'JAB_USE_SSL'							=> 'Usar SSL para se ligar',
-	'JAB_USE_SSL_EXPLAIN'					=> 'Se activado, uma ligação segura tentará ser estabilizada. A porta Jabber será alterada para 5223 se a porta 5222 tiver sido indicado.',
-	'JAB_USERNAME'							=> 'Utilizador Jabber',
-	'JAB_USERNAME_EXPLAIN'					=> 'Se não estiver registado será criado se possível.',
+	'JAB_USE_SSL_EXPLAIN'					=> 'Se activado, será tentado efectuar-se uma ligação segura. A porta Jabber será alterada para 5223 se a porta 5222 tiver sido indicada.',
+	'JAB_USERNAME'							=> 'Nome de Utilizador Jabber ou JID',
+	'JAB_USERNAME_EXPLAIN'					=> 'Especifique um nome de utilizador registado ou um JID válido. O nome de utilizador não será verificado. Se especificares o nome de utilizador, o JID usado será o nome de utilizador e o servidor aquele especificado acima. Caso contrário, especifique um JID válido, por exemplo utilizador@jabber.org.',
 ));
 
 ?>

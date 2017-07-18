@@ -1,11 +1,11 @@
 <?php
 /**
 *
-* acp_styles [Português]
+* acp_styles [Português Pré-AO]
 *
 * @package language
-* @version 1.0.4
-* @Traduzido por: http://phpbbportugal.com | pré-Acordo Ortográfico
+* @version 1.0.9
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_IMAGESETS_EXPLAIN'			=> 'Conjuntos de Imagens são todos os botões, Fórum, pastas, etc. e outras imagens não especificamente usadas pelo Estilo do Fórum. Aqui pode editar, exportar ou apagar um Conjunto de Imagens existente e importar ou activar novos Conjuntos.',
-	'ACP_STYLES_EXPLAIN'			=> 'Aqui pode gerir os Estilos do Fórum. Um Estilo é formado por um Template, um Tema e Conjunto de Imagens. Pode alterar os Estilos, apagar, desactivar, reactivar, criar ou importar novos Estilos. Pode usar a Função Prever para pré-visualizar o novo Estilo. O Estilo Padrão está assinalado com um asterisco (*). Está indicado em cada um dos Estilos instalados o número de Utilizadores que o está a usar.<br />As modificações nos Estilos dos Utilizadores não se reflecte aqui no <b>Painel de Administração</b>.',
+	'ACP_STYLES_EXPLAIN'			=> 'Aqui pode gerir os Estilos do Fórum. Um Estilo é formado por um Template, um Tema e Conjunto de Imagens. Pode alterar os Estilos, apagar, desactivar, reactivar, criar ou importar novos Estilos. Pode usar a Função Prever para pré-visualizar o novo Estilo. O Estilo Padrão está assinalado com um asterisco (*). Está indicado em cada um dos Estilos instalados o número de Utilizadores que o está a usar. As modificações nos Estilos dos Utilizadores não se reflecte aqui no Painel de Administração.',
 	'ACP_TEMPLATES_EXPLAIN'			=> 'Um Template é o código usado para gerar o visual do Fórum. Pode alterar, apagar, desactivar, activar, criar ou importar novos Templates. Também pode modificar o código do Template usado para gerar BBCode.',
 	'ACP_THEMES_EXPLAIN'			=> 'Aqui pode criar, instalar, editar, apagar e exportar Temas. Um Tema é a combinação de cores e imagens que são usadas nos Templates para definir o visual básico do Fórum. As opções disponíveis dependem da configuração do servidor e da instalação do phpBB, consulte o manual para mais informações. Na criação de novos Temas é opcional o uso de um Tema já existente.',
 	'ADD_IMAGESET'					=> 'Criar Conjunto de Imagens',
@@ -81,9 +81,9 @@ $lang = array_merge($lang, array(
 	'DELETE_STYLE'					=> 'Apagar Estilo',
 	'DELETE_STYLE_EXPLAIN'			=> 'Aqui pode remover o Estilo seleccionado. Por favor, note que não é possível anular esta acção.',
 	'DELETE_TEMPLATE'				=> 'Apagar Template',
-	'DELETE_TEMPLATE_EXPLAIN'		=> 'Aqui pode remover o Template seleccionado da Base de Dados.  Por favor, note que não é possível anular esta ação. Deve exportar primeiro o Conjunto de Imagens para possível uso futuro.',
+	'DELETE_TEMPLATE_EXPLAIN'		=> 'Aqui pode remover o Template seleccionado da Base de Dados.  Por favor, note que não é possível anular esta acção. Deve exportar primeiro o Conjunto de Imagens para possível uso futuro.',
 	'DELETE_THEME'					=> 'Apagar Tema',
-	'DELETE_THEME_EXPLAIN'			=> 'Aqui pode remover o Tema seleccionado da Base de Dados.  Por favor, note que não é possível anular esta ação. Deve exportar primeiro o Conjunto de Imagens para possível uso futuro.',
+	'DELETE_THEME_EXPLAIN'			=> 'Aqui pode remover o Tema seleccionado da Base de Dados.  Por favor, note que não é possível anular esta acção. Deve exportar primeiro o Conjunto de Imagens para possível uso futuro.',
 	'DETAILS'						=> 'Detalhes',
 	'DIMENSIONS_EXPLAIN'			=> 'Seleccionando Sim aqui irá incluir os parâmetros de largura/altura.',
 
@@ -165,12 +165,12 @@ $lang = array_merge($lang, array(
 	'IMG_FORUM_LINK'				=> 'Fórum Link',
 	'IMG_FORUM_READ'				=> 'Fórum',
 	'IMG_FORUM_READ_LOCKED'			=> 'Fórum Bloqueado',
-	'IMG_FORUM_READ_SUBFORUM'		=> 'Sub-fórum',
+	'IMG_FORUM_READ_SUBFORUM'		=> 'Subfórum',
 	'IMG_FORUM_UNREAD'				=> 'Fórum com Mensagens não lidas',
 	'IMG_FORUM_UNREAD_LOCKED'		=> 'Fórum Bloqueado com Mensagens não lidas',
-	'IMG_FORUM_UNREAD_SUBFORUM'		=> 'Sub-fórum com Mensagens não lidas',
-	'IMG_SUBFORUM_READ'				=> 'Sub-fórum',
-	'IMG_SUBFORUM_UNREAD'			=> 'Sub-fórum com Mensagens não lidas',
+	'IMG_FORUM_UNREAD_SUBFORUM'		=> 'Subfórum com Mensagens não lidas',
+	'IMG_SUBFORUM_READ'				=> 'Subfórum',
+	'IMG_SUBFORUM_UNREAD'			=> 'Subfórum com Mensagens não lidas',
 
 	'IMG_TOPIC_MOVED'				=> 'Tópico movido',
 
@@ -357,7 +357,7 @@ $lang = array_merge($lang, array(
 	'STYLE_ERR_NAME_EXIST'			=> 'Um Estilo com o mesmo nome já existe.',
 	'STYLE_ERR_NAME_LONG'			=> 'O nome do Estilo não pode ter mais que 30 caracteres.',
 	'STYLE_ERR_NO_IDS'				=> 'Tem que seleccionar um template, Tema e Conjunto de imagens para este Estilo.',
-	'STYLE_ERR_NOT_STYLE'			=> 'O Ficheiro importado ou enviado não contém um ficheiro válido de Estilo.',
+	'STYLE_ERR_NOT_STYLE'			=> 'O ficheiro importado ou enviado não contém um ficheiro válido de Estilo.',
 	'STYLE_ERR_STYLE_NAME'			=> 'Tem que especificar um nome para este Estilo.',
 	'STYLE_EXPORT'					=> 'Exportar Estilo',
 	'STYLE_EXPORT_EXPLAIN'			=> 'Aqui pode exportar um Estilo no Formulário de Ficheiro. Um Estilo não precisa conter todos os elementos mas deve conter pelo menos um. Por exemplo, se tivesse criado um novo Tema e Conjunto de Imagens para um Template, pode exportar o Tema e o Conjunto de Imagens e omitir o Template. Deve seleccionar entre transferir o Ficheiro directamente ou enviá-lo para a sua pasta de arquivo para transferir depois por FTP.',

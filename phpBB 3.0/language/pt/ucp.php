@@ -40,16 +40,16 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'				=> 'Ao entrar em “%1$s” (doravante “nós”, “nosso”, “%1$s”, “%2$s”), concorda sujeitar-se aos termos seguintes. Se não concorda em sujeitar-se aos termos seguintes, por favor não entre e/ou utilize “%1$s”. Nós podemos mudar estes termos a qualquer momento e vamos fazer o nosso melhor para mantê-lo informado. No entanto, seria prudente rever regularmente estes termos. O uso continuado de “%1$s” significa que concorda em ser legalmente sujeito a estes termos quando são atualizados e/ou alterados.<br />
 	<br />
-	Os nossos Fóruns são desenvolvidos pelo phpBB (doravante “eles”, “software phpBB”, “www.phpbb.com”, “Grupo phpBB”, “Equipa phpBB”) que é um sistema de comunidades virtuais sujeito à “<a href="http://opensource.org/licenses/gpl-license.php">GNU General Public License v2</a>” (doravante “GPL”) que pode ser transferido a partir de <a href="https://www.phpbb.com/">www.phpbb.com</a>. O software phpBB apenas facilita discussões através da internet. O Grupo phpBB não é responsável pelo conteúdo que nós permitimos e/ou impedimos e/ou pela conduta permitida. Para mais informações sobre o phpBB, consulte: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
+	Os nossos Fóruns são desenvolvidos pelo phpBB (doravante “eles”, “software phpBB”, “www.phpbb.com”, “Grupo phpBB”, “Equipa phpBB”) que é um sistema de comunidades virtuais sujeito à “<a href="http://opensource.org/licenses/gpl-license.php">GNU General Public License v2</a>” (doravante “GPL”) que pode ser transferido a partir de <a href="https://www.phpbb.com/">www.phpbb.com</a>. O software phpBB apenas facilita discussões através da Internet. O Grupo phpBB não é responsável pelo conteúdo que nós permitimos e/ou impedimos e/ou pela conduta permitida. Para mais informações sobre o phpBB, consulte: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.<br />
 	<br />
-	Compromete-se a não colocar qualquer mensagem abusiva, obscena, vulgar, insultuosa, de ódio, ameaçadora, sexualmente tendenciosa ou qualquer outro material que possa violar qualquer lei seja de seu país, o país onde “%1$s” está alojado ou lei Internacional. Fazer isso pode levar você será diretamente e permanentemente banido, com notificação de seu Internet Service Provider, se for considerado necessário por nós. O endereço IP de todas as mensagens são registrados para ajudar a implementar essas condições. Você concorda que “%1$s” tem o direito de remover, editar, mover ou encerrar qualquer tópico em qualquer momento que se ver necessário. Como utilizador aceita que as informações que forneceu acima sejam guardadas numa Base de Dados. Apesar desta informação não ser divulgada a terceiros sem o seu consentimento, o “%1$s” ou o phpBB não podem ser responsabilizados por qualquer atentado Hacker, que possam expor essa informação.',
+	Compromete-se a não colocar qualquer mensagem abusiva, obscena, vulgar, insultuosa, de ódio, ameaçadora, sexualmente tendenciosa ou qualquer outro material que possa violar qualquer lei seja de seu país, o país onde “%1$s” está alojado ou lei Internacional. Fazer isso pode levar você será diretamente e permanentemente banido, com notificação de seu Internet Service Provider, se for considerado necessário por nós. O endereço IP de todas as mensagens são registados para ajudar a implementar essas condições. Você concorda que “%1$s” tem o direito de remover, editar, mover ou encerrar qualquer tópico em qualquer momento que se ver necessário. Como utilizador aceita que as informações que forneceu acima sejam guardadas numa Base de Dados. Apesar desta informação não ser divulgada a terceiros sem o seu consentimento, o “%1$s” ou o phpBB não podem ser responsabilizados por qualquer atentado Hacker, que possam expor essa informação.',
 	'PRIVACY_POLICY'					=> 'Esta política explica em detalhe como “%1$s” juntamente com suas empresas afiliadas (doravante "nós", "nosso", “%1$s”, “%2$s”) e o phpBB (doravante “eles”, “phpBB software”, “www.phpbb.com”, “Grupo phpBB”, “Equipas phpBB”) utilizam a informação recolhida durante as suas sessões de online (doravante denominada “a sua informação”).<br />
 	<br />
 	Recolheremos informações suas de duas formas. A primeira, ao navegar no“%1$s” fará com que o Software phpBB crie cookies que são pequenos ficheiros de texto, transferidos temporariamente pelos navegadores web para o seu computador. Os dois primeiros cookies têm a identificação do utilizador (doravante denominado “user-id”) e um identificador de sessão anónima (doravante “session-id”), assinado automaticamente para si pelo software phpBB. O terceiro cookie será criado sempre que tenha tópicos lidos em “%1$s” e é usado para registar os tópicos lidos, aumentando assim sua experiência como utilizador.<br />
 	<br />
-	Podem também ser criados cookies externos ao software phpBB enquanto navegar no “%1$s”, ainda que estes sejam externos o âmbito destes cookies é proteger as páginas criadas pelo Software phpBB. A segunda maneira de recolher informações suas é através das mensagens que partilha connosco. Esta recolha pode fazer-se mas não está limitada a: mensagens enquanto utilizador anónimo (doravante “anonymous posts”), registando-se em “%1$s” (doravante denominado “a sua conta”) e através das mensagens enviadas por si depois do registro e quando ligado (doravante “as suas mensagens”).<br />
+	Podem também ser criados cookies externos ao software phpBB enquanto navegar no “%1$s”, ainda que estes sejam externos o âmbito destes cookies é proteger as páginas criadas pelo Software phpBB. A segunda maneira de recolher informações suas é através das mensagens que partilha connosco. Esta recolha pode fazer-se mas não está limitada a: mensagens enquanto utilizador anónimo (doravante “anonymous posts”), registando-se em “%1$s” (doravante denominado “a sua conta”) e através das mensagens enviadas por si depois do registo e quando ligado (doravante “as suas mensagens”).<br />
 	<br />
-	Sua conta deverá ter no mínimo um nome único (doravante “your user name”), uma senha pessoal utilizada para entrar na sua conta (doravante, “your password”) e um endereço pessoal de email válido (doravante “your email”). As informações da sua conta em “%1$s” são protegidas pelas leis de proteção de dados aplicáveis no nosso país. Qualquer outra informação além do seu nome de utilizador, da sua senha e do seu endereço de email solicitados pelo “%1$s” durante o processo de registro, é obrigatória ou opcional, segundo o critério do “%1$s”. Em todos os casos, tem a opção de escolher as informações da sua conta que serão publicadas. Além disso, dentro da sua conta, pode optar por receber ou não receber os emails gerados automaticamente pelo software phpBB.<br />
+	Sua conta deverá ter no mínimo um nome único (doravante “your user name”), uma senha pessoal utilizada para entrar na sua conta (doravante, “your password”) e um endereço pessoal de email válido (doravante “your email”). As informações da sua conta em “%1$s” são protegidas pelas leis de proteção de dados aplicáveis no nosso país. Qualquer outra informação além do seu nome de utilizador, da sua senha e do seu endereço de email solicitados pelo “%1$s” durante o processo de registo, é obrigatória ou opcional, segundo o critério do “%1$s”. Em todos os casos, tem a opção de escolher as informações da sua conta que serão publicadas. Além disso, dentro da sua conta, pode optar por receber ou não receber os emails gerados automaticamente pelo software phpBB.<br />
 	<br />
 	A sua senha é encriptada (a one-way hash) para que seja segura. No entanto, recomendamos que não utilize a mesma senha em vários sítios diferentes. A senha é um meio para entrar na sua conta em “%1$s”, então por favor guarde-a com cuidado e em nenhuma circunstância alguém relacionado com “%1$s”, phpBB ou um terceiro, tem legitimidade para lhe pedir a senha. Se esquecer a senha da sua conta, pode usar a opção “Esqueci-me da senha” oferecida pelo software phpBB. Este processo pede-lhe o nome de utilizador e email, para o phpBB gerar uma nova senha e reativar o seu registo.<br />
 	',
@@ -68,9 +68,9 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_INACTIVE'					=> 'A sua conta foi criada com sucesso. A Chave de Ativação foi enviada para o endereço de email que indicou durante o seu Registo. Ao receber o email proceda à Ativação da sua conta. Só então poderá entrar no Fórum.',
 	'ACCOUNT_INACTIVE_ADMIN'			=> 'A sua conta foi criada. Neste Fórum a ativação da conta é feita pelo Administrador. Foi enviado um email ao Administrador que o informará quando Ativar sua conta. Mantenha-se atento ao seu email.',
 	'ACTIVATION_EMAIL_SENT'				=> 'O email de ativação foi enviado para o seu endereço de email.',
-	'ACTIVATION_EMAIL_SENT_ADMIN'		=> 'O email de ativação foi enviado para o Adminstrador.',
+	'ACTIVATION_EMAIL_SENT_ADMIN'		=> 'O email de ativação foi enviado para o Administrador.',
 	'ADD'								=> 'Adicionar',
-	'ADD_BCC'							=> 'Adicionar [B]',
+	'ADD_BCC'							=> 'Adicionar [Bcc]',
 	'ADD_FOES'							=> 'Adicionar novo Inimigo',
 	'ADD_FOES_EXPLAIN'					=> 'Pode introduzir vários Utilizadores, um por linha.',
 	'ADD_FOLDER'						=> 'Adicionar Pasta',
@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_DELETED'				=> 'Anexos Apagados.',
 	'ATTACHMENT_DELETED'				=> 'Anexo Apagado.',
 	'AVATAR_CATEGORY'					=> 'Categoria',
-	'AVATAR_EXPLAIN'					=> 'Dimensões máximas; aargura: %1$d pixels, altura: %2$d pixels, tamanho do ficheiro: %3$.2f KiB.',
+	'AVATAR_EXPLAIN'					=> 'Dimensões máximas; largura: %1$d píxeis, altura: %2$d píxeis, tamanho do ficheiro: %3$.2f KiB.',
 	'AVATAR_FEATURES_DISABLED'			=> 'A função de Avatar está desativada.',
 	'AVATAR_GALLERY'					=> 'Galeria Local',
 	'AVATAR_GENERAL_UPLOAD_ERROR'		=> 'Não foi possível enviar o Avatar para %s.',
@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 
 	'CANNOT_EDIT_MESSAGE_TIME'			=> 'Não pode editar ou apagar a mensagem.',
 	'CANNOT_MOVE_TO_SAME_FOLDER'		=> 'Não podem ser movidas mensagens da pasta que quer Apagar.',
-	'CANNOT_MOVE_FROM_SPECIAL'			=> 'Não podem ser movidas mensagens da pasta de saida.',
+	'CANNOT_MOVE_FROM_SPECIAL'			=> 'Não podem ser movidas mensagens da pasta de saída.',
 	'CANNOT_RENAME_FOLDER'				=> 'Esta pasta não pode ser renomeada.',
 	'CANNOT_REMOVE_FOLDER'				=> 'Esta pasta não pode ser apagada.',
 	'CHANGE_DEFAULT_GROUP'				=> 'Alterar Grupo Padrão',
@@ -125,7 +125,7 @@ $lang = array_merge($lang, array(
 	'CONFIRM_CHANGES'					=> 'Confirmar Alterações',
 	'CONFIRM_EMAIL'						=> 'Confirme o endereço de email',
 	'CONFIRM_EMAIL_EXPLAIN'				=> 'Só se alterar o seu endereço de email.',
-	'CONFIRM_EXPLAIN'					=> 'Para prevenir Registos automáticos de "espiões" é necessário introduzir um código de confirmação. O código é exibido na imagem que deverá ver em baixo. Se tem alguma deficiência visual, e não pode ler o código, por favor, contate o %sAdministrador do Fórum%s.',
+	'CONFIRM_EXPLAIN'					=> 'Para prevenir Registos automáticos de "espiões" é necessário introduzir um código de confirmação. O código é exibido na imagem que deverá ver em baixo. Se tem alguma deficiência visual, e não pode ler o código, por favor, contacte o %sAdministrador do Fórum%s.',
 	'VC_REFRESH'						=> 'Alterar Código de Confirmação',
 	'VC_REFRESH_EXPLAIN'				=> 'Se não consegue ler o código pode pedir um novo clicando no botão.',
 	
@@ -248,7 +248,7 @@ $lang = array_merge($lang, array(
 	'LINK_REMOTE_SIZE_EXPLAIN'			=> 'Especifique a Largura e Altura do Avatar. Deixe espaço em branco para tentar a verificação automática.',
 	'LOGIN_EXPLAIN_UCP'					=> 'Tem que estar ligado para entrar no Painel de Controlo do Utilizador.',
 	'LOGIN_REDIRECT'					=> 'A sua sessão foi iniciada.',
-	'LOGOUT_FAILED'						=> 'A sua sessão não foi encerrada. Se continuar tendo este problema contate um Administrador.',
+	'LOGOUT_FAILED'						=> 'A sua sessão não foi encerrada. Se continuar tendo este problema contacte um Administrador.',
 	'LOGOUT_REDIRECT'					=> 'A sua sessão foi encerrada.',
 
 	'MARK_IMPORTANT'					=> 'Marcar/Desmarcar como Importante',
