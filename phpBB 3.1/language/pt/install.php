@@ -361,14 +361,14 @@ $lang = array_merge($lang, array(
 
 	'UNABLE_WRITE_LOCK'					=> 'Não foi possível escrever o ficheiro de bloqueio',
 	'UNAVAILABLE'						=> 'Indisponível',
-	'UNWRITABLE'						=> 'Não gravável',
+	'UNWRITABLE'						=> 'Não tem permissões de escrita',
 	'UPDATE_TOPICS_POSTED'				=> 'Gerando informações de Tópicos enviados',
 	'UPDATE_TOPICS_POSTED_ERR'			=> 'Algum erro ocorreu enquanto as informações dos Tópicos eram geradas. Pode tentar novamente esta etapa no Painel de Administração quando a conversão estiver completa.',
 	'VERIFY_OPTIONS'					=> 'Verificando as opções da configuração',
 	'VERSION'							=> 'Versão',
 
 	'WELCOME_INSTALL'					=> 'Bem-vindo à Instalação do phpBB3',
-	'WRITABLE'							=> 'Gravável',
+	'WRITABLE'							=> 'Tem permissões de escrita',
 ));
 
 // Updater

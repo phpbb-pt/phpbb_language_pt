@@ -228,7 +228,7 @@ $lang = array_merge($lang, array(
 	'SET_USERS_PERMISSIONS'					=> 'Dar Permissões de Utilizador',
 	'SET_USERS_FORUM_PERMISSIONS'			=> 'Dar Permissões de Utilizador do Fórum',
 
-	'TRACE_DEFAULT'							=> 'Por Padrão, todas as opções estão assinaladas como <strong>NÃO</strong> (unset). Então, a permissão pode ser substituída por outras configurações.',
+	'TRACE_DEFAULT'							=> 'Por Padrão, todas as opções estão assinaladas como <strong>NÃO</strong> (desmarcadas). Então, a permissão pode ser substituída por outras configurações.',
 	'TRACE_FOR'								=> 'Copiar para',
 	'TRACE_GLOBAL_SETTING'					=> '%s (global)',
 	'TRACE_GROUP_NEVER_TOTAL_NEVER'			=> 'A Permissão do Grupo está assinalada como <strong>NUNCA</strong> como o resultado total, então o resultado antigo foi salvo.',

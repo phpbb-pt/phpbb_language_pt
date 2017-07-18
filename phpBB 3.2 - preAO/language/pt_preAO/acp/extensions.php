@@ -103,7 +103,7 @@ $lang = array_merge($lang, array(
 	'TYPE'					=> 'Tipo',
 	'DESCRIPTION'			=> 'Descrição',
 	'VERSION'				=> 'Versão',
-	'HOMEPAGE'				=> 'Homepage',
+	'HOMEPAGE'				=> 'Página inicial',
 	'PATH'					=> 'Caminho do ficheiro',
 	'TIME'					=> 'Data de lançamento',
 	'LICENSE'				=> 'Licença',
@@ -114,7 +114,7 @@ $lang = array_merge($lang, array(
 	'AUTHOR_INFORMATION'	=> 'Detalhes do autor',
 	'AUTHOR_NAME'			=> 'Nome',
 	'AUTHOR_EMAIL'			=> 'Email',
-	'AUTHOR_HOMEPAGE'		=> 'Homepage',
+	'AUTHOR_HOMEPAGE'		=> 'Página do autor',
 	'AUTHOR_ROLE'			=> 'Função',
 
 	'NOT_UP_TO_DATE'		=> '%s não está actualizado',

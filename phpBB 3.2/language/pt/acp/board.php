@@ -351,7 +351,7 @@ $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS_EXPLAIN'			=> 'Estas configurações definem os dados usados nos cookies enviados aos navegadores dos Utilizadores. Na maioria dos casos os valores predefinidos são suficientes. Se os alterar faça-o com cuidado. Qualquer incorreção impede os Utilizadores de acederem ao Fórum. Se verificar que os utilizadores não conseguem entrar ou sair da sua conta, visite <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Corrigindo configurações de Cookies Incorretas</a></b>.',
 
 	'COOKIE_DOMAIN'							=> 'Domínio do Cookie',
-	'COOKIE_DOMAIN_EXPLAIN'					=> 'Na maioria dos casos o domínio do cookie é opcional. Deixe em branco em caso de dúvida.<br /><br /> No caso de ter o fórum integrado com outro software ou de ter múltiplos domínios, então, para determinar o domínio do cookie, deverá fazer o seguinte. Caso tenha algo como <i>exemplo.pt</i> e <i>forum.exemplo.pt</i>, ou talvez <i>forum.exemplo.pt</i> e <i>blog.exemplo.pt</i>. Remova os subdomínios até que reste o domínio principal, <i>exemplo.pt</i>. Agora adicione um ponto final em frente ao domínio, ou seja, ficaria: .exemplo.pt (repare no ponto final no ínicio).',
+	'COOKIE_DOMAIN_EXPLAIN'					=> 'Na maioria dos casos o domínio do cookie é opcional. Deixe em branco em caso de dúvida.<br /><br /> No caso de ter o fórum integrado com outro software ou de ter múltiplos domínios, então, para determinar o domínio do cookie, deverá fazer o seguinte. Caso tenha algo como <i>exemplo.pt</i> e <i>forum.exemplo.pt</i>, ou talvez <i>forum.exemplo.pt</i> e <i>blog.exemplo.pt</i>. Remova os subdomínios até que reste o domínio principal, <i>exemplo.pt</i>. Agora adicione um ponto final em frente ao domínio, ou seja, ficaria: .exemplo.pt (repare no ponto final no início).',
 	'COOKIE_NAME'							=> 'Nome do Cookie',
 	'COOKIE_NAME_EXPLAIN'					=> 'Pode colocar aqui o que bem desejar, seja original. Sempre que as configurações dos cookies sejam alteradas, o nome do cookie deve ser também alterado.',
 	'COOKIE_NOTICE'				 			=> 'Aviso do Cookie',
@@ -608,7 +608,7 @@ $lang = array_merge($lang, array(
 	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'			=> 'Permite conexões ao servidor Jabber com certificado SSL autoassinado.<em><strong>Aviso:</strong> Permitir certificados SSL autoassinados pode causar implicações de segurança.</em>',
 	'JAB_ENABLE'							=> 'Ativar Jabber',
 	'JAB_ENABLE_EXPLAIN'					=> 'Ativa o uso de Mensagens e Avisos Jabber.',
-	'JAB_GTALK_NOTE'						=> 'Por favor, note que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é iconv(in_charset, out_charset, str)mplementada nas plataformas do windows. Isto não é executável atualmente em sistemas BSD-based, incluindo o Mac OS.',
+	'JAB_GTALK_NOTE'						=> 'Por favor, note que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é implementada nas plataformas do Windows. Isto não é executável atualmente em sistemas BSD-based, incluindo o Mac OS.',
 	'JAB_PACKAGE_SIZE'						=> 'Tamanho do pacote de Jabber',
 	'JAB_PACKAGE_SIZE_EXPLAIN'				=> 'Este é o número de Mensagens enviadas num pacote. Se for 0, a Mensagem será enviada imediatamente e não será colocada em fila de espera para posterior envio.',
 	'JAB_PASSWORD'							=> 'Senha Jabber',

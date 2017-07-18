@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 // Smilies and topic icons
 $lang = array_merge($lang, array(
 	'ACP_ICONS_EXPLAIN'				=> 'Aqui pode adicionar, editar e apagar os ícones que os Utilizador terão disponíveis para adicionar nos Tópicos e Mensagens. Estes ícones são exibidos geralmente perto do Título dos Tópicos na lista de Fóruns, ou o título do Tópico na lista de Tópicos. Também pode instalar e criar Pacotes de Ícones novos.',
-	'ACP_SMILIES_EXPLAIN'			=> 'Emoções ou Smiles são tipicamente pequenas, às vezes imagens animadas utilizadas para mostrar alguma emoção ou sentimento. Aqui pode adicionar, editar e apagar as Emoções que os Utilizadores terão disponíveis nos Tópicos e Mensagens Privadas. Também pode instalar e criar Pacotes de Emoções.',
+	'ACP_SMILIES_EXPLAIN'			=> 'Emoções ou Smilies são tipicamente pequenas, às vezes imagens animadas utilizadas para mostrar alguma emoção ou sentimento. Aqui pode adicionar, editar e apagar as Emoções que os Utilizadores terão disponíveis nos Tópicos e Mensagens Privadas. Também pode instalar e criar Pacotes de Emoções.',
 	'ADD_SMILIES'					=> 'Adicionar Múltiplas Emoções',
 	'ADD_SMILEY_CODE'				=> 'Adicionar Código Adicional à Emoção',
 	'ADD_ICONS'						=> 'Adicionar Ícones Múltiplos',

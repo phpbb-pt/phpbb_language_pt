@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // Common installer pages
 $lang = array_merge($lang, array(
 	'INSTALL_PANEL'	=> 'Painel de Instalação',
-	'SELECT_LANG'	=> 'Selecione o idioma',
+	'SELECT_LANG'	=> 'Seleccione o idioma',
 
 	'STAGE_INSTALL'	=> 'Instalando o phpBB',
 
@@ -93,15 +93,15 @@ $lang = array_merge($lang, array(
 	'FILE_NOT_EXISTS_EXPLAIN'				=> 'Para poder instalar o phpBB o %1$s ficheiro precisa existir.',
 	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Recomenda-se que o ficheiro %1$s existe para uma melhor experiência do utilizador do fórum.',
 	'FILE_NOT_WRITABLE'						=> 'O ficheiro não pode ser gravado',
-	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'Para poder instalar o phpBB, o ficheiro %1$s precisa ser gravável.',
-	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Recomenda-se que o ficheiro %1$s seja gravável para uma melhor experiência do utilizador do fórum.',
+	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'Para poder instalar o phpBB, o ficheiro %1$s precisa de ter permissão de escrita.',
+	'FILE_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Recomenda-se que o ficheiro %1$s tenha permissão de escrita para uma melhor experiência do utilizador do fórum.',
 
 	'DIRECTORY_NOT_EXISTS'						=> 'A pasta não existe',
 	'DIRECTORY_NOT_EXISTS_EXPLAIN'				=> 'Para poder instalar o phpBB, a pasta %1$s precisa existir.',
 	'DIRECTORY_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Recomenda-se que a pasta %1$s exista para uma melhor experiência do utilizador do fórum.',
 	'DIRECTORY_NOT_WRITABLE'					=> 'A pasta não pode ser gravada',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'Para poder instalar o phpBB, a pasta %1$s precisa ser gravável.',
-	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Recomenda-se que a pasta %1$s seja gravável para uma melhor experiência do utilizador do fórum.',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN'			=> 'Para poder instalar o phpBB, a pasta %1$s precisa ser de ter permissão de escrita.',
+	'DIRECTORY_NOT_WRITABLE_EXPLAIN_OPTIONAL'	=> 'Recomenda-se que a pasta %1$s tenha permissão de escrita para uma melhor experiência do utilizador do fórum.',
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'Versão do PHP',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 	'TASK_SERVICE_INSTALLER_MISSING'	=> 'Todos os serviços de tarefa do instalador devem começar com “installer”',
 	'TASK_CLASS_NOT_FOUND'				=> 'A definição do serviço da tarefa do instalador é inválida. O nome do serviço prestado“%1$s” class namespace que é esperado para “%2$s” . Para mais informações, por favor, consulte a documentação do task_interface.',
 
-	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'O ficheiro de instalação de configuração não é gravável.',
+	'INSTALLER_CONFIG_NOT_WRITABLE'	=> 'O ficheiro de instalação de configuração não tem permissão de escrita.',
 ));
 
 // CLI messages

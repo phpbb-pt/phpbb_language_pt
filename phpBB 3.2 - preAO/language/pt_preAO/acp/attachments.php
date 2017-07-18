@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores proibidos',
 	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja ressincronizar estatísticas de ficheiros?',
 
-	'SEARCH_IMAGICK'					=> 'Localizar Imagemagick',
+	'SEARCH_IMAGICK'					=> 'Localizar ImageMagick',
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'			=> 'Permite ou nega a lista de endereços. Esta configuração aplica-se apenas aos Ficheiros para transferência.',
 	'SECURE_DOWNLOADS'					=> 'Activar transferências seguras',
