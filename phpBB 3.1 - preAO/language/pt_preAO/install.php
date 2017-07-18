@@ -400,6 +400,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_UPDATE_CONTINUE'			=> 'Continuar com a actualização da Base de Dados',
 	'DATABASE_UPDATE_INFO_OLD'			=> 'O Ficheiro de actualização da Base de Dados na pasta de instalação está desactualizado. Por favor, certifique-se de ter enviado a versão correcta do Ficheiro.',
 	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'A actualização da base de Dados ainda não está completa.',
+	'DATABASE_VERSION'					=> 'Versão da base de dados',
 	'DELETE_USER_REMOVE'				=> 'Apagar Utilizador e as suas Mensagens',
 	'DELETE_USER_RETAIN'				=> 'Apagar Utilizador mas deixar as suas Mensagens',
 	'DESTINATION'						=> 'Ficheiro de destino',
@@ -439,6 +440,7 @@ $lang = array_merge($lang, array(
 	'FILES_NOT_MODIFIED_EXPLAIN'		=> 'Os ficheiros seguintes não necessitam de alterações.',
 	'FILES_UP_TO_DATE'					=> 'Ficheiros já actualizados',
 	'FILES_UP_TO_DATE_EXPLAIN'			=> 'Os ficheiros seguintes já se encontram prontos e não precisam ser actualizados.',
+	'FILES_VERSION'						=> 'Versão dos ficheiros',
 	'FTP_SETTINGS'						=> 'Configurações de FTP',
 	'FTP_UPDATE_METHOD'					=> 'Envio de FTP',
 
@@ -486,6 +488,7 @@ $lang = array_merge($lang, array(
 	'OLD_UPDATE_FILES'					=> 'Os Ficheiros de actualização não estão prontos. Os Ficheiros de actualização encontrados são do phpBB %1$s para o phpBB %2$s, mas a Última Versão do phpBB é a %3$s.',
 
 	'PACKAGE_UPDATES_TO'				=> 'O pacote actual irá actualizar para a versão',
+	'PACKAGE_VERSION'					=> 'Versão do pacote instalado',
 	'PERFORM_DATABASE_UPDATE'			=> 'A actualizar a Base de Dados',
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'Clique no botão para correr a actualização da Base de Dados. A actualização da Base de Dados tem que ser executada em separado para prevenir eventuais erros. Esta operação pode demorar alguns minutos, por favor, não a interrompa. Depois de finalizada a actualização da Base de Dados, feche a janela e continue o processo de actualização.',
 	'PREVIOUS_VERSION'					=> 'Versão Anterior',

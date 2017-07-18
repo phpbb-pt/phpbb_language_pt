@@ -420,6 +420,9 @@ $lang = array_merge($lang, array(
 	'VALUE'							=> 'Valor',
 	'VERSIONCHECK_FAIL'				=> 'Não foi possível obter informações da versão mais recente.',
 	'VERSIONCHECK_FORCE_UPDATE'		=> 'Verificar versão',
+	'VERSIONCHECK_INVALID_ENTRY'	=> 'A informação da última versão contém uma entrada não suportada.',
+	'VERSIONCHECK_INVALID_URL'		=> 'A informação da última versão contém um URL inválido.',
+	'VERSIONCHECK_INVALID_VERSION'	=> 'A informação da última versão contém uma versão inválida.',
 	'VIEW_ADMIN_LOG'				=> 'Ver registos do Administrador',
 	'VIEW_INACTIVE_USERS'			=> 'Ver Utilizadores Inativos',
 
