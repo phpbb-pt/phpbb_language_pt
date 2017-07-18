@@ -15,10 +15,10 @@ Gestão da tradução
 ----------
 * Pavlov (https://github.com/Pavlov)
 * Joaquim (https://github.com/borgesjoaquim)
+* Leinad4Mind (http://www.phpbbportugal.com/memberlist.php?mode=viewprofile&u=140)
 
 Colaboradores
 -------
-* Leinad4Mind (http://www.phpbbportugal.com/memberlist.php?mode=viewprofile&u=140)
 * diogomessi10 https://github.com/diogomessi10
 
 Ex-Colaboradores
