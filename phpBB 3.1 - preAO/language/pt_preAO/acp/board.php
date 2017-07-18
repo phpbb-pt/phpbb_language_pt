@@ -117,7 +117,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_GALLERY_PATH'			=> 'Caminho da pasta da Galeria de Avatares',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Caminho da pasta desde a raiz do phpBB, para Galeria de Avatares: Exemplo: <samp>images/avatares/gallery</samp>.<br />Pontos duplos como <samp>../</samp> serão retirados do caminho por razões de segurança.',
 	'AVATAR_STORAGE_PATH'			=> 'Caminho da pasta onde os Avatares são guardados',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Caminho da pasta desde a raiz do phpBB, para envio de Avatares. Exemplo: <samp>images/avatares/upload</samp>.<br />O Avatar <strong>não ficará disponível</strong> se a pasta não for gravável.<br />Pontos duplos como <samp>../</samp> serão retirados do caminho por razões de segurança.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Caminho da pasta desde a raiz do phpBB, para envio de Avatares. Exemplo: <samp>images/avatares/upload</samp>.<br />O Avatar <strong>não ficará disponível</strong> se a pasta não tiver permissão de escrita.<br />Pontos duplos como <samp>../</samp> serão retirados do caminho por razões de segurança.',
 	'MAX_AVATAR_SIZE'				=> 'Dimensões Máximas do Avatar',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> '(Altura x Largura em píxeis).',
 	'MAX_FILESIZE'					=> 'Tamanho Máximo do Ficheiro Avatar',
@@ -348,7 +348,7 @@ $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS_EXPLAIN'			=> 'Estas configurações definem os dados usados nos cookies enviados aos navegadores dos Utilizadores. Na maioria dos casos os valores predefinidos são suficientes. Se os alterar faça-o com cuidado. Qualquer incorrecção impede os Utilizadores de acederem ao Fórum. Se verificar que os utilizadores não conseguem entrar ou sair da sua conta, visite <b><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Corrigindo configurações de Cookies Incorrectas</a></b>.',
 
 	'COOKIE_DOMAIN'							=> 'Domínio do Cookie',
-	'COOKIE_DOMAIN_EXPLAIN'					=> 'Na maioria dos casos o domínio do cookie é opcional. Deixe em branco em caso de dúvida.<br /><br /> No caso de ter o fórum integrado com outro software ou de ter múltiplos domínios, então, para determinar o domínio do cookie, deverá fazer o seguinte.  Caso tenha algo como <i>exemplo.pt</i> e <i>forum.exemplo.pt</i>, ou talvez <i>forum.exemplo.pt</i> e <i>blog.exemplo.pt</i>. Remova os subdomínios até que reste o domínio principal, <i>exemplo.pt</i>. Agora adicione um ponto final em frente ao domínio, ou seja, ficaria: .exemplo.pt (repare no ponto final no ínicio).',
+	'COOKIE_DOMAIN_EXPLAIN'					=> 'Na maioria dos casos o domínio do cookie é opcional. Deixe em branco em caso de dúvida.<br /><br /> No caso de ter o fórum integrado com outro software ou de ter múltiplos domínios, então, para determinar o domínio do cookie, deverá fazer o seguinte.  Caso tenha algo como <i>exemplo.pt</i> e <i>forum.exemplo.pt</i>, ou talvez <i>forum.exemplo.pt</i> e <i>blog.exemplo.pt</i>. Remova os subdomínios até que reste o domínio principal, <i>exemplo.pt</i>. Agora adicione um ponto final em frente ao domínio, ou seja, ficaria: .exemplo.pt (repare no ponto final no início).',
 	'COOKIE_NAME'							=> 'Nome do Cookie',
 	'COOKIE_NAME_EXPLAIN'					=> 'Pode colocar aqui o que bem desejar, seja original. Sempre que as configurações dos cookies sejam alteradas, o nome do cookie deve ser também alterado.',
 	'COOKIE_PATH'							=> 'Caminho do Cookie',

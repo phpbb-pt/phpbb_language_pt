@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_TEST'						=> 'Verificar as configurações administrativas',
 	'ADMIN_USERNAME'					=> 'Nome de Utilizador do Administrador',
 	'ADMIN_USERNAME_EXPLAIN'			=> 'Escolha um nome de Utilizador que tenha entre 3 a 20 caracteres).',
-	'APP_MAGICK'						=> 'Suporte Imagemagick [ Anexos ]',
+	'APP_MAGICK'						=> 'Suporte ImageMagick [ Anexos ]',
 	'AUTHOR_NOTES'						=> 'Notas do Autor<br />» %s',
 	'AVAILABLE'							=> 'Disponível',
 	'AVAILABLE_CONVERTORS'				=> 'Conversores Disponíveis',
@@ -282,7 +282,7 @@ $lang = array_merge($lang, array(
 	'NOT_UNDERSTAND'					=> 'Não foi possível entender %s #%d, tabela %s ("%s")',
 	'NO_CONVERTORS'						=> 'Não está disponível nenhum conversor',
 	'NO_CONVERT_SPECIFIED'				=> 'Não foi especificado nenhum conversor',
-	'NO_LOCATION'						=> 'Não foi possível determinar o local. Se o Imagemagick estiver instalado, pode especificar o local mais tarde no seu Painel de Administração.',
+	'NO_LOCATION'						=> 'Não foi possível determinar o local. Se o imagemagick estiver instalado, pode especificar o local mais tarde no seu Painel de Administração.',
 	'NO_TABLES_FOUND'					=> 'Não foi encontrada nenhuma tabela.',
 
 	'OVERVIEW_BODY'						=> 'Bem-vindo ao phpBB3!<br /><br />O phpBB® é a solução de código aberto mais utilizada para sistemas de fóruns. A versão 3 é a mais recente de uma série iniciada no ano 2000. Tal como os seus antecessores, tem uma enorme diversidade de ferramentas, uma interface amigável e de fácil compreensão e é suportado pelo phpBB Team. O phpBB3 reuniu o que de melhor havia para o phpBB2 adicionando as ferramentas mais populares e que não se encontravam presentes nas versões anteriores. Esperamos que esta nova versão exceda as suas expectativas.<br /><br />Este sistema de instalação vai conduzi-lo através de diversas ferramentas, como a instalação do phpBB3, actualização do sistema para a versão mais recente do phpBB3 a partir de versões anteriores, bem como a conversão para phpBB3 de sistemas de Fóruns diferentes, incluindo o phpBB 2.0.x. Para informações mais detalhadas, recomendamos a leitura do <a href="../docs/INSTALL.html">Guia de Instalação (em língua inglesa)</a>.<br /><br />Para conhecer a licença do phpBB3 ou saber como obter ajuda online, seleccione as opções no menu lateral. Para continuar, seleccione o separador apropriado.',
@@ -324,7 +324,7 @@ $lang = array_merge($lang, array(
 	'SERVER_CONFIG'						=> 'Configuração do Servidor',
 	'SEARCH_INDEX_UNCONVERTED'			=> 'Os índices de pesquisa não foram convertidos',
 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'Os antigos índices de pesquisa não foram convertidos. As pesquisas irão dar erro. Para criar um novo índice de pesquisa, vá ao Painel de Administrador, seleccione Manutenção e escolha Índice de pesquisa no sub-menu.',
-	'SELECT_FORUM_GA'					=> 'No phpBB 3.1 os anúncios globais estão ligados aos fóruns. Seleccionar um fórum para os anúncios globais atuais (pode ser movido mais tarde):',
+	'SELECT_FORUM_GA'					=> 'No phpBB 3.1 os anúncios globais estão ligados aos fóruns. Seleccionar um fórum para os anúncios globais actuais (pode ser movido mais tarde):',
 	'SOFTWARE'							=> 'Software do Fórum',
 	'SPECIFY_OPTIONS'					=> 'Escolha as Opções de Conversão',
 	'STAGE_ADMINISTRATOR'				=> 'Detalhes do Administrador',
@@ -361,14 +361,14 @@ $lang = array_merge($lang, array(
 
 	'UNABLE_WRITE_LOCK'					=> 'Não foi possível escrever o ficheiro de bloqueio',
 	'UNAVAILABLE'						=> 'Indisponível',
-	'UNWRITABLE'						=> 'Não gravável',
+	'UNWRITABLE'						=> 'Não tem permissões de escrita',
 	'UPDATE_TOPICS_POSTED'				=> 'Gerando informações de Tópicos enviados',
 	'UPDATE_TOPICS_POSTED_ERR'			=> 'Algum erro ocorreu enquanto as informações dos Tópicos eram geradas. Pode tentar novamente esta etapa no Painel de Administração quando a conversão estiver completa.',
 	'VERIFY_OPTIONS'					=> 'Verificando as opções da configuração',
 	'VERSION'							=> 'Versão',
 
 	'WELCOME_INSTALL'					=> 'Bem-vindo à Instalação do phpBB3',
-	'WRITABLE'							=> 'Gravável',
+	'WRITABLE'							=> 'Tem permissões de escrita',
 ));
 
 // Updater
@@ -530,11 +530,11 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'			=> 'Actualização da estrutura da Base de Dados',
 	'UPDATE_FILES'						=> 'Actualizar Ficheiros',
 	'UPDATE_FILES_NOTICE'				=> 'Por Favor, certifique-se de ter actualizado os Ficheiros do seu Fórum também, este Ficheiro apenas actualiza a Base de Dados.',
-	'UPDATE_INCOMPLETE'					=> 'A sua instalação do phpBB não foi atualizada corretamente.',
+	'UPDATE_INCOMPLETE'					=> 'A sua instalação do phpBB não foi actualizada correctamente.',
 	'UPDATE_INCOMPLETE_MORE'			=> 'Por favor, leia as informações abaixo, a fim de corrigir este erro.',
-	'UPDATE_INCOMPLETE_EXPLAIN'			=> '<h1>Atualização incompleta</h1>
+	'UPDATE_INCOMPLETE_EXPLAIN'			=> '<h1>Actualização incompleta</h1>
 
-		<p>Notamos que a última atualização da sua instalação phpBB ainda não foi concluída. Visite a <a href="%1$s" title="%1$s">script database_update</a> e executá-lo. Se estiver em falta, por favor <a href="https://www.phpbb.com/downloads/" title="phpBB downloads">baixar a sua versão do pacote</a>, carregar o "install" pasta para o diretório raiz phpBB  (onde o arquivo config.php é) e <a href="%1$s" title="%1$s">executar a atualização do base de dados do script</a>.</p>',
+		<p>Notamos que a última actualização da sua instalação phpBB ainda não foi concluída. Visite a <a href="%1$s" title="%1$s">script database_update</a> e executá-lo. Se estiver em falta, por favor <a href="https://www.phpbb.com/downloads/" title="phpBB downloads">baixar a sua versão do pacote</a>, carregar o "install" pasta para o directório raiz phpBB  (onde o arquivo config.php é) e <a href="%1$s" title="%1$s">executar a actualização do base de dados do script</a>.</p>',
 
 	'UPDATE_INSTALLATION'				=> 'Actualizar Instalação do phpBB',
 	'UPDATE_INSTALLATION_EXPLAIN'		=> 'Com esta opção, é possível actualizar a instalação do phpBB para a última versão.<br />Durante o processo, todos os ficheiros serão verificados. Pode rever todas as diferenças e ficheiros antes da actualização.<br /><br />A própria actualização do ficheiro pode ser realizada de duas maneiras.</p><h2>Actualização Manual</h2><p>Com esta actualização, apenas transfere a sua selecção pessoal dos ficheiros modificados, e para ter certeza de que não perderá as modificações do seu ficheiro, deve finalizar. Depois de ter transferido este pacote, deve manualmente enviar os ficheiros para as suas respectivas pastas. Em seguida, pode fazer a verificação dos ficheiros novamente para ver se os moveu correctamente.</p><h2>Actualização automática com FTP</h2><p>Este método é similar ao primeiro, mas não precisa descarregar os ficheiros modificados e enviá-los para o servidor. Isto será executado de forma automática. Para utilizar este método, tem que saber os dados da sua conta no servidor de FTP se isso for pedido. Depois de pronto, será redireccionado para nova verificação dos ficheiros para ter a certeza de que tudo foi actualizado correctamente.<br /><br />',
@@ -563,7 +563,7 @@ $lang = array_merge($lang, array(
 		</p>
 	',
 	'UPDATE_METHOD'						=> 'Método de actualização',
-	'UPDATE_METHOD_EXPLAIN'				=> 'Pode escolher o método de actualização desejado. Utilizando o envio por FTP, deverá inserir os dados do seu registo no servidor de FTP. Com este método, os Ficheiros serão automaticamente movidos para o novo local e backups dos Ficheiros antigos serão criados com a extensão .bak ao nome do Ficheiro. Se escolher fazer a transferência dos Ficheiros modificados, poderá descompatá-los e enviá-los depois manualmente para os seus locais correctos.',
+	'UPDATE_METHOD_EXPLAIN'				=> 'Pode escolher o método de actualização desejado. Utilizando o envio por FTP, deverá inserir os dados do seu registo no servidor de FTP. Com este método, os Ficheiros serão automaticamente movidos para o novo local e backups dos Ficheiros antigos serão criados com a extensão .bak ao nome do Ficheiro. Se escolher fazer a transferência dos Ficheiros modificados, poderá descompactá-los e enviá-los depois manualmente para os seus locais correctos.',
 	'UPDATE_REQUIRES_FILE'				=> 'O sistema de actualização necessita dos seguintes Ficheiro: %s',
 	'UPDATE_SUCCESS'					=> 'A actualização foi executada com sucesso',
 	'UPDATE_SUCCESS_EXPLAIN'			=> 'Todos os Ficheiros foram actualizados com sucesso. A próxima etapa envolve verificar todos os Ficheiros novamente para ter certeza de que os Ficheiros foram actualizados correctamente.',
