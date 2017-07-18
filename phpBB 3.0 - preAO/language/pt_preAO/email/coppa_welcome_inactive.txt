@@ -1,0 +1,61 @@
+Subject: Bem vindo ao Fórum {SITENAME}
+
+{WELCOME_MSG}
+
+Os dados da sua conta são os seguintes:
+==============================================
+Nome de Utilizador: {USERNAME}
+
+E-mail: {EMAIL_ADDRESS}
+==============================================
+
+A sua senha foi codificada na nossa Base de Dados e não é recuperável.
+Se a perder pode solicitar uma senha nova, sendo activada desta mesma forma.
+
+{USERNAME}, obrigado pelo seu registo em "{SITENAME}".
+Em conformidade com o COPPA, sua conta encontra-se inactiva.
+
+Por favor, imprima esta mensagem, obtenha a assinatura, com a data, dos seus pais ou tutor e envie por fax para:
+{MAIL_INFO}
+
+-- Recorte por aqui --
+
+Autorização para a participação de {USERNAME} em {SITENAME} - {U_BOARD}
+
+==============================================
+Nome de Utilizador: {USERNAME}
+E-mail: {EMAIL_ADDRESS}
+==============================================
+
+Li a regras de utilização e autorizo o "{SITENAME}" a guardar os dados do meu educando numa Base de Dados. 
+Tenho consciência que estes dados podem ser alterados com o uso da senha correcta. 
+A qualquer momento e a meu pedido, o "{SITENAME}" eliminará da Base de Dados toda a informação relativa ao meu educando.
+
+
+Pais ou Encarregados de Educação
+
+_____________________________________________________________________________________
+(escreva o seu Nome de forma legível)
+
+
+_____________________________________________________________________________________
+(Assine)
+
+______/_______/_____
+(Data)
+
+
+
+-- Recorte por aqui --
+
+
+Uma vez que o administrador tenha recebido o formulário acima, a sua conta será activada.
+
+A sua senha foi armazenada na nossa Base de Dados de forma segura e não pode ser recuperada.
+No caso de a esquecer, poderá redefini-la, usando o endereço de e-mail associado à sua conta.
+
+
+Participe activamente. A sua colaboração é fundamental para todos nós.
+
+
+{EMAIL_SIG}

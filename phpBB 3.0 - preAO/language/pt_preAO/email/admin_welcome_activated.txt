@@ -1,0 +1,16 @@
+Subject: {SITENAME} - Registo Activado
+
+Olá {USERNAME};
+
+O seu registo em "{SITENAME}" foi activado.
+Já pode entrar no Fórum usando o Nome de Utilizador que recebeu no anterior email.
+
+
+A sua senha foi codificada na nossa Base de Dados e não é recuperável.
+Se a perder pode solicitar uma senha nova, sendo activada desta mesma forma.
+
+{USERNAME}, obrigado pelo seu registo em "{SITENAME}".
+Participe activamente. A sua colaboração é fundamental para todos nós.
+
+
+{EMAIL_SIG}

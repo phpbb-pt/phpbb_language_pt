@@ -1,0 +1,21 @@
+Subject: {SITENAME} - Nova Mensagem Privada
+
+Olá {USERNAME};
+
+Tem uma Mensagem Privada nova em "{SITENAME}" com o seguinte assunto:
+{SUBJECT}
+
+Veja a Mensagem no seguinte endereço:
+{U_INBOX}
+
+
+Se não deseja continuar a ser notificado sempre que recebe Mensagens Privadas novas, altere a configuração desta opção no seu "Perfil".
+
+
+Obrigado {USERNAME}.
+Continue a participar activamente.
+A sua colaboração é fundamental para todos nós.
+
+
+
+{EMAIL_SIG}

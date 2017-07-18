@@ -1,0 +1,19 @@
+Subject: {FORUM_NAME} - Notificação de resposta ao Fórum
+
+Olá {USERNAME};
+
+Tem em observação o "{FORUM_NAME}", em "{SITENAME}", onde há uma resposta nova ao Tópico "{TOPIC_TITLE}".
+Pode vê-la clicando no seguinte endereço:
+{U_NEWEST_POST}
+Não serão enviadas mais notificações enquanto não visitar o Tópico.
+
+Se não pretende continuar a observar o Fórum, pode clicar em "Parar de observar este Fórum" no Fórum indicado ou no seguinte endereço:
+{U_STOP_WATCHING_FORUM}
+
+
+Obrigado {USERNAME}.
+Continue a participar activamente.
+A sua colaboração é fundamental para todos nós.
+
+
+{EMAIL_SIG}
