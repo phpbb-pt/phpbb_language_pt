@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'				=> 'Novas Mensagens [ Bloqueado ]',   // Not used anymore
 	'NO_NEW_POSTS_HOT'				=> 'Sem novas Mensagens [ Popular ]',   // Not used anymore
 	'NO_NEW_POSTS_LOCKED'			=> 'Sem novas Mensagens [ Bloqueado ]',   // Not used anymore
-	'NO_READ_ACCESS'				=> 'Não tem Permissões para ler Tópicos neste Fórum.',
+	'NO_READ_ACCESS'				=> 'Não tem Permissões para ver nem ler Tópicos neste Fórum.',
 	'NO_UNREAD_POSTS_HOT'			=> 'Sem mensagens por ler [ Popular ]',
 	'NO_UNREAD_POSTS_LOCKED'		=> 'Sem mensagens por ler [ Bloqueado ]',
 
