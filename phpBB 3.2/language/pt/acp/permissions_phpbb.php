@@ -107,6 +107,7 @@ $lang = array_merge($lang, array(
 // Forum Permissions
 $lang = array_merge($lang, array(
 	'ACL_F_LIST'		=> 'Pode ver o fórum',
+	'ACL_F_LIST_TOPICS'	=> 'Pode ver tópicos',
 	'ACL_F_READ'		=> 'Pode ler o fórum',
 	'ACL_F_SEARCH'		=> 'Pode pesquisar no fórum',
 	'ACL_F_SUBSCRIBE'	=> 'Pode subscrever o fórum',
