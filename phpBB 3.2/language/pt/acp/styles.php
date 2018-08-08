@@ -80,6 +80,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL'				=> 'Desinstalar',
 	'STYLE_UNINSTALL_DEPENDENT'		=> 'O estilo "%s" não pode ser desinstalado porque há um ou mais estilos secundários.',
 	'STYLE_UNINSTALLED'				=> 'O estilo "%s" foi desinstalado com sucesso.',
+	'STYLE_PHPBB_VERSION'			=> 'Versão do phpBB',
 	'STYLE_USED_BY'					=> 'Usado por (incluindo Motor de Busca)',
 	'STYLE_VERSION'					=> 'Versão do Estilo',
 
