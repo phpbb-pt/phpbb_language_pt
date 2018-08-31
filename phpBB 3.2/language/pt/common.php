@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @Traduzido por: http://phpbb-pt.com - segundo as normas do Acordo Ortográfico
 */
 
 /**
@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'					=> 'Traduzido por phpBB Portugal',
+	'TRANSLATION_INFO'					=> 'Traduzido por: <a href="http://www.phpbb-pt.com">phpBB Portugal</a>',
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'					=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
