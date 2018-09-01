@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbb-pt.com - segundo as normas do Acordo Ortográfico
+* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
 */
 
 /**
