@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
 */
 
 /**
@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'					=> 'Traduzido por phpBB Portugal',
+	'TRANSLATION_INFO'					=> 'Traduzido por: <a href="http://www.phpbb-pt.com">phpBB Portugal</a>',
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'					=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
@@ -138,8 +138,10 @@ $lang = array_merge($lang, array(
 		1	=> 'Utilizadores neste fórum: %2$s e %1$d visitante',
 		2	=> 'Utilizadores neste fórum: %2$s e %1$d visitantes',
 	),
+	'BUTTON_DELETE'         			=> 'Excluir',
 	'BUTTON_EDIT'						=> 'Editar',
 	'BUTTON_FORUM_LOCKED'				=> 'Fórum Bloqueado',
+	'BUTTON_INFORMATION'    			=> 'Informação',
 	'BUTTON_NEW_TOPIC'					=> 'Novo Tópico',
 	'BUTTON_PM'							=> 'MP',
 	'BUTTON_PM_FORWARD'					=> 'Reenviar',
@@ -148,7 +150,9 @@ $lang = array_merge($lang, array(
 	'BUTTON_PM_REPLY_ALL'				=> 'Responder a todos',
 	'BUTTON_POST_REPLY'					=> 'Responder',
 	'BUTTON_QUOTE'						=> 'Citar',
+	'BUTTON_REPORT'       				=> 'Denunciar',
 	'BUTTON_TOPIC_LOCKED'				=> 'Bloqueado',
+	'BUTTON_WARN'           			=> 'Advertir',
 	'BYTES'								=> 'Bytes',
 	'BYTES_SHORT'						=> 'B',
 
@@ -604,6 +608,7 @@ $lang = array_merge($lang, array(
 	'PREVIOUS'							=> 'Anterior',	  // Used in pagination
 	'PREVIOUS_STEP'						=> 'Anterior',
 	'PRIVACY'							=> 'Política de Privacidade',
+	'PRIVACY_LINK'						=> 'Privacidade',
 	'PRIVATE_MESSAGE'					=> 'Mensagem Privada',
 	'PRIVATE_MESSAGES'					=> 'Mensagens Privadas',
 	'PRIVATE_MESSAGING'					=> 'A enviar Mensagem Privada',
@@ -728,6 +733,7 @@ $lang = array_merge($lang, array(
 	'SUBMIT'							=> 'Enviar',
 
 	'TB'								=> 'TB',
+	'TERMS_LINK'						=> 'Termos',
 	'TERMS_USE'							=> 'Condições de utilização',
 	'TEST_CONNECTION'					=> 'Testar Ligação',
 	'THE_TEAM'							=> 'Equipa',

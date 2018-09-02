@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
 */
 
 /**
@@ -80,6 +80,7 @@ $lang = array_merge($lang, array(
 	'STYLE_UNINSTALL'				=> 'Desinstalar',
 	'STYLE_UNINSTALL_DEPENDENT'		=> 'O estilo "%s" não pode ser desinstalado porque há um ou mais estilos secundários.',
 	'STYLE_UNINSTALLED'				=> 'O estilo "%s" foi desinstalado com sucesso.',
+	'STYLE_PHPBB_VERSION'			=> 'Versão do phpBB',
 	'STYLE_USED_BY'					=> 'Usado por (incluindo Motor de Busca)',
 	'STYLE_VERSION'					=> 'Versão do Estilo',
 

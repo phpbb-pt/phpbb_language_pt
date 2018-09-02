@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
 */
 
 /**
@@ -116,8 +116,11 @@ $lang = array_merge($lang, array(
 		2	=> 'A taxa de indexação é de aproximadamente %1$.1f mensagens por segundo.<br />Indexação em progresso...',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'Todas as mensagens até à mensagem id %2$d foram removidas do índice de pesquisa.<br />Eliminação em progresso...',
+		2	=> 'Todas as mensagens até à mensagem id %2$d foram removidas do índice de pesquisa, das quais %1$d mensagens estavam dentro desta etapa.<br />',
 	),
+	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
+		2	=> 'A taxa atual de exclusão é de aproximadamente %1$.1f mensagens por segundo.<br />Excluindo em progresso…',
+),
 	'SEARCH_INDEX_CREATED'					=> 'Todas as Mensagens foram indexadas na Base de Dados com sucesso.',
 	'SEARCH_INDEX_REMOVED'					=> 'O Índice de Pesquisa foi apagado com sucesso.',
 	'SEARCH_INTERVAL'						=> 'Intervalo Segurança nas pesquisas para Utilizadores',
