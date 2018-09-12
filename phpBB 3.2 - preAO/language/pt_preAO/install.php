@@ -193,6 +193,7 @@ $lang = array_merge($lang, array(
 	'DB_OPTION_SQLITE3'		=> 'SQLite 3',
 
 	// Errors
+	'INST_ERR_DB'					=> 'Erro de instalação da Base de Dados',
 	'INST_ERR_NO_DB'				=> 'Não foi possível carregar o módulo PHP para o tipo de Base de Dados seleccionado',
 	'INST_ERR_DB_INVALID_PREFIX'	=> 'O prefixo digitado é inválido. Deve começar com uma letra e deve conter apenas letras, números e sublinhados.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'O prefixo indicado é muito comprido. O comprimento máximo é de %d caracteres.',
@@ -354,20 +355,43 @@ $lang = array_merge($lang, array(
 
 		<br />
 
+		<h1>Como actualizar a sua instalação com o Pacote Completo (Full Package)</h1>
+		
+		<p>A forma mais recomendada de actualizar a sua instalação é via pacote completo. Caso os ficheiros originais do phpBB tenham sido modificados na sua instalação, poderá desejar usar o pacote de actualização automática para evitar perder essas alterações. Também pode actualizar a sua instalação por outros métodos listados no INSTALL.html. As etapas para actualizar o phpBB3 via pacote completo são as seguintes:</p>
+		
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li><strong class="error">Backup de todos os ficheiros e da base de dados.</strong></li>
+			<li>Vá até a <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">página de downloads do phpBB.com</a> e transfira o ficheiro do "Full Package".</li>
+			<li>Descompacte o ficheiro.</li>
+			<li>Apague o ficheiro <code class="inline">config.php</code> e as pastas <code class="inline">/images</code>, <code class="inline">/store</code> e <code class="inline">/files</code> <em>do pacote</em> (não do seu site).</li>
+			<li>Vá para o ACP, Configurações do Fórum e certifique-se de que o prosilver é o estilo predefinido. Caso não seja, defina o prosilver como tal.</li>
+			<li>Apague as pastas <code class="inline">/vendor</code> e <code class="inline">/cache</code> da pasta raiz do fórum, no seu servidor.</li>
+			<li>Usando FTP ou SSH envie os ficheiros e pastas restantes (isto é, o CONTEÚDO restante da pasta phpBB3) para a pasta raiz da instalação do fórum no servidor, sobrescrevendo os ficheiros existentes. (Nota: tenha cuidado para não apagar nenhuma extensão na pasta <code class="inline">/ext</code> quando fizer o envio do novo conteúdo do phpBB3.)</li>
+			<li><strong><a href="%1$s" title="%1$s">Agora inicie o processo de actualização, apontando o seu navegador para a pasta de instalação</a>.</strong></li>
+			<li>Siga as etapas para actualizar a base de dados e deixe que seja executado até a conclusão.</li>
+			<li>Usando FTP ou SSH apague a pasta <code class="inline">/install</code> da pasta raiz da instalação do fórum no servidor.<br><br></li>
+		</ol>
+		
+		<p>Agora tem um novo fórum actualizado que contém todos os seus utilizadores e mensagens. Tarefas complementares:</p>
+		<ul style="margin-left: 20px; font-size: 1.1em;">
+			<li>Actualize o seu pacote de idioma</li>
+			<li>Actualize o seu estilo<br><br></li>
+		</ul>
+		
 		<h1>Como actualizar a sua instalação com o pacote de actualização automática</h1>
 
-		<p>O método recomendado de actualizar a sua instalação listada aqui é válido apenas para o pacote de actualização automática. Também pode actualizar a sua instalação usando os métodos listados no documento INSTALL.html. As etapas para actualizar o phpBB3 automaticamente são:</p>
+		<p>O pacote de actualização automática é recomendado apenas se os ficheiros originais do phpBB tenham sido modificados na sua instalação. Também pode actualizar a sua instalação usando os métodos listados no documento INSTALL.html. As etapas para actualizar o phpBB3 automaticamente são:</p>
 
-		<ul style="margin-left: 20px; font-size: 1.1em;">
+		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o "Pacote de actualização do phpBB" correto.<br /><br /></li>
 			<li>Descompacte o Ficheiro.<br /><br /></li>
-			<li>Envie as pastas "install" e "vendor" descompactadas para o Servidor (onde está o seu ficheiro config.php).<br /><br /></li>
-		</ul>
+			<li>Envie as pastas "install" e "vendor" descompactadas para a pasta raiz do seu phpBB (onde se encontra o ficheir config.php).<br /><br /></li>
+		</ol>
 
-		<p>Depois de enviado, o seu Fórum ficará inacessível aos Utilizadores normais conforme a pasta instalação que enviou agora.<br /><br />
+		<p>Depois de enviado, o seu fórum ficará inacessível aos utilizadores normais, caso esteja realmente presente a pasta de instalação que supostamente acaba de enviar.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Agora inicie o Processo de actualização inserindo no seu navegador o endereço da pasta /install</a>.</strong><br />
 		<br />
-		Em seguida será conduzido ao longo do processo de actualização. Será avisado quando a actualização estiver concluída. 
+		Em seguida será conduzido ao longo do processo de actualização. Será avisado quando a actualização estiver concluída.
 		</p>
 	',
 ));
