@@ -111,8 +111,6 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'					=> 'Dimensões para o atalho de Imagem',
 	'IMAGE_LINK_SIZE_EXPLAIN'			=> 'Mostra o anexo da imagem como um atalho se a imagem for maior que o selecionado, introduza 0px por 0px para desativar.',
-	'IMAGICK_PATH'						=> 'Local do ImageMagick',
-	'IMAGICK_PATH_EXPLAIN'				=> 'Caminho completo para o programa imagemagick, p.exemplo: /usr/bin/.',
 
 	'MAX_ATTACHMENTS'					=> 'Máximo de anexos por Mensagem',
 	'MAX_ATTACHMENTS_PM'				=> 'Máximo de anexos por Mensagem Privada',
@@ -135,7 +133,6 @@ $lang = array_merge($lang, array(
 	'NO_EXT_GROUP_SPECIFIED'			=> 'Grupo de Extensão não especificado.',
 	'NO_FILE_CAT'						=> 'Nenhum',
 	'NO_IMAGE'							=> 'Sem imagem',
-	'NO_THUMBNAIL_SUPPORT'				=> 'O suporte às miniaturas (imagem reduzida) encontra-se desativado. Para ativar esta funcionalidade é necessário a extensão GD ou imagemagick instalado. Nenhum dos dois foi encontrado.',
 	'NO_UPLOAD_DIR'						=> 'A pasta de envio (upload) que indicou não existe.',
 	'NO_WRITE_UPLOAD'					=> 'A pasta que indicou não permite gravação. Por favor, altere as permissões para permitir a escrita nele.',
 
@@ -147,7 +144,6 @@ $lang = array_merge($lang, array(
 	'REMOVE_DISALLOWED_IPS'				=> 'Remover ou não exclui IPs/Servidores proibidos',
 	'RESYNC_FILES_STATS_CONFIRM'		=> 'Tem a certeza que deseja ressincronizar estatísticas de ficheiros?',
 
-	'SEARCH_IMAGICK'					=> 'Localizar ImageMagick',
 	'SECURE_ALLOW_DENY'					=> 'Permitir/Negar lista',
 	'SECURE_ALLOW_DENY_EXPLAIN'			=> 'Permite ou nega a lista de endereços. Esta configuração aplica-se apenas aos Ficheiros para transferência.',
 	'SECURE_DOWNLOADS'					=> 'Ativar transferências seguras',

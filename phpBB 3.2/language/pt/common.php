@@ -62,7 +62,6 @@ $lang = array_merge($lang, array(
 
 	'ACCOUNT_ALREADY_ACTIVATED'			=> 'O seu registo já se encontra ativo.',
 	'ACCOUNT_DEACTIVATED'				=> 'O seu registo foi desativado manualmente e apenas pode ser reativado por um Administrador.',
-	'ACCOUNT_NOT_ACTIVATED'				=> 'O seu registo ainda não se encontra ativo',
 	'ACP'								=> 'Painel de Administração',
 	'ACP_SHORT'							=> 'ACP',
 	'ACTIVE'							=> 'Ativo',
