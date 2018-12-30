@@ -1,6 +1,6 @@
 <?php
 /**
-*
+**
 * VigLink extension for the phpBB Forum Software package.
 *
 * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
