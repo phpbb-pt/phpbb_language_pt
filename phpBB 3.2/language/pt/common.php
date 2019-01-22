@@ -751,7 +751,7 @@ $lang = array_merge($lang, array(
 	'TOO_LONG_NEW_PASSWORD'				=> 'A Senha indicada é muito longa.',
 	'TOO_LONG_PASSWORD_CONFIRM'			=> 'A confirmação da Senha indicada é muito longa.',
 	'TOO_LONG_USER_PASSWORD'			=> 'A Senha é muito longa.',
-	'TOO_LONG_USERNAME'					=> 'O nome de Utilizador indicado é muito curto.',
+	'TOO_LONG_USERNAME'					=> 'O nome de Utilizador indicado é muito grande.',
 	'TOO_LONG_EMAIL'					=> 'O endereço de email indicado é muito curto.',
 
 	'TOO_MANY_VOTE_OPTIONS'				=> 'Escolheu muitas opções.',
