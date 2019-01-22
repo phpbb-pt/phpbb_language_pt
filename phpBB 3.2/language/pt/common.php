@@ -745,14 +745,14 @@ $lang = array_merge($lang, array(
 
 	'TOO_LONG'							=> 'O valor definido é muito longo.',
 
-	'TOO_LONG_CONFIRM_CODE'				=> 'O código de confirmação indicado é muito curto.',
+	'TOO_LONG_CONFIRM_CODE'				=> 'O código de confirmação indicado é muito longo.',
 	'TOO_LONG_DATEFORMAT'				=> 'O formato da data indicada é muito longa.',
 	'TOO_LONG_JABBER'					=> 'A nome da conta Jabber indicada é muito longa.',
 	'TOO_LONG_NEW_PASSWORD'				=> 'A Senha indicada é muito longa.',
 	'TOO_LONG_PASSWORD_CONFIRM'			=> 'A confirmação da Senha indicada é muito longa.',
 	'TOO_LONG_USER_PASSWORD'			=> 'A Senha é muito longa.',
-	'TOO_LONG_USERNAME'					=> 'O nome de Utilizador indicado é muito grande.',
-	'TOO_LONG_EMAIL'					=> 'O endereço de email indicado é muito curto.',
+	'TOO_LONG_USERNAME'					=> 'O nome de Utilizador indicado é muito longo.',
+	'TOO_LONG_EMAIL'					=> 'O endereço de email indicado é muito longo.',
 
 	'TOO_MANY_VOTE_OPTIONS'				=> 'Escolheu muitas opções.',
 
