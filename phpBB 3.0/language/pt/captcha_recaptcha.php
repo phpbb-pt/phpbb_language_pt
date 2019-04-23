@@ -5,7 +5,7 @@
 *
 * @package language
 * @version 1.0.9
-* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
+* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2009 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 

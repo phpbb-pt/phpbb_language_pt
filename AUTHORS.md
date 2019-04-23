@@ -13,8 +13,9 @@ Criador
 
 Gestão da tradução
 ----------
+* Pavlov (https://github.com/Pavlov)
 * Joaquim (https://github.com/borgesjoaquim)
-* Leinad4Mind (https://www.phpbb-pt.com/memberlist.php?mode=viewprofile&u=82)
+* Leinad4Mind (http://www.phpbbportugal.com/memberlist.php?mode=viewprofile&u=140)
 
 Colaboradores
 -------
@@ -22,6 +23,5 @@ Colaboradores
 
 Ex-Colaboradores
 -------
-* Pavlov (https://github.com/Pavlov)
 * ordhor (https://github.com/ordhor)
 * casper™ (http://www.phpbbportugal.com/forum/memberlist.php?mode=viewprofile&u=65)
