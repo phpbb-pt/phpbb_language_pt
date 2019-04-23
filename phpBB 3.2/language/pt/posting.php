@@ -145,6 +145,7 @@ $lang = array_merge($lang, array(
 	'LOAD_DRAFT_EXPLAIN'			=> 'Selecione o rascunho. Tenha em atenção que ao selecionar um rascunho o mesmo deixará de ficar guardado. No entanto pode voltar a guardar a mensagem, criando um novo rascunho. Pode ver, editar e apagar rascunhos no Painel de Controlo do Utilizador.',
 	'LOGIN_EXPLAIN_BUMP'			=> 'Tem que ligar-se para ressuscitar Tópicos neste Fórum.',
 	'LOGIN_EXPLAIN_DELETE'			=> 'Tem que ligar-se para apagar Mensagens neste Fórum.',
+	'LOGIN_EXPLAIN_SOFT_DELETE'		=> 'Tem que fazer o login para excluir as postagens deste fórum.',
 	'LOGIN_EXPLAIN_POST'			=> 'Tem que ligar-se para enviar Mensagens neste Fórum.',
 	'LOGIN_EXPLAIN_QUOTE'			=> 'Tem que ligar-se para citar Mensagens neste Fórum.',
 	'LOGIN_EXPLAIN_REPLY'			=> 'Tem que ligar-se para responder Tópicos neste Fórum.',

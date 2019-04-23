@@ -780,6 +780,10 @@ $lang = array_merge($lang, array(
 	'TOPIC_REVIEW'						=> 'Rever o Tópico',
 	'TOPIC_TITLE'						=> 'Título do Tópico',
 	'TOPIC_UNAPPROVED'					=> 'Este Tópico ainda não foi aprovado.',
+	'TOPIC_UNAPPROVED_FORUM'	=> array(
+		1	=> 'Tópico aguarda por aprovação',
+		2	=> 'Tópicos aguardam por aprovação',
+	),
 	'TOPIC_DELETED'						=> 'Este Tópico foi apagado.',
 	'TOTAL_ATTACHMENTS'					=> 'Anexo(s)',
 	'TOTAL_LOGS'		=> array(
