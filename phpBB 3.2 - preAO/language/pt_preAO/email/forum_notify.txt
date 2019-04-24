@@ -1,5 +1,4 @@
 Subject: {FORUM_NAME} - Notificação de resposta ao Fórum
-Lista-cancelar inscrição: <{U_STOP_WATCHING_FORUM}>
 
 Olá, {USERNAME},
 

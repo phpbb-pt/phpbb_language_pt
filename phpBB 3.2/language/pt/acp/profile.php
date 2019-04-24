@@ -145,7 +145,7 @@ $lang = array_merge($lang, array(
 
 	'RADIO_BUTTONS'					=> 'Botões do Rádio',
 	'REMOVED_PROFILE_FIELD'			=> 'O Campo foi apagado com sucesso.',
-	'REQUIRED_FIELD'				=> 'Campo Obrigatório',
+	'REQUIRED_FIELD'				=> 'Campo Requerido',
 	'REQUIRED_FIELD_EXPLAIN'		=> 'Obriga ao preenchimento do campo pelo Utilizador. Isto irá exibir o campo no registo e no Painel de Controlo do Utilizador.',
 	'ROWS'							=> 'Linhas',
 
@@ -161,8 +161,8 @@ $lang = array_merge($lang, array(
 	'STEP_2_EXPLAIN_EDIT'			=> 'Aqui pode alterar algumas opções comuns. Além disso, pode prever o Campo alterado, visualizando-o enquanto Utilizador. Por Favor, teste as suas configurações para ver se tudo está funcionando corretamente.<br /><strong>Por Favor, note que as alterações no Campos do Perfil não afetará os Campos existentes inseridos pelos seus utilizadores.</strong>',
 	'STEP_2_TITLE_CREATE'			=> 'Opções Específicas ao Tipo de Perfil',
 	'STEP_2_TITLE_EDIT'				=> 'Opções Específicas ao Tipo de Perfil',
-	'STEP_3_EXPLAIN_CREATE'			=> 'Desde que tenha mais de um Idioma instalado, deve preencher os itens de linguagem restantes também. Se não o fizer, a configuração de idioma padrão para esse campo de perfil personalizado será usada. Também poderá preencher os itens restantes do idioma.',
-	'STEP_3_EXPLAIN_EDIT'			=> 'Desde que tenha mais de um Idioma instalado, agora pode alterar ou adicionar os demais itens de idioma. Se não o fizer, será usada a configuração de idioma padrão para esse campo de perfil personalizado.',
+	'STEP_3_EXPLAIN_CREATE'			=> 'Desde que tenha mais de um Idioma instalado, deve preencher os itens de linguagem restantes também. Se você não o fizer, a configuração de idioma padrão para esse campo de perfil personalizado será usada. Você também poderá preencher os itens restantes do idioma.',
+	'STEP_3_EXPLAIN_EDIT'			=> 'Desde que tenha mais de um Idioma instalado, agora você pode alterar ou adicionar os demais itens de idioma. Se você não o fizer, será usada a configuração de idioma padrão para esse campo de perfil personalizado.',
 	'STEP_3_TITLE_CREATE'			=> 'Definições do Idioma Restantes',
 	'STEP_3_TITLE_EDIT'				=> 'Definições do Idioma',
 	'STRING_DEFAULT_VALUE_EXPLAIN'	=> 'Escreva uma frase padrão a ser exibida, um valor padrão. Deixe em branco se não deseja ativar esta opção.',

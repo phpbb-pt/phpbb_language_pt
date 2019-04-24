@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 */
 
 /**
@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'					=> 'Traduzido por: <a href="http://www.phpbb-pt.com">phpBB Portugal</a>',
+	'TRANSLATION_INFO'					=> 'Traduzido por phpBB Portugal',
 	'DIRECTION'							=> 'ltr',
 	'DATE_FORMAT'						=> '|d M Y|',	// 01 Jan 2007 (with Relactive days enabled)
 	'DATETIME_FORMAT'					=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (with Relactive days enabled)
@@ -62,6 +62,7 @@ $lang = array_merge($lang, array(
 
 	'ACCOUNT_ALREADY_ACTIVATED'			=> 'O seu registo já se encontra activo.',
 	'ACCOUNT_DEACTIVATED'				=> 'O seu registo foi desactivado manualmente e apenas pode ser reactivado por um Administrador.',
+	'ACCOUNT_NOT_ACTIVATED'				=> 'O seu registo ainda não se encontra activo',
 	'ACP'								=> 'Painel de Administração',
 	'ACP_SHORT'							=> 'ACP',
 	'ACTIVE'							=> 'Activo',
@@ -607,7 +608,6 @@ $lang = array_merge($lang, array(
 	'PREVIOUS'							=> 'Anterior',	  // Used in pagination
 	'PREVIOUS_STEP'						=> 'Anterior',
 	'PRIVACY'							=> 'Política de Privacidade',
-	'PRIVACY_LINK'						=> 'Privacidade',
 	'PRIVATE_MESSAGE'					=> 'Mensagem Privada',
 	'PRIVATE_MESSAGES'					=> 'Mensagens Privadas',
 	'PRIVATE_MESSAGING'					=> 'A enviar Mensagem Privada',
@@ -732,7 +732,6 @@ $lang = array_merge($lang, array(
 	'SUBMIT'							=> 'Enviar',
 
 	'TB'								=> 'TB',
-	'TERMS_LINK'						=> 'Termos',
 	'TERMS_USE'							=> 'Condições de utilização',
 	'TEST_CONNECTION'					=> 'Testar Ligação',
 	'THE_TEAM'							=> 'Equipa',
@@ -745,14 +744,14 @@ $lang = array_merge($lang, array(
 
 	'TOO_LONG'							=> 'O valor definido é muito longo.',
 
-	'TOO_LONG_CONFIRM_CODE'				=> 'O código de confirmação indicado é muito longo.',
+	'TOO_LONG_CONFIRM_CODE'				=> 'O código de confirmação indicado é muito curto.',
 	'TOO_LONG_DATEFORMAT'				=> 'O formato da data indicada é muito longa.',
 	'TOO_LONG_JABBER'					=> 'A nome da conta Jabber indicada é muito longa.',
 	'TOO_LONG_NEW_PASSWORD'				=> 'A Senha indicada é muito longa.',
 	'TOO_LONG_PASSWORD_CONFIRM'			=> 'A confirmação da Senha indicada é muito longa.',
 	'TOO_LONG_USER_PASSWORD'			=> 'A Senha é muito longa.',
-	'TOO_LONG_USERNAME'					=> 'O nome de Utilizador indicado é muito longo.',
-	'TOO_LONG_EMAIL'					=> 'O endereço de email indicado é muito longo.',
+	'TOO_LONG_USERNAME'					=> 'O nome de Utilizador indicado é muito curto.',
+	'TOO_LONG_EMAIL'					=> 'O endereço de email indicado é muito curto.',
 
 	'TOO_MANY_VOTE_OPTIONS'				=> 'Escolheu muitas opções.',
 

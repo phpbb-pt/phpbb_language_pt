@@ -5,7 +5,7 @@
 *
 * @package language
 * @version 1.0.9
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
+* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 * @copyright (c) 2005 phpBB Group
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * 
@@ -357,12 +357,12 @@ $lang = array_merge($lang, array(
 	'PM_USERS_REMOVED_NO_PM'			=> 'Alguns Utilizadores adicionados estão com a função de Mensagem Privada desativada e não poderão receber a Mensagem.',
 	'POPUP_ON_PM'						=> 'Abrir uma janela Pop-up quando existirem novas Mensagens Privadas',
 	'POST_EDIT_PM'						=> 'Editar Mensagem',
-	'POST_FORWARD_PM'					=> 'Responder Mensagem',
+	'POST_FORWARD_PM'					=> 'Encaminhar Mensagem',
 	'POST_NEW_PM'						=> 'Criar Mensagem',
 	'POST_PM_LOCKED'					=> 'Mensagem Privada bloqueada',
 	'POST_PM_POST'						=> 'Citar Mensagem',
 	'POST_QUOTE_PM'						=> 'Citar Mensagem Privada',
-	'POST_REPLY_PM'						=> 'Responder Mensagem Privada',
+	'POST_REPLY_PM'						=> 'Responder à Mensagem',
 	'PRINT_PM'							=> 'Imprimir Mensagem Privada',
 	'PREFERENCES_UPDATED'				=> 'As suas Preferências foram atualizadas.',
 	'PROFILE_INFO_NOTICE'				=> 'Estas informações serão visíveis por todos os Utilizadores. Verifique se deseja incluir os seus dados pessoais. Todos os campos marcados com (*) são de preenchimento obrigatório.',

@@ -1,6 +1,6 @@
 [Português](https://www.phpbb.com/customise/db/translation/portuguese/)
 
-[Suporte] (http://www.phpbb-pt.com/)
+[Suporte] (http://phpbbportugal.com/)
 
 =================================
 
@@ -13,15 +13,15 @@ Criador
 
 Gestão da tradução
 ----------
+* Pavlov (https://github.com/Pavlov)
 * Joaquim (https://github.com/borgesjoaquim)
-* Leinad4Mind (https://github.com/Leinad4Mind)
+* Leinad4Mind (http://www.phpbbportugal.com/memberlist.php?mode=viewprofile&u=140)
 
 Colaboradores
 -------
-* diogomessi10 (https://github.com/diogomessi10)
+* diogomessi10 https://github.com/diogomessi10
 
 Ex-Colaboradores
 -------
-* Pavlov (https://github.com/Pavlov)
 * ordhor (https://github.com/ordhor)
 * casper™ (http://www.phpbbportugal.com/forum/memberlist.php?mode=viewprofile&u=65)

@@ -14,11 +14,11 @@ Criador
 Gestão da tradução
 ----------
 * Joaquim (https://github.com/borgesjoaquim)
-* Leinad4Mind (https://github.com/Leinad4Mind)
+* Leinad4Mind (https://www.phpbb-pt.com/memberlist.php?mode=viewprofile&u=82)
 
 Colaboradores
 -------
-* diogomessi10 (https://github.com/diogomessi10)
+* diogomessi10 https://github.com/diogomessi10
 
 Ex-Colaboradores
 -------

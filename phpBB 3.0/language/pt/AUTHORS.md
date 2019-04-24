@@ -1,6 +1,6 @@
 [Português](https://www.phpbb.com/customise/db/translation/portuguese/)
 
-[Suporte] (http://www.phpbb-pt.com/)
+[Suporte] (http://phpbbportugal.com/)
 
 =================================
 

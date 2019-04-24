@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 */
 
 /**
@@ -332,7 +332,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_METHOD_EMAIL'				=> 'Email',
 	'NOTIFICATION_METHOD_JABBER'			=> 'Jabber',
 	'NOTIFICATION_TYPE'						=> 'Tipo de Notificação',
-	'NOTIFICATION_TYPE_BOOKMARK'			=> 'Alguém respondeu a um tópico que adicionou aos seus favoritos',
+	'NOTIFICATION_TYPE_BOOKMARK'			=> 'Alguém respondeu em um tópico que você adicionou aos favoritos',
 	'NOTIFICATION_TYPE_GROUP_REQUEST'			=> 'Alguém pediu para se juntar ao grupo que lidera',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'		=> 'Uma mensagem ou tópico precisa de aprovação',
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'	=> 'Os teus tópicos/mensagens foram aprovados ou desaprovados por um moderador',
@@ -373,7 +373,7 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_EDIT_MESSAGE'				=> 'Editar Mensagens Privadas: Proibido.',
 	'NO_AUTH_FORWARD_MESSAGE'			=> 'Responder Mensagens Privadas: Proibido.',
 	'NO_AUTH_GROUP_MESSAGE'				=> 'Enviar Mensagens Privadas para Grupos: Proibido.',
-	'NO_AUTH_PRINT_MESSAGE'				=> 'Não está autorizado a imprimir mensagens privadas.',
+	'NO_AUTH_PASSWORD_REMINDER'			=> 'Não está autorizado a pedir nova senha.',
 	'NO_AUTH_PROFILEINFO'				=> 'Não está autorizado a alterar as informações do seu perfil.',
 	'NO_AUTH_READ_HOLD_MESSAGE'			=> 'Não está autorizado a ler Mensagens Privadas que estejam em espera.',
 	'NO_AUTH_READ_MESSAGE'				=> 'Ler Mensagens Privadas: Proibido.',
@@ -386,7 +386,6 @@ $lang = array_merge($lang, array(
 	'NO_BOOKMARKS_SELECTED'				=> 'Não seleccionou nenhum favorito.',
 	'NO_EDIT_READ_MESSAGE'				=> 'A mensagem privada não pode ser editada porque já foi lida.',
 	'NO_EMAIL_USER'						=> 'O Nome de Utilizador/Endereço de email indicados não foram encontrados.',
-	'EMAIL_NOT_UNIQUE'					=> 'O E-mail especificado é usado por vários utilizadores. Também deve especificar o nome de utilizador.',
 	'NO_FOES'							=> 'Não tem Inimigos definidos.',
 	'NO_FRIENDS'						=> 'Não tem Amigos definidos.',
 	'NO_FRIENDS_OFFLINE'				=> 'Nenhum Amigo Desligado',
@@ -412,7 +411,7 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL_EXPLAIN'			=> 'Tem que ter entre %1$s e %2$s, com maiúsculas, minúsculas, números e símbolos.',
 	'PASSWORD'							=> 'Senha',
 	'PASSWORD_ACTIVATED'				=> 'A sua Nova Senha foi activada.',
-	'PASSWORD_UPDATED_IF_EXISTED'		=> 'Se a sua conta existir, uma nova senha foi enviada para o seu endereço de e-mail. Caso não receba um e-mail, isso pode dever-se por ter sido banido, ou a sua conta não estar ativada ou não ter permissão para alterar a sua senha. Entre em contato com o administrador se algum desses motivos se aplicar. Para além disso, verifique a sua caixa de spam.',
+	'PASSWORD_UPDATED'					=> 'Uma nova senha foi enviada para o seu email de registo.',
 	'PERMISSIONS_RESTORED'				=> 'As suas permissões originais foram restauradas com sucesso.',
 	'PERMISSIONS_TRANSFERRED'			=> 'As Permissões foram transferidas do <strong>%s</strong> com sucesso. Agora, pode navegar com as Permissões do Utilizador. <br />As Permissões de Administrador não foram transferidas. Pode voltar as suas Permissões originais em qualquer momento.',
 	'PM_DISABLED'						=> 'As Mensagens Privadas estão inactivas.',

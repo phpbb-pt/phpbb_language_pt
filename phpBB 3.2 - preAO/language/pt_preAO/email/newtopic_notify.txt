@@ -1,5 +1,4 @@
 Subject: {FORUM_NAME} - Novo Tópico
-Lista-cancelar inscrição: <{U_STOP_WATCHING_FORUM}>
 
 Olá, {USERNAME},
 
@@ -9,8 +8,6 @@ Pode vê-lo no seguinte endereço:
 {U_FORUM}
 Não receberá mais notificações enquanto não visitar este Fórum.
 
-Para ver o novo tópico diretamente, visite o seguinte endereço:
-{U_TOPIC}
 
 Se não pretende continuar a observar o Fórum, tanto poderá clicar em
 "Parar de observar este Fórum" no Fórum mencionado, visitando o seguinte endereço:

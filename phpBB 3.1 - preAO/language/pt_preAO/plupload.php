@@ -9,7 +9,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 */
 
 /**

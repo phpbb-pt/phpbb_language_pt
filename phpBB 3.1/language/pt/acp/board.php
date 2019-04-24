@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo as normas do Acordo Ortográfico
+* @Traduzido por: http://phpbbportugal.com - segundo as normas do Acordo Ortográfico
 */
 
 /**
@@ -488,7 +488,7 @@ $lang = array_merge($lang, array(
 
 // Security Settings
 $lang = array_merge($lang, array(
-	'ACP_SECURITY_SETTINGS_EXPLAIN'			=> 'Aqui configura as opções relacionadas às Sessões e Acesso.',
+	'ACP_SECURITY_SETTINGS_EXPLAIN'			=> 'Aqui configura as opções relacionadas as Sessões e Acesso.',
 
 	'ALL'									=> 'Todos',
 	'ALLOW_AUTOLOGIN'						=> 'Permitir "Lembrar os meus acessos"',
@@ -496,7 +496,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_PASSWORD_RESET'					=> 'Permitir redefinição de senha ("Esqueci-me da senha")',
 	'ALLOW_PASSWORD_RESET_EXPLAIN'			=> 'Determina se os utilizadores podem usar a opção "Esqueci-me da senha" na página de acesso para recuperar sua conta. Se usar um mecanismo de autenticação externo poderá desativar este recurso.',
 	'AUTOLOGIN_LENGTH'						=> 'Duração em dias da chave "Lembrar os meus acessos"',
-	'AUTOLOGIN_LENGTH_EXPLAIN'				=> 'Duração da chave "Lembrar os meus acessos" em dias. 0 para desativar.',
+	'AUTOLOGIN_LENGTH_EXPLAIN'				=> 'Duração da chave "Esqueci-me da senha" em dias. 0 para desativar.',
 	'BROWSER_VALID'							=> 'Validação do navegador',
 	'BROWSER_VALID_EXPLAIN'					=> 'Ativa a validação do navegador em cada sessão, aumentando a segurança.',
 	'CHECK_DNSBL'							=> 'Verifica se o IP está na lista de DNS bloqueados',

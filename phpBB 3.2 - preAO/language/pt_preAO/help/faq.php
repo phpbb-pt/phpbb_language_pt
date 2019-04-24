@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
+* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
 */
 
 /**
@@ -123,7 +123,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_LOGIN_CANNOT_REGISTER_QUESTION'	=> 'Porque não me posso registar?',
 	'HELP_FAQ_LOGIN_COPPA_ANSWER'	=> 'COPPA, ou Lei de Protecção da Privacidade Online Infantil de 1998,  é uma Lei dos EUA que exige uma autorização dos encarregados de educação, ou de um responsável legal, para guardar as informações relativas a menores de 13 anos de idade. Caso não saiba se isso se aplica a si, obtenha aconselhamento legal. Por favor, esteja ciente de que nem o phpBB Limited nem o fundador deste fórum o pode aconselhar em termos legais, à excepção da questão “Quem devo contactar em caso de abusos e/ou assuntos legais relacionados com este fórum?”.',
 	'HELP_FAQ_LOGIN_COPPA_QUESTION'	=> 'O que significa COPPA?',
-	'HELP_FAQ_LOGIN_DELETE_COOKIES_ANSWER'	=> '“Apagar cookies” apaga do seu navegador todos os Cookies criados pelo phpBB3 e que servem para o manter ligado e autenticado, e permitem o pleno funcionamento das opções activadas pelo Administrador.',
+	'HELP_FAQ_LOGIN_DELETE_COOKIES_ANSWER'	=> 'Apagar cookies” apaga do seu navegador todos os Cookies criados pelo phpBB3 e que servem para o manter ligado e autenticado, e permitem o pleno funcionamento das opções activadas pelo Administrador.',
 	'HELP_FAQ_LOGIN_DELETE_COOKIES_QUESTION'	=> 'Para que serve a opção “Apagar cookies” ?',
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_ANSWER'	=> 'A sua Senha não pode ser recuperada, no entanto pode pedir uma nova. Proceda como que se estivesse a entrar no Fórum pela primeira vez. Clique em Entrar e em seguida em Esqueci-me da senha. Siga as instruções, e voltará a entrar no Fórum em poucos minutos, com uma Senha nova.',
 	'HELP_FAQ_LOGIN_LOST_PASSWORD_QUESTION'	=> 'Esqueci-me da minha Senha, e agora?',
