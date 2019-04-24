@@ -8,7 +8,7 @@
 *
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
-* @Traduzido por: http://phpbbportugal.com - segundo pré-Acordo Ortográfico
+* @Traduzido por: http://www.phpbb-pt.com - segundo pré-Acordo Ortográfico
 */
 
 /**
@@ -88,6 +88,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'					=> 'Não há Mensagens novas não lidas neste Tópico.',
 	'NO_VOTE_OPTION'					=> 'Deve seleccionar uma opção para votar.',
 	'NO_VOTES'							=> 'Sem votos',
+	'NO_AUTH_PRINT_TOPIC'				=> 'Não está autorizado a imprimir tópicos.',
 
 	'POLL_ENDED_AT'						=> 'Votação encerrada em %s',
 	'POLL_RUN_TILL'						=> 'A votação será encerrada em %s',
