@@ -7,7 +7,7 @@ Uma conta em nome de "{USERNAME}" foi desativada ou criada de novo. Deverá veri
 Pode ver o Perfil do Utilizador no seguinte endereço:
 {U_USER_DETAILS}
 
-Pode ativar a conta no seguinte endereço:
+Pode ativar a conta imediatamente clicando neste link:
 {U_ACTIVATE}
 
 {EMAIL_SIG}

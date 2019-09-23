@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'						=> 'Criar Votação',
 	'ADD_POLL_EXPLAIN'				=> 'Se não deseja adicionar uma votação ao Tópico deixe os campos em branco.',
 	'ALREADY_DELETED'				=> 'Esta Mensagem já foi apagada.',
+	'ATTACH_COMMENT_NO_EMOJIS'		=> 'O comentário do anexo contém caracteres proibidos (Emoji).',
 	'ATTACH_DISK_FULL'				=> 'Não existe espaço livre suficiente no servidor onde se encontra este fórum para enviar o anexo.',
 	'ATTACH_QUOTA_REACHED'			=> 'A cota máxima de anexos para este painel foi alcançada.',
 	'ATTACH_SIG'					=> 'Anexar a minha assinatura (pode alterar a assinatura no Painel de Controlo do Utilizador)',

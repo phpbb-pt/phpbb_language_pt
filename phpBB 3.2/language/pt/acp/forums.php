@@ -97,6 +97,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LINK_TRACK_EXPLAIN'		=> 'Guarda o número de vezes que o atalho do Fórum foi usado.',
 	'FORUM_NAME'					=> 'Nome do Fórum',
 	'FORUM_NAME_EMPTY'				=> 'Deve escreve um nome para o Fórum.',
+	'FORUM_NAME_EMOJI'				=> 'O nome do fórum que digitou é inválido.br>Ele contém os seguintes caracteres não suportados:<br>%s',
 	'FORUM_PARENT'					=> 'Fórum Pai',
 	'FORUM_PASSWORD'				=> 'Senha do Fórum',
 	'FORUM_PASSWORD_CONFIRM'		=> 'Confirmar Senha do Fórum',

@@ -81,8 +81,8 @@ $lang = array_merge($lang, array(
 	'ACL_U_SIG'			=> 'Pode usar assinaturas',
 
 	'ACL_U_SENDPM'		=> 'Pode enviar mensagens privadas',
-	'ACL_U_MASSPM'		=> 'Pode enviar mensagens para vários utilizadores',
-	'ACL_U_MASSPM_GROUP'=> 'Pode enviar mensagens para Grupos',
+	'ACL_U_MASSPM'		=> 'Pode enviar mensagens privadas para vários utilizadores',
+	'ACL_U_MASSPM_GROUP'=> 'Pode enviar mensagens privadas para Grupos',
 	'ACL_U_READPM'		=> 'Pode ler mensagens privadas',
 	'ACL_U_PM_EDIT'		=> 'Pode editar as suas mensagens privadas',
 	'ACL_U_PM_DELETE'	=> 'Pode apagar as suas mensagens privadas',

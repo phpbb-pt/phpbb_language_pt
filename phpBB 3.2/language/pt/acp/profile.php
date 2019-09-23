@@ -111,7 +111,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'					=> 'Primeira Opção',
 
 	'HIDE_PROFILE_FIELD'			=> 'Campo de Perfil Invisível',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Apenas Administradores e Moderadores podem visualizar/preencher este Campo. Se esta opção estiver ativa, o Campo será exibido apenas no Perfil dos Utilizadores.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Oculte o campo de perfil de todos os usuários, exceto administradores e moderadores, que ainda podem ver esse campo. Se a opção Exibir no painel de controle do usuário estiver desativada, o usuário não poderá ver ou alterar esse campo e o campo poderá ser alterado apenas pelos administradores.',
 
 	'INVALID_CHARS_FIELD_IDENT'		=> 'A Identificação do Campo pode conter apenas a-z e _',
 	'INVALID_FIELD_IDENT_LEN'		=> 'A Identificação do Campo pode conter apenas 17 caracteres',
