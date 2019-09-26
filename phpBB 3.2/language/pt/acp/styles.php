@@ -89,4 +89,4 @@ $lang = array_merge($lang, [
 
 
 	'BROWSE_STYLES_DATABASE'		=> 'Visite o repositório de estilos',
-));
+]);
