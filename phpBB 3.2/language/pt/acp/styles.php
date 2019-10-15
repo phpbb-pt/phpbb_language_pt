@@ -84,7 +84,7 @@ $lang = array_merge($lang, [
 	'STYLE_USED_BY'					=> 'Usado por (incluindo Motor de Busca)',
 	'STYLE_VERSION'					=> 'Versão do Estilo',
 
-+	'UNINSTALL_PROSILVER'			=> 'Não pode desinstalar o estilo “prosilver”.',
+	'UNINSTALL_PROSILVER'			=> 'Não pode desinstalar o estilo “prosilver”.',
 	'UNINSTALL_DEFAULT'				=> 'Não é possível desinstalar o estilo padrão.',
 
 
