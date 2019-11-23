@@ -2,7 +2,7 @@ Subject: Reativação do registo em {SITENAME}
 
 Olá, {USERNAME};
 
-O Administrador pede-lhe que reative a sua conta que se encontra atualmente inativa.
+O Administrador propõe-lhe que reative a sua conta que se encontra atualmente inativa.
 
 
 As informações da sua conta são as seguintes:
