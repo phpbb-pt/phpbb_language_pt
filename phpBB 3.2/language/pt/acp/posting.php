@@ -56,7 +56,6 @@ $lang = array_merge($lang, array(
 
 	'BBCODE_INVALID_TAG_NAME'		=> 'O Nome da TAG de BBCode selecionado já existe.',
 	'BBCODE_INVALID'				=> 'A construção do seu BBCode é invalido.',
-	'BBCODE_OPEN_ENDED_TAG'			=> 'O BBCode personalizado deve conter uma TAG de início e outra de fim.',
 	'BBCODE_TAG'					=> 'TAG',
 	'BBCODE_TAG_TOO_LONG'			=> 'O Nome da TAG selecionado é muito grande.',
 	'BBCODE_TAG_DEF_TOO_LONG'		=> 'A Definição da TAG escrita é muito grande. Por Favor, reescreva de forma mais curta.',
@@ -78,13 +77,13 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'				=> 'Não pode criar mais BBCodes. Elimine alguns BBCodes para poder criar outros.',
 
 	'tokens'			=> array(
-		'TEXT'			=> 'Qualquer texto, incluindo caracteres estrangeiros, números, etc ... Não deve usar o símbolo TEXT em tags HTML. Em vez disso tente usar intText ou SimpleText.',
+		'TEXT'			=> 'Qualquer texto, incluindo caracteres estrangeiros, números, etc ...',
 		'SIMPLETEXT'	=> 'Caracteres do alfabeto latino (A-Z), números, espaços, vírgulas, pontos, menos, mais, hífen e sublinhado.',
 		'INTTEXT'		=> 'Caracteres Unicode, números, espaços, vírgulas, pontos, menos, mais, hífen, sublinhado e espaços em branco.',
 		'IDENTIFIER'		=> 'Caracteres do alfabeto latino (A-Z), números, hífen e sublinhado',
 		'NUMBER'		=> 'Qualquer Séries de Dígitos',
 		'EMAIL'			=> 'Um endereço de email válido',
-		'URL'			=> 'Uma URL válida utilizando qualquer protocolo (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, “http://” é o prefixado para a sequência.',
+		'URL'			=> 'Uma URL válida utilizando qualquer protocolo permitido (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, “http://” é o prefixado para a sequência.',
 		'LOCAL_URL'		=> 'Uma URL local. O URL deve ser relativo à página do tópico e não pode conter o nome do servidor ou o protocolo, como as ligações são prefixados com “%s”',
 		'RELATIVE_URL'	=> 'Uma URL relativa. Pode combinar partes de uma URL, mas tenha cuidado: a URL completa é uma URL relativa válida. Quando quiser usar URLs relativas do seu fórum, use o token LOCAL_URL.',
 		'COLOR'			=> 'Uma Cor de HTML, pode ser tanto na forma numérica <samp>#FF1234</samp> ou uma <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS colour keyword</a> assim como <samp>fuchsia</samp> ou <samp>InativeBorder</samp>',
