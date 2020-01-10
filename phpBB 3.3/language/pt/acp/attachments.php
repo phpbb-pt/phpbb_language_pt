@@ -68,7 +68,6 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Espaço máximo em disco reservado aos anexos. 0 = ilimitado.',
 	'ATTACH_TO_POST'					=> 'Anexar Ficheiro à Mensagem',
 
-	'CAT_FLASH_FILES'					=> 'Ficheiros Flash',
 	'CAT_IMAGES'						=> 'Imagens',
 	'CHECK_CONTENT'						=> 'Verificar ficheiros anexados',
 	'CHECK_CONTENT_EXPLAIN'				=> 'Alguns Ficheiros podem obrigar os navegadores e executar funções incorretas. Esta opção permite recusar esses Ficheiros.',
@@ -99,7 +98,6 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_ARCHIVES'				=> 'Arquivos',
 	'EXT_GROUP_DOCUMENTS'				=> 'Documentos',
 	'EXT_GROUP_DOWNLOADABLE_FILES'		=> 'Ficheiros para Transferência',
-	'EXT_GROUP_FLASH_FILES'				=> 'Ficheiros Flash',
 	'EXT_GROUP_IMAGES'					=> 'Imagens',
 	'EXT_GROUP_PLAIN_TEXT'				=> 'Texto simples',
 
