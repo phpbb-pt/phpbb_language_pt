@@ -226,16 +226,7 @@ $lang = array_merge($lang, array(
 
 	'BACK'							=> 'Voltar',
 
-	'CANNOT_CHANGE_FILE_GROUP'	=> 'Incapaz de alterar grupo de ficheiros',
-	'CANNOT_CHANGE_FILE_PERMISSIONS'	=> 'Incapaz de alterar permissões de ficheiros',
-	'CANNOT_COPY_FILES'		=> 'Incapaz de copiar ficheiros',
-	'CANNOT_CREATE_SYMLINK'	=> 'Incapaz de criar um link simbólico',
-	'CANNOT_DELETE_FILES'	=> 'Incapaz de apagar ficheiros do sistema',
-	'CANNOT_DUMP_FILE'		=> 'Incapaz de colocar ficheiro',
-	'CANNOT_MIRROR_DIRECTORY'	=> 'Incapaz de criar uma cópia de um diretório',
-	'CANNOT_RENAME_FILE'	=> 'Incapaz de renomear um ficheiro do sistema',
-	'CANNOT_TOUCH_FILES'	=> 'Incapaz de determinar se um ficheiro existe',
-
+	
 	'CONTAINER_EXCEPTION' => 'O phpBB deparou-se com um erro ao construir o contentor, devido a uma extensão instalada. Por esse motivo, todas as extensões foram temporariamente desativadas. Por favor, limpe a cache do seu fórum. Todas as extensões irão ser automaticamente de novo ativadas assim que o erro do contentor seja resolvido. Caso este erro persista, por favor, visite <a href="https://www.phpbb.com/support">phpBB.com</a> para assistência.',
 	'EXCEPTION' => 'Exceção',
 
@@ -373,7 +364,7 @@ $lang = array_merge($lang, array(
 	'DATABASE_SERVER_INFO'			=> 'Servidor da Base de Dados',
 	'DATABASE_SIZE'					=> 'Tamanho da Base de Dados',
 
-	// Enviroment configuration checks, mbstring related
+	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'A função de sobrecarga não se encontra configurada corretamente',
 	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> deve ser definido para 0 ou 4. Pode verificar o valor atual em <samp>informação PHP</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'A codificação de caracteres transparentes não se encontra configurada corretamente',

@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'			=> 'BBCode (Bulletin Board Code) é uma linguagem originalmente desenvolvida para phpBB. Permite configurar o que é, e como é exibido. Aqui é possível adicionar, editar e apagar BBCodes.',
 	'ADD_BBCODE'					=> 'Adicionar novo BBCode',
 
-	'BBCODE_DANGER'					=> 'O BBCode que está a tentar adicionar parece usar um {TEXT} dentro de um atributo de HTML. Esta é uma possível questão de segurança XSS. Em alternativa, tente usar o mais restritivo {SimpleText} ou {INTTEXT}. Só prossiga se compreende os riscos de segurança envolvidos e se considera inevitável o uso de {TEXT}.',
+	'BBCODE_DANGER'					=> 'O BBCode que está a tentar adicionar parece inseguro. {TEXT} dentro de um atributo de HTML. Esta é uma possível questão de segurança XSS. Em alternativa, tente usar o mais restritivo {SimpleText} ou {INTTEXT}. Só prossiga se compreende os riscos de segurança envolvidos e se considera inevitável o uso de {TEXT}.',
 	'BBCODE_DANGER_PROCEED'			=> 'Continuar', //'I understand the risk',
 
 	'BBCODE_ADDED'					=> 'O BBCode foi adicionado com sucesso.',

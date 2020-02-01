@@ -52,6 +52,8 @@ $lang = array_merge($lang, array(
 	'DISABLE_BOARD_EXPLAIN'			=> 'O Fórum fica inacessível aos utilizadores que não sejam Administradores ou Moderadores. Pode justificar o fecho temporário introduzindo uma mensagem até 255 caracteres',
 	'DISPLAY_LAST_SUBJECT'			=> 'Mostrar assunto da última mensagem adicionado na lista do fórum',
 	'DISPLAY_LAST_SUBJECT_EXPLAIN'	=> 'O assunto da última mensagem será mostrado na lista de fóruns com um link para mensagem. Não são mostrados assuntos relativos a fóruns protegidos por senha ou inacessíveis ao utilizador.',
+	'DISPLAY_UNAPPROVED_POSTS'		=> 'Exibir postagens não aprovadas para o autor',
+	'DISPLAY_UNAPPROVED_POSTS_EXPLAIN'	=> 'As postagens não aprovadas podem ser visualizadas pelo autor. Não se aplica a postagens de convidados',
 	'GUEST_STYLE'					=> 'Estilo para visitantes',
 	'GUEST_STYLE_EXPLAIN'			=> 'Estilo que o Fórum apresenta aos visitantes.',
 	'OVERRIDE_STYLE'				=> 'Sobrepor Estilo do Utilizador',
@@ -437,7 +439,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
 
-	'APACHE_SETUP_BEFORE_USE'				=> 'Tem que configurar a autenticação no Apache antes de mudar para este método de autenticação. Certifique-se de que o nome do Utilizador usado para a autenticação Apache seja a mesma que o seu nome de Utilizador no phpBB. A autenticação Apache apenas pode ser utilizada com o mod_php (com uma versão CGI não funciona) e o safe_mode desativados.',
+	'APACHE_SETUP_BEFORE_USE'				=> 'Tem que configurar a autenticação no Apache antes de mudar para este método de autenticação. Certifique-se de que o nome do Utilizador usado para a autenticação Apache seja a mesma que o seu nome de Utilizador no phpBB. A autenticação Apache apenas pode ser utilizada com o mod_php (com uma versão CGI não funciona).',
 
 	'LDAP'									=> 'LDAP',
 	'LDAP_DN'								=> 'LDAP base <var>dn</var>',
@@ -590,7 +592,7 @@ $lang = array_merge($lang, array(
 	'SMTP_PORT'								=> 'Porta do Servidor de SMTP',
 	'SMTP_PORT_EXPLAIN'						=> 'Mude apenas se tiver a certeza de que seu Servidor de SMTP está numa porta diferente.',
 	'SMTP_SERVER'							=> 'Endereço do servidor de SMTP',
-	'SMTP_SERVER_EXPLAIN'					=> 'Não forneça um protocolo (<samp>ssl://</samp> ou <samp>tsl://</samp>)a menos que seu host de email solicite que você faça isso.',
+	'SMTP_SERVER_EXPLAIN'					=> 'Não forneça um protocolo (<samp>ssl://</samp> ou <samp>tls://</samp>)a menos que seu host de email solicite que você faça isso.',
 	'SMTP_SETTINGS'							=> 'Configurações do SMTP',
 	'SMTP_USERNAME'							=> 'Nome de Utilizador SMTP',
 	'SMTP_USERNAME_EXPLAIN'					=> 'Só introduza um Nome se o Servidor de SMTP o pedir.',
