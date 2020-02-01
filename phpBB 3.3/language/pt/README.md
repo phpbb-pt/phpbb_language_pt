@@ -1,8 +1,8 @@
 
-Tradução Portuguesa (PT-PT) phpBB versão 3.1.5 - phpBB 3.2.8
+Tradução Portuguesa (PT-PT) phpBB versão 3.2.0 - phpBB 3.3.0
 
 ------------
 * Tradução segundo as normas do Acordo Ortográfico
 
 ------------
-Compatível com phpBB 3.2.8
+Compatível com phpBB 3.3.0
