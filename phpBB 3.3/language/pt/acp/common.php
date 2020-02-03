@@ -226,7 +226,6 @@ $lang = array_merge($lang, array(
 
 	'BACK'							=> 'Voltar',
 
-	
 	'CONTAINER_EXCEPTION' => 'O phpBB deparou-se com um erro ao construir o contentor, devido a uma extensão instalada. Por esse motivo, todas as extensões foram temporariamente desativadas. Por favor, limpe a cache do seu fórum. Todas as extensões irão ser automaticamente de novo ativadas assim que o erro do contentor seja resolvido. Caso este erro persista, por favor, visite <a href="https://www.phpbb.com/support">phpBB.com</a> para assistência.',
 	'EXCEPTION' => 'Exceção',
 
