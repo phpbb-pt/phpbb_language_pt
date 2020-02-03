@@ -80,8 +80,6 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Número aproximado de registos a serem processados de cada vez',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RESUME'		=> 'Começar a reanalisar desde onde a última execução parou',
 
-	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Recalcula a coluna user_email_hash da Tabela de Utilizadores.',
-
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Define o valor de uma opção de configuração só se o anterior corresponde ao valor atual',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Define o valor de uma opção de configuração',
 
@@ -132,7 +130,6 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Ativado',
 
 	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Correção da estrutura da árvore dos fóruns e dos módulos efetuada com sucesso.',
-	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Todos os hashes de e-mail foram recalculados com sucesso.',
 	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Senhas com hashes desatualizadas foram encriptadas por bcrypt com sucesso.',
 
 	'CLI_MIGRATION_NAME'					=> 'Nome da migração, incluindo o conjunto de nomes (utilize barras inclinadas ao invés de contra-barras para evitar problemas).',

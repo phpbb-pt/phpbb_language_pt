@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 
 	<p>Bases de Dados suportadas pelo phpBB3:</p>
 	<ul>
-		<li>MySQL 3.23 ou superior (Suporte a MySQLi)</li>
+		<li>MySQL 4.1.3 ou superior (MySQLi necessário)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 ou superior (direto ou via ODBC)</li>
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'Versão do PHP',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'O phpBB requer PHP versão 5.4.0 ou superior.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'O phpBB requer PHP versão 7.1.3 ou superior.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'A função PHP getimagesize() é necessária',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'Para que o phpBB funcione corretamente, a função getimagesize precisa estar disponível.',
 	'PCRE_UTF_SUPPORT'					=> 'Suporte PCRE UTF-8',
@@ -186,7 +186,6 @@ $lang = array_merge($lang, array(
 	// Database options
 	'DB_OPTION_MSSQL_ODBC'	=> 'MSSQL Server 2000+ via ODBC',
 	'DB_OPTION_MSSQLNATIVE'	=> 'MSSQL Server 2005+ [ Nativo ]',
-	'DB_OPTION_MYSQL'		=> 'MySQL',
 	'DB_OPTION_MYSQLI'		=> 'MySQL com Extensão MySQLi',
 	'DB_OPTION_ORACLE'		=> 'Oracle',
 	'DB_OPTION_POSTGRES'	=> 'PostgreSQL',
@@ -565,7 +564,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Conversão terminada',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'O seu Fórum foi convertido com sucesso para o phpBB 3.2. Já pode entrar e <a href="../">aceder ao Fórum</a>. Por favor, verifique se as configurações foram transferidos corretamente antes de ativar o seu fórum. Apague a pasta de instalação. Lembre-se que está disponível ajuda online através da <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">Documentação</a> e de <a href="https://www.phpbb.com/community/viewforum.php?f=466">fóruns de suporte</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'O seu Fórum foi convertido com sucesso para o phpBB 3.3. Já pode entrar e <a href="../">aceder ao Fórum</a>. Por favor, verifique se as configurações foram transferidos corretamente antes de ativar o seu fórum. Apague a pasta de instalação. Lembre-se que está disponível ajuda online através da <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Documentação</a> e de <a href="https://www.phpbb.com/community/viewforum.php?f=661">fóruns de suporte</a>.',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'O envio de anexos por FTP está ativo no seu painel antigo. Desative a opção de envio por FTP, crie uma pasta válida e envie todos os ficheiros de anexos para a nova pasta. Após concluir esta operação, reinicie o conversor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Não foram encontradas informações de configuração válidas para a conversão.',
