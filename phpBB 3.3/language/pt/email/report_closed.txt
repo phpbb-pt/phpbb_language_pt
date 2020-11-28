@@ -3,14 +3,15 @@ Subject: {POST_SUBJECT} - Denúncia Bloqueada
 Olá, {USERNAME};
 
 
-A sua denúncia da Mensagem "{POST_SUBJECT}" no Tópico "{TOPIC_TITLE}" em "{SITENAME}" foi vista e bloqueada por um Moderador ou um Administrador.
+A sua denúncia da Mensagem "{POST_SUBJECT}" por "{AUTHOR_NAME}" no Tópico "{TOPIC_TITLE}" em "{SITENAME}" foi vista e bloqueada por um Moderador ou um Administrador.
 Se tem mais perguntas a este respeito, contacte o Utilizador {CLOSER_NAME} por Mensagem Particular.
 
+Você pode ver sua postagem denunciada clicando no seguinte link:
 
-Obrigado, {USERNAME}.
-Continue a participar ativamente.
-A sua colaboração é fundamental para todos nós.
+{U_VIEW_POST}
 
 
+Você solicitou ser notificado sobre este evento, lembre-se de que você sempre pode optar por não ser notificado sobre relatórios de postagem encerrada,
+alterando a configuração apropriada em seu perfil.
 
 {EMAIL_SIG}

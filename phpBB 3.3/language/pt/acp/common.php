@@ -235,6 +235,7 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'				=> 'A tarefa Cron “%s” não foi encontrada.',
 	'CRON_NO_TASK'					=> 'Não há nenhuma tarefa Cron para executar.',
 	'CRON_NO_TASKS'					=> 'Não foram encontradas tarefas Cron.',
+	'CSV_INVALID'					=> 'A configuração separada por vírgulas fornecida “%1$s”  é inválida. Os valores devem ser delimitados apenas por vírgulas, não devem conter nenhum delimitador inicial ou final.',
 	'CURRENT_VERSION'				=> 'Versão atual',
 
 	'DEACTIVATE'				=> 'Desativar',
@@ -316,6 +317,7 @@ $lang = array_merge($lang, array(
 
 	'UCP'							=> 'Painel de Controlo de Utilizadores',
 	'URL_INVALID'					=> 'O URL fornecido para a configuração “%1$s” é inválido.',
+	'URL_SCHEME_INVALID'			=> 'O esquema fornecido “%2$s” na configuração separada por vírgulas “%1$s” é inválido. O esquema deve começar com um caractere latino seguido por caracteres alfanuméricos, hifens ou pontos.',
 	'USERNAMES_EXPLAIN'				=> 'Insira cada um dos Utilizadores em linhas separadas.',
 	'USER_CONTROL_PANEL'			=> 'Painel de Utilizadores',
 

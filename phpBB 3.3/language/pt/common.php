@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'							=> 'pt',
 
 	// You can define different rules for the determination of plural forms here.
-	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
+	// See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'						=> 2,
 
@@ -110,6 +110,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_NOT_UPLOADED'				=> 'O Avatar não foi enviado.',
 	'AVATAR_NO_TEMP_DIR'				=> 'A pasta temporária não pôde ser encontrada ou não tem permissões de escrita.',
 	'AVATAR_NO_SIZE'					=> 'Não foi possível obter a largura e a altura do Avatar, por favor, indique-os manualmente.',
+	'AVATAR_NO_UPLOAD_DIR'				=> 'O caminho de armazenamento do avatar não existe ou não é gravável.',
+	'AVATAR_NO_UPLOAD_PATH'				=> 'O upload do avatar está habilitado, mas o caminho de armazenamento do avatar não está definido.',
 	'AVATAR_PARTIAL_UPLOAD'				=> 'O Ficheiro foi parcialmente enviado.',
 	'AVATAR_PHP_SIZE_NA'				=> 'O Ficheiro do Avatar é demasiado grande.<br />Não foi possível determinar o tamanho máximo definido pelo PHP no php.ini.',
 	'AVATAR_PHP_SIZE_OVERRUN'			=> 'O Ficheiro do Avatar é demasiado grande, sendo o máximo permitido de envio %1$d %2$s.<br />Por favor, note que isto é definido no php.ini e não pode ser alterado.',
@@ -489,6 +491,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_REFERENCE'			=> '"%1$s"',
 	'NOTIFICATION_REASON'				=> '<em>Razão:</em> %1$s.',
 	'NOTIFICATION_REPORT_PM'			=> '<strong>Mensagem Privada denunciada</strong> por %1$s:',
+	'NOTIFICATION_REPORT_PM_CLOSED'		=> '<strong>Relatório de mensagem privada fechado</strong> por %1$s:',
 	'NOTIFICATION_REPORT_POST'			=> '<strong>Mensagem denunciada</strong> por %1$s:',
 	'NOTIFICATION_REPORT_CLOSED'		=> '<strong>Denúncia fechada</strong> por %1$s para:',
 	'NOTIFICATION_TOPIC'				=> '<strong>Novo Tópico</strong> de %1$s:',

@@ -112,6 +112,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'O phpBB não será executado se sua instalação PHP não for compilada com suporte UTF-8 na extensão PCRE.',
 	'PHP_JSON_SUPPORT'					=> 'Suporte PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Para que o phpBB funcione corretamente, a extensão PHP JSON precisa estar disponível.',
+	'PHP_MBSTRING_SUPPORT'				=> 'Suporte a PHP mbstring',
+	'PHP_MBSTRING_SUPPORT_EXPLAIN'		=> 'Para que o phpBB funcione corretamente, a extensão mbstring do PHP precisa estar disponível.',
 	'PHP_XML_SUPPORT'					=> 'Suporte PHP XML/DOM',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Para que o phpBB funcione corretamente, a extensão PHP XML/DOM precisa estar disponível.',
 	'PHP_SUPPORTED_DB'					=> 'Bancos de dados suportados',
@@ -237,7 +239,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'					=> 'Escreva um pequeno texto a descrever o seu Fórum',
 	'CONFIG_SITENAME'					=> 'oseudominio.com',
 
-	'DEFAULT_INSTALL_POST'				=> 'Esta é uma Mensagem de exemplo, (criada automaticamente durante a instalação) do seu novo Fórum phpBB3. Pode apagar esta Mensagem, o Tópico e o Fórum quando quiser! Se tiver alguma dúvida, sugestão ou comentário sobre esta tradução para português europeu do phpBB3x, consulte a comunidade phpBB Portugal. Da mesma forma, pode visitar-nos, se desejar fazer alguma observação sobre esta tradução e o acordo ortográfico da língua portuguesa. Estamos a construir uma Comunidade phpBB em Portugal. O contributo de todos é importante. O nosso compromisso é ajudar quem nos procura. Responderemos a todos os contactos tão rápido quanto possível. A sua participação é o maior incentivo que pode nos dar. A tradução deste Fórum respeita o acordo ortográfico da língua portuguesa em vigor desde Janeiro de 2009.',
+	'DEFAULT_INSTALL_POST'				=> '<t>Esta é uma Mensagem de exemplo, (criada automaticamente durante a instalação) do seu novo Fórum phpBB3. Pode apagar esta Mensagem, o Tópico e o Fórum quando quiser! Se tiver alguma dúvida, sugestão ou comentário sobre esta tradução para português europeu do phpBB3x, consulte a comunidade phpBB Portugal. Da mesma forma, pode visitar-nos, se desejar fazer alguma observação sobre esta tradução e o acordo ortográfico da língua portuguesa. Estamos a construir uma Comunidade phpBB em Portugal. O contributo de todos é importante. O nosso compromisso é ajudar quem nos procura. Responderemos a todos os contactos tão rápido quanto possível. A sua participação é o maior incentivo que pode nos dar. A tradução deste Fórum respeita o acordo ortográfico da língua portuguesa em vigor desde Janeiro de 2009.</t>',
 
 	'FORUMS_FIRST_CATEGORY'				=> 'A minha primeira Categoria',
 	'FORUMS_TEST_FORUM_DESC'			=> 'Este é um Fórum de Testes.',
