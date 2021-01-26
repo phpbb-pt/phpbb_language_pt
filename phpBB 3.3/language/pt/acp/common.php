@@ -235,7 +235,7 @@ $lang = array_merge($lang, array(
 	'CRON_NO_SUCH_TASK'				=> 'A tarefa Cron “%s” não foi encontrada.',
 	'CRON_NO_TASK'					=> 'Não há nenhuma tarefa Cron para executar.',
 	'CRON_NO_TASKS'					=> 'Não foram encontradas tarefas Cron.',
-	'CSV_INVALID'					=> 'A configuração separada por vírgulas fornecida “%1$s”  é inválida. Os valores devem ser delimitados apenas por vírgulas, não devem conter nenhum delimitador inicial ou final.',
+	'CSV_INVALID'					=> 'A configuração fornecida de separação por vírgula “%1$s”  é inválida. Os valores devem ser delimitados apenas por vírgulas, não devem conter nenhum delimitador inicial ou final.',
 	'CURRENT_VERSION'				=> 'Versão atual',
 
 	'DEACTIVATE'				=> 'Desativar',
@@ -317,7 +317,7 @@ $lang = array_merge($lang, array(
 
 	'UCP'							=> 'Painel de Controlo de Utilizadores',
 	'URL_INVALID'					=> 'O URL fornecido para a configuração “%1$s” é inválido.',
-	'URL_SCHEME_INVALID'			=> 'O esquema fornecido “%2$s” na configuração separada por vírgulas “%1$s” é inválido. O esquema deve começar com um caractere latino seguido por caracteres alfanuméricos, hifens ou pontos.',
+	'URL_SCHEME_INVALID'			=> 'O esquema fornecido “%2$s” na configuração de separação por vírgula “%1$s” é inválido. O esquema deve começar com um caractere latino seguido por caracteres alfanuméricos, hifens ou pontos.',
 	'USERNAMES_EXPLAIN'				=> 'Insira cada um dos Utilizadores em linhas separadas.',
 	'USER_CONTROL_PANEL'			=> 'Painel de Utilizadores',
 
@@ -371,9 +371,11 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'A codificação de caracteres transparentes não se encontra configurada corretamente',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> deve ser definido para 0. Pode verificar o valor atual em <samp>informação PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'A conversão de entrada de caracteres via HTTP não se encontra configurada corretamente',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> tem de estar configurado como <samp>pass</samp>. Pode verificar o valor atual em <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> deve ser deixado vazio. Pode verificar o valor atual na página de <samp>informação PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'A conversão de saída de caracteres via HTTP não se encontra configurada corretamente',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> tem de estar configurado como <samp>pass</samp>. Pode verificar o valor atual em <samp>informação PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> deve ser deixado vazio. Pode verificar o valor atual na página de <samp>informação PHP</samp>.',
+	'ERROR_DEFAULT_CHARSET'							=> 'O conjunto de caracteres padrão está configurado incorretamente',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> '<var>default_charset</var> deve ser definido para <samp>UTF-8</samp>. Pode verificar o valor atual na página de <samp>informação PHP</samp>.',
 
 	'FILES_PER_DAY'					=> 'Média de Anexos diários',
 	'FORUM_STATS'					=> 'Estatísticas do Fórum',
