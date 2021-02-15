@@ -75,5 +75,5 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Limite de denúncias',
 	'RECAPTCHA_V3_THRESHOLDS'					=> 'Limites',
 	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 retorna uma pontuação (<samp>1.0</samp> é muito provável que seja uma boa interação enquanto <samp>0.0</samp> é muito provável que seja um robô). Aqui você pode definir a pontuação mínima por ação.',	
-	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 exige que você saiba qual método disponível deseja usar ao verificar a solicitação.',
+	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 exige que saiba qual método disponível deseja usar ao verificar a solicitação.',
 ]);
