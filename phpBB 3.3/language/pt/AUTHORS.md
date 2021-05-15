@@ -4,10 +4,6 @@
 
 =================================
 
-Versão da Tradução: 4.0.4
-
-Versão do phpBB: 3.3.4
-
 Lista de Tradutores, Colaboradores e Ex-Colaboradores da tradução.
 
 
