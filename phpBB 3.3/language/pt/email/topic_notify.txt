@@ -1,11 +1,11 @@
-Subject: Notificação de resposta ao tópico - "{TOPIC_TITLE}"
+Subject: Resposta em "{TOPIC_TITLE}"
 Lista-cancelar inscrição: <{U_STOP_WATCHING_TOPIC}>
 
 Olá, {USERNAME},
 
-Está a receber esta notificação porque está a observar o tópico, "{TOPIC_TITLE}" em "{SITENAME}". Este tópico recebeu uma resposta<!-- IF AUTHOR_NAME !== '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita. Pode usar o endereço seguinte para ver as respostas. Não serão enviadas mais notificações até que visite o tópico.
+O tópico "{TOPIC_TITLE}" recebeu uma resposta<!-- IF AUTHOR_NAME != '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita em "{SITENAME}". Não serão enviadas mais notificações até que visite o tópico.
 
-Se deseja ver a mensagem mais recente feita depois da sua última visita, clique no seguinte endereço:
+Se deseja visualizar a mensagem mais recente, clique no seguinte endereço:
 {U_NEWEST_POST}
 
 Se deseja ver o tópico, clique no seguinte endereço:
@@ -14,7 +14,7 @@ Se deseja ver o tópico, clique no seguinte endereço:
 Se deseja ver o fórum, clique no seguinte endereço:
 {U_FORUM}
 
-Se não quer vigiar a este tópico, pode clicar em "Parar de Observar Tópico" na parte inferior do tópico acima indicado, ou clicando no seguinte endereço:
+Se desejar "Parar de Observar Tópico", clique no seguinte endereço:
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

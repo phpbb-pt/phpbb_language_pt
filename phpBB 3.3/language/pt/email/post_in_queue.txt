@@ -1,8 +1,8 @@
-Subject: Notificação de mensagem moderada - "{TOPIC_TITLE}"
+Subject: Mensagem aguardando aprovação - "{TOPIC_TITLE}"
 
 Olá, {USERNAME},
 
-Está a receber esta notificação porque a mensagem "{POST_SUBJECT}" em "{SITENAME}" aguarda aprovação.
+A mensagem "{POST_SUBJECT}" em "{SITENAME}" está aguardando aprovação.
 
 Para ver a mensagem, clique no seguinte endereço:
 {U_VIEW_POST}

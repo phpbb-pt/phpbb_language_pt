@@ -1,13 +1,11 @@
-Subject: Notificação de novo Tópico - "{FORUM_NAME}"
+Subject: Novo Tópico em "{FORUM_NAME}"
 
 Olá, {USERNAME},
 
-Está a receber esta notificação porque está a observar "{FORUM_NAME}" em "{SITENAME}". Este fórum tem um novo Tópico<!-- IF AUTHOR_NAME !== '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita, "{TOPIC_TITLE}". Pode usar o endereço seguinte para visualizar o fórum, não serão enviadas mais notificações até que visite o fórum.
-
+O fórum "{FORUM_NAME}" recebeu um tópico novo "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita em "{SITENAME}". Não serão enviadas mais notificações enquanto não visitar este fórum.
 {U_FORUM}
 
-Para deixar de observar este fórum, clique no endereço "Parar de Observar Fórum" que pode encontrar no fórum anterior, ou clique no seguinte endereço:
-
+Se deseja "Parar de Observar Fórum", clique no seguinte endereço:
 {U_STOP_WATCHING_FORUM}
 
 {EMAIL_SIG}

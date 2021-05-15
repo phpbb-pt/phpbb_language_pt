@@ -1,23 +1,15 @@
-Subject: {FORUM_NAME} - Novo Tópico
+Subject: Novo Tópico em "{FORUM_NAME}"
 Lista-cancelar inscrição: <{U_STOP_WATCHING_FORUM}>
 
 Olá, {USERNAME},
 
-Está a observar o "{FORUM_NAME}" em "{SITENAME}". Este fórum tem um novo tópico<!-- IF AUTHOR_NAME !== '' --> por {AUTHOR_NAME}<!-- ENDIF -->, "{TOPIC_TITLE}". 
-
-Pode vê-lo no seguinte endereço:
+O fórum "{FORUM_NAME}" recebeu um tópico novo "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita em "{SITENAME}". Não serão enviadas mais notificações enquanto não visitar este fórum.
 {U_FORUM}
-Não receberá mais notificações enquanto não visitar este Fórum.
 
-Para ver o novo tópico diretamente, visite o seguinte endereço:
+Se deseja visualizar o tópico, clique no seguinte link:
 {U_TOPIC}
 
-Se não pretende continuar a observar o Fórum, tanto poderá clicar em
-"Parar de observar este Fórum" no Fórum mencionado, visitando o seguinte endereço:
+Se deseja "Parar de observar este Fórum" , clique no seguinte endereço:
 {U_STOP_WATCHING_FORUM}
-
-Continue a participar ativamente.
-A sua colaboração é fundamental para todos nós.
-
 
 {EMAIL_SIG}

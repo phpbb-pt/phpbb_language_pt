@@ -1,15 +1,11 @@
-Subject: {POST_SUBJECT} - Mensagem reprovada
+Subject: Mensagem reprovada - "{POST_SUBJECT}"
 
 Olá, {USERNAME},
 
 A sua Mensagem "{POST_SUBJECT}" em "{SITENAME}" foi reprovada por um Moderador ou Administrador do Fórum.
+
 O motivo da reprovação é o seguinte:
+
 {REASON}
-
-
-Obrigado, {USERNAME}.
-Gostaríamos que continuasse a participar ativamente.
-A sua colaboração é fundamental para todos nós.
-
 
 {EMAIL_SIG}

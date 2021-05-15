@@ -37,7 +37,6 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, [
-	
 	// Find the language/country code on https://developers.google.com/recaptcha/docs/language
 	// If no code exists for your language you can use "en" or leave the string empty
 	'RECAPTCHA_LANG'				=> 'pt-PT',
@@ -45,12 +44,12 @@ $lang = array_merge($lang, [
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha v2',
 	'CAPTCHA_RECAPTCHA_V3'			=> 'reCaptcha v3',
 
-	'RECAPTCHA_INCORRECT'			=> 'A solução apresentada não é correta',
-	'RECAPTCHA_NOSCRIPT'			=> 'Por favor, ative o JavaScript no seu navegador para carregar o desafio.',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Para usar o reCaptcha tem que criar uma conta em <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_INVISIBLE'			=> 'Este CAPTCHA é realmente invisível. Para verificar se funciona, um pequeno ícone deve aparecer no canto inferior direito desta página.',
- 
-	
+	'RECAPTCHA_INCORRECT'				=> 'A solução apresentada não é correta',
+	'RECAPTCHA_NOSCRIPT'				=> 'Por favor, ative o JavaScript no seu navegador para carregar o desafio.',
+	'RECAPTCHA_NOT_AVAILABLE'			=> 'Para usar o reCaptcha tem que criar uma conta em <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_INVISIBLE'				=> 'Este CAPTCHA é realmente invisível. Para verificar se funciona, um pequeno ícone deve aparecer no canto inferior direito desta página.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Excedeu o número máximo de tentativas de login permitidas.<br>Além de seu nome de usuário e senha, o reCAPTCHA v3 invisível será usado para autenticar sua sessão.',
+
 	'RECAPTCHA_PUBLIC'				=> 'Chave de site',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A sua chave de site do reCAPTCHA. Chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v2 &gt; Selo de reCAPTCHA invisível',
 	'RECAPTCHA_V3_PUBLIC_EXPLAIN'	=> 'A chave do seu site do reCAPTCHA. As chaves podem ser obtidas em <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Por favor, use o reCAPTCHA v3.',

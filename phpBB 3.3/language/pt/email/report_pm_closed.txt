@@ -1,9 +1,8 @@
-Subject: "{SUBJECT}" - Denúncia de mensagem privada fechado
+Subject: Denúncia de mensagem privada fechada - "{SUBJECT}"
 
 Olá {USERNAME},
 
-Está recebendo esta notificação porque o denúncia que você preencheu na mensagem privada "{SUBJECT}" por "{AUTHOR_NAME}" em "{SITENAME}" foi visto e tratado por um moderador ou por um administrador.
-A denúncia foi posteriormente encerrado. Se você tiver mais perguntas entre em contato {CLOSER_NAME} com uma mensagem privada.
+A sua denúncia feita acerca da mensagem privada "{SUBJECT}" por "{AUTHOR_NAME}" em "{SITENAME}" foi visto e tratado por um moderador ou por um administrador. A denúncia foi posteriormente fechada. Se tiver mais perguntas entre em contato {CLOSER_NAME} com uma mensagem privada.
 
 Pode ver a mensagem privada denunciada clicando no seguinte link:
 

@@ -1,9 +1,8 @@
-Subject: Recebeu uma nova Mensagem Privada
+Subject: Nova Mensagem Privada
 
 Olá, {USERNAME},
 
-Tem uma mensagem privada nova de "{AUTHOR_NAME}" na sua conta em "{SITENAME}" com o seguinte assunto:
-
+Uma nova mensagem privada de "{AUTHOR_NAME}" no seu registro em "{SITENAME}" com o seguinte título:
 {SUBJECT}
 
 Pode ver a sua nova mensagem clicando no seguinte endereço:

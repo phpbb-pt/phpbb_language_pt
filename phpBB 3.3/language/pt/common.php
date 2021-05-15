@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” ...
+// ’ » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -95,6 +95,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'A entrada da Base de Dados é inválida.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'O tipo de serviço enviado à rotina de tratamento de serviços "OAuth" é inválido.',
 	'AUTH_PROVIDER_OAUTH_ERROR_REQUEST'						=> 'Ocorreu um erro ao processar a solicitação OAuth.',
+	'AUTH_PROVIDER_OAUTH_RETURN_ERROR'						=> 'O serviço externo retornou um valor incorreto, portanto, a sua solicitação não pode ser processada.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'O serviço OAuth não foi criado',
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
