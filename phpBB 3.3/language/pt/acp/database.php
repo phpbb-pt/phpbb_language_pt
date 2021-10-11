@@ -70,7 +70,6 @@ $lang = array_merge($lang, array(
 	'START_RESTORE'				=> 'Iniciar restauração',
 	'STORE_AND_DOWNLOAD'		=> 'Armazenar e descarregar',
 	'STORE_LOCAL'				=> 'Guardar na pasta /store do Fórum',
-	'STRUCTURE_ONLY'			=> 'Só estrutura',
 
 	'TABLE_SELECT'				=> 'Seleção de Tabelas',
 	'TABLE_SELECT_ERROR'		=> 'Deve selecionar pelo menos uma Tabela.',
