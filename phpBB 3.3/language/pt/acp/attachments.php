@@ -170,4 +170,5 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_EXPLAIN'				=> 'Pasta onde os anexos são guardados. Se mudar esta pasta tendo já anexos nela, deve mudar manualmente esses anexos para o novo local.',
 	'UPLOAD_ICON'						=> 'Ícone de envio',
 	'UPLOAD_NOT_DIR'					=> 'O local para envio de Ficheiros que indicou não parece ser uma pasta.',
+	'UPLOAD_POST_NOT_EXIST'				=> 'O ficheiro “%1$s” não pode ser carregado no post número %2$d porque o post não existe.',
 ));

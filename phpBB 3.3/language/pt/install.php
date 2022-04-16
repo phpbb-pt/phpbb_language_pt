@@ -358,7 +358,7 @@ $lang = array_merge($lang, array(
 
 		<h1>Como atualizar a sua instalação com o Pacote Completo (Full Package)</h1>
 		
-		<p>A forma mais recomendada de atualizar a sua instalação é via pacote completo. Caso os ficheiros originais do phpBB tenham sido modificados na sua instalação, poderá desejar usar o pacote de atualização automática para evitar perder essas alterações. Também pode atualizar a sua instalação por outros métodos listados no INSTALL.html. As etapas para atualizar o phpBB3 via pacote completo são as seguintes:</p>
+		<p>A forma mais recomendada de atualizar a sua instalação é via pacote completo. Caso os ficheiros originais do phpBB tenham sido modificados na sua instalação, poderá desejar usar o pacote de atualização avançada para evitar perder essas alterações. Também pode atualizar a sua instalação por outros métodos listados no INSTALL.html. As etapas para atualizar o phpBB3 via pacote completo são as seguintes:</p>
 		
 		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li><strong class="error">Backup de todos os ficheiros e da base de dados.</strong></li>
@@ -379,12 +379,12 @@ $lang = array_merge($lang, array(
 			<li>Atualize o seu estilo<br /><br /></li>
 		</ul>
 		
-		<h1>Como atualizar a sua instalação com o Pacote de Atualização Automática</h1>
+		<h1>Como atualizar a sua instalação com o Pacote de Atualização Avançada</h1>
 
-		<p>O pacote de atualização automática é recomendado apenas se os ficheiros originais do phpBB tenham sido modificados na sua instalação. Também pode atualizar a sua instalação usando os métodos listados no documento INSTALL.html. As etapas para atualizar o phpBB3 via pacote de atualização automática são as seguintes:</p>
+		<p>O pacote de atualização Avançada é recomendado para usuários experientes apenas se os ficheiros originais do phpBB tenham sido modificados na sua instalação. Também pode atualizar a sua instalação usando os métodos listados no documento INSTALL.html. As etapas para atualizar o phpBB3 via pacote de atualização avançada são as seguintes:</p>
 
 		<ol style="margin-left: 20px; font-size: 1.1em;">
-			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o ficheiro do "Automatic Update Package".</li>
+			<li>Vá à <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">Página de Transferências do phpBB.com</a> e descarregue o ficheiro do "Advanced Update Package".</li>
 			<li>Descompacte o ficheiro.</li>
 			<li>Envie as pastas "install" e "vendor" descompactadas para a pasta raiz do seu phpBB (onde se encontra o ficheiro config.php).<br /><br /></li>
 		</ol>
