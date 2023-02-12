@@ -386,7 +386,7 @@ $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'				=> 'Aqui pode ativar e desativar certas funções do Fórum que podem reduzir o total de processamento pedido. Para a maioria dos Servidores não é necessário desativar nenhuma função. No entanto, em certos sistemas ou em ambientes de hospedagem compartilhada pode ser benéfico se desativar alguns recursos que não sejam realmente necessários. Pode também especificar limites para a carga do sistema e ativar sessões, além das quais o Fórum sairá do ar.',
 
 	'ALLOW_CDN'								=> 'Permitir o uso de redes de entrega de conteúdo de terceiros',
-	'ALLOW_CDN_EXPLAIN'						=> 'Se esta configuração for ativada, alguns ficheiros podem ser colocados em servidores externos em vez do seu próprio servidor. Isso reduz o consumo de largura de banda no seu servidor, mas alguns administradores podem colocar questões de privacidade. Em instalações phpBB padrão inclui o carregamento do “jQuery” e do tipo de letra “Open Sans” de rede de distribuição de conteúdo do Google.',
+	'ALLOW_CDN_EXPLAIN'						=> 'Se esta configuração for ativada, alguns ficheiros podem ser colocados em servidores externos em vez do seu próprio servidor. Isso reduz a largura de banda da rede usada pelo seu servidor, mas pode representar um problema de privacidade em alguns países. Em uma instalação padrão do phpBB, isso inclui carregar “jQuery” e a fonte “Open Sans” da rede de entrega de conteúdo do Google. Isso também se aplica à fonte “Font Awesome”, que o phpBB e algumas extensões usam para renderizar ícones.',
 	'ALLOW_LIVE_SEARCHES'					=> 'Permitir pesquisas ativas',
 	'ALLOW_LIVE_SEARCHES_EXPLAIN'			=> 'Se esta configuração for ativada, serão sugeridas aos utilizadores palavras-chave, à medida que digitam em certos campos do fórum.',
 	'CUSTOM_PROFILE_FIELDS'					=> 'Campos do Perfil Personalizados',
@@ -483,7 +483,7 @@ $lang = array_merge($lang, array(
 	'SCRIPT_PATH'							=> 'Caminho do script',
 	'SCRIPT_PATH_EXPLAIN'					=> 'Caminho onde o phpBB está instalado em relação ao Domínio. Exemplo: phpBB3.',
 	'SERVER_NAME'							=> 'Nome do Domínio',
-	'SERVER_NAME_EXPLAIN'					=> 'O nome do Domínio que executa o Fórum. Exemplo: www.exemplo.com.',
+	'SERVER_NAME_EXPLAIN'					=> 'O nome do Domínio que executa o Fórum. Exemplo: <samp>example.com</samp>).',
 	'SERVER_PORT'							=> 'Porta do Servidor',
 	'SERVER_PORT_EXPLAIN'					=> 'A Porta usada pelo Servidor, normalmente a 80. Altere apenas se for diferente.',
 	'SERVER_PROTOCOL'						=> 'Protocolo do Servidor',
