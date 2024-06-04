@@ -64,6 +64,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_DEACTIVATED'				=> 'O seu registo foi desativado manualmente e apenas pode ser reativado por um Administrador.',
 	'ACP'								=> 'Painel de Administração',
 	'ACP_SHORT'							=> 'ACP',
+	'ACTIVATION_ALREADY_SENT'		=> 'O e-mail de ativação já foi enviado para o seu endereço de e-mail. Você pode tentar novamente após 24 horas. Se você continuar tendo problemas para ativar sua conta, entre em contato com um administrador do fórum.',
 	'ACTIVE'							=> 'Ativo',
 	'ACTIVE_ERROR'						=> 'Especificou um Utilizador inativo. Se continuar com problemas, contacte um Administrador.',
 	'ADMINISTRATOR'						=> 'Administrador',

@@ -259,7 +259,7 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'						=> 'Apenas o Tópico "%s"',
 	'OTHER_USERS'						=> 'Utilizadores que enviaram Mensagens deste IP',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' 		=> "%s não é permitido como ferramenta rápida",
+	'QUICKMOD_ACTION_NOT_ALLOWED' 		=> '%s não é permitido como ferramenta rápida',
 
 	'PM_REPORT_CLOSED_SUCCESS'			=> 'A denúncia da MP selecionada foi fechada com sucesso.',
 	'PM_REPORT_DELETED_SUCCESS'			=> 'A denúncia da MP selecionada foi apagada com sucesso.',
