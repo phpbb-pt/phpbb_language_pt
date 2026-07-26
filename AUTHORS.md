@@ -15,7 +15,6 @@ Gestão da tradução
 ----------
 * Pavlov (https://github.com/Pavlov)
 * Joaquim (https://github.com/borgesjoaquim)
-* Leinad4Mind (http://www.phpbbportugal.com/memberlist.php?mode=viewprofile&u=140)
 
 Colaboradores
 -------
@@ -25,3 +24,4 @@ Ex-Colaboradores
 -------
 * ordhor (https://github.com/ordhor)
 * casper™ (http://www.phpbbportugal.com/forum/memberlist.php?mode=viewprofile&u=65)
+* Leinad4Mind
