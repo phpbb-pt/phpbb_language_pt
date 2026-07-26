@@ -1,0 +1,25 @@
+Subject: Reactivação do registo em {SITENAME}
+
+Olá, {USERNAME};
+
+O Administrador pede-lhe que reactive a sua conta que se encontra actualmente inactiva.
+
+
+As informações da sua conta são as seguintes:
+==============================================
+Utilizador: {USERNAME}
+==============================================
+
+A sua senha foi armazenada na nossa Base de Dados de forma segura e não pode ser recuperada. No caso de a esquecer, poderá redefini-la, usando o endereço de e-mail associado à sua conta.
+
+
+Reactive a sua conta no seguinte endereço:
+{U_ACTIVATE}
+Guarde este email.
+
+{USERNAME}, obrigado pelo seu registo em "{SITENAME}".
+Participe activamente. A sua colaboração é fundamental para todos nós.
+
+
+
+{EMAIL_SIG}

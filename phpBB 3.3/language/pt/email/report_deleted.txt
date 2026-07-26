@@ -1,0 +1,7 @@
+Subject:  Denúncia Apagada - "{POST_SUBJECT}#
+
+Olá, {USERNAME};
+
+A sua denúncia feita acerca da mensagem "{POST_SUBJECT}" no tópico "{TOPIC_TITLE}" em "{SITENAME}" foi apagada por um Administrador ou Moderador.
+
+{EMAIL_SIG}

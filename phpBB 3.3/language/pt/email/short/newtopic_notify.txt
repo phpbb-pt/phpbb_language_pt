@@ -1,0 +1,11 @@
+Subject: Novo Tópico em "{FORUM_NAME}"
+
+Olá, {USERNAME},
+
+O fórum "{FORUM_NAME}" recebeu um tópico novo "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita em "{SITENAME}". Não serão enviadas mais notificações enquanto não visitar este fórum.
+{U_FORUM}
+
+Se deseja "Parar de Observar Fórum", clique no seguinte endereço:
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

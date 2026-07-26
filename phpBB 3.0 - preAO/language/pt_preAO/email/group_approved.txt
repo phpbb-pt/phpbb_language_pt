@@ -1,0 +1,10 @@
+Subject: O seu pedido foi aprovado
+
+Parabéns,
+
+O seu pedido para entrar no Grupo "{GROUP_NAME}" em "{SITENAME}" foi aceite.
+Clique no link abaixo para ver a sua participação no grupo.
+
+{U_GROUP}
+
+{EMAIL_SIG}

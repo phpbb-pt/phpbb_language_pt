@@ -1,0 +1,19 @@
+Subject: Resposta em "{TOPIC_TITLE}"
+
+Olá, {USERNAME},
+
+O tópico "{TOPIC_TITLE}" que está acompanhando recebeu uma nova resposta desde a sua última visita em "{SITENAME}". Não serão enviadas mais notificações enquanto você não visitar este tópico.
+
+Se deseja visualizar a mensagem mais recente, clique no seguinte link:
+{U_NEWEST_POST}
+
+Para ver o tópico, clique no seguinte endereço:
+{U_TOPIC}
+
+Para ver o fórum, clique no seguinte endereço:
+{U_FORUM}
+
+Para não receber mais notificações relativas a respostas aos favoritos, por favor atualize suas configurações de notificação aqui:
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

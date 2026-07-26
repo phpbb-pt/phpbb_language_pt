@@ -1,0 +1,13 @@
+Subject: Resposta em "{TOPIC_TITLE}"
+
+Olá, {USERNAME},
+
+O tópico "{TOPIC_TITLE}" recebeu uma resposta<!-- IF AUTHOR_NAME != '' --> por {AUTHOR_NAME}<!-- ENDIF --> desde a sua última visita em "{SITENAME}". Não serão enviadas mais notificações até que visite o tópico.
+
+Para ver o que há de novo desde sua última visita, clique no seguinte endereço:
+{U_NEWEST_POST}
+
+Se desejar "Parar de Observar Tópico", clique no seguinte endereço:
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

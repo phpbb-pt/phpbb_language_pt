@@ -1,0 +1,13 @@
+Subject: Resposta em "{TOPIC_TITLE}"
+
+Olá, {USERNAME},
+
+O tópico favorito "{TOPIC_TITLE}" recebeu uma nova resposta desde a sua última visita em "{SITENAME}". Não serão enviadas mais notificações enquanto você não visitar este tópico
+
+Para ver o que há de novo desde sua última visita, clique no seguinte endereço:
+{U_NEWEST_POST}
+
+Para não receber mais notificações relativas a respostas aos favoritos, por favor atualize suas configurações de notificação aqui:
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}
