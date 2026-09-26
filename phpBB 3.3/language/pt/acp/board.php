@@ -366,6 +366,12 @@ $lang = array_merge($lang, array(
 	'ONLINE_LENGTH_EXPLAIN'					=> 'Tempo em minutos após o qual o Utilizador inativo não aparecerá na lista de Utilizadores online. Quanto menor, menos processamento exige.',
 	'SESSION_LENGTH'						=> 'Tempo da Sessão [ segundos ]',
 	'SESSION_LENGTH_EXPLAIN'				=> 'A Sessão será encerrada após este tempo, em segundos.',
+	'SESSION_GC'							=> 'Intervalo de limpeza das sessões',
+	'SESSION_GC_EXPLAIN'					=> 'As sessões serão limpas após este tempo, em segundos.',
+	'SESSION_GUEST_LENGTH'					=> 'Duração da sessão de visitante',
+	'SESSION_GUEST_LENGTH_EXPLAIN'			=> 'As sessões de visitantes serão encerradas após esse tempo, em segundos.',
+	'SESSION_GUEST_GC'						=> 'Intervalo de limpeza das sessões de visitantes',
+	'SESSION_GUEST_GC_EXPLAIN'				=> 'As sessões de visitantes serão limpas após este período, em segundos.',
 ));
 
 // Contact Settings

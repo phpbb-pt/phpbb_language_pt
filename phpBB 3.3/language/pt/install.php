@@ -301,6 +301,7 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'A criar tabelas',
 
 	// Install data
+	'TASK_ADD_AI_CRAWLERS'		=> 'Registrando rastreadores de IA',
 	'TASK_ADD_BOTS'				=> 'A registar bots',
 	'TASK_ADD_LANGUAGES'		=> 'A instalar idiomas disponíveis',
 	'TASK_ADD_MODULES'			=> 'A instalar módulos',
@@ -496,6 +497,7 @@ $lang = array_merge($lang, array(
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'O Conversor selecionado não existe.',
 	'DEV_NO_TEST_FILE'			=> 'Não foi especificado um valor para a variável ficheiro_teste no conversor. Se é utilizador deste conversor, e não deveria estar a ver este erro, por favor, contacte o autor do conversor. Se é o autor do conversor, deve especificar o nome de um ficheiro que exista no Fórum de destino para que seja possível a verificação da pasta.',
+	'COULD_NOT_COPY'			=> 'Não foi possível copiar o ficheiro <strong>%1$s</strong> para <strong>%2$s</strong><br><br>Verifique se o diretório de destino existe e se o servidor web tem permissão de escrita.',	
 	'COULD_NOT_FIND_PATH'		=> 'Não foi possível encontrar o local para o seu Fórum anterior. Por favor, verifique as suas configurações e tente novamente.<br />» O local especificado foi %s.',
 	'CONFIG_PHPBB_EMPTY'		=> 'A variável de configuração do phpBB3 para “%s” está vazia.',
 
